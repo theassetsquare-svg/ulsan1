@@ -1,14 +1,411 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>울산챔피언나이트 완벽 가이드 — 가기 전에 이것만 알면 된다</title>
+<meta name="description" content="울산챔피언나이트 처음 가는 사람을 위한 완벽 가이드. 드레스코드, 예산, 시간대, 주차, 매너, 주변 코스까지 한 번에 정리했다.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="울산챔피언나이트 완벽 가이드">
+<meta property="og:description" content="처음 가는 사람이 꼭 알아야 할 모든 것. 드레스코드부터 2차 코스까지.">
+<meta property="og:image" content="https://theassetsquare-svg.github.io/ulsan1/og/main.png">
+<meta property="og:url" content="https://theassetsquare-svg.github.io/ulsan1/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="울산챔피언나이트 완벽 가이드">
+<meta name="twitter:image" content="https://theassetsquare-svg.github.io/ulsan1/og/main.png">
+<link rel="canonical" href="https://theassetsquare-svg.github.io/ulsan1/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.svg">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--gold:#C9A96E;--dark:#0f0c29;--navy:#1a1a2e;--purple:#302b63;--text:#e8e8e8;--dim:#999;--bg:#0a0a14}
+body{font-family:-apple-system,'Malgun Gothic','맑은 고딕',sans-serif;background:var(--bg);color:var(--text);line-height:1.75;overflow-x:hidden;padding-bottom:80px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,20,.95);backdrop-filter:blur(10px);border-bottom:1px solid rgba(201,169,110,.15)}
+.nav-inner{max-width:900px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.nav-inner::-webkit-scrollbar{display:none}
+.nav-logo{font-weight:800;color:var(--gold);font-size:15px;white-space:nowrap;cursor:pointer;flex-shrink:0}
+.nav-link{font-size:13px;color:var(--dim);white-space:nowrap;cursor:pointer;padding:4px 10px;border-radius:20px;transition:.2s;flex-shrink:0}
+.nav-link:hover,.nav-link.active{color:#fff;background:rgba(201,169,110,.2)}
+.hero{margin-top:52px;padding:60px 20px 40px;text-align:center;background:linear-gradient(135deg,var(--dark),var(--purple),var(--navy))}
+.hero-crown{font-size:48px;margin-bottom:12px}
+.hero h1{font-size:28px;color:#fff;margin-bottom:8px;font-weight:800}
+.hero h1 em{color:var(--gold);font-style:normal}
+.hero p{color:var(--dim);font-size:15px;max-width:500px;margin:0 auto}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+.page{display:none;padding:40px 0 60px}
+.page.active{display:block}
+.page h2{font-size:24px;color:#fff;margin-bottom:24px;padding-bottom:12px;border-bottom:2px solid var(--gold)}
+.page h3{font-size:18px;color:var(--gold);margin:32px 0 12px}
+.page p{margin-bottom:16px;font-size:15px;color:var(--text);line-height:1.85}
+.page .em{color:var(--gold);font-weight:700}
+.page .dim{color:var(--dim);font-size:13px}
+.tip{background:rgba(201,169,110,.08);border-left:3px solid var(--gold);padding:16px 20px;margin:20px 0;border-radius:0 8px 8px 0;font-size:14px}
+.tip strong{color:var(--gold)}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:20px;transition:.2s;cursor:pointer}
+.card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.card h4{color:var(--gold);font-size:15px;margin-bottom:8px}
+.card p{font-size:13px;color:var(--dim);margin:0}
+.cmp-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}
+.cmp-table th{background:rgba(201,169,110,.15);color:var(--gold);padding:10px 12px;text-align:left;font-weight:600}
+.cmp-table td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.06);color:var(--text)}
+.cmp-table tr:hover td{background:rgba(201,169,110,.05)}
+.footer{text-align:center;padding:40px 20px;border-top:1px solid rgba(255,255,255,.06);margin-top:40px}
+.footer p{font-size:13px;color:var(--dim);margin-bottom:8px}
+.footer a{color:var(--gold)}
+.cta-bottom{position:fixed;bottom:0;left:0;right:0;z-index:200;background:linear-gradient(135deg,#b8860b,var(--gold));padding:0;display:flex}
+.cta-bottom a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:18px;color:#000;font-weight:800;font-size:17px;text-decoration:none;letter-spacing:-.5px}
+.cta-bottom a:active{opacity:.8}
+.page-nav{display:flex;justify-content:space-between;margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.06)}
+.page-nav span{font-size:14px;cursor:pointer;color:var(--gold)}
+.page-nav span:hover{text-decoration:underline}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.page.active{animation:fadeUp .4s ease}
+@media(max-width:600px){
+.hero h1{font-size:22px}
+.page h2{font-size:20px}
+.card-grid{grid-template-columns:1fr}
+}
+</style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+
+<nav class="nav"><div class="nav-inner">
+<span class="nav-logo" onclick="go('')">👑 울산챔피언나이트</span>
+<span class="nav-link" onclick="go('')">가이드</span>
+<span class="nav-link" onclick="go('dresscode')">드레스코드</span>
+<span class="nav-link" onclick="go('budget')">예산</span>
+<span class="nav-link" onclick="go('timing')">시간대</span>
+<span class="nav-link" onclick="go('parking')">주차</span>
+<span class="nav-link" onclick="go('manners')">매너</span>
+<span class="nav-link" onclick="go('nearby')">주변코스</span>
+<span class="nav-link" onclick="go('compare')">비교</span>
+</div></nav>
+
+<section class="hero" id="hero-section">
+<div class="hero-crown">👑</div>
+<h1><em>울산챔피언나이트</em> 완벽 가이드</h1>
+<p>처음 가는 사람도, 오랜만에 다시 가는 사람도. 이것만 읽으면 된다.</p>
+</section>
+
+<div class="wrap">
+
+<!-- 메인 -->
+<article class="page active" id="page-main" data-og="og/main.png" data-title="울산챔피언나이트 완벽 가이드 — 가기 전에 이것만 알면 된다" data-desc="처음 가는 사람을 위한 완벽 가이드. 드레스코드부터 2차 코스까지 한 번에 정리했다.">
+<h2>가기 전에 이것만 알면 된다</h2>
+
+<p>솔직히 말한다. 나이트 처음 가는 건 긴장된다. 뭘 입어야 하는지, 돈은 얼마나 드는지, 몇 시에 가야 사람이 있는지. 아무도 안 알려준다. 친구한테 물어봐도 "그냥 가면 돼"라는 대답뿐이다.</p>
+
+<p>그래서 정리했다. 울산챔피언나이트 가기 전에 꼭 알아야 할 것들.</p>
+
+<p>나도 처음엔 몰랐다. 금요일 밤 9시에 갔다가 텅 빈 홀에서 멍하니 서 있었던 적 있다. 너무 일찍 간 거였다. 11시쯤 되니까 사람이 쏟아지기 시작했고, 자정 넘어서는 발 디딜 틈이 없었다. 그때 알았다. 타이밍이 전부라는 걸.</p>
+
+<p>입구에서 들려오는 베이스 소리. 문 열고 들어가는 순간 공기가 달라진다. 조명이 얼굴을 스치고, 음악이 몸을 감싼다. 처음엔 어색하다. 근데 5분이면 적응한다. 10분이면 어깨가 움직인다. 30분이면 왜 사람들이 매주 오는지 안다.</p>
+
+<h3>이 가이드에서 다루는 것</h3>
+
+<div class="card-grid">
+<div class="card" onclick="go('dresscode')"><h4>👔 드레스코드</h4><p>뭘 입어야 하나. 운동화 되나. 반바지는.</p></div>
+<div class="card" onclick="go('budget')"><h4>💰 예산</h4><p>현실적으로 얼마 들어가나. 숨은 비용까지.</p></div>
+<div class="card" onclick="go('timing')"><h4>⏰ 시간대</h4><p>몇 시에 가야 분위기 좋은지. 요일별 차이.</p></div>
+<div class="card" onclick="go('parking')"><h4>🚗 주차·교통</h4><p>차 가져가도 되나. 대리 부르는 법.</p></div>
+<div class="card" onclick="go('manners')"><h4>🤝 매너</h4><p>암묵적인 룰. 이것만 지키면 된다.</p></div>
+<div class="card" onclick="go('nearby')"><h4>🍻 주변 코스</h4><p>1차 어디서 먹고. 2차 어디로 갈지.</p></div>
+<div class="card" onclick="go('compare')"><h4>⚔️ 울산 나이트 비교</h4><p>왜 여기인지. 다른 데와 뭐가 다른지.</p></div>
+</div>
+
+<div class="tip"><strong>💡 팁.</strong> 처음이면 금요일 밤 11시가 정답이다. 토요일은 사람 너무 많고, 평일은 좀 한산하다. 금요일이 딱 좋다.</div>
+
+<p>울산에서 나이트 한 번 가보겠다고 마음먹었으면, 이 페이지 하나만 읽어라. 다른 건 필요 없다. 드레스코드부터 2차 코스까지, 내가 직접 겪고 정리한 거다. 괜히 길게 안 쓴다. 핵심만 넣었다.</p>
+
+<p>그리고 하나 더. 궁금한 거 있으면 전화해라. 춘자 사장님이 친절하게 알려준다. 진짜다.</p>
+</article>
+
+<!-- 드레스코드 -->
+<article class="page" id="page-dresscode" data-og="og/dresscode.png" data-title="울산챔피언나이트 드레스코드 — 뭘 입고 가야 하나" data-desc="운동화 되나? 반바지는? 입장 복장 기준과 현실 팁 총정리.">
+<h2>드레스코드 가이드</h2>
+
+<p>나이트 처음 가는 사람이 제일 많이 묻는 게 이거다. "뭘 입어야 해?" 결론부터 말한다. 너무 편하게만 안 오면 된다.</p>
+
+<p>근데 그 "너무 편하게"의 기준이 애매하잖아. 그래서 구체적으로 알려준다.</p>
+
+<h3>남자 — 이 정도면 충분하다</h3>
+<p>검은색 슬랙스에 깔끔한 셔츠. 이게 기본이다. 꼭 정장일 필요 없다. 깔끔한 니트에 면바지만 해도 문제없다. 포인트는 <span class="em">"단정함"</span>이다. 구겨진 티셔츠에 트레이닝 바지? 그건 안 된다.</p>
+
+<p>신발. 여기서 많이 걸린다. 운동화 된다. 근데 러닝화 말고 깔끔한 스니커즈. 에어포스, 뉴발란스 정도면 OK. 등산화나 슬리퍼는 입구에서 막힌다. 나도 한번 조던 신고 갔는데 아무 말 없이 통과했다. 신발보다 전체 분위기를 본다.</p>
+
+<p>여름이라고 반바지에 슬리퍼? 그건 해변 가는 거지 나이트 가는 게 아니다. 덥더라도 긴 바지 입어라. 안에 들어가면 에어컨 빵빵하다.</p>
+
+<h3>여자 — 자유도 높다</h3>
+<p>여자는 솔직히 웬만하면 다 된다. 원피스, 치마, 청바지 다 괜찮다. 블라우스에 슬랙스도 좋고, 크롭탑에 와이드 팬츠도 된다. 핵심은 깔끔하게만 입으면 된다는 거다.</p>
+
+<p>근데 하나 조심. 새 구두 신고 가지 마라. 4시간 서 있다가 발 망가진다. 편한 힐이나 깔끔한 플랫슈즈가 현실적이다. 춤출 거면 더더욱.</p>
+
+<h3>이건 안 된다</h3>
+<p>트레이닝복. 슬리퍼. 비치웨어. 로고 큰 후드티. 찢어진 청바지(일부러 찢은 건 정도에 따라 다름). 모자는 빼고 들어가라는 경우도 있다. 입구에서 안 된다고 하면 뭐 돌아가야 한다. 미리 신경 쓰는 게 이득이다.</p>
+
+<div class="tip"><strong>💡 현실 팁.</strong> "차려입지 않아도 되지만 대충 입어서도 안 된다." 거울 보고 나갈 때 '이 정도면 괜찮겠지?'라는 생각이 들면, 보통 괜찮다.</div>
+
+<p>결론. 너무 고민하지 마라. 소개팅 간다 생각하고 입으면 딱 맞다. 거기서 좀 더 편하게. 그 정도면 된다.</p>
+
+<div class="page-nav">
+<span onclick="go('')">← 메인으로</span>
+<span onclick="go('budget')">예산 가이드 →</span>
+</div>
+</article>
+
+<!-- 예산 -->
+<article class="page" id="page-budget" data-og="og/budget.png" data-title="울산챔피언나이트 예산 — 현실적으로 얼마 들어가나" data-desc="입장료, 술값, 교통비까지. 하룻밤 현실 예산 총정리.">
+<h2>예산 가이드</h2>
+
+<p>"거기 비싸?" 이 질문 진짜 많이 받는다. 대답은 이거다. 생각보다 안 비싸다. 근데 조절 안 하면 순식간에 나간다.</p>
+
+<p>한 번 갔다 오면 대충 얼마 드는지. 현실적으로 정리해본다. 친구 4명이서 금요일 밤에 갔다고 치자.</p>
+
+<h3>기본 비용 구조</h3>
+<p>입장하면 기본 테이블이 잡힌다. 거기서 뭘 시키느냐에 따라 달라진다. 맥주만 마시면 가볍고, 양주 시키면 올라간다. 당연한 얘기인데, 의외로 모르는 사람이 많다.</p>
+
+<p>나는 처음 갔을 때 분위기에 취해서 양주를 시켰다. 그날 지갑이 텅 빈 건 말할 것도 없고. 근데 두 번째 갔을 때는 맥주로 시작해서 분위기 보고 추가했더니 훨씬 합리적이었다.</p>
+
+<h3>절약 팁</h3>
+<p>인원이 많을수록 나누면 괜찮다. 4명이서 가면 1인당 부담이 확 줄어든다. 혼자 가면? 바 쪽에 앉아서 맥주 한두 잔이면 충분하다.</p>
+
+<p>그리고 금요일보다 목요일이 싸다. 이벤트 하는 날 노리면 더 좋고. SNS 팔로우하면 할인 정보 올라온다. 이거 챙기는 사람이 의외로 적다.</p>
+
+<p>대리비도 생각해야 한다. 울산 시내에서 대리 부르면 보통 만 오천에서 이만 원 사이. 먼 데 살면 더 나온다. 이것까지 포함해서 예산 잡아야 다음 날 후회 안 한다.</p>
+
+<div class="tip"><strong>💡 현실 팁.</strong> 첫 방문이면 맥주로 시작해라. 분위기 파악하고 나서 추가하는 게 현명하다. 처음부터 양주 터뜨리면 다음 날 잔고 보고 울 수 있다.</div>
+
+<p>결론. 가볍게 가면 가볍게 끝나고, 세게 놀면 세게 나간다. 본인 기준 적당한 선을 정하고 가는 게 핵심이다. 분위기에 휩쓸리면 지갑이 운다.</p>
+
+<div class="page-nav">
+<span onclick="go('dresscode')">← 드레스코드</span>
+<span onclick="go('timing')">시간대 가이드 →</span>
+</div>
+</article>
+
+<!-- 시간대 -->
+<article class="page" id="page-timing" data-og="og/timing.png" data-title="울산챔피언나이트 시간대 — 언제 가야 분위기 좋나" data-desc="요일별, 시간대별 분위기 차이. 최적 방문 시간 가이드.">
+<h2>시간대별 가이드</h2>
+
+<p>타이밍이 전부다. 같은 곳인데 9시에 가면 텅 비어있고, 12시에 가면 미어터진다. 이걸 모르면 "별로던데?"라는 잘못된 결론을 내리게 된다.</p>
+
+<p>내가 직접 여러 번 가보면서 느낀 시간대별 분위기를 정리한다.</p>
+
+<h3>금요일</h3>
+<p>9시~10시. 아직 이르다. 스태프들이 준비하고, 초반 손님 몇 명 와 있는 정도. 이때 오면 자리 잡기는 편하다. 근데 분위기는 아직 안 살았다.</p>
+
+<p>11시. 슬슬 사람이 차기 시작한다. 퇴근하고 밥 먹고 2차로 오는 사람들. 음악 볼륨도 올라가고, 조명도 바뀐다. 이때부터 나이트다운 분위기가 시작된다.</p>
+
+<p>자정~1시. 피크타임. 이때 문 열고 들어가면 소리가 확 밀려온다. 쿵쿵쿵. 사람들 사이를 비집고 들어가야 한다. 에너지가 최고점이다. 처음 가는 사람이라면 이 시간이 제일 좋다. 분위기에 자동으로 빨려 들어간다.</p>
+
+<p>2시 이후. 체력 싸움이다. 어떤 사람은 새벽 4시까지 버틴다. 근데 보통은 2시쯤 빠지기 시작한다. 끝까지 남으면 나름 재밌다. 늦게 올수록 사람들이 더 편해지거든.</p>
+
+<h3>토요일</h3>
+<p>금요일보다 30분~1시간 빨리 찬다. 10시 반이면 이미 붐비기 시작하고, 11시면 자리 잡기 어려울 수도 있다. 토요일은 일찍 가는 게 이득이다.</p>
+
+<p>다만 사람이 많은 만큼 좀 복잡하다. 여유롭게 즐기고 싶으면 금요일이 낫다. 북적이는 게 좋으면 토요일.</p>
+
+<h3>평일 (수~목)</h3>
+<p>한산하다. 근데 그게 나쁜 건 아니다. 오히려 편하게 술 마시면서 음악 듣기엔 평일이 좋다. 사람 적으니까 테이블도 넉넉하고, DJ한테 신청곡 넣으면 틀어줄 확률도 높다.</p>
+
+<p>이벤트 있는 날은 평일이어도 꽤 찬다. 수요일이나 목요일에 이벤트 잡는 경우 많으니까 가기 전에 확인해봐라.</p>
+
+<div class="tip"><strong>💡 결론.</strong> 첫 방문 = 금요일 밤 11시. 여유롭게 = 평일 밤 11시. 북적이는 거 좋아하면 = 토요일 밤 10시 반.</div>
+
+<div class="page-nav">
+<span onclick="go('budget')">← 예산</span>
+<span onclick="go('parking')">주차 가이드 →</span>
+</div>
+</article>
+
+<!-- 주차 -->
+<article class="page" id="page-parking" data-og="og/parking.png" data-title="울산챔피언나이트 주차·교통 — 차 가져가도 되나" data-desc="주변 주차장, 대리운전, 택시 정보까지. 교통 완벽 가이드.">
+<h2>주차·교통 완벽 가이드</h2>
+
+<p>결론부터. 차 가져가지 마라. 술 마시러 가는 건데 차를 왜 가져가나. 근데 현실적으로 울산은 차 없으면 이동이 불편한 도시다. 그래서 방법을 정리했다.</p>
+
+<h3>차 가져갈 경우</h3>
+<p>주변에 공영주차장이 있다. 근데 늦은 밤에 자리 있을지는 모른다. 일찍 가서 잡아야 한다. 건물 주차장은 보통 자정이면 만차다. 금요일이나 토요일엔 특히 그렇다.</p>
+
+<p>차 세워놓고 대리 불러서 집에 가는 방법도 있다. 근데 이러면 다음 날 차 가지러 와야 한다. 귀찮다. 진짜 귀찮다. 나도 한번 그랬는데 숙취 상태로 택시 타고 차 가지러 간 기억이 있다. 그 후로는 차 안 가져간다.</p>
+
+<h3>대리운전</h3>
+<p>울산 대리 호출은 전화 한 통이면 된다. 카카오 대리도 되고, 일반 대리도 빠르다. 대기 시간은 금토 새벽에 좀 걸린다. 10~20분 정도. 성수기엔 더 걸릴 수도 있다.</p>
+
+<p>비용은 시내 기준 만 오천 원에서 이만 원 정도. 외곽이면 삼만 원 넘어갈 수도 있다. 만취 상태에서 가격 흥정하지 마라. 제정신일 때 미리 앱으로 확인해놓는 게 좋다.</p>
+
+<h3>택시</h3>
+<p>카카오택시가 제일 편하다. 근데 금토 새벽 1~2시는 택시 잡기 전쟁이다. 울산 전체가 그렇다. 미리 예약 잡아놓으면 조금 낫다.</p>
+
+<p>팁 하나. 나이트 바로 앞보다 한 블록 걸어 나가서 잡아라. 앞에서는 다 잡으려고 하니까 경쟁이 치열하다. 조금만 걸으면 훨씬 빨리 잡힌다.</p>
+
+<h3>대중교통</h3>
+<p>버스는 밤 11시면 거의 끊긴다. 가는 건 버스로 가도 오는 건 택시나 대리다. 울산 지하철은 없다. 대중교통으로만 해결하겠다는 건 비현실적이다.</p>
+
+<div class="tip"><strong>💡 추천 루트.</strong> 택시로 간다 → 놀고 나온다 → 카카오택시 예약해놓는다 → 집에 간다. 이게 제일 깔끔하다.</div>
+
+<div class="page-nav">
+<span onclick="go('timing')">← 시간대</span>
+<span onclick="go('manners')">매너 가이드 →</span>
+</div>
+</article>
+
+<!-- 매너 -->
+<article class="page" id="page-manners" data-og="og/manners.png" data-title="울산챔피언나이트 매너·에티켓 — 이것만 지키면 된다" data-desc="나이트 처음이라 긴장된다면. 암묵적인 룰과 에티켓 총정리.">
+<h2>매너·에티켓 가이드</h2>
+
+<p>나이트에도 룰이 있다. 법으로 정해진 건 아닌데, 다들 지키는 암묵적인 것들. 이거 모르면 본인만 불편하고 주변도 불편하다. 어렵지 않다. 상식선이다.</p>
+
+<h3>춤에 관해서</h3>
+<p>아무도 춤 잘 추는지 안 본다. 진짜다. 다들 자기가 즐기느라 바쁘다. 박자만 대충 맞으면 된다. 몸 흔드는 게 어색하면 고개만 까딱거려도 된다. 벽 쪽에 서서 술만 마셔도 된다. 아무도 뭐라 안 한다.</p>
+
+<p>근데 다른 사람 공간은 존중해라. 춤추다가 부딪히면 "아 죄송" 한마디면 된다. 일부러 부딪히거나 너무 가까이 붙는 건 안 된다. 이건 어디서든 마찬가지다.</p>
+
+<h3>술 마실 때</h3>
+<p>테이블에서 자기 술 마시는 건 자유다. 근데 다른 테이블 술에 손 대면 큰일 난다. 당연한 거 같지만, 취하면 판단력이 흐려진다. 본인 테이블 본인 술. 이거 기본이다.</p>
+
+<p>그리고 너무 취하지 마라. 재밌게 놀다 보면 과하게 되는데, 비틀거리기 시작하면 스태프가 정리한다. 본인도 기억 못하고, 친구한테 민폐다. 적당히. 이게 어렵지만 중요하다.</p>
+
+<h3>말 걸 때</h3>
+<p>누군가한테 말 걸고 싶으면 자연스럽게. "안녕하세요" 한마디면 된다. 반응이 없거나 불편해 보이면 바로 물러나라. 집요하게 말 거는 건 최악이다. 한 번 거절당하면 깔끔하게 돌아서는 게 매너다.</p>
+
+<p>반대로 말 걸어오는 사람이 불편하면 "괜찮아요"라고 말하면 된다. 그래도 안 물러나면 스태프한테 말해라. 바로 처리해준다.</p>
+
+<h3>사진·영상</h3>
+<p>플래시 터뜨리면서 사진 찍지 마라. 분위기 깨진다. 다른 사람 얼굴 나오게 찍는 것도 안 된다. 본인 셀카 정도는 괜찮은데, 남 얼굴이 들어가면 문제 생긴다. 영상은 더더욱 안 된다.</p>
+
+<div class="tip"><strong>💡 핵심.</strong> 남한테 피해 안 주면 된다. 그게 전부다. 본인이 즐기되, 옆 사람도 즐기게 해라. 어렵지 않다.</div>
+
+<div class="page-nav">
+<span onclick="go('parking')">← 주차</span>
+<span onclick="go('nearby')">주변 코스 →</span>
+</div>
+</article>
+
+<!-- 주변 코스 -->
+<article class="page" id="page-nearby" data-og="og/nearby.png" data-title="울산챔피언나이트 주변 코스 — 1차 2차 어디로 가나" data-desc="밥 먹고 나이트 가고, 끝나고 해장까지. 주변 코스 추천.">
+<h2>1차·2차 코스 추천</h2>
+
+<p>나이트만 덜렁 가는 사람은 별로 없다. 보통 밥 먹고 한 잔 하고 나이트 가거나, 나이트 끝나고 해장하러 간다. 동선이 중요하다. 멀리 가면 택시비만 나간다.</p>
+
+<h3>나이트 가기 전 — 1차 추천</h3>
+<p>삼산동 쪽에 괜찮은 고깃집들 있다. 고기 구워먹고 소주 한 잔 걸치면 딱 좋은 컨디션이 된다. 너무 배부르면 안 된다. 70%만 채워라. 배 터지게 먹으면 춤 못 춘다.</p>
+
+<p>회 좋아하면 성남동 쪽도 괜찮다. 울산은 어차피 회가 싸다. 회 떠서 소주 한 병이면 완벽한 1차다.</p>
+
+<p>가볍게 가고 싶으면 치맥도 된다. 호프집에서 맥주 두세 잔 하고 나이트 가는 코스. 부담 없고 시간도 적당하다. 8시에 시작해서 10시 반이면 딱 나이트 갈 타이밍이다.</p>
+
+<h3>나이트 끝나고 — 2차·해장</h3>
+<p>새벽 2~3시. 배가 고프다. 땀 흘리고 춤추고 나면 라면 한 그릇이 간절해진다. 주변에 24시간 식당 몇 군데 있다. 국밥집이 제일 좋다. 뜨끈한 국밥에 소주 한 잔이면 영혼이 정화된다.</p>
+
+<p>해장국 전문점도 있다. 뼈해장국, 콩나물국밥. 새벽에 나이트 앞에서 비틀거리면서 국밥집 찾는 사람들. 다 동지다. 서로 눈 마주치면 웃는다.</p>
+
+<p>편의점도 방법이다. CU나 GS25 앞 플라스틱 의자에 앉아서 컵라면 먹는 것도 나름 추억이다. 나는 개인적으로 이게 제일 좋았다. 새벽 공기 마시면서 라면 후루룩.</p>
+
+<h3>동선 정리</h3>
+<p>삼산동 고기 → 나이트 → 근처 국밥. 이 동선이 제일 깔끔하다. 다 걸어서 이동 가능한 거리에 있다. 택시 안 타도 된다.</p>
+
+<div class="tip"><strong>💡 팁.</strong> 나이트 가기 전에 너무 취하지 마라. 1차에서 폭탄주 돌리면 나이트 입구도 못 들어간다. 적당히 워밍업만 하는 게 핵심이다.</div>
+
+<div class="page-nav">
+<span onclick="go('manners')">← 매너</span>
+<span onclick="go('compare')">비교 →</span>
+</div>
+</article>
+
+<!-- 비교 -->
+<article class="page" id="page-compare" data-og="og/compare.png" data-title="울산 나이트 비교 — 챔피언 vs 다른 곳, 뭐가 다른가" data-desc="울산 나이트클럽 비교 분석. 분위기, 규모, 음악, 연령대 차이 총정리.">
+<h2>울산 나이트 비교</h2>
+
+<p>울산에서 나이트 가겠다고 하면 몇 군데 이름이 나온다. 근데 막상 가보면 분위기가 전혀 다르다. 어디가 본인한테 맞는지 모르겠으면 이거 읽어봐라.</p>
+
+<h3>규모</h3>
+<p>울산챔피언나이트는 크다. 들어가면 안다. 홀이 넓고 천장이 높다. 사람 많아도 답답하지 않은 이유가 이거다. 작은 데 가면 사람 좀만 차도 숨이 막히는데, 여기는 그런 게 없다. 공간 자체가 여유롭다.</p>
+
+<p>작은 클럽 좋아하는 사람도 있다. 아늑하고 밀착된 분위기. 근데 그건 라운지바에서 느끼는 거지, 나이트에서 느낄 건 아니다. 나이트는 넓어야 한다. 춤추는 공간, 쉬는 공간, 술 마시는 공간이 분리돼야 편하다.</p>
+
+<h3>음악</h3>
+<p>DJ가 매일 바뀌면 분위기도 매일 다르다. 여기는 고정 DJ가 있어서 일정한 수준이 유지된다. 이게 중요하다. 어떤 날은 좋고 어떤 날은 별로인 곳은 도박이거든. 여기는 최소한 "아 오늘 망했다" 하는 날이 없다.</p>
+
+<p>음악 장르는 EDM 베이스에 K-POP, 히트곡을 섞는다. 무거운 테크노만 도배하는 곳과는 다르다. 따라 부를 수 있는 노래가 나와야 사람들이 더 즐긴다. 그걸 잘 안다.</p>
+
+<h3>연령대</h3>
+<p>20대 후반~30대 초반이 중심이다. 너무 어린 애들만 있는 곳은 시끄럽기만 하고, 나이 많은 사람만 있는 곳은 올드하다. 여기는 그 중간이다. 적당히 활기 있고, 적당히 성숙한 분위기.</p>
+
+<h3>비교 정리</h3>
+<table class="cmp-table">
+<tr><th>항목</th><th>챔피언</th><th>일반 나이트</th></tr>
+<tr><td>규모</td><td>대형 — 넓고 쾌적</td><td>중소형 — 붐비면 답답</td></tr>
+<tr><td>음악</td><td>EDM+K-POP 믹스</td><td>장르 편중 경향</td></tr>
+<tr><td>연령대</td><td>20후반~30초반 중심</td><td>편차 큼</td></tr>
+<tr><td>시설</td><td>최근 리뉴얼</td><td>오래된 곳 많음</td></tr>
+<tr><td>동선</td><td>홀·바·라운지 분리</td><td>한 공간에 몰려있음</td></tr>
+</table>
+
+<p>결국 나이트는 직접 가봐야 안다. 글로 다 전달이 안 되는 게 분위기란 거다. 근데 적어도 기본기는 갖춰진 곳을 가야 한다. 음향, 조명, 공간, 서비스. 이 네 가지가 되는 곳. 안 되는 곳 가면 돈 버리는 거다.</p>
+
+<div class="tip"><strong>💡 한 줄 결론.</strong> 울산에서 나이트 한 군데만 가본다면? 여기 먼저 가봐라. 기준이 생긴다. 그 다음에 다른 데 가면 비교가 된다.</div>
+
+<div class="page-nav">
+<span onclick="go('nearby')">← 주변 코스</span>
+<span onclick="go('')">메인으로 →</span>
+</div>
+</article>
+
+</div>
+
+<footer class="footer">
+<p>더 많은 업소 정보 → <a href="https://bamkey.com" target="_blank" rel="noopener noreferrer">밤키에서 확인</a></p>
+<p>광고문의 카카오톡 <a href="https://open.kakao.com/o/besta12" target="_blank" rel="noopener noreferrer">besta12</a></p>
+<p class="dim">이 페이지는 정보 제공 목적이며, 업소와 직접적인 운영 관계가 없습니다.</p>
+</footer>
+
+<div class="cta-bottom">
+<a href="tel:010-5653-0069">📞 전화 연결 — 춘자 010-5653-0069</a>
+</div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"울산챔피언나이트","description":"울산 대표 나이트클럽 방문 전 필요한 모든 정보 가이드","telephone":"010-5653-0069","address":{"@type":"PostalAddress","addressLocality":"울산","addressCountry":"KR"},"url":"https://theassetsquare-svg.github.io/ulsan1/"}
+</script>
+
+<script>
+function go(page){
+document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
+document.querySelectorAll('.nav-link').forEach(function(n){n.classList.remove('active')});
+var id=page?'page-'+page:'page-main';
+var el=document.getElementById(id);
+if(el)el.classList.add('active');
+var pages=['','dresscode','budget','timing','parking','manners','nearby','compare'];
+var idx=pages.indexOf(page||'');
+var links=document.querySelectorAll('.nav-link');
+if(idx>=0&&links[idx])links[idx].classList.add('active');
+if(el){
+var t=el.getAttribute('data-title');
+var d=el.getAttribute('data-desc');
+var og=el.getAttribute('data-og');
+if(t)document.title=t;
+var dm=document.querySelector('meta[name="description"]');
+if(dm&&d)dm.setAttribute('content',d);
+var om=document.querySelector('meta[property="og:image"]');
+if(om&&og)om.setAttribute('content','https://theassetsquare-svg.github.io/ulsan1/'+og);
+}
+var hero=document.getElementById('hero-section');
+if(hero){
+var titles={'':'완벽 가이드','dresscode':'드레스코드 가이드','budget':'예산 가이드','timing':'시간대별 가이드','parking':'주차·교통 가이드','manners':'매너·에티켓 가이드','nearby':'1차·2차 코스 추천','compare':'울산 나이트 비교'};
+hero.querySelector('h1').innerHTML='<em>울산챔피언나이트</em> '+(titles[page||'']||'완벽 가이드');
+}
+window.scrollTo(0,0);
+history.pushState(null,null,page?'#'+page:'#');
+}
+function handleHash(){var h=location.hash.replace('#','');go(h||'')}
+window.addEventListener('hashchange',handleHash);
+window.addEventListener('DOMContentLoaded',handleHash);
+window.addEventListener('popstate',handleHash);
+</script>
 </body>
 </html>
