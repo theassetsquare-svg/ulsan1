@@ -28,4 +28,4 @@ Allow: /
 User-agent: Yeti
 Allow: /
 
-Sitemap: https://theassetsquare-svg.github.io/ulsan1/sitemap.xml
+Sitemap: https://ulsan1.pages.dev/sitemap.xml
