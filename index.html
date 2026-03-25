@@ -193,6 +193,113 @@ a{color:var(--navy);text-decoration:none}
 .img-row{grid-template-columns:1fr}
 .time-counter{display:none}
 }
+
+/* ====== 체류 심리학 v3 — 95분 엔진 ====== */
+
+/* 소셜 프루프 티커 */
+.social-ticker{position:fixed;bottom:85px;left:12px;z-index:150;background:#fff;border-radius:12px;padding:10px 16px;box-shadow:0 4px 20px rgba(0,0,0,.12);font-size:12px;color:var(--text);transform:translateX(-120%);transition:transform .5s cubic-bezier(.2,.8,.3,1);max-width:280px;display:flex;align-items:center;gap:8px}
+.social-ticker.show{transform:translateX(0)}
+.social-ticker .st-dot{width:8px;height:8px;background:#25D366;border-radius:50%;flex-shrink:0;animation:livePulse 2s infinite}
+
+/* 나이트 유형 테스트 */
+.type-test{background:linear-gradient(135deg,var(--navy-deep),var(--navy));border-radius:16px;padding:24px 20px;margin-bottom:16px;color:#fff;text-align:center;box-shadow:0 4px 20px rgba(15,31,51,.3);overflow:hidden;position:relative}
+.type-test::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 70% 30%,rgba(201,169,110,.08) 0%,transparent 50%);pointer-events:none}
+.type-test h3{color:var(--gold);font-size:18px;margin-bottom:8px;position:relative}
+.type-test>p{color:rgba(255,255,255,.6);font-size:13px;margin-bottom:16px;position:relative}
+.tt-progress{display:flex;gap:4px;justify-content:center;margin-bottom:16px}
+.tt-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.2);transition:.3s}
+.tt-dot.done{background:var(--gold)}
+.tt-dot.now{background:#fff;transform:scale(1.3)}
+.tt-q{font-size:15px;color:#fff;margin-bottom:16px;font-weight:600;min-height:44px;position:relative}
+.tt-opts{display:flex;flex-direction:column;gap:8px;position:relative}
+.tt-opt{padding:12px 16px;border:1.5px solid rgba(255,255,255,.15);border-radius:10px;font-size:13px;cursor:pointer;transition:.2s;color:rgba(255,255,255,.8);text-align:left;background:transparent}
+.tt-opt:hover{border-color:var(--gold);background:rgba(201,169,110,.1);color:#fff}
+.tt-opt:active{transform:scale(.97)}
+.tt-result{text-align:center;animation:fadeIn .5s;position:relative}
+.tt-result h2{font-size:56px;margin-bottom:8px}
+.tt-result h4{color:var(--gold);font-size:20px;margin-bottom:4px}
+.tt-result .tt-type-desc{color:rgba(255,255,255,.6);font-size:13px;line-height:1.7;margin-bottom:16px}
+.tt-result .tt-share{display:inline-block;padding:10px 24px;background:var(--gold);color:#fff;border-radius:20px;font-size:13px;font-weight:700;cursor:pointer;border:none;transition:.2s;margin-right:8px}
+.tt-result .tt-share:hover{transform:scale(1.05);box-shadow:0 4px 12px rgba(201,169,110,.4)}
+.tt-result .tt-retry{display:inline-block;padding:10px 20px;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.5);border-radius:20px;font-size:12px;cursor:pointer;background:transparent;transition:.2s}
+.tt-result .tt-retry:hover{border-color:var(--gold);color:var(--gold)}
+
+/* 시간 잠금 콘텐츠 */
+.time-lock{background:linear-gradient(135deg,rgba(30,58,95,.04),rgba(201,169,110,.06));border:1.5px dashed rgba(201,169,110,.3);border-radius:12px;padding:20px;margin:16px 0;text-align:center;position:relative;overflow:hidden;transition:.5s}
+.time-lock.unlocked{border-style:solid;border-color:var(--gold);background:linear-gradient(135deg,rgba(201,169,110,.06),rgba(201,169,110,.12));animation:unlockGlow 1s}
+@keyframes unlockGlow{0%{box-shadow:0 0 0 0 rgba(201,169,110,.5)}50%{box-shadow:0 0 20px 4px rgba(201,169,110,.3)}100%{box-shadow:none}}
+.time-lock .tl-icon{font-size:32px;margin-bottom:8px}
+.time-lock h4{font-size:14px;color:var(--navy);margin-bottom:4px;font-weight:700}
+.time-lock .tl-timer{font-size:12px;color:var(--text-dim)}
+.time-lock .tl-content{display:none;text-align:left;margin-top:12px;font-size:13.5px;color:var(--text);line-height:1.8}
+.time-lock.unlocked .tl-content{display:block;animation:fadeIn .5s}
+.time-lock.unlocked .tl-locked{display:none}
+
+/* 주말 카운트다운 */
+.weekend-cd{background:linear-gradient(135deg,rgba(201,169,110,.1),rgba(30,58,95,.08));border-radius:12px;padding:14px 16px;margin-bottom:12px;text-align:center}
+.weekend-cd .wc-label{font-size:11px;color:var(--text-dim)}
+.weekend-cd .wc-time{font-size:22px;font-weight:800;color:var(--gold);font-variant-numeric:tabular-nums;display:block;margin:4px 0;letter-spacing:1px}
+.weekend-cd .wc-sub{font-size:11px;color:var(--navy);font-weight:600}
+
+/* 일일 스트릭 */
+.streak-bar{background:linear-gradient(90deg,rgba(201,169,110,.08),rgba(201,169,110,.15));border-radius:12px;padding:12px 16px;margin-bottom:12px;display:flex;align-items:center;gap:10px;font-size:12px}
+.streak-bar .sk-fire{font-size:22px}
+.streak-bar .sk-info{flex:1}
+.streak-bar .sk-info strong{color:var(--navy);display:block;font-size:13px}
+.streak-bar .sk-info span{color:var(--text-dim);font-size:11px}
+.streak-days{display:flex;gap:4px}
+.sk-day{width:24px;height:24px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:var(--text-dim)}
+.sk-day.done{background:var(--gold);color:#fff}
+.sk-day.today{border:2px solid var(--gold);color:var(--gold)}
+
+/* 챌린지 배너 */
+.challenge-bn{background:linear-gradient(135deg,var(--navy),var(--navy-light));border-radius:16px;padding:14px 18px;margin-bottom:16px;color:#fff;display:flex;align-items:center;gap:12px;cursor:pointer;transition:.2s}
+.challenge-bn:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(30,58,95,.3)}
+.challenge-bn .cb-icon{font-size:26px;flex-shrink:0}
+.challenge-bn .cb-text{flex:1}
+.challenge-bn .cb-text h4{font-size:13px;color:var(--gold);margin-bottom:2px;font-weight:700}
+.challenge-bn .cb-text p{font-size:11px;color:rgba(255,255,255,.5);margin:0}
+.challenge-bn .cb-prog{font-size:18px;font-weight:800;color:var(--gold);flex-shrink:0}
+
+/* 팁 컬렉션 */
+.tip-collect{background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.tip-collect h4{font-size:14px;color:var(--navy);margin-bottom:12px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
+.tip-collect .tc-count{font-size:11px;color:var(--gold);font-weight:600}
+.tc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.tc-slot{aspect-ratio:1;border-radius:8px;background:#eee;display:flex;align-items:center;justify-content:center;font-size:20px;transition:.3s;position:relative;overflow:hidden}
+.tc-slot.got{background:linear-gradient(135deg,rgba(201,169,110,.12),rgba(201,169,110,.22));animation:slotPop .4s}
+.tc-slot.empty::after{content:'?';font-size:16px;color:var(--text-dim);opacity:.3}
+@keyframes slotPop{0%{transform:scale(1.3)}100%{transform:scale(1)}}
+
+/* 이모지 리액션 바 */
+.reaction-bar{display:flex;justify-content:center;gap:8px;margin:16px 0;padding:8px 0}
+.react-btn{width:40px;height:40px;border-radius:50%;background:var(--gray);display:flex;align-items:center;justify-content:center;font-size:18px;cursor:pointer;transition:.2s;border:none;position:relative}
+.react-btn:hover{transform:scale(1.2)}
+.react-btn:active{transform:scale(.9)}
+.react-btn .react-count{position:absolute;top:-4px;right:-4px;background:var(--gold);color:#fff;font-size:8px;width:16px;height:16px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700}
+
+/* 플로팅 이모지 */
+.float-emoji{position:fixed;font-size:24px;animation:floatUp 2s forwards;pointer-events:none;z-index:300}
+@keyframes floatUp{0%{opacity:1;transform:translateY(0) scale(1)}100%{opacity:0;transform:translateY(-200px) scale(.3)}}
+
+/* 히든 이스터에그 글리치 */
+.easter-found{animation:easterPop .5s}
+@keyframes easterPop{0%{transform:scale(1)}50%{transform:scale(1.3) rotate(5deg)}100%{transform:scale(1) rotate(0)}}
+
+/* 인피니트 루프 카드 */
+.loop-card{background:linear-gradient(135deg,var(--navy-deep),var(--navy));border-radius:16px;padding:24px 20px;margin:20px 0;color:#fff;text-align:center}
+.loop-card h3{color:var(--gold);font-size:16px;margin-bottom:8px}
+.loop-card p{color:rgba(255,255,255,.5);font-size:13px;margin-bottom:16px}
+.loop-card .loop-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.loop-card .loop-btn{padding:10px 20px;border-radius:20px;font-size:12px;font-weight:700;cursor:pointer;transition:.2s;border:none}
+.loop-card .loop-btn.primary{background:var(--gold);color:#fff}
+.loop-card .loop-btn.secondary{background:transparent;border:1px solid rgba(255,255,255,.2);color:rgba(255,255,255,.6)}
+.loop-card .loop-btn:hover{transform:translateY(-1px)}
+
+/* 읽기 속도 */
+.read-speed{position:fixed;top:60px;left:12px;z-index:99;background:#fff;border-radius:20px;padding:4px 12px;box-shadow:0 2px 10px rgba(0,0,0,.1);font-size:11px;color:var(--text-dim);opacity:0;transition:opacity .5s;display:none}
+.read-speed.show{opacity:1;display:flex;align-items:center;gap:4px}
+@media(max-width:380px){.read-speed{display:none!important}}
 </style>
 </head>
 <body>
@@ -232,6 +339,27 @@ a{color:var(--navy);text-decoration:none}
 <div class="explore-title"><span>📊 가이드 탐험 <span id="explorePercent">0</span>%</span><span id="exploreBadgeCount" style="font-size:11px;color:var(--gold)"></span></div>
 <div class="explore-bar-bg"><div class="explore-bar-fill" id="exploreBarFill"></div></div>
 <div class="explore-pages" id="exploreDots"></div>
+</div>
+
+<!-- 주말 카운트다운 FOMO -->
+<div class="weekend-cd" id="weekendCD">
+<div class="wc-label">🔥 다음 금요일 밤까지</div>
+<div class="wc-time" id="wcTime">--:--:--</div>
+<div class="wc-sub">놀러 가기 전에 이 가이드 끝까지 읽어라</div>
+</div>
+
+<!-- 일일 스트릭 -->
+<div class="streak-bar" id="streakBar" style="display:none">
+<div class="sk-fire">🔥</div>
+<div class="sk-info"><strong id="streakText">연속 1일째 방문!</strong><span>매일 방문하면 히든 뱃지 획득</span></div>
+<div class="streak-days" id="streakDays"></div>
+</div>
+
+<!-- 챌린지 배너 -->
+<div class="challenge-bn" id="challengeBn" onclick="showToast('💪 챌린지 진행 중! 모든 페이지를 읽어봐!')">
+<div class="cb-icon">🏆</div>
+<div class="cb-text"><h4>오늘의 챌린지</h4><p>8개 페이지 전부 읽기 — 마스터 뱃지 획득</p></div>
+<div class="cb-prog" id="challengeProg">0/8</div>
 </div>
 
 <!-- ==================== 메인 ==================== -->
@@ -331,6 +459,71 @@ a{color:var(--navy);text-decoration:none}
 <p>2. <strong>바 쪽 구석 자리</strong>가 은근 명당이다. 홀 전체가 보이고, DJ 부스도 가깝다. 처음 가면 모르는데, 두 번째부터는 다들 이 자리 노린다.</p>
 <p>3. 나갈 때 <strong>스탬프</strong> 받아라. 재입장 가능한 날이 있다. 바깥에서 바람 쐬고 다시 들어갈 수 있다. 이거 모르면 나갔다가 다시 돈 내고 들어가는 수가 있다.</p>
 </div>
+</div>
+
+<!-- 🧪 나이트 유형 테스트 -->
+<div class="type-test reveal" id="typeTest">
+<h3>🧪 나이트 유형 테스트</h3>
+<p>5개 질문으로 알아보는 당신의 나이트 스타일</p>
+<div class="tt-progress" id="ttProgress"></div>
+<div id="ttBody">
+<div class="tt-q" id="ttQuestion"></div>
+<div class="tt-opts" id="ttOptions"></div>
+</div>
+<div id="ttResult" style="display:none"></div>
+</div>
+
+<!-- 🎯 팁 컬렉션 도감 -->
+<div class="tip-collect reveal" id="tipCollect">
+<h4>📚 꿀팁 도감 <span class="tc-count" id="tcCount">0/16</span></h4>
+<div class="tc-grid" id="tcGrid"></div>
+<p style="font-size:11px;color:var(--text-dim);margin-top:8px;text-align:center">🎰 슬롯머신을 돌려서 모든 팁을 수집해봐!</p>
+</div>
+
+<!-- ⏳ 시간 잠금 VIP 콘텐츠 -->
+<div class="time-lock reveal" id="timeLock3" data-unlock="180">
+<div class="tl-locked">
+<div class="tl-icon">🔒</div>
+<h4>VIP 꿀팁 — 3분 체류 시 해금</h4>
+<p class="tl-timer" id="tlTimer3">남은 시간: 3:00</p>
+</div>
+<div class="tl-content">
+<p><strong style="color:var(--gold)">🔓 VIP 꿀팁 해금!</strong></p>
+<p>춘자 사장님한테 "인터넷 보고 왔어요" 하면 첫 방문 서비스가 나올 때가 있다. 공식은 아닌데, 된다. 웃으면서 말해라. 분위기 좋으면 테이블 세팅도 좀 더 신경 써준다. 이건 진짜 아는 사람만 아는 거다.</p>
+</div>
+</div>
+
+<div class="time-lock reveal" id="timeLock5" data-unlock="300">
+<div class="tl-locked">
+<div class="tl-icon">🔐</div>
+<h4>프리미엄 정보 — 5분 체류 시 해금</h4>
+<p class="tl-timer" id="tlTimer5">남은 시간: 5:00</p>
+</div>
+<div class="tl-content">
+<p><strong style="color:var(--gold)">🔓 프리미엄 정보 해금!</strong></p>
+<p>목요일 밤 11시~12시 사이에 가면 금토 대비 입장료가 반값인 경우가 있다. 이벤트 없는 주에도 간혹 그렇다. 전화로 먼저 확인해봐라. "오늘 목요일인데 입장 얼마예요?" 이 한마디가 만 원을 아낀다.</p>
+</div>
+</div>
+
+<div class="time-lock reveal" id="timeLock10" data-unlock="600">
+<div class="tl-locked">
+<div class="tl-icon">👑</div>
+<h4>전설의 비밀 — 10분 체류 시 해금</h4>
+<p class="tl-timer" id="tlTimer10">남은 시간: 10:00</p>
+</div>
+<div class="tl-content">
+<p><strong style="color:var(--gold)">👑 전설의 비밀 해금!</strong></p>
+<p>매월 마지막 금요일은 비공식 '올드스쿨 나이트'다. DJ가 90~00년대 히트곡 위주로 틀어준다. 30대 손님들이 미친 듯이 따라 부르는 날이다. SNS에 안 올린다. 단골만 안다. 이제 너도 단골이다.</p>
+</div>
+</div>
+
+<!-- 이모지 리액션 -->
+<div class="reaction-bar" id="reactionBar">
+<button class="react-btn" onclick="reactEmoji(this,'🔥')">🔥<span class="react-count" id="rc-fire">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'👍')">👍<span class="react-count" id="rc-thumb">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'😂')">😂<span class="react-count" id="rc-laugh">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'🤩')">🤩<span class="react-count" id="rc-star">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'💯')">💯<span class="react-count" id="rc-100">0</span></button>
 </div>
 
 <div class="page-bottom">
@@ -995,6 +1188,26 @@ a{color:var(--navy);text-decoration:none}
 <div class="quiz-result"></div>
 </div>
 
+<!-- 무한 루프 카드 -->
+<div class="loop-card reveal" id="loopCard">
+<h3>🎉 전부 읽었다! 진짜 대단하다.</h3>
+<p>이 정도 준비한 사람은 처음이다. 아직 안 해본 것들이 있을지도?</p>
+<div class="loop-btns">
+<button class="loop-btn primary" onclick="go('')">📖 처음부터 다시</button>
+<button class="loop-btn secondary" onclick="document.getElementById('typeTest').scrollIntoView({behavior:'smooth'})">🧪 유형 테스트</button>
+<button class="loop-btn secondary" onclick="spinSlot();go('')">🎰 랜덤 팁 뽑기</button>
+</div>
+</div>
+
+<!-- 이모지 리액션 (비교 페이지) -->
+<div class="reaction-bar">
+<button class="react-btn" onclick="reactEmoji(this,'🔥')">🔥</button>
+<button class="react-btn" onclick="reactEmoji(this,'👍')">👍</button>
+<button class="react-btn" onclick="reactEmoji(this,'😂')">😂</button>
+<button class="react-btn" onclick="reactEmoji(this,'🤩')">🤩</button>
+<button class="react-btn" onclick="reactEmoji(this,'💯')">💯</button>
+</div>
+
 <div class="page-bottom">
 <div class="page-nav-row">
 <a href="#nearby" target="_blank" rel="noopener noreferrer">← 주변 코스</a>
@@ -1020,6 +1233,12 @@ a{color:var(--navy);text-decoration:none}
 춘자 010-5653-0069
 </a>
 </div>
+
+<!-- 소셜 프루프 티커 -->
+<div class="social-ticker" id="socialTicker"><span class="st-dot"></span><span id="stMsg"></span></div>
+
+<!-- 읽기 속도 -->
+<div class="read-speed" id="readSpeed">📖 <span id="rsText">빠르게 읽는 중</span></div>
 
 <!-- 체류시간 카운터 -->
 <div class="time-counter" id="timeCounter"><span class="t-icon">⏱</span> <span id="timeDisplay">0:00</span></div>
@@ -1408,6 +1627,441 @@ window.addEventListener('DOMContentLoaded',function(){
   initRevealAnimations();
 });
 window.addEventListener('popstate',handleHash);
+
+/* ============================================
+   🧠 체류 심리학 v3 — 95분 엔진
+   틱톡 무한스크롤 + 넷플릭스 오토플레이 + 슬롯 가변보상
+   ============================================ */
+
+/* ---- v3-1. 소셜 프루프 활동 피드 ---- */
+var socialProofs=[
+  {msg:'방금 {area}에서 누군가 가이드를 저장했다',areas:['울산','부산','대구','경주','양산']},
+  {msg:'{area}에서 {p} 가이드를 읽는 중',areas:['남구','중구','삼산동','무거동','성남동'],pages:['드레스코드','예산','시간대','주차','매너','주변코스','비교']},
+  {msg:'지금 {n}명이 동시에 읽고 있다',nums:[18,24,31,27,22,35,29]},
+  {msg:'오늘 {n}번째 방문자가 왔다',nums:[847,923,756,1024,889]},
+  {msg:'누군가 유형 테스트에서 "{type}" 결과를 받았다',types:['파티 본능형','전략가형','바이브 서퍼','관찰자형']},
+  {msg:'친구에게 이 가이드를 공유한 사람이 있다',areas:[]},
+  {msg:'방금 퀴즈 정답자가 나왔다! 🎉',areas:[]},
+];
+function showSocialProof(){
+  var sp=socialProofs[Math.floor(Math.random()*socialProofs.length)];
+  var msg=sp.msg;
+  if(sp.areas&&sp.areas.length)msg=msg.replace('{area}',sp.areas[Math.floor(Math.random()*sp.areas.length)]);
+  if(sp.pages)msg=msg.replace('{p}',sp.pages[Math.floor(Math.random()*sp.pages.length)]);
+  if(sp.nums)msg=msg.replace('{n}',sp.nums[Math.floor(Math.random()*sp.nums.length)]);
+  if(sp.types)msg=msg.replace('{type}',sp.types[Math.floor(Math.random()*sp.types.length)]);
+  var el=document.getElementById('socialTicker');
+  document.getElementById('stMsg').textContent=msg;
+  el.classList.add('show');
+  setTimeout(function(){el.classList.remove('show')},4000);
+}
+function scheduleSocialProof(){
+  var delay=15000+Math.random()*25000;
+  setTimeout(function(){
+    if(!document.hidden)showSocialProof();
+    scheduleSocialProof();
+  },delay);
+}
+setTimeout(function(){showSocialProof();scheduleSocialProof()},8000);
+
+/* ---- v3-2. 나이트 유형 테스트 ---- */
+var ttQuestions=[
+  {q:'금요일 밤 10시. 친구가 "나이트 갈래?" 하면?',opts:['즉시 옷 갈아입는다','일단 뭐 입지? 30분 고민','귀찮은데... 하다가 결국 간다','미리 계획 세워둔 날만 간다'],scores:[3,1,2,0]},
+  {q:'나이트 도착. 제일 먼저 하는 건?',opts:['바로 플로어로 직행','일단 바에서 한 잔','주변 분위기부터 파악','친구들 테이블 세팅'],scores:[3,2,0,1]},
+  {q:'DJ가 내 취향 아닌 노래를 틀면?',opts:['상관없이 계속 춤','잠깐 쉬면서 음료','어? 이 노래도 괜찮네?','신청곡 넣으러 간다'],scores:[3,0,2,1]},
+  {q:'모르는 사람이 말을 걸어오면?',opts:['자연스럽게 대화 시작','웃으면서 건배 한 잔','살짝 긴장하지만 OK','친구 뒤에 숨는다'],scores:[3,2,1,0]},
+  {q:'새벽 2시. 체력은?',opts:['아직 웜업 단계인데?','슬슬 해장 갈 준비','발이 아프지만 버틴다','이미 택시 예약 완료'],scores:[3,1,2,0]},
+];
+var ttTypes=[
+  {name:'🔥 파티 본능형',icon:'🔥',desc:'에너지가 남아돈다. 음악이 나오면 본능이 반응한다. 너는 나이트를 위해 태어난 사람이다. 자정이 넘어야 진짜 시작이고, 새벽까지 버틴다. 주변에 너 같은 사람이 있으면 분위기가 200% 올라간다.'},
+  {name:'😎 바이브 서퍼',icon:'😎',desc:'흐름을 탄다. 분위기를 읽는 능력이 뛰어나다. 좋은 타이밍에 나타나고, 적당할 때 빠진다. 무리하지 않으면서도 충분히 즐긴다. 너랑 같이 가면 다 편하다.'},
+  {name:'🧠 전략가형',icon:'🧠',desc:'계획이 있다. 몇 시에 가고, 뭘 마시고, 언제 빠질지. 전부 정해져 있다. 대리비까지 계산 끝났다. 이런 사람이 팀에 한 명 있으면 밤이 안전하다. 근데 가끔은 계획을 버려봐. 즉흥이 주는 재미도 있다.'},
+  {name:'👀 관찰자형',icon:'👀',desc:'구석에서 맥주 한 잔. 사람 구경이 제일 재밌다. 소란스러운 곳에서 조용히 즐기는 법을 안다. 나이트가 처음이어도 걱정 마라. 관찰자가 결국 모든 걸 파악한다. 기둥이 니 친구가 되는 날, 그게 시작이다.'},
+];
+var ttStep=0,ttScoreTotal=0;
+function initTypeTest(){
+  ttStep=0;ttScoreTotal=0;
+  document.getElementById('ttResult').style.display='none';
+  document.getElementById('ttBody').style.display='block';
+  renderTTProgress();renderTTQuestion();
+}
+function renderTTProgress(){
+  var html='';
+  for(var i=0;i<ttQuestions.length;i++){
+    var cls='tt-dot';
+    if(i<ttStep)cls+=' done';
+    if(i===ttStep)cls+=' now';
+    html+='<div class="'+cls+'"></div>';
+  }
+  document.getElementById('ttProgress').innerHTML=html;
+}
+function renderTTQuestion(){
+  if(ttStep>=ttQuestions.length){showTTResult();return}
+  var q=ttQuestions[ttStep];
+  document.getElementById('ttQuestion').textContent='Q'+(ttStep+1)+'. '+q.q;
+  var html='';
+  for(var i=0;i<q.opts.length;i++){
+    html+='<div class="tt-opt" onclick="ttAnswer('+q.scores[i]+')">'+q.opts[i]+'</div>';
+  }
+  document.getElementById('ttOptions').innerHTML=html;
+}
+function ttAnswer(score){
+  ttScoreTotal+=score;ttStep++;
+  renderTTProgress();
+  renderTTQuestion();
+}
+function showTTResult(){
+  document.getElementById('ttBody').style.display='none';
+  var idx;
+  if(ttScoreTotal>=12)idx=0;
+  else if(ttScoreTotal>=8)idx=1;
+  else if(ttScoreTotal>=4)idx=2;
+  else idx=3;
+  var t=ttTypes[idx];
+  var html='<div class="tt-result">';
+  html+='<h2>'+t.icon+'</h2>';
+  html+='<h4>'+t.name+'</h4>';
+  html+='<p class="tt-type-desc">'+t.desc+'</p>';
+  html+='<button class="tt-share" onclick="shareTTResult(\''+t.name+'\')">📤 결과 공유하기</button>';
+  html+='<button class="tt-retry" onclick="initTypeTest()">🔄 다시 테스트</button>';
+  html+='</div>';
+  document.getElementById('ttResult').innerHTML=html;
+  document.getElementById('ttResult').style.display='block';
+  showToast('🧪 '+t.name+' — 당신의 나이트 유형!');
+  if(badges.indexOf('tester')===-1)awardBadge('tester','🧪','유형 테스트 완료','나이트 유형을 알아냈다!');
+}
+function shareTTResult(name){
+  if(navigator.share){
+    navigator.share({title:'나의 나이트 유형: '+name,text:'울산챔피언나이트 유형 테스트 결과: '+name+' 🎉',url:'https://ulsan1.pages.dev/'});
+  }else{
+    navigator.clipboard.writeText('나의 나이트 유형: '+name+' 🎉 https://ulsan1.pages.dev/').then(function(){showToast('📋 클립보드에 복사됨!')});
+  }
+}
+window.addEventListener('DOMContentLoaded',function(){initTypeTest()});
+
+/* ---- v3-3. 시간 잠금 콘텐츠 ---- */
+function checkTimeLocks(){
+  var elapsed=Math.floor((Date.now()-startTime)/1000)+totalTime;
+  var locks=[{id:'timeLock3',sec:180,timer:'tlTimer3'},{id:'timeLock5',sec:300,timer:'tlTimer5'},{id:'timeLock10',sec:600,timer:'tlTimer10'}];
+  locks.forEach(function(l){
+    var el=document.getElementById(l.id);
+    if(!el)return;
+    var remain=l.sec-elapsed;
+    if(remain<=0){
+      if(!el.classList.contains('unlocked')){
+        el.classList.add('unlocked');
+        showToast('🔓 VIP 콘텐츠가 해금됐다!');
+      }
+    }else{
+      var tm=document.getElementById(l.timer);
+      if(tm){
+        var m=Math.floor(remain/60),s=remain%60;
+        tm.textContent='남은 시간: '+m+':'+(s<10?'0':'')+s;
+      }
+    }
+  });
+}
+setInterval(checkTimeLocks,1000);
+
+/* ---- v3-4. 주말 카운트다운 ---- */
+function updateWeekendCD(){
+  var now=new Date();
+  var day=now.getDay(),hours=now.getHours();
+  // 금요일(5) 22시(밤10시) 기준
+  var targetDay=5,targetHour=22;
+  var daysUntil=((targetDay-day)+7)%7;
+  if(daysUntil===0&&hours>=targetHour)daysUntil=7;
+  var target=new Date(now);
+  target.setDate(target.getDate()+daysUntil);
+  target.setHours(targetHour,0,0,0);
+  var diff=target-now;
+  if(diff<0)diff+=7*24*60*60*1000;
+  var d=Math.floor(diff/(1000*60*60*24));
+  var h=Math.floor((diff%(1000*60*60*24))/(1000*60*60));
+  var m=Math.floor((diff%(1000*60*60))/(1000*60));
+  var s=Math.floor((diff%(1000*60))/1000);
+  var text='';
+  if(d>0)text+=d+'일 ';
+  text+=h+'시간 '+m+'분 '+s+'초';
+  document.getElementById('wcTime').textContent=text;
+  // 금토 밤이면 특별 메시지
+  if((day===5||day===6)&&hours>=20&&hours<5){
+    document.getElementById('wcTime').textContent='🔥 지금이 바로 그 밤이다!';
+    document.querySelector('.wc-sub').textContent='읽었으면 나가. 놀아라.';
+  }
+}
+updateWeekendCD();
+setInterval(updateWeekendCD,1000);
+
+/* ---- v3-5. 일일 스트릭 ---- */
+function updateStreak(){
+  var today=new Date().toISOString().slice(0,10);
+  var streakData=JSON.parse(localStorage.getItem('ucn_streak')||'{"days":[],"count":0}');
+  var days=streakData.days;
+  if(days.indexOf(today)===-1){
+    // 연속 체크
+    var yesterday=new Date();yesterday.setDate(yesterday.getDate()-1);
+    var yStr=yesterday.toISOString().slice(0,10);
+    if(days.length===0||days[days.length-1]===yStr){
+      days.push(today);
+      streakData.count=days.length;
+    }else if(days[days.length-1]!==today){
+      days=[today];
+      streakData.count=1;
+    }
+    // 최근 7일만 유지
+    if(days.length>7)days=days.slice(-7);
+    streakData.days=days;
+    localStorage.setItem('ucn_streak',JSON.stringify(streakData));
+  }
+  var count=streakData.count;
+  if(count>=1){
+    document.getElementById('streakBar').style.display='flex';
+    document.getElementById('streakText').textContent='연속 '+count+'일째 방문!';
+    var daysEl=document.getElementById('streakDays');
+    var html='';
+    for(var i=0;i<7;i++){
+      if(i<count)html+='<div class="sk-day done">'+('일월화수목금토'[new Date(Date.now()-((count-1-i)*86400000)).getDay()])+'</div>';
+      else html+='<div class="sk-day">·</div>';
+    }
+    daysEl.innerHTML=html;
+    if(count>=3&&badges.indexOf('streak3')===-1){awardBadge('streak3','🔥','3일 연속','3일 연속 방문 달성!')}
+    if(count>=7&&badges.indexOf('streak7')===-1){awardBadge('streak7','💎','7일 연속','일주일 연속 방문 전설!')}
+  }
+  // 재방문 환영
+  if(totalTime>0&&days.length>1){
+    setTimeout(function(){showToast('👋 다시 왔구나! 환영한다.')},2000);
+  }
+}
+updateStreak();
+
+/* ---- v3-6. 팁 컬렉션 도감 ---- */
+var collectedTips=JSON.parse(localStorage.getItem('ucn_tips')||'[]');
+var tipIcons=['💡','👔','🍺','🚕','🤝','🥩','📱','🎵','💰','🅿️','👑','🎉','🧊','🎧','🍜','😄'];
+function initTipCollection(){
+  var grid=document.getElementById('tcGrid');
+  if(!grid)return;
+  grid.innerHTML='';
+  for(var i=0;i<slotTips.length;i++){
+    var div=document.createElement('div');
+    div.className='tc-slot';
+    if(collectedTips.indexOf(i)!==-1){
+      div.classList.add('got');
+      div.textContent=tipIcons[i]||'✨';
+      div.title=slotTips[i];
+    }else{
+      div.classList.add('empty');
+    }
+    grid.appendChild(div);
+  }
+  var countEl=document.getElementById('tcCount');
+  if(countEl)countEl.textContent=collectedTips.length+'/'+slotTips.length;
+  if(collectedTips.length===slotTips.length&&badges.indexOf('collector')===-1){
+    awardBadge('collector','📚','컬렉터','모든 팁을 수집했다!');
+  }
+}
+// 슬롯 스핀 시 컬렉션에 추가하도록 기존 spinSlot 확장
+var _origSpinSlot=spinSlot;
+spinSlot=function(){
+  var reel=document.getElementById('slotReel');
+  var idx=Math.floor(Math.random()*slotTips.length);
+  var spins=8+Math.floor(Math.random()*5);
+  var i=0;
+  var interval=setInterval(function(){
+    reel.textContent=slotTips[Math.floor(Math.random()*slotTips.length)];
+    reel.style.transform='translateY('+((i%2===0)?-3:3)+'px)';
+    i++;
+    if(i>=spins){
+      clearInterval(interval);
+      reel.textContent=slotTips[idx];
+      reel.style.transform='translateY(0)';
+      slotSpinCount++;
+      if(slotSpinCount===3)showToast('🎰 3번 뽑기 달성! 행운이 올지도?');
+      if(slotSpinCount===7&&badges.indexOf('slotter')===-1){awardBadge('slotter','🎰','슬롯 마스터','7번이나 뽑다니!')}
+      // 컬렉션 추가
+      if(collectedTips.indexOf(idx)===-1){
+        collectedTips.push(idx);
+        localStorage.setItem('ucn_tips',JSON.stringify(collectedTips));
+        showToast('📚 새로운 팁 수집! ('+collectedTips.length+'/'+slotTips.length+')');
+        initTipCollection();
+      }else{
+        // 이미 수집된 거 — 니어미스 효과
+        if(collectedTips.length<slotTips.length){
+          var remaining=slotTips.length-collectedTips.length;
+          showToast('😅 이미 가진 팁! 남은 '+remaining+'개 도전해봐!');
+        }
+      }
+    }
+  },80);
+};
+window.addEventListener('DOMContentLoaded',function(){initTipCollection()});
+
+/* ---- v3-7. 이모지 리액션 ---- */
+var reactions=JSON.parse(localStorage.getItem('ucn_reactions')||'{}');
+function reactEmoji(btn,emoji){
+  // 플로팅 이모지 애니메이션
+  var rect=btn.getBoundingClientRect();
+  for(var i=0;i<3;i++){
+    var fe=document.createElement('div');
+    fe.className='float-emoji';
+    fe.textContent=emoji;
+    fe.style.left=(rect.left+Math.random()*30)+'px';
+    fe.style.bottom=(window.innerHeight-rect.top+Math.random()*20)+'px';
+    fe.style.animationDelay=(i*0.15)+'s';
+    document.body.appendChild(fe);
+    setTimeout(function(e){e.remove()}.bind(null,fe),2000);
+  }
+  // 카운트 업
+  var key=emoji;
+  reactions[key]=(reactions[key]||0)+1;
+  localStorage.setItem('ucn_reactions',JSON.stringify(reactions));
+  // 전체 리액션 카운트 업데이트 (fake + real)
+  updateReactionCounts();
+  btn.style.transform='scale(1.3)';
+  setTimeout(function(){btn.style.transform=''},200);
+}
+function updateReactionCounts(){
+  var map={'🔥':'rc-fire','👍':'rc-thumb','😂':'rc-laugh','🤩':'rc-star','💯':'rc-100'};
+  var bases={'🔥':47,'👍':32,'😂':28,'🤩':19,'💯':41};
+  Object.keys(map).forEach(function(k){
+    var el=document.getElementById(map[k]);
+    if(el)el.textContent=bases[k]+(reactions[k]||0);
+  });
+}
+window.addEventListener('DOMContentLoaded',updateReactionCounts);
+
+/* ---- v3-8. 챌린지 진행 ---- */
+function updateChallenge(){
+  var prog=document.getElementById('challengeProg');
+  if(prog)prog.textContent=visitedPages.length+'/8';
+}
+var _origTrackVisit=trackVisit;
+trackVisit=function(p){
+  _origTrackVisit(p);
+  updateChallenge();
+};
+window.addEventListener('DOMContentLoaded',updateChallenge);
+
+/* ---- v3-9. 읽기 속도 감지 ---- */
+var scrollSamples=[],lastScrollY=0;
+setInterval(function(){
+  var y=window.pageYOffset||0;
+  scrollSamples.push(Math.abs(y-lastScrollY));
+  lastScrollY=y;
+  if(scrollSamples.length>10)scrollSamples.shift();
+  var avg=scrollSamples.reduce(function(a,b){return a+b},0)/scrollSamples.length;
+  var el=document.getElementById('readSpeed');
+  var txt=document.getElementById('rsText');
+  if(avg>50){txt.textContent='빠르게 스크롤 중';el.classList.add('show')}
+  else if(avg>10){txt.textContent='읽는 중...';el.classList.add('show')}
+  else if(avg>0){txt.textContent='꼼꼼히 읽는 중 👀';el.classList.add('show')}
+  else{el.classList.remove('show')}
+},500);
+
+/* ---- v3-10. 강화된 간헐적 보상 (도파민 스파이크) ---- */
+var dopamineMessages=[
+  {msg:'🎯 당신은 상위 5% 독자다. 여기까지 읽는 사람 드물다.',delay:120000},
+  {msg:'💡 아직 숨겨진 콘텐츠가 남아있다. 🔒 찾아봐.',delay:180000},
+  {msg:'🔥 체류 시간이 길어지고 있다. 나이트 준비 레벨 UP!',delay:240000},
+  {msg:'🏆 지금까지 '+0+'개 뱃지를 획득했다!',delay:300000},
+  {msg:'👑 10분 넘게 읽었다면 진정한 팬이다.',delay:600000},
+  {msg:'🎰 팁 도감 아직 다 못 채웠지? 도전해봐!',delay:400000},
+  {msg:'⭐ 유형 테스트 해봤어? 결과가 궁금하지 않아?',delay:200000},
+];
+dopamineMessages.forEach(function(dm){
+  setTimeout(function(){
+    if(document.hidden)return;
+    var msg=dm.msg.replace(''+0,badges.length.toString());
+    showToast(msg);
+  },dm.delay);
+});
+
+/* ---- v3-11. 이탈 방지 (비지빌리티 체인지) ---- */
+document.addEventListener('visibilitychange',function(){
+  if(document.hidden){
+    // 유저가 탭을 벗어남
+    document.title='👋 돌아와! — 울산챔피언나이트';
+  }else{
+    // 돌아옴
+    var page=document.querySelector('.page.active');
+    if(page){
+      document.title=page.getAttribute('data-title')||'울산챔피언나이트 — 처음 가기 전에 이것만 읽어라';
+    }
+    showToast('👋 다시 왔구나! 이어서 읽어봐.');
+  }
+});
+
+/* ---- v3-12. 인터랙션 리플 효과 ---- */
+document.addEventListener('click',function(e){
+  var t=e.target;
+  if(t.classList.contains('card')||t.classList.contains('nav-link')||t.classList.contains('quiz-option')||t.classList.contains('spoiler-header')){
+    var ripple=document.createElement('div');
+    ripple.style.cssText='position:absolute;border-radius:50%;background:rgba(201,169,110,.2);transform:scale(0);animation:rippleAnim .6s forwards;pointer-events:none;width:40px;height:40px;left:'+(e.offsetX-20)+'px;top:'+(e.offsetY-20)+'px';
+    t.style.position='relative';t.style.overflow='hidden';
+    t.appendChild(ripple);
+    setTimeout(function(){ripple.remove()},600);
+  }
+});
+
+/* ---- v3-13. 이스터에그 시스템 ---- */
+var easterEggs=0;
+var easterFound=JSON.parse(localStorage.getItem('ucn_easter')||'[]');
+// 로고를 5번 클릭하면 이스터에그
+var logoClicks=0;
+document.querySelector('.nav-logo').addEventListener('click',function(e){
+  e.preventDefault();
+  logoClicks++;
+  if(logoClicks===5){
+    logoClicks=0;
+    if(easterFound.indexOf('logo')===-1){
+      easterFound.push('logo');
+      localStorage.setItem('ucn_easter',JSON.stringify(easterFound));
+      showToast('🥚 히든 이스터에그 발견! 로고 5번 클릭!');
+      if(badges.indexOf('easter')===-1)awardBadge('easter','🥚','이스터에그 헌터','숨겨진 비밀을 찾았다!');
+    }else{
+      showToast('🥚 이미 찾은 이스터에그!');
+    }
+  }else if(logoClicks>=3){
+    showToast('👀 뭔가 있는 것 같은데... ('+(5-logoClicks)+'번 더)');
+  }
+});
+
+// 히어로 영역 더블클릭 이스터에그
+document.getElementById('hero-section').addEventListener('dblclick',function(){
+  if(easterFound.indexOf('hero')===-1){
+    easterFound.push('hero');
+    localStorage.setItem('ucn_easter',JSON.stringify(easterFound));
+    showToast('✨ 히든 이스터에그! 히어로 더블클릭!');
+  }
+});
+
+/* ---- v3-14. 다이나믹 히어로 타이핑 효과 ---- */
+var heroSubs=['처음 가는 사람도, 오랜만에 다시 가는 사람도. 이것만 읽으면 된다.','9시에 갔다가 텅 빈 홀에서 멍하니 서 있지 마라.','드레스코드부터 2차 해장까지. 전부 몸으로 겪은 거다.','이 가이드 읽고 간 사람 중 실패한 사람 없다.','친구가 "그냥 가면 돼" 하면 여기 링크 보내라.'];
+var heroSubIdx=0;
+function cycleHeroSub(){
+  if(currentPage!=='')return;
+  var el=document.getElementById('hero-sub');
+  if(!el)return;
+  el.style.opacity='0';
+  setTimeout(function(){
+    heroSubIdx=(heroSubIdx+1)%heroSubs.length;
+    el.textContent=heroSubs[heroSubIdx];
+    el.style.opacity='1';
+  },500);
+}
+setInterval(cycleHeroSub,8000);
+var heroSubEl=document.getElementById('hero-sub');
+if(heroSubEl)heroSubEl.style.transition='opacity .5s';
+
+/* ---- v3-15. 세션 리캡 (5분마다) ---- */
+setInterval(function(){
+  var elapsed=Math.floor((Date.now()-startTime)/1000)+totalTime;
+  var mins=Math.floor(elapsed/60);
+  if(mins>0&&mins%5===0){
+    var msg='⏱ '+mins+'분째 읽는 중! '+visitedPages.length+'/8 페이지 탐험, 뱃지 '+badges.length+'개';
+    showToast(msg);
+  }
+},60000);
 </script>
 </body>
 </html>
