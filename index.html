@@ -1383,7 +1383,7 @@ function go(page){
       var hs=document.getElementById('hero-sub');if(hs&&sub)hs.textContent=sub;
     }
     window.scrollTo(0,0);
-    history.pushState(null,null,page?'#'+page:'#');
+    history.pushState(null,null,page?'#'+page:window.location.pathname);
     currentPage=page||'';
     scrollDepthMax=0;
     trackVisit(page||'');
