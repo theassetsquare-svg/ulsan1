@@ -1291,6 +1291,58 @@ a{color:var(--navy);text-decoration:none}
 
 <script>
 /* ============================================
+   🛡️ 빈 화면 방지 + 안정성 엔진
+   ============================================ */
+
+/* 글로벌 에러 핸들러 — 에러 나도 빈 화면 절대 안 됨 */
+window.onerror=function(msg,src,line){
+  try{
+    var main=document.getElementById('page-main');
+    if(main&&!document.querySelector('.page.active')){
+      main.classList.add('active');
+    }
+  }catch(e){}
+  return false;
+};
+
+/* 전역 인터벌 관리 — cleanup 가능하게 */
+var _globalIntervals=[];
+function safeInterval(fn,ms){
+  var id=setInterval(function(){try{fn()}catch(e){}},ms);
+  _globalIntervals.push(id);
+  return id;
+}
+
+/* 탭 비활성화 시 인터벌 일시정지 */
+var _pausedIntervals=[];
+document.addEventListener('visibilitychange',function(){
+  if(document.hidden){
+    _pausedIntervals=_globalIntervals.slice();
+    _pausedIntervals.forEach(function(id){clearInterval(id)});
+    _globalIntervals=[];
+  }else{
+    /* 탭 복귀 시 필수 타이머만 재시작 */
+    _globalIntervals=[];
+    restartCoreTimers();
+  }
+});
+
+function restartCoreTimers(){
+  safeInterval(tickOneSecond,1000);
+  safeInterval(tickLiveCount,8000);
+  safeInterval(tickScrollSpeed,500);
+  safeInterval(cycleHeroSub,8000);
+  safeInterval(tickSessionRecap,60000);
+}
+
+/* 1초 타이머 통합 — 3개→1개 */
+function tickOneSecond(){
+  updateTimeDisplay();
+  checkTimeLocks();
+  updateWeekendCD();
+}
+
+/* ============================================
    🧠 체류 심리학 엔진 v2
    틱톡 95분 + 넷플릭스 자동재생 + 슬롯머신 가변보상
    ============================================ */
@@ -1310,33 +1362,39 @@ var scrollDepthMax=0;
 var toastQueue=[];
 var toastShowing=false;
 
-/* ---- 1. 라우터 ---- */
+/* ---- 1. 라우터 (빈 화면 방지 try-catch) ---- */
 function go(page){
-  clearAllAutoNext();
-  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
-  document.querySelectorAll('.nav-link').forEach(function(n){n.classList.remove('active')});
-  var id=page?'page-'+page:'page-main';
-  var el=document.getElementById(id);
-  if(el)el.classList.add('active');
-  var idx=PAGES.indexOf(page||'');
-  var links=document.querySelectorAll('.nav-link');
-  if(idx>=0&&links[idx])links[idx].classList.add('active');
-  if(el){
-    var t=el.getAttribute('data-title'),d=el.getAttribute('data-desc'),og=el.getAttribute('data-og'),hero=el.getAttribute('data-hero'),sub=el.getAttribute('data-sub');
-    if(t)document.title=t;
-    var dm=document.querySelector('meta[name="description"]');if(dm&&d)dm.setAttribute('content',d);
-    var om=document.querySelector('meta[property="og:image"]');if(om&&og)om.setAttribute('content','https://ulsan1.pages.dev/'+og);
-    var ht=document.getElementById('hero-title');if(ht&&hero)ht.innerHTML='<em>울산챔피언나이트</em> '+hero;
-    var hs=document.getElementById('hero-sub');if(hs&&sub)hs.textContent=sub;
+  try{
+    clearAllAutoNext();
+    document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
+    document.querySelectorAll('.nav-link').forEach(function(n){n.classList.remove('active')});
+    var id=page?'page-'+page:'page-main';
+    var el=document.getElementById(id);
+    if(el)el.classList.add('active');
+    var idx=PAGES.indexOf(page||'');
+    var links=document.querySelectorAll('.nav-link');
+    if(idx>=0&&links[idx])links[idx].classList.add('active');
+    if(el){
+      var t=el.getAttribute('data-title'),d=el.getAttribute('data-desc'),og=el.getAttribute('data-og'),hero=el.getAttribute('data-hero'),sub=el.getAttribute('data-sub');
+      if(t)document.title=t;
+      var dm=document.querySelector('meta[name="description"]');if(dm&&d)dm.setAttribute('content',d);
+      var om=document.querySelector('meta[property="og:image"]');if(om&&og)om.setAttribute('content','https://ulsan1.pages.dev/'+og);
+      var ht=document.getElementById('hero-title');if(ht&&hero)ht.innerHTML='<em>울산챔피언나이트</em> '+hero;
+      var hs=document.getElementById('hero-sub');if(hs&&sub)hs.textContent=sub;
+    }
+    window.scrollTo(0,0);
+    history.pushState(null,null,page?'#'+page:'#');
+    currentPage=page||'';
+    scrollDepthMax=0;
+    trackVisit(page||'');
+    updateExploreTracker();
+    initRevealAnimations();
+    var rp=document.getElementById('readProgress');if(rp)rp.style.width='0%';
+  }catch(e){
+    /* 에러 시 빈 화면 방지 — 메인 페이지 강제 표시 */
+    var fallback=document.getElementById('page-main');
+    if(fallback)fallback.classList.add('active');
   }
-  window.scrollTo(0,0);
-  history.pushState(null,null,page?'#'+page:'#');
-  currentPage=page||'';
-  scrollDepthMax=0;
-  trackVisit(page||'');
-  updateExploreTracker();
-  initRevealAnimations();
-  document.getElementById('readProgress').style.width='0%';
 }
 
 /* ---- 2. 방문 추적 + 뱃지 ---- */
@@ -1384,12 +1442,14 @@ function updateLiveCount(){
   document.getElementById('totalViews').textContent=total.toLocaleString();
 }
 updateLiveCount();
-setInterval(function(){
+function tickLiveCount(){
   var el=document.getElementById('liveCount');
-  var cur=parseInt(el.textContent);
+  if(!el)return;
+  var cur=parseInt(el.textContent)||20;
   var diff=Math.random()>0.5?1:-1;
   el.textContent=Math.max(15,cur+diff);
-},8000);
+}
+/* 기존 setInterval 제거 — restartCoreTimers()에서 safeInterval 호출 */
 
 /* ---- 5. 읽기 진행률 바 ---- */
 window.addEventListener('scroll',function(){
@@ -1428,18 +1488,19 @@ function checkScrollReward(pct){
 /* ---- 7. 체류시간 카운터 ---- */
 var timeEl=document.getElementById('timeDisplay');
 var timeCounter=document.getElementById('timeCounter');
-setInterval(function(){
+function updateTimeDisplay(){
   var elapsed=Math.floor((Date.now()-startTime)/1000)+totalTime;
   var m=Math.floor(elapsed/60),s=elapsed%60;
-  timeEl.textContent=m+':'+(s<10?'0':'')+s;
+  if(timeEl)timeEl.textContent=m+':'+(s<10?'0':'')+s;
   // 10초 후에 카운터 표시
-  if(elapsed>10)timeCounter.classList.add('show');
+  if(elapsed>10&&timeCounter)timeCounter.classList.add('show');
   // 시간 기반 뱃지
   if(elapsed>=60&&badges.indexOf('1min')===-1){awardBadge('1min','⏱','1분 돌파','슬슬 빠져들고 있지?');showToast('⏱ 벌써 1분. 재밌지?')}
   if(elapsed>=180&&badges.indexOf('3min')===-1){awardBadge('3min','🔥','3분째 읽는 중','꽤 집중하고 있네')}
   if(elapsed>=300&&badges.indexOf('5min')===-1){awardBadge('5min','💎','5분이나 읽었다','이 정도면 진심이다')}
   if(elapsed>=600&&badges.indexOf('10min')===-1){awardBadge('10min','👑','10분 넘게 있었다','너 나이트 가기 전에 여기서 살 기세다')}
-},1000);
+}
+/* 기존 setInterval 제거 — tickOneSecond()에서 통합 호출 */
 // 페이지 떠날 때 시간 저장
 window.addEventListener('beforeunload',function(){
   var elapsed=Math.floor((Date.now()-startTime)/1000)+totalTime;
@@ -1761,7 +1822,7 @@ function checkTimeLocks(){
     }
   });
 }
-setInterval(checkTimeLocks,1000);
+/* 기존 setInterval 제거 — tickOneSecond()에서 통합 호출 */
 
 /* ---- v3-4. 주말 카운트다운 ---- */
 function updateWeekendCD(){
@@ -1791,7 +1852,7 @@ function updateWeekendCD(){
   }
 }
 updateWeekendCD();
-setInterval(updateWeekendCD,1000);
+/* 기존 setInterval 제거 — tickOneSecond()에서 통합 호출 */
 
 /* ---- v3-5. 일일 스트릭 ---- */
 function updateStreak(){
@@ -1944,7 +2005,7 @@ window.addEventListener('DOMContentLoaded',updateChallenge);
 
 /* ---- v3-9. 읽기 속도 감지 ---- */
 var scrollSamples=[],lastScrollY=0;
-setInterval(function(){
+function tickScrollSpeed(){
   var y=window.pageYOffset||0;
   scrollSamples.push(Math.abs(y-lastScrollY));
   lastScrollY=y;
@@ -1952,11 +2013,13 @@ setInterval(function(){
   var avg=scrollSamples.reduce(function(a,b){return a+b},0)/scrollSamples.length;
   var el=document.getElementById('readSpeed');
   var txt=document.getElementById('rsText');
+  if(!el||!txt)return;
   if(avg>50){txt.textContent='빠르게 스크롤 중';el.classList.add('show')}
   else if(avg>10){txt.textContent='읽는 중...';el.classList.add('show')}
   else if(avg>0){txt.textContent='꼼꼼히 읽는 중 👀';el.classList.add('show')}
   else{el.classList.remove('show')}
-},500);
+}
+/* 기존 setInterval 제거 — restartCoreTimers()에서 safeInterval 호출 */
 
 /* ---- v3-10. 강화된 간헐적 보상 (도파민 스파이크) ---- */
 var dopamineMessages=[
@@ -2049,19 +2112,23 @@ function cycleHeroSub(){
     el.style.opacity='1';
   },500);
 }
-setInterval(cycleHeroSub,8000);
+/* 기존 setInterval 제거 — restartCoreTimers()에서 safeInterval 호출 */
 var heroSubEl=document.getElementById('hero-sub');
 if(heroSubEl)heroSubEl.style.transition='opacity .5s';
 
 /* ---- v3-15. 세션 리캡 (5분마다) ---- */
-setInterval(function(){
+function tickSessionRecap(){
   var elapsed=Math.floor((Date.now()-startTime)/1000)+totalTime;
   var mins=Math.floor(elapsed/60);
   if(mins>0&&mins%5===0){
     var msg='⏱ '+mins+'분째 읽고 있다. '+visitedPages.length+'/8 페이지 읽었고, 뱃지 '+badges.length+'개 모았다';
     showToast(msg);
   }
-},60000);
+}
+/* 기존 setInterval 제거 — restartCoreTimers()에서 safeInterval 호출 */
+
+/* ---- 🚀 코어 타이머 최초 시작 ---- */
+restartCoreTimers();
 </script>
 </body>
 </html>
