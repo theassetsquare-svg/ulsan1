@@ -4,7 +4,7 @@
 - NOT leisure/kids!
 
 ## SEO — Primary Keyword Ranking (1st Priority!)
-- Primary keyword: Enter your keyword here
+- Primary keyword: 울산챔피언나이트
 - title: Primary keyword FIRST + hook!
 - meta description: 150 chars MAX!
 - Keyword density 1.5~2.5% (1000chars=5~7times, 2000chars=8~12times)
