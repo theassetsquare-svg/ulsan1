@@ -126,13 +126,6 @@ a{color:var(--navy);text-decoration:none}
 .explore-dot.current{background:var(--navy);color:#fff;animation:dotPulse 1.5s infinite}
 @keyframes dotPulse{0%,100%{box-shadow:0 0 0 0 rgba(30,58,95,.4)}50%{box-shadow:0 0 0 8px rgba(30,58,95,0)}}
 
-/* 4. 넷플릭스 자동 다음 카운트다운 */
-.auto-next{background:linear-gradient(135deg,var(--navy-deep),var(--navy));border-radius:16px;padding:20px;margin:20px 0;color:#fff;text-align:center;display:none}
-.auto-next h4{font-size:14px;color:var(--gold);margin-bottom:8px}
-.auto-next .countdown{font-size:42px;font-weight:800;color:#fff;margin:8px 0;font-variant-numeric:tabular-nums}
-.auto-next .next-title{font-size:13px;color:rgba(255,255,255,.6)}
-.auto-next .cancel-btn{display:inline-block;margin-top:10px;padding:6px 20px;border:1px solid rgba(255,255,255,.2);border-radius:20px;color:rgba(255,255,255,.5);font-size:12px;cursor:pointer;transition:.2s}
-.auto-next .cancel-btn:hover{border-color:var(--gold);color:var(--gold)}
 
 /* 5. 슬롯머신 랜덤 팁 */
 .slot-tip{background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.04);text-align:center}
@@ -634,13 +627,6 @@ a{color:var(--navy);text-decoration:none}
 <div class="quiz-result"></div>
 </div>
 
-<!-- 자동 다음 페이지 (넷플릭스) -->
-<div class="auto-next reveal" id="autoNext-dresscode">
-<h4>다음 가이드 자동 이동</h4>
-<div class="countdown" id="countdown-dresscode">5</div>
-<div class="next-title">💰 예산 가이드 — 현실적으로 얼마 들어가나</div>
-<div class="cancel-btn" onclick="cancelAutoNext('dresscode')">취소</div>
-</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -736,12 +722,6 @@ a{color:var(--navy);text-decoration:none}
 <div class="quiz-result"></div>
 </div>
 
-<div class="auto-next reveal" id="autoNext-budget">
-<h4>다음 가이드 자동 이동</h4>
-<div class="countdown" id="countdown-budget">5</div>
-<div class="next-title">⏰ 시간대별 가이드 — 언제 가야 분위기 좋나</div>
-<div class="cancel-btn" onclick="cancelAutoNext('budget')">취소</div>
-</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -824,12 +804,6 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
-<div class="auto-next reveal" id="autoNext-timing">
-<h4>다음 가이드 자동 이동</h4>
-<div class="countdown" id="countdown-timing">5</div>
-<div class="next-title">🚗 주차·교통 가이드 — 차 가져가도 되나</div>
-<div class="cancel-btn" onclick="cancelAutoNext('timing')">취소</div>
-</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -912,12 +886,6 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
-<div class="auto-next reveal" id="autoNext-parking">
-<h4>다음 가이드 자동 이동</h4>
-<div class="countdown" id="countdown-parking">5</div>
-<div class="next-title">🤝 매너·에티켓 가이드 — 이것만 지키면 된다</div>
-<div class="cancel-btn" onclick="cancelAutoNext('parking')">취소</div>
-</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -1001,12 +969,6 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
-<div class="auto-next reveal" id="autoNext-manners">
-<h4>다음 가이드 자동 이동</h4>
-<div class="countdown" id="countdown-manners">5</div>
-<div class="next-title">🍻 1차·2차 코스 추천 — 어디서 먹고 가나</div>
-<div class="cancel-btn" onclick="cancelAutoNext('manners')">취소</div>
-</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -1092,12 +1054,6 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
-<div class="auto-next reveal" id="autoNext-nearby">
-<h4>다음 가이드 자동 이동</h4>
-<div class="countdown" id="countdown-nearby">5</div>
-<div class="next-title">⚔️ 울산 나이트 비교 — 챔피언 vs 다른 곳</div>
-<div class="cancel-btn" onclick="cancelAutoNext('nearby')">취소</div>
-</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -1357,7 +1313,6 @@ var totalTime=parseInt(localStorage.getItem('ucn_time')||'0');
 var badges=JSON.parse(localStorage.getItem('ucn_badges')||'[]');
 var startTime=Date.now();
 var currentPage='';
-var autoNextTimers={};
 var scrollDepthMax=0;
 var toastQueue=[];
 var toastShowing=false;
@@ -1365,7 +1320,6 @@ var toastShowing=false;
 /* ---- 1. 라우터 (빈 화면 방지 try-catch) ---- */
 function go(page){
   try{
-    clearAllAutoNext();
     document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
     document.querySelectorAll('.nav-link').forEach(function(n){n.classList.remove('active')});
     var id=page?'page-'+page:'page-main';
@@ -1507,44 +1461,6 @@ window.addEventListener('beforeunload',function(){
   localStorage.setItem('ucn_time',elapsed.toString());
 });
 
-/* ---- 8. 넷플릭스 자동 다음 페이지 ---- */
-function startAutoNext(page){
-  var nextPage=NEXT_MAP[page];
-  if(!nextPage)return;
-  var el=document.getElementById('autoNext-'+page);
-  if(!el)return;
-  el.style.display='block';
-  var count=5;
-  var cdEl=document.getElementById('countdown-'+page);
-  cdEl.textContent=count;
-  autoNextTimers[page]=setInterval(function(){
-    count--;
-    cdEl.textContent=count;
-    if(count<=0){clearInterval(autoNextTimers[page]);go(nextPage)}
-  },1000);
-}
-function cancelAutoNext(page){
-  if(autoNextTimers[page])clearInterval(autoNextTimers[page]);
-  var el=document.getElementById('autoNext-'+page);
-  if(el)el.style.display='none';
-  showToast('⏸ 알겠어. 천천히 읽어');
-}
-function clearAllAutoNext(){
-  Object.keys(autoNextTimers).forEach(function(k){clearInterval(autoNextTimers[k])});
-  autoNextTimers={};
-}
-// 스크롤이 페이지 하단 도달하면 자동 다음 시작
-var autoNextTriggered={};
-window.addEventListener('scroll',function(){
-  if(!currentPage||currentPage==='compare'||currentPage==='')return;
-  var el=document.getElementById('autoNext-'+currentPage);
-  if(!el||autoNextTriggered[currentPage])return;
-  var rect=el.getBoundingClientRect();
-  if(rect.top<window.innerHeight+200){
-    autoNextTriggered[currentPage]=true;
-    startAutoNext(currentPage);
-  }
-},{passive:true});
 
 /* ---- 9. 슬롯머신 랜덤 팁 ---- */
 var slotTips=[
