@@ -2,7 +2,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const SIZE = 800;
+const SIZE = 1200;
 const OUT_PUBLIC = path.join(__dirname, '..', 'public', 'og');
 const OUT_ROOT = path.join(__dirname, '..', 'og');
 
@@ -33,31 +33,31 @@ async function generate() {
   <rect width="${SIZE}" height="${SIZE}" fill="url(#bg)"/>
 
   <!-- 장식 -->
-  <circle cx="650" cy="130" r="100" fill="rgba(201,169,110,0.06)"/>
-  <circle cx="150" cy="670" r="70" fill="rgba(201,169,110,0.06)"/>
-  <circle cx="300" cy="90" r="2" fill="#C9A96E" opacity="0.5"/>
-  <circle cx="700" cy="400" r="3" fill="#C9A96E" opacity="0.3"/>
-  <circle cx="100" cy="350" r="2" fill="#C9A96E" opacity="0.4"/>
-  <circle cx="500" cy="700" r="2" fill="#C9A96E" opacity="0.3"/>
+  <circle cx="975" cy="195" r="150" fill="rgba(201,169,110,0.06)"/>
+  <circle cx="225" cy="1005" r="105" fill="rgba(201,169,110,0.06)"/>
+  <circle cx="450" cy="135" r="3" fill="#C9A96E" opacity="0.5"/>
+  <circle cx="1050" cy="600" r="4" fill="#C9A96E" opacity="0.3"/>
+  <circle cx="150" cy="525" r="3" fill="#C9A96E" opacity="0.4"/>
+  <circle cx="750" cy="1050" r="3" fill="#C9A96E" opacity="0.3"/>
 
   <!-- 상단 영문 로고 -->
-  <text x="400" y="80" text-anchor="middle" fill="rgba(201,169,110,0.12)" font-size="48" font-weight="800" font-family="${FONT}">CHAMPION NIGHT</text>
+  <text x="600" y="120" text-anchor="middle" fill="rgba(201,169,110,0.12)" font-size="72" font-weight="800" font-family="${FONT}">CHAMPION NIGHT</text>
 
   <!-- ★ 춘자 — 메인! 크게! ★ -->
-  <text x="400" y="390" text-anchor="middle" fill="#C9A96E" font-size="220" font-weight="900" font-family="${FONT}">춘자</text>
+  <text x="600" y="585" text-anchor="middle" fill="#C9A96E" font-size="330" font-weight="900" font-family="${FONT}">춘자</text>
 
   <!-- 골드 밑줄 -->
-  <rect x="220" y="430" width="360" height="4" rx="2" fill="#C9A96E" opacity="0.5"/>
+  <rect x="330" y="645" width="540" height="6" rx="3" fill="#C9A96E" opacity="0.5"/>
 
   <!-- 서브타이틀 -->
-  <text x="400" y="520" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="34" font-weight="700" font-family="${FONT}">${p.sub}</text>
+  <text x="600" y="780" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="51" font-weight="700" font-family="${FONT}">${p.sub}</text>
 
   <!-- 전화번호 -->
-  <text x="400" y="585" text-anchor="middle" fill="rgba(201,169,110,0.6)" font-size="26" font-weight="600" font-family="${FONT}">010-5653-0069</text>
+  <text x="600" y="878" text-anchor="middle" fill="rgba(201,169,110,0.6)" font-size="39" font-weight="600" font-family="${FONT}">010-5653-0069</text>
 
   <!-- 하단 브랜딩 -->
-  <rect x="80" y="${SIZE - 12}" width="${SIZE - 160}" height="3" rx="1.5" fill="#C9A96E" opacity="0.3"/>
-  <text x="400" y="${SIZE - 30}" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="20" font-family="${FONT}">울산챔피언나이트 | 놀쿨 NOLCOOL</text>
+  <rect x="120" y="${SIZE - 18}" width="${SIZE - 240}" height="4" rx="2" fill="#C9A96E" opacity="0.3"/>
+  <text x="600" y="${SIZE - 45}" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="30" font-family="${FONT}">울산챔피언나이트 | 놀쿨 NOLCOOL</text>
 </svg>`;
 
     const buf = await sharp(Buffer.from(svg)).png().toBuffer();
@@ -65,7 +65,7 @@ async function generate() {
     fs.writeFileSync(path.join(OUT_ROOT, p.file), buf);
     console.log(`✅ ${p.file} (${SIZE}x${SIZE})`);
   }
-  console.log('\\n전체 완료!');
+  console.log('\n전체 완료!');
 }
 
 generate().catch(console.error);

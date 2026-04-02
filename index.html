@@ -10,11 +10,14 @@
 <meta property="og:description" content="울산챔피언나이트 9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.">
 <meta property="og:image" content="https://ulsan1.pages.dev/og/main.png">
 <meta property="og:url" content="https://ulsan1.pages.dev/">
-<meta property="og:image:width" content="800">
-<meta property="og:image:height" content="800">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="울산챔피언나이트">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="울산챔피언나이트 — 9시에 갔다가 망한 사람이 쓴 가이드">
 <meta name="twitter:image" content="https://ulsan1.pages.dev/og/main.png">
+<meta name="twitter:description" content="울산챔피언나이트 9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.">
 <meta name="naver-site-verification" content="f2ccb19e94081bc4ed40329b47b204cc3c71d646" />
 <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" />
 <link rel="canonical" href="https://ulsan1.pages.dev/">
@@ -1580,7 +1583,19 @@ function go(page){
       var t=el.getAttribute('data-title'),d=el.getAttribute('data-desc'),og=el.getAttribute('data-og'),hero=el.getAttribute('data-hero'),sub=el.getAttribute('data-sub');
       if(t)document.title=t;
       var dm=document.querySelector('meta[name="description"]');if(dm&&d)dm.setAttribute('content',d);
-      var om=document.querySelector('meta[property="og:image"]');if(om&&og)om.setAttribute('content','https://ulsan1.pages.dev/'+og);
+      var imgUrl=og?'https://ulsan1.pages.dev/'+og:'https://ulsan1.pages.dev/og/main.png';
+      var pageUrl=page?'https://ulsan1.pages.dev/'+page:'https://ulsan1.pages.dev/';
+      /* OG tags */
+      var om=document.querySelector('meta[property="og:image"]');if(om)om.setAttribute('content',imgUrl);
+      var ot=document.querySelector('meta[property="og:title"]');if(ot&&t)ot.setAttribute('content',t);
+      var od=document.querySelector('meta[property="og:description"]');if(od&&d)od.setAttribute('content',d);
+      var ou=document.querySelector('meta[property="og:url"]');if(ou)ou.setAttribute('content',pageUrl);
+      /* Twitter tags */
+      var tt=document.querySelector('meta[name="twitter:title"]');if(tt&&t)tt.setAttribute('content',t);
+      var ti=document.querySelector('meta[name="twitter:image"]');if(ti)ti.setAttribute('content',imgUrl);
+      var td=document.querySelector('meta[name="twitter:description"]');if(td&&d)td.setAttribute('content',d);
+      /* Canonical */
+      var cn=document.querySelector('link[rel="canonical"]');if(cn)cn.setAttribute('href',pageUrl);
       var ht=document.getElementById('hero-title');if(ht&&hero)ht.innerHTML='<em>울산챔피언나이트</em> '+hero;
       var hs=document.getElementById('hero-sub');if(hs&&sub)hs.textContent=sub;
     }
