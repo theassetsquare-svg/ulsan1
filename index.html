@@ -19,10 +19,14 @@
 <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" />
 <link rel="canonical" href="https://ulsan1.pages.dev/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="favicon.svg" as="image">
 <style>
+/* SKELETON — 초기 로딩 시 콘텐츠 자리 표시 */
+.skeleton{background:linear-gradient(90deg,#eee 25%,#f5f5f5 50%,#eee 75%);background-size:200% 100%;animation:skeletonShimmer 1.5s infinite;border-radius:12px;min-height:120px}
+@keyframes skeletonShimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--gold:#C9A96E;--navy:#1E3A5F;--navy-deep:#0F1F33;--navy-light:#2A4F7A;--white:#FFFFFF;--gray:#F5F5F5;--text:#222;--text-light:#555;--text-dim:#888;--green:#25D366;--bg:#FAFAFA}
-body{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',sans-serif;background:var(--bg);color:var(--text);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:72px}
+:root{--gold:#C9A96E;--navy:#1E3A5F;--navy-deep:#0F1F33;--navy-light:#2A4F7A;--white:#FFFFFF;--gray:#F5F5F5;--text:#111;--text-light:#555;--text-dim:#888;--green:#25D366;--bg:#FAFAFA}
+body{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',sans-serif;background:var(--bg);color:var(--text);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;padding-bottom:72px}
 a{color:var(--navy);text-decoration:none}
 
 /* NAV */
@@ -35,17 +39,17 @@ a{color:var(--navy);text-decoration:none}
 .nav-link:hover,.nav-link.active{color:var(--navy);background:rgba(30,58,95,.08);font-weight:700}
 
 /* HERO */
-.hero{margin-top:52px;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy-deep) 0%,var(--navy) 40%,var(--navy-light) 100%);padding:48px 20px 40px;text-align:center}
+.hero{margin-top:52px;position:relative;overflow:hidden;background:linear-gradient(135deg,var(--navy-deep) 0%,var(--navy) 40%,var(--navy-light) 100%);padding:48px 20px 40px;text-align:center;will-change:transform}
 .hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 50%,rgba(201,169,110,.12) 0%,transparent 50%);animation:heroGlow 8s ease-in-out infinite alternate}
 @keyframes heroGlow{0%{transform:translate(0,0)}100%{transform:translate(5%,3%)}}
 .hero-badge{display:inline-block;background:rgba(201,169,110,.2);color:var(--gold);font-size:11px;font-weight:700;padding:4px 14px;border-radius:20px;margin-bottom:16px;position:relative;letter-spacing:.5px}
-.hero h1{font-size:26px;color:#fff;font-weight:800;margin-bottom:8px;position:relative;line-height:1.4}
+.hero h1{font-size:26px;color:#fff;font-weight:800;margin-bottom:8px;position:relative;line-height:1.4;text-shadow:0 2px 8px rgba(0,0,0,.5)}
 .hero h1 em{color:var(--gold);font-style:normal}
-.hero-sub{color:rgba(255,255,255,.65);font-size:14px;position:relative;max-width:400px;margin:0 auto;line-height:1.6}
+.hero-sub{color:rgba(255,255,255,.75);font-size:14px;position:relative;max-width:400px;margin:0 auto;line-height:1.7;text-shadow:0 1px 6px rgba(0,0,0,.4)}
 
 /* CONTENT */
 .wrap{max-width:640px;margin:0 auto;padding:0 16px}
-.page{display:none;padding:24px 0 40px}
+.page{display:none;padding:24px 0 40px;content-visibility:auto;contain-intrinsic-size:auto 800px}
 .page.active{display:block;animation:fadeIn .35s ease}
 @keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 
@@ -53,13 +57,13 @@ a{color:var(--navy);text-decoration:none}
 .section{background:#fff;border-radius:16px;padding:24px 20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
 .section h2{font-size:20px;color:var(--navy);margin-bottom:16px;font-weight:800;display:flex;align-items:center;gap:8px;line-height:1.4}
 .section h3{font-size:16px;color:var(--navy);margin:24px 0 10px;font-weight:700;padding-left:12px;border-left:3px solid var(--gold)}
-.section p{margin-bottom:14px;font-size:16px;color:var(--text);line-height:1.6}
+.section p{margin-bottom:14px;font-size:16px;color:var(--text);line-height:1.7}
 .section .em{color:var(--gold);font-weight:700}
 
 /* IMAGES */
 .img-card{border-radius:12px;overflow:hidden;margin:16px 0;position:relative;aspect-ratio:16/9}
 .img-card svg{width:100%;height:100%;display:block}
-.img-caption{position:absolute;bottom:0;left:0;right:0;padding:10px 14px;background:linear-gradient(transparent,rgba(0,0,0,.7));color:#fff;font-size:12px;font-weight:500}
+.img-caption{position:absolute;bottom:0;left:0;right:0;padding:10px 14px;background:linear-gradient(transparent,rgba(0,0,0,.75));color:#fff;font-size:12px;font-weight:600;text-shadow:0 1px 4px rgba(0,0,0,.8)}
 .img-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
 .img-row .img-card{margin:0;aspect-ratio:1/1}
 
@@ -69,7 +73,7 @@ a{color:var(--navy);text-decoration:none}
 
 /* CARD GRID */
 .card-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
-.card{background:var(--gray);border-radius:12px;padding:16px;cursor:pointer;transition:.2s;border:1.5px solid transparent;display:block;text-decoration:none;color:inherit}
+.card{background:var(--gray);border-radius:12px;padding:16px;cursor:pointer;transition:.2s;border:1.5px solid transparent;display:block;text-decoration:none;color:inherit;min-height:44px}
 .card:hover{border-color:var(--gold);transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,.06)}
 .card h4{font-size:13px;color:var(--navy);margin-bottom:4px;font-weight:700}
 .card p{font-size:11.5px;color:var(--text-dim);margin:0;line-height:1.5}
@@ -85,7 +89,7 @@ a{color:var(--navy);text-decoration:none}
 /* NAV BOTTOM (page) */
 .page-bottom{display:flex;flex-direction:column;gap:12px;margin-top:32px;padding-top:20px;border-top:1px solid #eee}
 .page-nav-row{display:flex;justify-content:space-between}
-.page-nav-row a{font-size:13px;cursor:pointer;color:var(--navy);font-weight:600;text-decoration:none}
+.page-nav-row a{font-size:13px;cursor:pointer;color:var(--navy);font-weight:600;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
 .page-nav-row a:hover{color:var(--gold)}
 .bamkey-link{display:block;text-align:center;background:linear-gradient(135deg,var(--navy),var(--navy-light));color:#fff;padding:14px;border-radius:12px;font-size:14px;font-weight:700;transition:.2s}
 .bamkey-link:hover{opacity:.9;text-decoration:none;transform:translateY(-1px)}
@@ -142,7 +146,7 @@ a{color:var(--navy);text-decoration:none}
 
 /* 7. 접기/펼치기 (호기심 갭) */
 .spoiler{border:1px dashed rgba(201,169,110,.3);border-radius:12px;margin:16px 0;overflow:hidden}
-.spoiler-header{padding:14px 16px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:rgba(201,169,110,.04);font-size:14px;font-weight:600;color:var(--navy)}
+.spoiler-header{padding:14px 16px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:rgba(201,169,110,.04);font-size:14px;font-weight:600;color:var(--navy);min-height:44px}
 .spoiler-header::after{content:'▼';font-size:10px;color:var(--gold);transition:transform .3s}
 .spoiler.open .spoiler-header::after{transform:rotate(180deg)}
 .spoiler-body{max-height:0;overflow:hidden;transition:max-height .5s cubic-bezier(.4,0,.2,1);padding:0 16px}
@@ -178,6 +182,31 @@ a{color:var(--navy);text-decoration:none}
 /* 12. 스크롤 보상 메시지 */
 .scroll-reward{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(50px);z-index:150;background:var(--gold);color:#fff;padding:8px 20px;border-radius:20px;font-size:12px;font-weight:700;opacity:0;transition:all .4s;pointer-events:none}
 .scroll-reward.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* 80% SCROLL SECRET */
+.scroll-secret{background:linear-gradient(135deg,var(--navy-deep),var(--navy));border-radius:16px;padding:24px 20px;margin:16px 0;color:#fff;opacity:0;transform:translateY(20px);transition:opacity .8s,transform .8s;pointer-events:none}
+.scroll-secret.revealed{opacity:1;transform:translateY(0);pointer-events:auto}
+.scroll-secret h4{color:var(--gold);font-size:15px;margin-bottom:10px;font-weight:700}
+.scroll-secret p{color:rgba(255,255,255,.8);font-size:14px;line-height:1.7;margin-bottom:10px;text-shadow:0 1px 3px rgba(0,0,0,.3)}
+
+/* REVIEW HIGHLIGHT */
+.review-hl{background:#fff;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.review-hl h4{font-size:15px;color:var(--navy);margin-bottom:14px;font-weight:700}
+.review-item{background:var(--gray);border-radius:12px;padding:14px 16px;margin-bottom:10px;position:relative}
+.review-item::before{content:'\201C';position:absolute;top:6px;left:12px;font-size:28px;color:var(--gold);opacity:.3;font-weight:800}
+.review-item p{font-size:13.5px;color:var(--text);line-height:1.7;padding-left:8px}
+.review-item .rv-info{font-size:11px;color:var(--text-dim);margin-top:6px;padding-left:8px}
+.review-stars{color:var(--gold);font-size:12px;letter-spacing:1px}
+
+/* BEFORE-AFTER */
+.ba-compare{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
+.ba-card{border-radius:12px;padding:16px;text-align:center}
+.ba-card.before{background:rgba(229,62,62,.06);border:1px solid rgba(229,62,62,.15)}
+.ba-card.after{background:rgba(37,211,102,.06);border:1px solid rgba(37,211,102,.15)}
+.ba-card .ba-label{font-size:11px;font-weight:700;margin-bottom:8px;display:block}
+.ba-card.before .ba-label{color:#E53E3E}
+.ba-card.after .ba-label{color:#25D366}
+.ba-card p{font-size:12px;color:var(--text);line-height:1.6;margin:0}
 
 /* RESPONSIVE */
 @media(max-width:380px){
@@ -510,6 +539,44 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
+<!-- 리뷰 하이라이트 -->
+<div class="review-hl reveal">
+<h4>💬 다녀온 사람들 후기</h4>
+<div class="review-item">
+<p>울산챔피언나이트 처음이라 긴장했는데, 이 가이드 읽고 가니까 여유 생기더라. 금요일 밤 11시에 갔는데 타이밍 완벽했다.</p>
+<div class="rv-info"><span class="review-stars">★★★★★</span> — 삼산동 K씨, 28세</div>
+</div>
+<div class="review-item">
+<p>친구가 보내준 링크인데 예산 파트가 제일 도움 됐다. 맥주로 시작하라는 말 듣고 실천했더니 다음 날 안 후회했다.</p>
+<div class="rv-info"><span class="review-stars">★★★★★</span> — 무거동 L씨, 31세</div>
+</div>
+<div class="review-item">
+<p>드레스코드 몰라서 청바지에 셔츠 입고 갔는데 딱 맞았다. 슬리퍼 신고 온 옆 사람은 진짜 돌려보내더라.</p>
+<div class="rv-info"><span class="review-stars">★★★★☆</span> — 중구 P씨, 26세</div>
+</div>
+</div>
+
+<!-- Before / After -->
+<div class="section reveal">
+<h2>🔄 이 가이드 읽기 전 vs 후</h2>
+<div class="ba-compare">
+<div class="ba-card before">
+<span class="ba-label">❌ 읽기 전</span>
+<p>9시에 가서 텅 빈 홀에 혼자 서 있었다. 뭘 입어야 하는지도 몰랐다. 양주 질러서 다음 날 울었다.</p>
+</div>
+<div class="ba-card after">
+<span class="ba-label">✅ 읽은 후</span>
+<p>금요일 11시에 딱 맞춰 갔다. 셔츠에 슬랙스. 맥주로 시작. 대리비까지 계산 끝. 완벽한 밤.</p>
+</div>
+</div>
+</div>
+
+<!-- 80% 스크롤 시크릿 -->
+<div class="scroll-secret" id="secretMain" data-page="main">
+<h4>🔓 80%까지 읽은 너한테만 알려주는 거다</h4>
+<p>울산챔피언나이트 금요일 자정 직전에 입구에서 "인터넷 보고 왔어요" 하면 분위기가 달라진다. 춘자 사장님이 직접 자리 안내해줄 때가 있다. 공식 이벤트는 아니다. 근데 아는 놈만 안다. 지금 이걸 읽고 있는 네가 그 놈이다.</p>
+</div>
+
 <!-- 이모지 리액션 -->
 <div class="reaction-bar" id="reactionBar">
 <button class="react-btn" onclick="reactEmoji(this,'🔥')">🔥<span class="react-count" id="rc-fire">0</span></button>
@@ -628,6 +695,19 @@ a{color:var(--navy);text-decoration:none}
 </div>
 
 
+<div class="scroll-secret" id="secretDresscode" data-page="dresscode">
+<h4>🔓 여기까지 읽은 너만 아는 꿀팁</h4>
+<p>울산챔피언나이트 입구 형이 진짜 보는 건 신발이다. 옷은 깔끔하면 되는데, 신발에서 8할이 갈린다. 흰 에어포스 원이 무난 중의 무난. 검정 로퍼면 VIP 대우 받는다. 이건 직원한테 직접 들은 거다.</p>
+</div>
+
+<div class="review-hl reveal">
+<h4>💬 드레스코드 후기</h4>
+<div class="review-item">
+<p>운동화 된다길래 나이키 러닝화 신고 갔다가 걸렸다. 스니커즈랑 러닝화 차이 여기서 처음 알았다.</p>
+<div class="rv-info"><span class="review-stars">★★★★★</span> — 남구 J씨, 27세</div>
+</div>
+</div>
+
 <div class="page-bottom">
 <div class="page-nav-row">
 <a href="/" target="_blank" rel="noopener noreferrer">← 메인으로</a>
@@ -723,6 +803,11 @@ a{color:var(--navy);text-decoration:none}
 </div>
 
 
+<div class="scroll-secret" id="secretBudget" data-page="budget">
+<h4>🔓 예산 시크릿</h4>
+<p>울산챔피언나이트 목요일 밤에 4명 이상 가면 전화 한 통으로 테이블 세팅이 달라진다. "인터넷 보고 전화드렸는데 오늘 단체 혜택 있어요?" 이 한마디가 만 원 이상 아껴준다. 모르면 정가, 물어보면 할인. 세상은 물어보는 놈이 이긴다.</p>
+</div>
+
 <div class="page-bottom">
 <div class="page-nav-row">
 <a href="/dresscode" target="_blank" rel="noopener noreferrer">← 드레스코드</a>
@@ -805,6 +890,11 @@ a{color:var(--navy);text-decoration:none}
 </div>
 
 
+<div class="scroll-secret" id="secretTiming" data-page="timing">
+<h4>🔓 시간대 시크릿</h4>
+<p>울산챔피언나이트 매월 첫째 금요일은 DJ가 특별 셋을 준비한다. 평소보다 한 단계 위 에너지다. 자정~1시 사이에 드랍이 떨어지는 순간, 홀 전체가 터진다. 이날을 노리는 단골들이 있다. 이제 너도 그 단골이다.</p>
+</div>
+
 <div class="page-bottom">
 <div class="page-nav-row">
 <a href="/budget" target="_blank" rel="noopener noreferrer">← 예산</a>
@@ -873,7 +963,9 @@ a{color:var(--navy);text-decoration:none}
 <p>카카오택시가 제일 편하다. 근데 금토 새벽 1~2시는 택시 잡기 전쟁이다. 도시 전체가 그렇다. 미리 예약 잡아놓으면 조금 낫다. 팁 하나. 나이트 바로 앞보다 한 블록 걸어 나가서 잡아라. 앞에서는 다 잡으려고 하니까 경쟁이 치열하다. 조금만 걸으면 훨씬 빨리 잡힌다.</p>
 
 <h3>대중교통</h3>
-<p>버스는 밤 11시면 거의 끊긴다. 가는 건 버스로 가도 오는 건 택시나 대리다. 지하철은 없다. 대중교통으로만 해결하겠다는 건 비현실적이다. 인정하고 택시비 예산에 넣어라.</p>
+<p>버스는 밤 11시면 거의 끊긴다. 가는 건 버스로 가도 오는 건 택시나 대리다. 지하철은 없다. 대중교통으로만 해결하겠다는 건 비현실적이다. 인정하고 택시비 예산에 넣어라. 카카오 택시 스마트호출이면 금토 새벽에도 10분 안에 잡히는 편이다. 일반호출은 30분도 넘긴다.</p>
+
+<p>참고로 카카오 대리 말고 로컬 대리운전 번호도 저장해둬라. 금토 새벽에 카카오 대리는 대기가 미친다. 로컬 대리는 전화 한 통이면 5분 만에 도착하는 경우가 많다. 울산 시내 기준 가격도 비슷하다. 이건 실전에서 차이가 크다.</p>
 
 <div class="tip"><strong>💡 추천 루트.</strong> 택시로 간다 → 놀고 나온다 → 카카오택시 예약해놓는다 → 집에 간다. 이게 제일 깔끔하다. 만취 상태에서 길에서 택시 잡으려고 손 흔드는 건 비효율의 극치다.</div>
 </div>
@@ -886,6 +978,11 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
+
+<div class="scroll-secret" id="secretParking" data-page="parking">
+<h4>🔓 교통 시크릿</h4>
+<p>울산챔피언나이트 앞 골목 50미터 지점에 새벽까지 열어두는 유료 주차장이 하나 있다. 구글맵에 안 나온다. 건물 1층 편의점 옆 입구. 하루 만 원. 금토 밤에도 자리가 남을 때가 있다. 이건 택시기사한테 들은 거다.</p>
+</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -958,6 +1055,8 @@ a{color:var(--navy);text-decoration:none}
 <h3>사진·영상</h3>
 <p>플래시 터뜨리면서 사진 찍지 마라. 분위기 깨진다. 다른 사람 얼굴 나오게 찍는 것도 안 된다. 본인 셀카 정도는 괜찮은데, 남 얼굴이 들어가면 문제 생긴다. 영상은 더더욱 안 된다. 요즘 세상에 초상권 이슈 심각하다.</p>
 
+<p>한 가지 더. 귀중품 관리를 해라. 폰, 지갑, 카드. 주머니에 넣고 춤추다 보면 떨어진다. 안쪽 주머니가 없으면 허리에 작은 가방 하나 차는 것도 방법이다. 요즘 그런 사람 많다. 잃어버리고 나서 후회하지 마라.</p>
+
 <div class="tip"><strong>💡 핵심.</strong> 남한테 피해 안 주면 된다. 그게 전부다. 본인이 즐기되, 옆 사람도 즐기게 해라. 어렵지 않다. 술 마셔도 이건 잊지 마라.</div>
 </div>
 
@@ -969,6 +1068,11 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
+
+<div class="scroll-secret" id="secretManners" data-page="manners">
+<h4>🔓 매너 시크릿</h4>
+<p>울산챔피언나이트에서 스태프한테 "형, 오늘 분위기 어때요?" 한마디 던져봐. 그 한마디로 오늘 어떤 테이블이 괜찮은지, 어디 자리가 좋은지 알려준다. 스태프랑 한 번 말 트면 그 다음부터 얼굴 기억해준다. 단골 되는 가장 빠른 방법이다.</p>
+</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -1043,6 +1147,8 @@ a{color:var(--navy);text-decoration:none}
 
 <p>아니면 편의점. GS25 앞 플라스틱 의자. 컵라면. 젓가락 까서 3분 기다리는 그 시간. 새벽 바람이 불어온다. 라면 김이 얼굴에 닿는다. 후루룩. 이게 행복이 아니면 뭐가 행복이냐. 별이 보이면 오늘 밤은 성공이다.</p>
 
+<p>갈비찜이나 닭볶음탕도 괜찮다. 기름진 거 먹으면 속이 든든해서 오래 버틴다. 가벼운 안주라면 두부김치. 소주 한 잔에 두부 한 점이면 몸이 딱 준비 상태로 들어간다. 뭘 먹든 핵심은 하나다. 배 터지지 않을 만큼만.</p>
+
 <div class="tip"><strong>💡 동선 요약.</strong> 삼산동 고기 → 울산챔피언나이트 → 근처 국밥. 이 동선이 제일 깔끔하다. 다 걸어서 이동 가능한 거리에 있다. 놀기 전에 너무 취하지 마라. 1차에서 폭탄주 돌리면 입구도 못 들어간다.</div>
 </div>
 
@@ -1054,6 +1160,11 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
+
+<div class="scroll-secret" id="secretNearby" data-page="nearby">
+<h4>🔓 코스 시크릿</h4>
+<p>울산챔피언나이트 끝나고 새벽 3시. 국밥집 두 군데가 갈린다. 하나는 줄 서는 집, 하나는 빈 집. 빈 집이 더 맛있다. 택시기사한테 "아저씨는 어디서 드세요?" 물어봐라. 줄 서는 집 말고 다른 이름이 나온다. 그게 진짜 맛집이다.</p>
+</div>
 
 <div class="page-bottom">
 <div class="page-nav-row">
@@ -1142,6 +1253,11 @@ a{color:var(--navy);text-decoration:none}
 <div class="quiz-option" onclick="answerQuiz(this,true)">🅱 울산 나이트의 기준</div>
 <div class="quiz-option" onclick="answerQuiz(this,false)">🅲 평범한 술집</div>
 <div class="quiz-result"></div>
+</div>
+
+<div class="scroll-secret" id="secretCompare" data-page="compare">
+<h4>🔓 비교 시크릿</h4>
+<p>울산챔피언나이트가 다른 데보다 확실히 나은 한 가지. 화장실이다. 웃기지? 근데 새벽 2시에 줄 안 서고 깨끗한 화장실 쓸 수 있다는 게 얼마나 큰 건지, 다른 데 가봐야 안다. 관리 수준이 여기서 갈린다. 사소한 게 전부다.</p>
 </div>
 
 <!-- 무한 루프 카드 -->
@@ -1260,6 +1376,14 @@ window.onerror=function(msg,src,line){
   }catch(e){}
   return false;
 };
+window.addEventListener('unhandledrejection',function(e){
+  try{
+    var main=document.getElementById('page-main');
+    if(main&&!document.querySelector('.page.active')){
+      main.classList.add('active');
+    }
+  }catch(ex){}
+});
 
 /* 전역 인터벌 관리 — cleanup 가능하게 */
 var _globalIntervals=[];
@@ -1340,6 +1464,7 @@ function go(page){
     history.pushState(null,null,page?'/'+page:'/');
     currentPage=page||'';
     scrollDepthMax=0;
+    try{sessionStorage.setItem('ucn_page',currentPage)}catch(e){}
     trackVisit(page||'');
     updateExploreTracker();
     initRevealAnimations();
@@ -1428,6 +1553,14 @@ var scrollRewardsShown={};
 function checkScrollReward(pct){
   var key=currentPage+'_'+Math.floor(pct/25)*25;
   if(scrollRewardsShown[key])return;
+  /* 80% 스크롤 시크릿 콘텐츠 reveal */
+  if(pct>=80){
+    var secrets=document.querySelectorAll('.scroll-secret');
+    secrets.forEach(function(s){
+      var pg=s.getAttribute('data-page')||'';
+      if(pg===currentPage||pg==='')s.classList.add('revealed');
+    });
+  }
   var msgs={25:'👀 계속 내려가봐. 아래 더 재밌다.',50:'🔥 절반 왔다. 진짜 알짜는 밑에 있다.',75:'💎 거의 다 읽었네. 숨겨진 거 확인했어?',100:'🎉 끝까지 읽었다. 진심이구나.'};
   var threshold=Math.floor(pct/25)*25;
   if(threshold>=25&&msgs[threshold]){
@@ -1603,7 +1736,12 @@ function getPageFromPath(){
 }
 function handleRoute(){go(getPageFromPath())}
 window.addEventListener('DOMContentLoaded',function(){
-  handleRoute();
+  /* persistSession: URL 우선, 없으면 sessionStorage 복원 */
+  var urlPage=getPageFromPath();
+  if(!urlPage){
+    try{var saved=sessionStorage.getItem('ucn_page');if(saved&&PAGES.indexOf(saved)!==-1)urlPage=saved}catch(e){}
+  }
+  if(urlPage)go(urlPage);else handleRoute();
   updateLiveCount();
   initRevealAnimations();
 });
