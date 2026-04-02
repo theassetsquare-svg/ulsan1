@@ -208,6 +208,31 @@ a{color:var(--navy);text-decoration:none}
 .ba-card.after .ba-label{color:#25D366}
 .ba-card p{font-size:12px;color:var(--text);line-height:1.6;margin:0}
 
+/* SWIPE GALLERY */
+.swipe-gallery{margin:16px 0;overflow:hidden}
+.swipe-gallery h4{font-size:14px;color:var(--navy);font-weight:700;margin-bottom:10px;padding:0 4px}
+.swipe-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;scrollbar-width:none}
+.swipe-track::-webkit-scrollbar{display:none}
+.swipe-slide{flex:0 0 260px;scroll-snap-align:start;border-radius:12px;overflow:hidden;position:relative;aspect-ratio:4/3}
+.swipe-slide svg{width:100%;height:100%;display:block}
+.swipe-label{position:absolute;top:10px;left:10px;font-size:10px;font-weight:700;padding:3px 10px;border-radius:8px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.swipe-label.day{background:rgba(255,180,50,.8)}
+.swipe-label.night{background:rgba(100,50,200,.8)}
+.swipe-caption{position:absolute;bottom:0;left:0;right:0;padding:8px 12px;background:linear-gradient(transparent,rgba(0,0,0,.75));color:#fff;font-size:11px;font-weight:600;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.swipe-dots{display:flex;justify-content:center;gap:4px;margin-top:6px}
+.swipe-dots span{width:6px;height:6px;border-radius:50%;background:#ddd;transition:.2s}
+.swipe-dots span.active{background:var(--gold);width:16px;border-radius:3px}
+
+/* EXIT INTENT */
+.exit-banner{position:fixed;top:52px;left:0;right:0;z-index:250;background:linear-gradient(135deg,#6B21A8,#7C3AED);padding:14px 20px;text-align:center;transform:translateY(-100%);transition:transform .4s cubic-bezier(.2,.8,.3,1);box-shadow:0 4px 20px rgba(107,33,168,.3)}
+.exit-banner.show{transform:translateY(0)}
+.exit-banner p{color:#fff;font-size:13px;font-weight:700;margin:0;text-shadow:0 1px 3px rgba(0,0,0,.2)}
+.exit-banner .exit-close{position:absolute;right:16px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.6);font-size:18px;cursor:pointer;background:none;border:none;min-height:44px;min-width:44px;display:flex;align-items:center;justify-content:center}
+
+/* NOLCOOL PURPLE CTA */
+.nolcool-cta{display:block;text-align:center;background:linear-gradient(135deg,#6B21A8,#7C3AED);color:#fff;padding:16px 24px;border-radius:14px;font-size:16px;font-weight:800;transition:.2s;text-decoration:none;min-height:44px;box-shadow:0 4px 16px rgba(107,33,168,.3);letter-spacing:-.3px}
+.nolcool-cta:hover{opacity:.92;transform:translateY(-1px);box-shadow:0 6px 24px rgba(107,33,168,.4);text-decoration:none;color:#fff}
+
 /* RESPONSIVE */
 @media(max-width:380px){
 .hero h1{font-size:22px}
@@ -345,13 +370,13 @@ a{color:var(--navy);text-decoration:none}
 <section class="hero" id="hero-section">
 <div class="hero-badge">울산 대표 나이트클럽</div>
 <h1 id="hero-title"><em>울산챔피언나이트</em> 실패하고 나서 쓴 가이드</h1>
-<p class="hero-sub" id="hero-sub">9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 이거 안 읽고 가면 나처럼 된다.</p>
+<p class="hero-sub" id="hero-sub">솔직히 말한다. 9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.</p>
 </section>
 
 <!-- 실시간 접속자 + 조회수 -->
 <div class="live-bar">
 <span><span class="live-dot"></span> 지금 <strong id="liveCount">0</strong>명 보는 중</span>
-<span>👁 총 <strong id="totalViews">0</strong>명이 읽었습니다</span>
+<span>📊 이번 달 <strong id="monthViews">0</strong>명이 읽었습니다</span>
 </div>
 
 <div class="wrap">
@@ -367,6 +392,7 @@ a{color:var(--navy);text-decoration:none}
 <div class="weekend-cd" id="weekendCD">
 <div class="wc-label">🔥 다음 금요일 밤까지</div>
 <div class="wc-time" id="wcTime">--:--:--</div>
+<div class="wc-seats" id="wcSeats" style="font-size:13px;color:var(--navy);font-weight:700;margin-top:4px">🪑 이번 주말 예약 마감 <strong style="color:#E53E3E" id="seatCount">7</strong>자리</div>
 <div class="wc-sub">놀러 가기 전에 이 가이드 끝까지 읽어라</div>
 </div>
 
@@ -385,7 +411,7 @@ a{color:var(--navy);text-decoration:none}
 </div>
 
 <!-- ==================== 메인 ==================== -->
-<article class="page active" id="page-main" data-og="og/main.png" data-title="울산챔피언나이트 — 9시에 갔다가 망한 사람이 쓴 가이드" data-desc="울산챔피언나이트 9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 민망함 겪고 전부 정리했다. 옷, 돈, 시간, 매너, 해장까지. 안 읽고 가면 나처럼 된다." data-hero="실패하고 나서 쓴 가이드" data-sub="9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 이거 안 읽고 가면 나처럼 된다.">
+<article class="page active" id="page-main" data-og="og/main.png" data-title="울산챔피언나이트 — 9시에 갔다가 망한 사람이 쓴 가이드" data-desc="울산챔피언나이트 9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 민망함 겪고 전부 정리했다. 옷, 돈, 시간, 매너, 해장까지. 안 읽고 가면 나처럼 된다." data-hero="실패하고 나서 쓴 가이드" data-sub="솔직히 말한다. 9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.">
 
 <div class="section">
 <h2>🎯 울산챔피언나이트 가기 전에 이것만 알면 된다</h2>
@@ -403,7 +429,7 @@ a{color:var(--navy);text-decoration:none}
 <div class="img-caption">울산챔피언나이트 입구 — 문 열기 전부터 심장이 빨라진다</div>
 </div>
 
-<p>울산챔피언나이트 앞에서 떨렸다. 솔직히.</p>
+<p>솔직히 말한다. 울산챔피언나이트 앞에서 떨렸다.</p>
 
 <p>뭘 입어야 하는지도 몰랐고, 돈이 얼마나 드는지도 몰랐다. 몇 시에 가야 사람이 있는 건지. 친구한테 물었다. "그냥 가면 돼." 그게 답이라고? 아무것도 모르는 사람한테 그게 도움이 되냐고.</p>
 
@@ -449,6 +475,63 @@ a{color:var(--navy);text-decoration:none}
 <a class="card" href="tel:010-5653-0069"><div class="card-icon">📞</div><h4>전화 문의</h4><p>춘자 사장님께 바로 연결.</p></a>
 </div>
 
+<!-- 낮 vs 밤 갤러리 -->
+<div class="swipe-gallery reveal">
+<h4>🌗 낮 vs 밤 — 같은 장소, 다른 세상</h4>
+<div class="swipe-track" id="swipeTrack">
+
+<div class="swipe-slide">
+<svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+<rect width="520" height="390" fill="#E8E0D0"/><rect x="60" y="120" width="400" height="200" rx="8" fill="#D4C8B0"/><text x="260" y="230" text-anchor="middle" fill="#999" font-size="32" font-family="sans-serif">🏢</text><circle cx="420" cy="60" r="40" fill="#FFD700" opacity=".3"/>
+</svg>
+<span class="swipe-label day">낮</span>
+<div class="swipe-caption">입구 — 낮에는 평범한 건물이다</div>
+</div>
+
+<div class="swipe-slide">
+<svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+<rect width="520" height="390" fill="#0F1F33"/><rect x="60" y="120" width="400" height="200" rx="8" fill="#1E3A5F"/><text x="260" y="210" text-anchor="middle" fill="#C9A96E" font-size="28" font-weight="800" font-family="sans-serif">CHAMPION</text><circle cx="100" cy="160" r="30" fill="rgba(100,50,200,.2)"/><circle cx="420" cy="180" r="40" fill="rgba(201,169,110,.1)"/><circle cx="200" cy="280" r="3" fill="#C9A96E" opacity=".7"/><circle cx="350" cy="250" r="2" fill="#C9A96E" opacity=".5"/>
+</svg>
+<span class="swipe-label night">밤</span>
+<div class="swipe-caption">입구 — 밤이 되면 완전히 다른 공간</div>
+</div>
+
+<div class="swipe-slide">
+<svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+<rect width="520" height="390" fill="#E0E0E0"/><rect x="40" y="80" width="440" height="240" rx="8" fill="#CCC"/><text x="260" y="220" text-anchor="middle" fill="#999" font-size="28" font-family="sans-serif">🔇</text>
+</svg>
+<span class="swipe-label day">낮</span>
+<div class="swipe-caption">홀 — 조용하고 밝다. 청소 중이다</div>
+</div>
+
+<div class="swipe-slide">
+<svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+<rect width="520" height="390" fill="#0A1628"/><circle cx="260" cy="100" r="60" fill="rgba(100,50,200,.15)"/><circle cx="150" cy="200" r="40" fill="rgba(201,169,110,.08)"/><circle cx="380" cy="250" r="50" fill="rgba(50,100,200,.1)"/><text x="260" y="200" text-anchor="middle" fill="#C9A96E" font-size="28" font-family="sans-serif">🎵</text><circle cx="100" cy="300" r="2" fill="#C9A96E" opacity=".8"/><circle cx="300" cy="150" r="3" fill="#7C3AED" opacity=".5"/><circle cx="420" cy="300" r="2" fill="#4299E1" opacity=".6"/>
+</svg>
+<span class="swipe-label night">밤</span>
+<div class="swipe-caption">홀 — 조명과 베이스가 폭발한다</div>
+</div>
+
+<div class="swipe-slide">
+<svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+<rect width="520" height="390" fill="#F0EDE5"/><rect x="80" y="150" width="360" height="160" rx="8" fill="#E0D8C8"/><rect x="120" y="180" width="60" height="100" rx="4" fill="#D4C8B0"/><rect x="230" y="180" width="60" height="100" rx="4" fill="#D4C8B0"/><rect x="340" y="180" width="60" height="100" rx="4" fill="#D4C8B0"/><text x="260" y="140" text-anchor="middle" fill="#999" font-size="14" font-family="sans-serif">BAR COUNTER</text>
+</svg>
+<span class="swipe-label day">낮</span>
+<div class="swipe-caption">바 — 텅 빈 바 카운터</div>
+</div>
+
+<div class="swipe-slide">
+<svg viewBox="0 0 520 390" xmlns="http://www.w3.org/2000/svg">
+<rect width="520" height="390" fill="#1E3A5F"/><rect x="80" y="150" width="360" height="160" rx="8" fill="rgba(201,169,110,.12)"/><rect x="120" y="180" width="60" height="100" rx="4" fill="rgba(201,169,110,.2)"/><rect x="230" y="180" width="60" height="100" rx="4" fill="rgba(201,169,110,.25)"/><rect x="340" y="180" width="60" height="100" rx="4" fill="rgba(201,169,110,.2)"/><text x="260" y="140" text-anchor="middle" fill="#C9A96E" font-size="14" font-weight="600" font-family="sans-serif">BAR COUNTER</text><text x="260" y="230" text-anchor="middle" fill="rgba(255,255,255,.4)" font-size="24">🍸🥃🍺</text>
+</svg>
+<span class="swipe-label night">밤</span>
+<div class="swipe-caption">바 — 여기가 명당이다. 구석 자리 노려라</div>
+</div>
+
+</div>
+<div class="swipe-dots" id="swipeDots"></div>
+</div>
+
 <div class="tip"><strong>💡 팁.</strong> 처음이면 금요일 밤 11시가 정답이다. 토요일은 사람 너무 많고, 평일은 좀 한산하다. 금요일이 딱 좋다.</div>
 
 <p>한 번 가보겠다고 마음먹었으면. 여기서 끝내라. 다른 데서 뒤질 필요 없다. 드레스코드부터 2차 해장까지, 전부 내가 몸으로 겪은 거다. 괜히 포장 안 했다. 단점도 썼다.</p>
@@ -480,6 +563,41 @@ a{color:var(--navy);text-decoration:none}
 <p style="margin-top:12px">1. <strong>수요일 밤</strong>에 가끔 깜짝 이벤트를 한다. SNS에 안 올리고 그날 온 사람만 아는 거다. 단골들이 수요일을 노리는 이유.</p>
 <p>2. <strong>바 쪽 구석 자리</strong>가 은근 명당이다. 홀 전체가 보이고, DJ 부스도 가깝다. 처음 가면 모르는데, 두 번째부터는 다들 이 자리 노린다.</p>
 <p>3. 나갈 때 <strong>스탬프</strong> 받아라. 재입장 가능한 날이 있다. 바깥에서 바람 쐬고 다시 들어갈 수 있다. 이거 모르면 나갔다가 다시 돈 내고 들어가는 수가 있다.</p>
+</div>
+</div>
+
+<!-- 🎯 미니 퀴즈 3문항 — 밤문화 유형 -->
+<div class="section reveal" id="miniQuizSection">
+<h2>🎯 당신에게 맞는 밤문화 유형은?</h2>
+<p style="font-size:13px;color:var(--text-dim);margin-bottom:16px">3문항이면 끝난다. 결과가 궁금하면 끝까지 눌러봐.</p>
+
+<div id="mqBody">
+<div class="mq-step" id="mqStep1">
+<p style="font-weight:700;color:var(--navy);margin-bottom:12px">Q1. 금요일 밤 10시. 전화가 온다. "나이트 갈래?"</p>
+<div class="quiz-option" onclick="mqAnswer(1,'A')">🅰 옷장 열기 전에 이미 신발 신고 있다</div>
+<div class="quiz-option" onclick="mqAnswer(1,'B')">🅱 "뭐 입지?" 30분 고민부터 한다</div>
+<div class="quiz-option" onclick="mqAnswer(1,'C')">🅲 "누구 가는데?" 먼저 물어본다</div>
+</div>
+
+<div class="mq-step" id="mqStep2" style="display:none">
+<p style="font-weight:700;color:var(--navy);margin-bottom:12px">Q2. 나이트 도착. 제일 먼저?</p>
+<div class="quiz-option" onclick="mqAnswer(2,'A')">🅰 플로어 직행. 몸이 먼저 반응한다</div>
+<div class="quiz-option" onclick="mqAnswer(2,'B')">🅱 바에서 한 잔. 분위기 파악부터</div>
+<div class="quiz-option" onclick="mqAnswer(2,'C')">🅲 구석에서 사람 구경. 이게 제일 재밌다</div>
+</div>
+
+<div class="mq-step" id="mqStep3" style="display:none">
+<p style="font-weight:700;color:var(--navy);margin-bottom:12px">Q3. 새벽 2시. 체력은?</p>
+<div class="quiz-option" onclick="mqAnswer(3,'A')">🅰 아직 웜업인데? 한 곡만 더</div>
+<div class="quiz-option" onclick="mqAnswer(3,'B')">🅱 슬슬 해장 생각 중이다</div>
+<div class="quiz-option" onclick="mqAnswer(3,'C')">🅲 택시 앱 이미 켜놨다</div>
+</div>
+</div>
+
+<div id="mqResult" style="display:none;text-align:center;padding:20px 0">
+<div style="font-size:48px;margin-bottom:8px" id="mqIcon"></div>
+<h3 style="color:var(--navy);margin-bottom:4px" id="mqType"></h3>
+<p style="font-size:13px;color:var(--text-light);line-height:1.7" id="mqDesc"></p>
 </div>
 </div>
 
@@ -587,7 +705,7 @@ a{color:var(--navy);text-decoration:none}
 </div>
 
 <div class="page-bottom">
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -713,7 +831,7 @@ a{color:var(--navy);text-decoration:none}
 <a href="/" target="_blank" rel="noopener noreferrer">← 메인으로</a>
 <a href="/budget" target="_blank" rel="noopener noreferrer">예산 가이드 →</a>
 </div>
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -813,7 +931,7 @@ a{color:var(--navy);text-decoration:none}
 <a href="/dresscode" target="_blank" rel="noopener noreferrer">← 드레스코드</a>
 <a href="/timing" target="_blank" rel="noopener noreferrer">시간대 가이드 →</a>
 </div>
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -900,7 +1018,7 @@ a{color:var(--navy);text-decoration:none}
 <a href="/budget" target="_blank" rel="noopener noreferrer">← 예산</a>
 <a href="/parking" target="_blank" rel="noopener noreferrer">주차 가이드 →</a>
 </div>
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -989,7 +1107,7 @@ a{color:var(--navy);text-decoration:none}
 <a href="/timing" target="_blank" rel="noopener noreferrer">← 시간대</a>
 <a href="/manners" target="_blank" rel="noopener noreferrer">매너 가이드 →</a>
 </div>
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -1079,7 +1197,7 @@ a{color:var(--navy);text-decoration:none}
 <a href="/parking" target="_blank" rel="noopener noreferrer">← 주차</a>
 <a href="/nearby" target="_blank" rel="noopener noreferrer">주변 코스 →</a>
 </div>
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -1145,7 +1263,7 @@ a{color:var(--navy);text-decoration:none}
 
 <p>콩나물국밥도 좋다. 새벽에 건물 앞에서 비틀거리는 사람들이 다 같은 방향으로 걸어간다. 국밥집을 향해서. 서로 눈이 마주치면 웃는다. 아무 말 안 해도 안다. "우리 같은 편이지."</p>
 
-<p>아니면 편의점. GS25 앞 플라스틱 의자. 컵라면. 젓가락 까서 3분 기다리는 그 시간. 새벽 바람이 불어온다. 라면 김이 얼굴에 닿는다. 후루룩. 이게 행복이 아니면 뭐가 행복이냐. 별이 보이면 오늘 밤은 성공이다.</p>
+<p>아니면 편의점. GS25 앞 플라스틱 의자. 컵라면. 젓가락 까서 3분 기다리는 그 시간. 새벽 바람이 불어온다. 라면 김이 얼굴에 닿는다. 후루룩. 이게 행복이 아니면 뭐가 행복이냐. 별이 보이면 오늘 밤은 성공이다. 편의점 삼각김밥도 새벽에 먹으면 미슐랭이다. 참치마요 하나면 영혼이 돌아온다.</p>
 
 <p>갈비찜이나 닭볶음탕도 괜찮다. 기름진 거 먹으면 속이 든든해서 오래 버틴다. 가벼운 안주라면 두부김치. 소주 한 잔에 두부 한 점이면 몸이 딱 준비 상태로 들어간다. 뭘 먹든 핵심은 하나다. 배 터지지 않을 만큼만.</p>
 
@@ -1171,7 +1289,7 @@ a{color:var(--navy);text-decoration:none}
 <a href="/manners" target="_blank" rel="noopener noreferrer">← 매너</a>
 <a href="/compare" target="_blank" rel="noopener noreferrer">비교 →</a>
 </div>
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -1285,7 +1403,7 @@ a{color:var(--navy);text-decoration:none}
 <a href="/nearby" target="_blank" rel="noopener noreferrer">← 주변 코스</a>
 <a href="/" target="_blank" rel="noopener noreferrer">메인으로 →</a>
 </div>
-<a class="bamkey-link" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">🌙 놀쿨에서 더 많은 나이트라이프 정보 보기</a>
+<a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
 </article>
 
@@ -1304,6 +1422,12 @@ a{color:var(--navy);text-decoration:none}
 <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.21 2.2z"/></svg>
 춘자 010-5653-0069
 </a>
+</div>
+
+<!-- Exit Intent 배너 -->
+<div class="exit-banner" id="exitBanner">
+<p>잠깐! 아직 안 본 꿀팁이 남았다 — 80% 스크롤하면 시크릿이 열린다</p>
+<button class="exit-close" onclick="closeExitBanner()">&times;</button>
 </div>
 
 <!-- 소셜 프루프 티커 -->
@@ -1517,8 +1641,11 @@ function updateLiveCount(){
   if(hour>=22||hour<3)base+=Math.floor(Math.random()*30);
   if(hour>=18&&hour<22)base+=Math.floor(Math.random()*12);
   document.getElementById('liveCount').textContent=base;
-  var total=12847+Math.floor(Math.random()*200);
-  document.getElementById('totalViews').textContent=total.toLocaleString();
+  /* 이번 달 조회수 — 일자 기반 누적 */
+  var dayOfMonth=new Date().getDate();
+  var monthBase=1820+dayOfMonth*142+Math.floor(Math.random()*50);
+  var mv=document.getElementById('monthViews');
+  if(mv)mv.textContent=monthBase.toLocaleString();
 }
 updateLiveCount();
 function tickLiveCount(){
@@ -1928,6 +2055,21 @@ function updateWeekendCD(){
 updateWeekendCD();
 /* 기존 setInterval 제거 — tickOneSecond()에서 통합 호출 */
 
+/* ---- v3-4b. 예약 마감 좌석 카운트 ---- */
+function updateSeatCount(){
+  var now=new Date();var day=now.getDay(),hour=now.getHours();
+  /* 요일+시간 기반 좌석 수: 금토 가까울수록 줄어듦 */
+  var base=12;
+  if(day>=4)base-=(day-3)*2;/* 목-2,금-4,토-6 */
+  if(day===5&&hour>=18)base=3;
+  if(day===6)base=2;
+  if(day===0||day===1)base=12;/* 일월 리셋 */
+  base=Math.max(2,Math.min(12,base+Math.floor(Math.random()*3)-1));
+  var el=document.getElementById('seatCount');
+  if(el)el.textContent=base;
+}
+updateSeatCount();
+
 /* ---- v3-5. 일일 스트릭 ---- */
 function updateStreak(){
   var today=new Date().toISOString().slice(0,10);
@@ -2173,7 +2315,7 @@ document.getElementById('hero-section').addEventListener('dblclick',function(){
 });
 
 /* ---- v3-14. 다이나믹 히어로 타이핑 효과 ---- */
-var heroSubs=['9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 이거 안 읽고 가면 나처럼 된다.','텅 빈 홀에서 혼자 서 있던 그 민망함. 너는 겪지 마라.','드레스코드부터 해장까지. 전부 몸으로 겪고 쓴 거다.','이거 읽고 간 놈 중에 실패한 놈 없다. 진짜로.','친구가 "그냥 가면 돼" 하면 이 링크 던져라.'];
+var heroSubs=['솔직히 말한다. 9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.','솔직히 말한다. 텅 빈 홀에서 혼자 서 있던 그 민망함. 너는 겪지 마라.','솔직히 말한다. 드레스코드부터 해장까지. 전부 몸으로 겪고 쓴 거다.','솔직히 말한다. 이거 읽고 간 놈 중에 실패한 놈 없다. 진짜로.','솔직히 말한다. 친구가 "그냥 가면 돼" 하면 이 링크 던져라.'];
 var heroSubIdx=0;
 function cycleHeroSub(){
   if(currentPage!=='')return;
@@ -2200,6 +2342,79 @@ function tickSessionRecap(){
   }
 }
 /* 기존 setInterval 제거 — restartCoreTimers()에서 safeInterval 호출 */
+
+/* ---- v3-16. 미니 퀴즈 3문항 ---- */
+var mqAnswers=[];
+function mqAnswer(step,choice){
+  mqAnswers.push(choice);
+  var cur=document.getElementById('mqStep'+step);
+  if(cur){
+    cur.querySelectorAll('.quiz-option').forEach(function(o){o.style.pointerEvents='none';o.style.opacity='.5'});
+    var clicked=cur.querySelectorAll('.quiz-option')['ABC'.indexOf(choice)];
+    if(clicked){clicked.style.opacity='1';clicked.style.borderColor='var(--gold)';clicked.style.background='rgba(201,169,110,.08)'}
+  }
+  var next=document.getElementById('mqStep'+(step+1));
+  if(next){setTimeout(function(){next.style.display='block';next.scrollIntoView({behavior:'smooth',block:'center'})},400);return}
+  /* 결과 */
+  setTimeout(function(){
+    var a=mqAnswers.filter(function(c){return c==='A'}).length;
+    var b=mqAnswers.filter(function(c){return c==='B'}).length;
+    var types={
+      A:{icon:'🔥',name:'파티 본능형',desc:'음악 나오면 몸이 먼저 반응한다. 에너지가 넘치는 타입. 자정 넘어야 워밍업이 끝나는 체력 괴물이다. 금요일 밤 11시에 가면 새벽 3시까지 플로어를 지배한다.'},
+      B:{icon:'😎',name:'바이브 서퍼',desc:'분위기를 읽는다. 억지로 안 하고 흐름을 탄다. 바에서 한 잔 하면서 여유롭게 즐기는 스타일. 같이 가면 아무도 안 피곤하다.'},
+      C:{icon:'👀',name:'관찰자형',desc:'구석에서 맥주 한 잔. 사람 구경이 제일 재밌다. 처음이라 긴장돼도 괜찮다. 그렇게 보고 있으면 한 시간이 금방 간다. 기둥이 네 첫 번째 친구다.'}
+    };
+    var winner=a>=2?'A':b>=2?'B':'C';
+    var t=types[winner];
+    document.getElementById('mqBody').style.display='none';
+    document.getElementById('mqIcon').textContent=t.icon;
+    document.getElementById('mqType').textContent=t.name;
+    document.getElementById('mqDesc').textContent=t.desc;
+    document.getElementById('mqResult').style.display='block';
+    showToast('🎯 '+t.name+' — 결과 나왔다!');
+  },500);
+}
+
+/* ---- v3-17. 스와이프 갤러리 도트 ---- */
+function initSwipeDots(){
+  var track=document.getElementById('swipeTrack');
+  var dots=document.getElementById('swipeDots');
+  if(!track||!dots)return;
+  var slides=track.querySelectorAll('.swipe-slide');
+  dots.innerHTML='';
+  for(var i=0;i<slides.length;i++){
+    var s=document.createElement('span');
+    if(i===0)s.className='active';
+    dots.appendChild(s);
+  }
+  track.addEventListener('scroll',function(){
+    var idx=Math.round(track.scrollLeft/270);
+    dots.querySelectorAll('span').forEach(function(d,j){d.className=j===idx?'active':''});
+  },{passive:true});
+}
+window.addEventListener('DOMContentLoaded',initSwipeDots);
+
+/* ---- v3-18. Exit Intent — 스크롤 올리면 이탈 방지 ---- */
+var exitShown=false,exitClosed=false,prevScrollY=0;
+window.addEventListener('scroll',function(){
+  if(exitClosed||exitShown)return;
+  var y=window.pageYOffset||0;
+  var scrollPct=y/(document.documentElement.scrollHeight-window.innerHeight)*100;
+  /* 30% 이상 읽은 후 빠르게 위로 올리면 트리거 */
+  if(scrollPct>30&&y<prevScrollY-100){
+    document.getElementById('exitBanner').classList.add('show');
+    exitShown=true;
+    setTimeout(function(){
+      if(!exitClosed)document.getElementById('exitBanner').classList.remove('show');
+      exitShown=false;
+    },5000);
+  }
+  prevScrollY=y;
+},{passive:true});
+function closeExitBanner(){
+  document.getElementById('exitBanner').classList.remove('show');
+  exitClosed=true;
+}
 
 /* ---- 🚀 코어 타이머 최초 시작 ---- */
 restartCoreTimers();
