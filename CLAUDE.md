@@ -1,28 +1,18 @@
-
-# NOLCOOL Landing — Nightlife Store Landing Pages
-- NOLCOOL = Night Club / Club / Lounge / Room / Yojeong / Hoppa ONLY!
-- NOT leisure/kids!
-
-## SEO — Primary Keyword Ranking (1st Priority!)
-- Primary keyword: 울산챔피언나이트
-- title: Primary keyword FIRST + hook!
-- meta description: 150 chars MAX!
-- Keyword density 1.5~2.5% (1000chars=5~7times, 2000chars=8~12times)
-- Similarity under 10%!
-- 80% info content → 20% "놀쿨에서 확인" main site link!
-
-## Images
-- Real store images! No other ad phone/nickname!
-- og:image: 1:1 + advertiser nickname big!
-- Popup + body images: WHITE text! No black text!
-
-## Writing
-- Bestseller author style! NO AI text!
-- Same banned words
-
-## Tech
-- GitHub+Cloudflare auto deploy. Just git push!
-- base: '/' ONLY!
-- Vite ONLY. No Next.js!
-- Fix blank screen: useEffect cleanup!
-- Verify 3 times + live incognito check!
+# NOLCOOL Landing — Nightlife Store Pages
+## MUST
+- base: "/" ONLY. BrowserRouter ONLY. No # in URL
+- Primary keyword FIRST in title. No brand name!
+- Keyword density 1.5-2.5% (1000c=5-7x, 2000c=8-12x)
+- Mobile: 16px, 1.7 line-height, 44px touch
+- useEffect cleanup. persistSession:true. ErrorBoundary
+- Bestseller writing. No AI text
+- 80% info content + 20% main site link
+## SEO 2026
+- title: Primary keyword + hook. Under 60 chars
+- meta: 150 chars. H1+H2 keyword 3+ times
+- Schema JSON-LD NightClub. og:image 1:1 + nickname big
+- sitemap.xml + robots.txt + llms.txt. Core Web Vitals
+- E-E-A-T: real experience. Canonical URL. NEVER duplicate title/content across domains!. og:image 1200x1200 (1:1) every page!
+## NEVER
+- Auto page transition. Next.js. Change URLs
+- Brand path. Stuffing. Baby/family/kids images DELETE! No family content (parents birthday/family gathering/reunion/anniversary = DELETE!). Banned words (adult/prostitution/illegal) DELETE ALL! No family gathering content!
