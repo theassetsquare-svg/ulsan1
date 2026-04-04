@@ -20,6 +20,7 @@
 <meta name="twitter:description" content="울산챔피언나이트 9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.">
 <meta name="naver-site-verification" content="f2ccb19e94081bc4ed40329b47b204cc3c71d646" />
 <meta name="google-site-verification" content="HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88" />
+<meta name="theme-color" content="#1E3A5F">
 <link rel="canonical" href="https://ulsan1.pages.dev/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" href="favicon.svg" as="image">
@@ -28,8 +29,8 @@
 .skeleton{background:linear-gradient(90deg,#eee 25%,#f5f5f5 50%,#eee 75%);background-size:200% 100%;animation:skeletonShimmer 1.5s infinite;border-radius:12px;min-height:120px}
 @keyframes skeletonShimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--gold:#C9A96E;--navy:#1E3A5F;--navy-deep:#0F1F33;--navy-light:#2A4F7A;--white:#FFFFFF;--gray:#F5F5F5;--text:#111;--text-light:#555;--text-dim:#888;--green:#25D366;--bg:#FAFAFA}
-body{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','맑은 고딕',sans-serif;background:var(--bg);color:var(--text);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;padding-bottom:72px}
+:root{--gold:#C9A96E;--gold-text:#8B6914;--navy:#1E3A5F;--navy-deep:#0F1F33;--navy-light:#2A4F7A;--white:#FFFFFF;--gray:#F5F5F5;--text:#111;--text-light:#555;--text-dim:#666;--green:#25D366;--bg:#FAFAFA}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;background:var(--bg);color:var(--text);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;padding-bottom:72px}
 a{color:var(--navy);text-decoration:none}
 
 /* NAV */
@@ -61,7 +62,7 @@ a{color:var(--navy);text-decoration:none}
 .section h2{font-size:20px;color:var(--navy);margin-bottom:16px;font-weight:800;display:flex;align-items:center;gap:8px;line-height:1.4}
 .section h3{font-size:16px;color:var(--navy);margin:24px 0 10px;font-weight:700;padding-left:12px;border-left:3px solid var(--gold)}
 .section p{margin-bottom:14px;font-size:16px;color:var(--text);line-height:1.7}
-.section .em{color:var(--gold);font-weight:700}
+.section .em{color:var(--gold-text);font-weight:700}
 
 /* IMAGES */
 .img-card{border-radius:12px;overflow:hidden;margin:16px 0;position:relative;aspect-ratio:16/9}
@@ -72,7 +73,7 @@ a{color:var(--navy);text-decoration:none}
 
 /* TIP */
 .tip{background:linear-gradient(135deg,rgba(30,58,95,.04),rgba(201,169,110,.08));border-left:3px solid var(--gold);padding:14px 16px;margin:16px 0;border-radius:0 12px 12px 0;font-size:13.5px;line-height:1.7}
-.tip strong{color:var(--gold)}
+.tip strong{color:var(--gold-text)}
 
 /* CARD GRID */
 .card-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
@@ -87,12 +88,12 @@ a{color:var(--navy);text-decoration:none}
 .cmp-table th{background:var(--navy);color:#fff;padding:10px 12px;text-align:left;font-weight:600;font-size:12px}
 .cmp-table td{padding:10px 12px;border-bottom:1px solid #eee;color:var(--text)}
 .cmp-table tr:nth-child(even) td{background:var(--gray)}
-.cmp-table .win{color:var(--gold);font-weight:700}
+.cmp-table .win{color:var(--gold-text);font-weight:700}
 
 /* NAV BOTTOM (page) */
 .page-bottom{display:flex;flex-direction:column;gap:12px;margin-top:32px;padding-top:20px;border-top:1px solid #eee}
 .page-nav-row{display:flex;justify-content:space-between}
-.page-nav-row a{font-size:13px;cursor:pointer;color:var(--navy);font-weight:600;text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.page-nav-row a{font-size:13px;cursor:pointer;color:var(--navy);font-weight:600;text-decoration:none;min-height:44px;padding:12px 0;display:inline-flex;align-items:center}
 .page-nav-row a:hover{color:var(--gold)}
 .bamkey-link{display:block;text-align:center;background:linear-gradient(135deg,var(--navy),var(--navy-light));color:#fff;padding:14px;border-radius:12px;font-size:14px;font-weight:700;transition:.2s}
 .bamkey-link:hover{opacity:.9;text-decoration:none;transform:translateY(-1px)}
@@ -199,7 +200,7 @@ a{color:var(--navy);text-decoration:none}
 .review-item::before{content:'\201C';position:absolute;top:6px;left:12px;font-size:28px;color:var(--gold);opacity:.3;font-weight:800}
 .review-item p{font-size:13.5px;color:var(--text);line-height:1.7;padding-left:8px}
 .review-item .rv-info{font-size:11px;color:var(--text-dim);margin-top:6px;padding-left:8px}
-.review-stars{color:var(--gold);font-size:12px;letter-spacing:1px}
+.review-stars{color:var(--gold-text);font-size:12px;letter-spacing:1px}
 
 /* BEFORE-AFTER */
 .ba-compare{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
@@ -341,7 +342,7 @@ a{color:var(--navy);text-decoration:none}
 /* 팁 컬렉션 */
 .tip-collect{background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
 .tip-collect h4{font-size:14px;color:var(--navy);margin-bottom:12px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
-.tip-collect .tc-count{font-size:11px;color:var(--gold);font-weight:600}
+.tip-collect .tc-count{font-size:11px;color:var(--gold-text);font-weight:600}
 .tc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 .tc-slot{aspect-ratio:1;border-radius:8px;background:#eee;display:flex;align-items:center;justify-content:center;font-size:20px;transition:.3s;position:relative;overflow:hidden}
 .tc-slot.got{background:linear-gradient(135deg,rgba(201,169,110,.12),rgba(201,169,110,.22));animation:slotPop .4s}
@@ -381,10 +382,11 @@ a{color:var(--navy);text-decoration:none}
 </head>
 <body>
 
-<!-- NAV -->
+<!-- HEADER + NAV -->
 <!-- 읽기 진행률 바 -->
 <div class="read-progress" id="readProgress"></div>
-<nav class="nav"><div class="nav-inner">
+<header>
+<nav class="nav" aria-label="메인 네비게이션"><div class="nav-inner">
 <a class="nav-logo" href="/">👑 <span>챔피언</span>나이트</a>
 <a class="nav-link" href="/">가이드</a>
 <a class="nav-link" href="/dresscode">드레스코드</a>
@@ -395,7 +397,9 @@ a{color:var(--navy);text-decoration:none}
 <a class="nav-link" href="/nearby">주변코스</a>
 <a class="nav-link" href="/compare">비교</a>
 </div></nav>
+</header>
 
+<main>
 <!-- HERO -->
 <section class="hero" id="hero-section">
 <div class="hero-badge">울산 대표 나이트클럽</div>
@@ -414,7 +418,8 @@ a{color:var(--navy);text-decoration:none}
 
 <!-- 내부 검색 -->
 <div class="search-box" id="searchBox">
-<input type="text" id="searchInput" placeholder="🔍 궁금한 거 검색 (예: 드레스코드, 주차, 예산)" autocomplete="off">
+<label for="searchInput" class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0">검색</label>
+<input type="text" id="searchInput" placeholder="🔍 궁금한 거 검색 (예: 드레스코드, 주차, 예산)" autocomplete="off" aria-label="가이드 내 검색">
 <div class="search-results" id="searchResults"></div>
 </div>
 
@@ -762,12 +767,12 @@ a{color:var(--navy);text-decoration:none}
 </div>
 
 <!-- 이모지 리액션 -->
-<div class="reaction-bar" id="reactionBar">
-<button class="react-btn" onclick="reactEmoji(this,'🔥')">🔥<span class="react-count" id="rc-fire">0</span></button>
-<button class="react-btn" onclick="reactEmoji(this,'👍')">👍<span class="react-count" id="rc-thumb">0</span></button>
-<button class="react-btn" onclick="reactEmoji(this,'😂')">😂<span class="react-count" id="rc-laugh">0</span></button>
-<button class="react-btn" onclick="reactEmoji(this,'🤩')">🤩<span class="react-count" id="rc-star">0</span></button>
-<button class="react-btn" onclick="reactEmoji(this,'💯')">💯<span class="react-count" id="rc-100">0</span></button>
+<div class="reaction-bar" id="reactionBar" role="group" aria-label="리액션">
+<button class="react-btn" onclick="reactEmoji(this,'🔥')" aria-label="불꽃">🔥<span class="react-count" id="rc-fire">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'👍')" aria-label="좋아요">👍<span class="react-count" id="rc-thumb">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'😂')" aria-label="웃겨">😂<span class="react-count" id="rc-laugh">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'🤩')" aria-label="최고">🤩<span class="react-count" id="rc-star">0</span></button>
+<button class="react-btn" onclick="reactEmoji(this,'💯')" aria-label="백점">💯<span class="react-count" id="rc-100">0</span></button>
 </div>
 
 <div class="page-bottom">
@@ -1883,12 +1888,12 @@ a{color:var(--navy);text-decoration:none}
 </div>
 
 <!-- 이모지 리액션 (비교 페이지) -->
-<div class="reaction-bar">
-<button class="react-btn" onclick="reactEmoji(this,'🔥')">🔥</button>
-<button class="react-btn" onclick="reactEmoji(this,'👍')">👍</button>
-<button class="react-btn" onclick="reactEmoji(this,'😂')">😂</button>
-<button class="react-btn" onclick="reactEmoji(this,'🤩')">🤩</button>
-<button class="react-btn" onclick="reactEmoji(this,'💯')">💯</button>
+<div class="reaction-bar" role="group" aria-label="리액션">
+<button class="react-btn" onclick="reactEmoji(this,'🔥')" aria-label="불꽃">🔥</button>
+<button class="react-btn" onclick="reactEmoji(this,'👍')" aria-label="좋아요">👍</button>
+<button class="react-btn" onclick="reactEmoji(this,'😂')" aria-label="웃겨">😂</button>
+<button class="react-btn" onclick="reactEmoji(this,'🤩')" aria-label="최고">🤩</button>
+<button class="react-btn" onclick="reactEmoji(this,'💯')" aria-label="백점">💯</button>
 </div>
 
 <div class="review-hl reveal">
@@ -1912,9 +1917,10 @@ a{color:var(--navy);text-decoration:none}
 </article>
 
 </div><!-- /wrap -->
+</main>
 
 <!-- FOOTER -->
-<footer class="footer">
+<footer class="footer" role="contentinfo">
 <p><strong style="color:var(--navy);font-size:14px">놀쿨 NOLCOOL</strong> — 나이트라이프 정보 플랫폼</p>
 <p>광고문의 카카오톡 <a href="https://open.kakao.com/o/besta12" target="_blank" rel="noopener noreferrer">besta12</a></p>
 <p>이 페이지는 정보 제공 목적이며, 업소와 직접적인 운영 관계가 없습니다.</p>
@@ -1931,7 +1937,7 @@ a{color:var(--navy);text-decoration:none}
 <!-- Exit Intent 배너 -->
 <div class="exit-banner" id="exitBanner">
 <p>잠깐! 아직 안 본 꿀팁이 남았다 — 80% 스크롤하면 시크릿이 열린다</p>
-<button class="exit-close" onclick="closeExitBanner()">&times;</button>
+<button class="exit-close" onclick="closeExitBanner()" aria-label="닫기">&times;</button>
 </div>
 
 <!-- 소셜 프루프 티커 -->
