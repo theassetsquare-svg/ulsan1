@@ -1,10 +1,28 @@
 User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 
+User-agent: ChatGPT-User
+Allow: /
+
 User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
 Allow: /
 
 User-agent: ClaudeBot
@@ -13,19 +31,16 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Googlebot
+User-agent: Bingbot
 Allow: /
 
 User-agent: bingbot
 Allow: /
 
-User-agent: Yeti
+User-agent: CCBot
 Allow: /
 
-Sitemap: https://theassetsquare-svg.github.io/ulsan1/sitemap.xml
+User-agent: Kakaotalk-scrap
+Allow: /
+
+Sitemap: https://ulsan1.pages.dev/sitemap.xml
