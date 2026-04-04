@@ -36,7 +36,7 @@ Do NOT ask. Just fix.
 - title: Primary keyword + hook. Under 60 chars
 - meta: 150 chars. H1+H2 keyword 3+ times
 - Schema JSON-LD NightClub. og:image 1:1 + nickname big
-- sitemap.xml + robots.txt + llms.txt. Core Web Vitals
+- robots.txt Allow ALL bots! NO Disallow! sitemap.xml list ALL pages! llms.txt for AI search! + llms.txt. Core Web Vitals
 - E-E-A-T: real experience. Canonical URL. NEVER duplicate title/content across domains!. og:image 1200x1200 (1:1) every page!
 
 - NEVER use shared content pools! Write UNIQUE 1000+ chars per venue! Takes time = OK! SEO = #1 priority!
