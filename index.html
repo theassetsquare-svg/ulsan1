@@ -236,6 +236,20 @@ a{color:var(--navy);text-decoration:none}
 .nolcool-cta{display:block;text-align:center;background:linear-gradient(135deg,#6B21A8,#7C3AED);color:#fff;padding:16px 24px;border-radius:14px;font-size:16px;font-weight:800;transition:.2s;text-decoration:none;min-height:44px;box-shadow:0 4px 16px rgba(107,33,168,.3);letter-spacing:-.3px}
 .nolcool-cta:hover{opacity:.92;transform:translateY(-1px);box-shadow:0 6px 24px rgba(107,33,168,.4);text-decoration:none;color:#fff}
 
+/* SEARCH BOX */
+.search-box{margin-bottom:16px;position:relative}
+.search-box input{width:100%;padding:14px 16px;min-height:44px;border:1.5px solid #eee;border-radius:12px;font-size:14px;background:#fff;color:var(--text);outline:none;transition:.2s;font-family:inherit}
+.search-box input:focus{border-color:var(--gold);box-shadow:0 2px 12px rgba(201,169,110,.15)}
+.search-box input::placeholder{color:var(--text-dim)}
+.search-results{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border-radius:0 0 12px 12px;box-shadow:0 8px 24px rgba(0,0,0,.12);z-index:50;max-height:300px;overflow-y:auto}
+.search-results.show{display:block}
+.search-result-item{padding:12px 16px;cursor:pointer;border-bottom:1px solid #f0f0f0;font-size:13px;color:var(--text);transition:.1s;min-height:44px;display:flex;align-items:center;gap:8px}
+.search-result-item:hover{background:rgba(201,169,110,.06)}
+.search-result-item .sr-icon{font-size:18px;flex-shrink:0}
+.search-result-item .sr-text{flex:1}
+.search-result-item .sr-text strong{color:var(--navy);display:block;font-size:13px}
+.search-result-item .sr-text span{color:var(--text-dim);font-size:11px}
+
 /* PULL QUOTE — 매거진 스타일 인용 */
 .pull-quote{margin:28px 0;padding:20px 24px;border-left:4px solid var(--gold);background:linear-gradient(135deg,rgba(201,169,110,.04),rgba(30,58,95,.03));font-size:22px;font-style:italic;color:var(--navy);font-weight:700;line-height:1.6;letter-spacing:-.3px;position:relative}
 .pull-quote::before{content:'\201C';position:absolute;top:-8px;left:12px;font-size:48px;color:var(--gold);opacity:.25;font-weight:800;font-style:normal}
@@ -371,15 +385,15 @@ a{color:var(--navy);text-decoration:none}
 <!-- 읽기 진행률 바 -->
 <div class="read-progress" id="readProgress"></div>
 <nav class="nav"><div class="nav-inner">
-<a class="nav-logo" href="/" target="_blank" rel="noopener noreferrer">👑 <span>챔피언</span>나이트</a>
-<a class="nav-link" href="/" target="_blank" rel="noopener noreferrer">가이드</a>
-<a class="nav-link" href="/dresscode" target="_blank" rel="noopener noreferrer">드레스코드</a>
-<a class="nav-link" href="/budget" target="_blank" rel="noopener noreferrer">예산</a>
-<a class="nav-link" href="/timing" target="_blank" rel="noopener noreferrer">시간대</a>
-<a class="nav-link" href="/parking" target="_blank" rel="noopener noreferrer">주차</a>
-<a class="nav-link" href="/manners" target="_blank" rel="noopener noreferrer">매너</a>
-<a class="nav-link" href="/nearby" target="_blank" rel="noopener noreferrer">주변코스</a>
-<a class="nav-link" href="/compare" target="_blank" rel="noopener noreferrer">비교</a>
+<a class="nav-logo" href="/">👑 <span>챔피언</span>나이트</a>
+<a class="nav-link" href="/">가이드</a>
+<a class="nav-link" href="/dresscode">드레스코드</a>
+<a class="nav-link" href="/budget">예산</a>
+<a class="nav-link" href="/timing">시간대</a>
+<a class="nav-link" href="/parking">주차</a>
+<a class="nav-link" href="/manners">매너</a>
+<a class="nav-link" href="/nearby">주변코스</a>
+<a class="nav-link" href="/compare">비교</a>
 </div></nav>
 
 <!-- HERO -->
@@ -397,6 +411,12 @@ a{color:var(--navy);text-decoration:none}
 <div class="social-read-count">📖 이 글을 <strong id="totalReaders">0</strong>명이 읽었습니다</div>
 
 <div class="wrap">
+
+<!-- 내부 검색 -->
+<div class="search-box" id="searchBox">
+<input type="text" id="searchInput" placeholder="🔍 궁금한 거 검색 (예: 드레스코드, 주차, 예산)" autocomplete="off">
+<div class="search-results" id="searchResults"></div>
+</div>
 
 <!-- 탐험 진행률 트래커 -->
 <div class="explore-tracker" id="exploreTracker">
@@ -496,13 +516,13 @@ a{color:var(--navy);text-decoration:none}
 <div class="section">
 <h2>📋 울산챔피언나이트 가이드 목차</h2>
 <div class="card-grid">
-<a class="card" href="/dresscode" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 드레스코드"><div class="card-icon">👔</div><h4>드레스코드</h4><p>뭘 입어야 하나. 운동화 되나.</p></a>
-<a class="card" href="/budget" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 예산"><div class="card-icon">💰</div><h4>예산</h4><p>현실적으로 얼마 들어가나.</p></a>
-<a class="card" href="/timing" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 시간대"><div class="card-icon">⏰</div><h4>시간대</h4><p>몇 시에 가야 분위기 좋나.</p></a>
-<a class="card" href="/parking" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 주차"><div class="card-icon">🚗</div><h4>주차·교통</h4><p>차 가져가도 되나.</p></a>
-<a class="card" href="/manners" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 매너"><div class="card-icon">🤝</div><h4>매너</h4><p>암묵적인 룰. 이것만.</p></a>
-<a class="card" href="/nearby" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 주변 코스"><div class="card-icon">🍻</div><h4>주변 코스</h4><p>1차 어디서 먹고 갈지.</p></a>
-<a class="card" href="/compare" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 비교"><div class="card-icon">⚔️</div><h4>나이트 비교</h4><p>다른 데와 뭐가 다른지.</p></a>
+<a class="card" href="/dresscode" title="울산챔피언나이트 드레스코드"><div class="card-icon">👔</div><h4>드레스코드</h4><p>뭘 입어야 하나. 운동화 되나.</p></a>
+<a class="card" href="/budget" title="울산챔피언나이트 예산"><div class="card-icon">💰</div><h4>예산</h4><p>현실적으로 얼마 들어가나.</p></a>
+<a class="card" href="/timing" title="울산챔피언나이트 시간대"><div class="card-icon">⏰</div><h4>시간대</h4><p>몇 시에 가야 분위기 좋나.</p></a>
+<a class="card" href="/parking" title="울산챔피언나이트 주차"><div class="card-icon">🚗</div><h4>주차·교통</h4><p>차 가져가도 되나.</p></a>
+<a class="card" href="/manners" title="울산챔피언나이트 매너"><div class="card-icon">🤝</div><h4>매너</h4><p>암묵적인 룰. 이것만.</p></a>
+<a class="card" href="/nearby" title="울산챔피언나이트 주변 코스"><div class="card-icon">🍻</div><h4>주변 코스</h4><p>1차 어디서 먹고 갈지.</p></a>
+<a class="card" href="/compare" title="울산챔피언나이트 비교"><div class="card-icon">⚔️</div><h4>나이트 비교</h4><p>다른 데와 뭐가 다른지.</p></a>
 <a class="card" href="tel:010-5653-0069" target="_blank" rel="noopener noreferrer"><div class="card-icon">📞</div><h4>전화 문의</h4><p>춘자 사장님께 바로 연결.</p></a>
 </div>
 
@@ -906,8 +926,8 @@ a{color:var(--navy);text-decoration:none}
 
 <div class="page-bottom">
 <div class="page-nav-row">
-<a href="/" target="_blank" rel="noopener noreferrer">← 메인으로</a>
-<a href="/budget" target="_blank" rel="noopener noreferrer">예산 가이드 →</a>
+<a href="/">← 메인으로</a>
+<a href="/budget">예산 가이드 →</a>
 </div>
 <a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
@@ -971,7 +991,7 @@ a{color:var(--navy);text-decoration:none}
 </div>
 </div>
 
-<a class="mid-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀��에서 더 많은 곳 ��기 →</a>
+<a class="mid-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 
 <h3>지갑을 지키는 법</h3>
 <p>울산챔피언나이트에서는 머리수가 힘이다. 4명이서 나누면 부담이 확 준다. 혼자 가도 괜찮다. 바 쪽 구석에 앉아서 맥주 한두 잔. 음악 듣고. 사람 구경하고. 혼자 오는 사람 은근 많다. 부끄러운 거 아니야. 오히려 멋있다.</p>
@@ -1063,8 +1083,8 @@ a{color:var(--navy);text-decoration:none}
 </div>
 <div class="page-bottom">
 <div class="page-nav-row">
-<a href="/dresscode" target="_blank" rel="noopener noreferrer">← 드레스코드</a>
-<a href="/timing" target="_blank" rel="noopener noreferrer">시간대 가이드 →</a>
+<a href="/dresscode">← 드레스코드</a>
+<a href="/timing">시간대 가이드 →</a>
 </div>
 <a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
@@ -1210,8 +1230,8 @@ a{color:var(--navy);text-decoration:none}
 </div>
 <div class="page-bottom">
 <div class="page-nav-row">
-<a href="/budget" target="_blank" rel="noopener noreferrer">← 예산</a>
-<a href="/parking" target="_blank" rel="noopener noreferrer">주차 가이드 →</a>
+<a href="/budget">← 예산</a>
+<a href="/parking">주차 가이드 →</a>
 </div>
 <a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
@@ -1361,8 +1381,8 @@ a{color:var(--navy);text-decoration:none}
 </div>
 <div class="page-bottom">
 <div class="page-nav-row">
-<a href="/timing" target="_blank" rel="noopener noreferrer">← 시간대</a>
-<a href="/manners" target="_blank" rel="noopener noreferrer">매너 가이드 →</a>
+<a href="/timing">← 시간대</a>
+<a href="/manners">매너 가이드 →</a>
 </div>
 <a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
@@ -1523,8 +1543,8 @@ a{color:var(--navy);text-decoration:none}
 </div>
 <div class="page-bottom">
 <div class="page-nav-row">
-<a href="/parking" target="_blank" rel="noopener noreferrer">← 주차</a>
-<a href="/nearby" target="_blank" rel="noopener noreferrer">주변 코스 →</a>
+<a href="/parking">← 주차</a>
+<a href="/nearby">주변 코스 →</a>
 </div>
 <a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
@@ -1692,8 +1712,8 @@ a{color:var(--navy);text-decoration:none}
 </div>
 <div class="page-bottom">
 <div class="page-nav-row">
-<a href="/manners" target="_blank" rel="noopener noreferrer">← 매너</a>
-<a href="/compare" target="_blank" rel="noopener noreferrer">비교 →</a>
+<a href="/manners">← 매너</a>
+<a href="/compare">비교 →</a>
 </div>
 <a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
@@ -1884,8 +1904,8 @@ a{color:var(--navy);text-decoration:none}
 </div>
 <div class="page-bottom">
 <div class="page-nav-row">
-<a href="/nearby" target="_blank" rel="noopener noreferrer">← 주변 코스</a>
-<a href="/" target="_blank" rel="noopener noreferrer">메인으로 →</a>
+<a href="/nearby">← 주변 코스</a>
+<a href="/">메인으로 →</a>
 </div>
 <a class="nolcool-cta" href="https://ilsanroom.pages.dev/" target="_blank" rel="noopener noreferrer">놀쿨에서 더 많은 곳 보기 →</a>
 </div>
@@ -2125,7 +2145,7 @@ function updateExploreTracker(){
     d.title=PAGE_NAMES[i];
     if(visitedPages.indexOf(PAGES[i])!==-1)d.classList.add('visited');
     if(PAGES[i]===(currentPage||''))d.classList.add('current');
-    (function(pg){d.onclick=function(){window.open(pg?'/'+pg:'/','_blank')}})(PAGES[i]);
+    (function(pg){d.onclick=function(){go(pg)}})(PAGES[i]);
     dots.appendChild(d);
   }
 }
@@ -2379,6 +2399,42 @@ window.addEventListener('DOMContentLoaded',function(){
   initRevealAnimations();
 });
 window.addEventListener('popstate',handleRoute);
+
+/* ---- 내부 검색 엔진 ---- */
+var SEARCH_DATA=[
+  {page:'',icon:'📖',name:'���이드',keywords:'��산챔피��나이트 가이드 입구 첫방문 소개 개요 정보'},
+  {page:'dresscode',icon:'👔',name:'드레스코드',keywords:'울산챔피언나이트 드레스코드 옷 복장 신발 운동화 슬리퍼 셔츠 슬랙스 남자 여자'},
+  {page:'budget',icon:'💰',name:'예산',keywords:'울산챔피언나이트 예산 가격 돈 비용 입장료 술값 양주 맥주 대리비 카드'},
+  {page:'timing',icon:'⏰',name:'시간대',keywords:'울산챔피언나이트 시간 몇시 금요일 토요일 평일 피크타임 자정 새벽'},
+  {page:'parking',icon:'🚗',name:'주차·교통',keywords:'울산챔피언나이트 주차 교통 택시 대��운전 버스 카카오���시 대중교통'},
+  {page:'manners',icon:'🤝',name:'매너',keywords:'울산챔피언나이트 매너 ��티켓 룰 춤 사진 촬영 술 ���이블'},
+  {page:'nearby',icon:'🍻',name:'주변 코스',keywords:'울산챔피언나이트 주변 코스 1차 2차 고기 삼겹살 해장 국밥 맛집 동선'},
+  {page:'compare',icon:'⚔️',name:'비교',keywords:'울산챔피언나이트 비교 다른곳 규모 음악 연령대 DJ 시설'}
+];
+(function(){
+  var input=document.getElementById('searchInput');
+  var results=document.getElementById('searchResults');
+  if(!input||!results)return;
+  input.addEventListener('input',function(){
+    var q=this.value.trim().toLowerCase();
+    if(q.length<1){results.classList.remove('show');results.innerHTML='';return}
+    var matches=SEARCH_DATA.filter(function(d){return d.keywords.toLowerCase().indexOf(q)!==-1||d.name.toLowerCase().indexOf(q)!==-1});
+    if(matches.length===0){results.innerHTML='<div class="search-result-item"><span style="color:var(--text-dim)">검색 결과 없음</span></div>';results.classList.add('show');return}
+    results.innerHTML=matches.map(function(m){return '<div class="search-result-item" data-page="'+m.page+'"><span class="sr-icon">'+m.icon+'</span><div class="sr-text"><strong>'+m.name+'</strong><span>클릭하면 바로 이동</span></div></div>'}).join('');
+    results.classList.add('show');
+  });
+  results.addEventListener('click',function(e){
+    var item=e.target.closest('.search-result-item');
+    if(!item)return;
+    var page=item.getAttribute('data-page');
+    go(page);
+    input.value='';
+    results.classList.remove('show');
+  });
+  document.addEventListener('click',function(e){
+    if(!e.target.closest('.search-box')){results.classList.remove('show')}
+  });
+})();
 
 /* 링크 클릭 시 페이지 새로고침 없이 이동 */
 document.addEventListener('click',function(e){
