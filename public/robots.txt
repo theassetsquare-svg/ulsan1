@@ -1,46 +1,100 @@
+# 울산챔피언나이트 가이드 - robots.txt
+# 영구 룰: 모든 검색·AI 봇 전체 허용 (Disallow 없음)
+
 User-agent: *
 Allow: /
 
+# Google
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+# Naver
 User-agent: Yeti
 Allow: /
 
 User-agent: NaverBot
 Allow: /
 
+User-agent: Naverbot
+Allow: /
+
+# Daum / Kakao
 User-agent: Daumoa
 Allow: /
 
-User-agent: GPTBot
+User-agent: Kakaotalk-scrap
 Allow: /
 
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
+# Bing / Microsoft
 User-agent: Bingbot
 Allow: /
 
 User-agent: bingbot
 Allow: /
 
+User-agent: MSNBot
+Allow: /
+
+# AI Search Bots (9 봇 명시 — 영구 룰)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
 User-agent: CCBot
 Allow: /
 
-User-agent: Kakaotalk-scrap
+User-agent: Applebot
 Allow: /
 
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Sitemaps
 Sitemap: https://ulsan1.pages.dev/sitemap.xml
+
+# Host
+Host: ulsan1.pages.dev

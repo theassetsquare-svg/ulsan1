@@ -1,0 +1,51 @@
+{
+  "name": "울산챔피언나이트 가이드 — 9시에 갔다가 망한 사람이 쓴 가이드",
+  "short_name": "챔피언나이트",
+  "description": "울산챔피언나이트 첫 방문 완벽 가이드. 드레스코드, 예산, 시간대, 주차, 매너, 동선, 비교까지.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1E3A5F",
+  "theme_color": "#1E3A5F",
+  "lang": "ko-KR",
+  "dir": "ltr",
+  "categories": ["entertainment", "lifestyle", "travel"],
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ],
+  "shortcuts": [
+    {
+      "name": "전화 예약",
+      "short_name": "전화",
+      "description": "춘자 010-5653-0069 바로 전화",
+      "url": "/?utm_source=pwa_shortcut&utm_medium=call",
+      "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "드레스코드",
+      "short_name": "드레스",
+      "description": "옷차림 합격 공식",
+      "url": "/dresscode?utm_source=pwa_shortcut",
+      "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "예산 가이드",
+      "short_name": "예산",
+      "description": "4인 기준 현실 예산",
+      "url": "/budget?utm_source=pwa_shortcut",
+      "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "시간대",
+      "short_name": "시간",
+      "description": "골든타임 가이드",
+      "url": "/timing?utm_source=pwa_shortcut",
+      "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]
+    }
+  ],
+  "prefer_related_applications": false
+}
