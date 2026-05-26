@@ -66,8 +66,7 @@ a{color:var(--navy);text-decoration:none}
 /* CONTENT */
 .wrap{max-width:640px;margin:0 auto;padding:0 16px}
 .page{display:none;padding:24px 0 40px;content-visibility:auto;contain-intrinsic-size:auto 800px}
-.page.active{display:block}
-/* CLS 0: HTML 파싱 즉시 URL과 일치하는 페이지 표시 (defer JS 실행 전) */
+/* CLS 0: HTML 파싱 즉시 URL과 일치하는 페이지만 표시 (head inline script가 className 설정) */
 html.r-main #page-main,html.r-dresscode #page-dresscode,html.r-budget #page-budget,html.r-timing #page-timing,html.r-parking #page-parking,html.r-manners #page-manners,html.r-nearby #page-nearby,html.r-compare #page-compare,html.r-legal #page-legal{display:block}
 @media (prefers-reduced-motion:no-preference){.page.active{animation:fadeIn .25s ease}}
 @keyframes fadeIn{from{opacity:.7}to{opacity:1}}
@@ -613,7 +612,7 @@ img,svg{max-width:100%;height:auto}
 </div>
 
 <!-- ==================== 메인 ==================== -->
-<article class="page active" id="page-main" data-og="og/main.png" data-title="울산챔피언나이트 — 9시에 갔다가 망한 사람이 쓴 가이드" data-desc="울산챔피언나이트 밤 9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 민망함 겪고 옷차림, 돈, 시간, 매너, 해장까지 전부 정리했다. 드레스코드부터 현실 예산, 시간대별 분위기, 주차 교통편, 주변 맛집 동선까지 한 곳에 모았다. 나이트 첫 방문이면 이거 반드시 읽고 가라." data-hero="실패하고 나서 쓴 가이드" data-sub="솔직히 말한다. 9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.">
+<article class="page" id="page-main" data-og="og/main.png" data-title="울산챔피언나이트 — 9시에 갔다가 망한 사람이 쓴 가이드" data-desc="울산챔피언나이트 밤 9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 민망함 겪고 옷차림, 돈, 시간, 매너, 해장까지 전부 정리했다. 드레스코드부터 현실 예산, 시간대별 분위기, 주차 교통편, 주변 맛집 동선까지 한 곳에 모았다. 나이트 첫 방문이면 이거 반드시 읽고 가라." data-hero="실패하고 나서 쓴 가이드" data-sub="솔직히 말한다. 9시에 갔다가 망했다. 그 뒤로 전부 정리했다. 안 읽고 가면 나처럼 된다.">
 
 <div class="section">
 <h2>🎯 울산챔피언나이트 가기 전에 이것만 알면 된다</h2>
