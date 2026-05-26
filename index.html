@@ -67,6 +67,8 @@ a{color:var(--navy);text-decoration:none}
 .wrap{max-width:640px;margin:0 auto;padding:0 16px}
 .page{display:none;padding:24px 0 40px;content-visibility:auto;contain-intrinsic-size:auto 800px}
 .page.active{display:block}
+/* CLS 0: HTML 파싱 즉시 URL과 일치하는 페이지 표시 (defer JS 실행 전) */
+html.r-main #page-main,html.r-dresscode #page-dresscode,html.r-budget #page-budget,html.r-timing #page-timing,html.r-parking #page-parking,html.r-manners #page-manners,html.r-nearby #page-nearby,html.r-compare #page-compare,html.r-legal #page-legal{display:block}
 @media (prefers-reduced-motion:no-preference){.page.active{animation:fadeIn .25s ease}}
 @keyframes fadeIn{from{opacity:.7}to{opacity:1}}
 
@@ -535,6 +537,7 @@ img,svg{max-width:100%;height:auto}
   .wrap{container-type:inline-size}
 }
 </style>
+<script>document.documentElement.className='r-'+(location.pathname.replace(/^\/+/,'').replace(/\/$/,'')||'main')</script>
 </head>
 <body>
 

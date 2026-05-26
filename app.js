@@ -88,6 +88,8 @@ function go(page){
     var id=page?'page-'+page:'page-main';
     var el=document.getElementById(id);
     if(el)el.classList.add('active');
+    /* CLS 0: html className 동기화 (page CSS rule 적용 유지) */
+    document.documentElement.className='r-'+(page||'main');
     var idx=PAGES.indexOf(page||'');
     var links=document.querySelectorAll('.nav-link');
     if(idx>=0&&links[idx])links[idx].classList.add('active');
