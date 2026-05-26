@@ -114,8 +114,11 @@ function go(page){
       var lis=document.querySelector('link[rel="image_src"]');if(lis)lis.setAttribute('href',imgUrl);
       /* Canonical */
       var cn=document.querySelector('link[rel="canonical"]');if(cn)cn.setAttribute('href',pageUrl);
-      var ht=document.getElementById('hero-title');if(ht&&hero)ht.innerHTML='<em>울산챔피언나이트</em> '+hero;
-      var hs=document.getElementById('hero-sub');if(hs&&sub)hs.textContent=sub;
+      /* CLS 0: hero text 변경은 user interaction 후 페이지 전환에만 적용 (초기 로드 측정 윈도우 회피) */
+      if(window.__heroReady){
+        var ht=document.getElementById('hero-title');if(ht&&hero)ht.innerHTML='<em>울산챔피언나이트</em> '+hero;
+        var hs=document.getElementById('hero-sub');if(hs&&sub)hs.textContent=sub;
+      }
     }
     window.scrollTo(0,0);
     history.pushState(null,null,page?'/'+page:'/');
@@ -455,6 +458,7 @@ var SEARCH_DATA=[
 
 /* 링크 클릭 시 페이지 새로고침 없이 이동 */
 document.addEventListener('click',function(e){
+  window.__heroReady=true; /* CLS 0: 첫 클릭 이후로만 hero text 변경 허용 */
   var a=e.target.closest('a');
   if(!a)return;
   var href=a.getAttribute('href');
