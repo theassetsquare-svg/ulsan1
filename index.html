@@ -2369,6 +2369,9 @@ function safeInterval(fn,ms){
   return id;
 }
 
+/* TBT 감축용 — idle 시점까지 무거운 init 지연 */
+var _idle=window.requestIdleCallback||function(fn){return setTimeout(fn,1)};
+
 /* 탭 비활성화 시 인터벌 일시정지 */
 var _pausedIntervals=[];
 document.addEventListener('visibilitychange',function(){
@@ -2747,8 +2750,8 @@ window.addEventListener('DOMContentLoaded',function(){
     try{var saved=sessionStorage.getItem('ucn_page');if(saved&&PAGES.indexOf(saved)!==-1)urlPage=saved}catch(e){}
   }
   if(urlPage)go(urlPage);else handleRoute();
-  updateLiveCount();
-  initRevealAnimations();
+  /* TBT 절감: 비핵심 초기화를 idle로 미룸 */
+  _idle(function(){updateLiveCount();initRevealAnimations();});
 });
 window.addEventListener('popstate',handleRoute);
 
@@ -2913,7 +2916,7 @@ function shareTTResult(name){
     navigator.clipboard.writeText('나의 나이트 유형: '+name+' 🎉 https://ulsan1.pages.dev/').then(function(){showToast('📋 복사됐다. 친구한테 보내봐')});
   }
 }
-window.addEventListener('DOMContentLoaded',function(){initTypeTest()});
+window.addEventListener('DOMContentLoaded',function(){_idle(initTypeTest)});
 
 /* ---- v3-3. 시간 잠금 콘텐츠 ---- */
 function checkTimeLocks(){
@@ -3085,7 +3088,7 @@ spinSlot=function(){
     }
   },80);
 };
-window.addEventListener('DOMContentLoaded',function(){initTipCollection()});
+window.addEventListener('DOMContentLoaded',function(){_idle(initTipCollection)});
 
 /* ---- v3-7. 이모지 리액션 ---- */
 var reactions=JSON.parse(localStorage.getItem('ucn_reactions')||'{}');
@@ -3119,7 +3122,7 @@ function updateReactionCounts(){
     if(el)el.textContent=bases[k]+(reactions[k]||0);
   });
 }
-window.addEventListener('DOMContentLoaded',updateReactionCounts);
+window.addEventListener('DOMContentLoaded',function(){_idle(updateReactionCounts)});
 
 /* ---- v3-8. 챌린지 진행 ---- */
 function updateChallenge(){
@@ -3131,7 +3134,7 @@ trackVisit=function(p){
   _origTrackVisit(p);
   updateChallenge();
 };
-window.addEventListener('DOMContentLoaded',updateChallenge);
+window.addEventListener('DOMContentLoaded',function(){_idle(updateChallenge)});
 
 /* ---- v3-9. 읽기 속도 감지 ---- */
 var scrollSamples=[],lastScrollY=0;
@@ -3306,7 +3309,7 @@ function initSwipeDots(){
     dots.querySelectorAll('span').forEach(function(d,j){d.className=j===idx?'active':''});
   },{passive:true});
 }
-window.addEventListener('DOMContentLoaded',initSwipeDots);
+window.addEventListener('DOMContentLoaded',function(){_idle(initSwipeDots)});
 
 /* ---- v3-18. Exit Intent — 스크롤 올리면 이탈 방지 ---- */
 var exitShown=false,exitClosed=false,prevScrollY=0;
@@ -3330,8 +3333,8 @@ function closeExitBanner(){
   exitClosed=true;
 }
 
-/* ---- 🚀 코어 타이머 최초 시작 ---- */
-restartCoreTimers();
+/* ---- 🚀 코어 타이머 최초 시작 (TBT 절감: idle 시점에 시작) ---- */
+_idle(restartCoreTimers);
 
 /* ---- PWA Service Worker 등록 (오프라인 + 빠른 재방문) ---- */
 if('serviceWorker' in navigator){
