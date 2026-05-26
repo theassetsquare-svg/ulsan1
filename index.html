@@ -66,8 +66,9 @@ a{color:var(--navy);text-decoration:none}
 /* CONTENT */
 .wrap{max-width:640px;margin:0 auto;padding:0 16px}
 .page{display:none;padding:24px 0 40px;content-visibility:auto;contain-intrinsic-size:auto 800px}
-.page.active{display:block;animation:fadeIn .35s ease}
-@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.page.active{display:block}
+@media (prefers-reduced-motion:no-preference){.page.active{animation:fadeIn .25s ease}}
+@keyframes fadeIn{from{opacity:.7}to{opacity:1}}
 
 /* SECTION */
 .section{background:#fff;border-radius:16px;padding:24px 20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.04)}

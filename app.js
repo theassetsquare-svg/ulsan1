@@ -953,16 +953,12 @@ function mqAnswer(step,choice){
 }
 
 /* ---- v3-17. 스와이프 갤러리 도트 ---- */
-function initSwipeDots(){
+function hydrateSwipeSlides(){
   var track=document.getElementById('swipeTrack');
   var dots=document.getElementById('swipeDots');
   var tpl=document.getElementById('swipeSlidesTpl');
-  if(!track||!dots)return;
-  /* TBT 절감: 6 SVG 슬라이드를 idle 시점에 DOM 삽입 */
-  if(tpl&&!track.firstChild){
-    track.appendChild(tpl.content.cloneNode(true));
-    track.style.minHeight='';
-  }
+  if(!track||!dots||!tpl||track.firstChild)return;
+  track.appendChild(tpl.content.cloneNode(true));
   var slides=track.querySelectorAll('.swipe-slide');
   dots.innerHTML='';
   for(var i=0;i<slides.length;i++){
@@ -974,6 +970,19 @@ function initSwipeDots(){
     var idx=Math.round(track.scrollLeft/272);
     dots.querySelectorAll('span').forEach(function(d,j){d.className=j===idx?'active':''});
   },{passive:true});
+}
+function initSwipeDots(){
+  var track=document.getElementById('swipeTrack');
+  if(!track)return;
+  /* CLS 방지: viewport 진입 시점에만 슬라이드 hydrate */
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries,obs){
+      entries.forEach(function(e){if(e.isIntersecting){hydrateSwipeSlides();obs.disconnect()}});
+    },{rootMargin:'200px'});
+    io.observe(track);
+  }else{
+    hydrateSwipeSlides();
+  }
 }
 window.addEventListener('DOMContentLoaded',function(){_idle(initSwipeDots)});
 
