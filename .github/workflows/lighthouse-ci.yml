@@ -1,0 +1,54 @@
+name: Lighthouse CI (KST 12:30)
+
+on:
+  schedule:
+    # KST 12:30 = UTC 03:30
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - '_headers'
+      - 'sw.js'
+      - 'site.webmanifest'
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Lighthouse
+        run: npm install -g lighthouse
+
+      - name: Run Lighthouse on 9 pages
+        run: |
+          mkdir -p lh-reports
+          PAGES="/ /dresscode /budget /timing /parking /manners /nearby /compare /legal"
+          PASS=1
+          for page in $PAGES; do
+            slug=$(echo "$page" | sed 's|/|root|; s|^root$|home|; s|^/||')
+            URL="https://ulsan1.pages.dev$page"
+            echo "=== $URL ==="
+            lighthouse "$URL" \
+              --output=json --output=html \
+              --output-path=./lh-reports/${slug} \
+              --chrome-flags="--headless --no-sandbox --disable-gpu" \
+              --quiet --only-categories=performance,accessibility,best-practices,seo \
+              --form-factor=mobile || PASS=0
+          done
+
+      - name: Upload Lighthouse reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: lh-reports/
+          retention-days: 14
+
+      - name: Print summary scores
+        run: |
+          for f in lh-reports/*.report.json; do
+            echo "--- $f ---"
+            jq '.categories | to_entries[] | "\(.key): \(.value.score)"' "$f" || true
+          done

@@ -1,0 +1,56 @@
+name: Live Health Check (6시간마다)
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 9 페이지 200 OK 확인
+        run: |
+          set -e
+          PAGES="/ /dresscode /budget /timing /parking /manners /nearby /compare /legal"
+          FAIL=0
+          for page in $PAGES; do
+            URL="https://ulsan1.pages.dev$page"
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
+            if [ "$CODE" != "200" ]; then
+              echo "::error::❌ $URL → $CODE"
+              FAIL=1
+            else
+              echo "✅ $URL → 200"
+            fi
+          done
+          exit $FAIL
+
+      - name: 핵심 자산 200 OK
+        run: |
+          set -e
+          ASSETS="/sitemap.xml /robots.txt /llms.txt /site.webmanifest /sw.js /favicon.svg /og/main.png /icon-192.png /icon-512.png /apple-touch-icon.png"
+          FAIL=0
+          for a in $ASSETS; do
+            URL="https://ulsan1.pages.dev$a"
+            CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
+            if [ "$CODE" != "200" ]; then
+              echo "::error::❌ $URL → $CODE"
+              FAIL=1
+            else
+              echo "✅ $URL → 200"
+            fi
+          done
+          exit $FAIL
+
+      - name: Schema/FAQ 라이브 존재 확인
+        run: |
+          BODY=$(curl -sL https://ulsan1.pages.dev/)
+          for type in NightClub LocalBusiness WebSite Article BreadcrumbList FAQPage HowTo Organization; do
+            if echo "$BODY" | grep -q "\"@type\": \"$type\""; then
+              echo "✅ $type"
+            else
+              echo "::error::❌ $type 누락"
+              exit 1
+            fi
+          done

@@ -1,0 +1,147 @@
+name: Keyword Stuffing Guard (24h + push)
+
+on:
+  schedule:
+    # KST 11:00 = UTC 02:00 — 매일 1회 라이브 검사
+    - cron: '0 2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+  pull_request:
+    paths:
+      - 'index.html'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  density-guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Keyword density gate (1.5%~2.5%) per page
+        run: |
+          python3 << 'PY'
+          import re, sys
+          html = open('index.html', encoding='utf-8').read()
+          parts = re.split(r'<article class="page', html)
+          page_blocks = ['<article class="page' + p for p in parts[1:]]
+          def strip_html(s):
+              s = re.sub(r'<script[\s\S]*?</script>', '', s)
+              s = re.sub(r'<style[\s\S]*?</style>', '', s)
+              s = re.sub(r'<[^>]+>', ' ', s)
+              s = re.sub(r'\s+', ' ', s)
+              return s.strip()
+          KW = [('울산챔피언나이트', 8), ('울산나이트', 5)]
+          MAX_DENSITY = 2.5  # CLAUDE.md spec: stuffing if > 2.5%
+          MIN_DENSITY = 1.5  # CLAUDE.md spec: too thin if < 1.5%
+          fail = 0
+          for block in page_blocks:
+              m_id = re.search(r'id="(page-[^"]+)"', block)
+              if not m_id: continue
+              pid = m_id.group(1)
+              text = strip_html(block)
+              n = len(text)
+              combined = sum(text.count(kw)*ln for kw, ln in KW) / max(n,1) * 100
+              status = 'OK'
+              if combined > MAX_DENSITY:
+                  status = f'❌ STUFFING ({combined:.2f}% > {MAX_DENSITY}%)'
+                  fail = 1
+              elif combined < MIN_DENSITY:
+                  status = f'❌ TOO THIN ({combined:.2f}% < {MIN_DENSITY}%)'
+                  fail = 1
+              else:
+                  status = f'✅ {combined:.2f}%'
+              print(f'{pid:<24} len={n:>5} → {status}')
+          sys.exit(fail)
+          PY
+
+      - name: Title duplicate-word guard (영구 룰)
+        run: |
+          python3 << 'PY'
+          import re, sys
+          from collections import Counter
+          html = open('index.html', encoding='utf-8').read()
+          titles = re.findall(r'data-title="([^"]+)"', html)
+          # head <title> intentionally matches main page data-title — exclude from dedup check
+          fail = 0
+          seen = set()
+          for t in titles:
+              # duplicate title across data-title pages
+              if t in seen:
+                  print(f'❌ DUPLICATE TITLE across pages: {t}')
+                  fail = 1
+              seen.add(t)
+              # same word twice within one title (>=2 chars, Korean/English)
+              tokens = re.findall(r'[가-힣A-Za-z]{2,}', t)
+              c = Counter(tokens)
+              dups = {k:v for k,v in c.items() if v > 1}
+              if dups:
+                  print(f'❌ SAME-WORD-TWICE in title: {dups} | {t}')
+                  fail = 1
+              else:
+                  print(f'✅ {t}')
+          sys.exit(fail)
+          PY
+
+      - name: Meta description uniqueness + length gate
+        run: |
+          python3 << 'PY'
+          import re, sys
+          html = open('index.html', encoding='utf-8').read()
+          descs = re.findall(r'id="(page-[^"]+)"[^>]*data-desc="([^"]+)"', html)
+          seen = {}
+          fail = 0
+          for pid, d in descs:
+              if d in seen:
+                  print(f'❌ DUPLICATE meta description: {pid} ↔ {seen[d]}')
+                  fail = 1
+              else:
+                  seen[d] = pid
+              if len(d) > 160:
+                  print(f'❌ TOO LONG ({len(d)} chars > 160): {pid}')
+                  fail = 1
+              elif len(d) < 60:
+                  print(f'❌ TOO SHORT ({len(d)} chars < 60): {pid}')
+                  fail = 1
+              else:
+                  print(f'✅ {pid} ({len(d)} chars)')
+          sys.exit(fail)
+          PY
+
+  live-density-guard:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - name: Fetch live 9 pages and verify density on real Cloudflare HTML
+        run: |
+          python3 << 'PY'
+          import urllib.request, re, sys
+          PAGES = ['/', '/dresscode', '/budget', '/timing', '/parking', '/manners', '/nearby', '/compare', '/legal']
+          BASE = 'https://ulsan1.pages.dev'
+          KW = [('울산챔피언나이트', 8), ('울산나이트', 5)]
+          MAX_DENSITY = 2.5
+          fail = 0
+          for path in PAGES:
+              url = BASE + path
+              try:
+                  req = urllib.request.Request(url, headers={'User-Agent': 'ulsan1-density-guard'})
+                  body = urllib.request.urlopen(req, timeout=15).read().decode('utf-8', errors='ignore')
+              except Exception as e:
+                  print(f'❌ {path} fetch failed: {e}')
+                  fail = 1; continue
+              # Only count body keyword density in visible text
+              text = re.sub(r'<script[\s\S]*?</script>', '', body)
+              text = re.sub(r'<style[\s\S]*?</style>', '', text)
+              text = re.sub(r'<[^>]+>', ' ', text)
+              text = re.sub(r'\s+', ' ', text)
+              n = max(len(text), 1)
+              combined = sum(text.count(kw)*ln for kw, ln in KW) / n * 100
+              status = '✅' if combined <= MAX_DENSITY else '❌ STUFFING'
+              if combined > MAX_DENSITY: fail = 1
+              print(f'{status} {path} live density {combined:.2f}%')
+          sys.exit(fail)
+          PY
