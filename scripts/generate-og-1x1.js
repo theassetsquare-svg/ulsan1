@@ -53,7 +53,7 @@ async function generate() {
   <text x="600" y="780" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="51" font-weight="700" font-family="${FONT}">${p.sub}</text>
 
   <!-- 전화번호 -->
-  <text x="600" y="878" text-anchor="middle" fill="rgba(201,169,110,0.6)" font-size="39" font-weight="600" font-family="${FONT}">010-5653-0069</text>
+  <text x="600" y="878" text-anchor="middle" fill="rgba(201,169,110,0.6)" font-size="39" font-weight="600" font-family="${FONT}"></text>
 
   <!-- 하단 브랜딩 -->
   <rect x="120" y="${SIZE - 18}" width="${SIZE - 240}" height="4" rx="2" fill="#C9A96E" opacity="0.3"/>
