@@ -121,7 +121,7 @@ jobs:
           python3 << 'PY'
           import urllib.request, re, sys
           PAGES = ['/', '/dresscode', '/budget', '/timing', '/parking', '/manners', '/nearby', '/compare', '/legal']
-          BASE = 'https://ulsan1.pages.dev'
+          BASE = 'https://ulsanb.pages.dev'
           KW = [('울산챔피언나이트', 8), ('울산나이트', 5)]
           MAX_DENSITY = 2.5
           fail = 0

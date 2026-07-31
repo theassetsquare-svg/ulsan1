@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>울산챔피언나이트 가이드</title>
+    <link>https://ulsanb.pages.dev/</link>
+    <description>울산 남구 삼산동 합법 운영 나이트클럽 첫 방문 가이드. 드레스코드·예산·시간대·주차·매너·주변 코스·비교·합법 운영 안내.</description>
+    <language>ko-KR</language>
+    <lastBuildDate>Fri, 31 Jul 2026 00:00:00 +0900</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+    <ttl>60</ttl>
+    <atom:link href="https://ulsanb.pages.dev/rss.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://ulsanb.pages.dev/og/main.png</url>
+      <title>울산챔피언나이트 가이드</title>
+      <link>https://ulsanb.pages.dev/</link>
+    </image>
+    <item>
+      <title>울산챔피언나이트 — 9시에 갔다가 망한 사람이 쓴 가이드</title>
+      <link>https://ulsanb.pages.dev/</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>9시에 갔다가 텅 빈 홀에서 혼자 섰다. 그 민망함 겪고 옷차림, 돈, 시간, 매너, 해장까지 전부 정리했다.</description>
+    </item>
+    <item>
+      <title>드레스코드 — 옷 하나로 입구에서 돌려보내지는 이유</title>
+      <link>https://ulsanb.pages.dev/dresscode</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/dresscode</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>셔츠 또는 깔끔한 티 + 슬랙스 + 스니커즈. 슬리퍼·반바지·츄리닝은 절대 금지.</description>
+    </item>
+    <item>
+      <title>예산 — 양주 한 병 질러서 다음 날 운 사람 가이드</title>
+      <link>https://ulsanb.pages.dev/budget</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/budget</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>4인 기준 맥주로 시작. 양주 풀세팅은 다음 날 카드값 후회의 시작.</description>
+    </item>
+    <item>
+      <title>시간대 — 9시는 교실, 12시는 지구 최고 파티</title>
+      <link>https://ulsanb.pages.dev/timing</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/timing</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>금요일 밤 23:00 도착이 골든타임. 21:00은 너무 일찍, 자정 이후는 자리 빠짐.</description>
+    </item>
+    <item>
+      <title>주차 — 차 두고 와라, 새벽 멘탈 나가는 이유</title>
+      <link>https://ulsanb.pages.dev/parking</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/parking</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>인근 공영주차장은 야간 만차가 잦다. 차 두고 택시 + 새벽 1시 30분 카카오 대리 예약 권장.</description>
+    </item>
+    <item>
+      <title>매너 — 술 세 잔 넘으면 증발하는 상식</title>
+      <link>https://ulsanb.pages.dev/manners</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/manners</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>공간 존중 / 적당한 음주 / 자연스러운 태도 / 사진 촬영 자제 / 19+ 정책 준수.</description>
+    </item>
+    <item>
+      <title>주변 코스 — 고기→나이트→해장 도보 코스</title>
+      <link>https://ulsanb.pages.dev/nearby</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/nearby</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>1차 삼산동 고깃집 → 2차 챔피언나이트 → 새벽 해장 도보 동선 정리.</description>
+    </item>
+    <item>
+      <title>비교 — 한 번 가본 사람이 기준 생기는 이유</title>
+      <link>https://ulsanb.pages.dev/compare</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/compare</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>울산 지역 나이트클럽 비교. 분위기·연령대·가격대·접근성 실측 후기.</description>
+    </item>
+    <item>
+      <title>합법 운영 — 19+ / 방심위 / 정보통신망법 준수 안내</title>
+      <link>https://ulsanb.pages.dev/legal</link>
+      <guid isPermaLink="true">https://ulsanb.pages.dev/legal</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
+      <description>사업자 등록 정상 / 청소년 보호법 19+ / 방송통신심의위원회 권장사항 / 정보통신망법 준수.</description>
+    </item>
+  </channel>
+</rss>

@@ -27,7 +27,7 @@ jobs:
       - name: Commit if changed
         run: |
           git config user.name "seo-bot"
-          git config user.email "seo-bot@ulsan1.pages.dev"
+          git config user.email "seo-bot@ulsanb.pages.dev"
           if ! git diff --quiet; then
             git add sitemap.xml public/sitemap.xml || true
             git commit -m "chore(seo): daily sitemap lastmod refresh"
@@ -38,11 +38,11 @@ jobs:
 
       - name: Ping Google Sitemap
         run: |
-          curl -sI "https://www.google.com/ping?sitemap=https://ulsan1.pages.dev/sitemap.xml" | head -1 || true
+          curl -sI "https://www.google.com/ping?sitemap=https://ulsanb.pages.dev/sitemap.xml" | head -1 || true
 
       - name: Ping Bing IndexNow
         run: |
-          curl -sI "https://www.bing.com/ping?sitemap=https://ulsan1.pages.dev/sitemap.xml" | head -1 || true
+          curl -sI "https://www.bing.com/ping?sitemap=https://ulsanb.pages.dev/sitemap.xml" | head -1 || true
 
       - name: Submit URLs via IndexNow (best-effort)
         run: |
@@ -53,4 +53,4 @@ jobs:
           fi
           curl -sX POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json" \
-            -d "{\"host\":\"ulsan1.pages.dev\",\"key\":\"$KEY\",\"urlList\":[\"https://ulsan1.pages.dev/\",\"https://ulsan1.pages.dev/dresscode\",\"https://ulsan1.pages.dev/budget\",\"https://ulsan1.pages.dev/timing\",\"https://ulsan1.pages.dev/parking\",\"https://ulsan1.pages.dev/manners\",\"https://ulsan1.pages.dev/nearby\",\"https://ulsan1.pages.dev/compare\",\"https://ulsan1.pages.dev/legal\"]}" || true
+            -d "{\"host\":\"ulsanb.pages.dev\",\"key\":\"$KEY\",\"urlList\":[\"https://ulsanb.pages.dev/\",\"https://ulsanb.pages.dev/dresscode\",\"https://ulsanb.pages.dev/budget\",\"https://ulsanb.pages.dev/timing\",\"https://ulsanb.pages.dev/parking\",\"https://ulsanb.pages.dev/manners\",\"https://ulsanb.pages.dev/nearby\",\"https://ulsanb.pages.dev/compare\",\"https://ulsanb.pages.dev/legal\"]}" || true
