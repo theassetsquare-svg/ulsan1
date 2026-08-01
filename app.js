@@ -993,7 +993,8 @@ function initSwipeDots(){
 window.addEventListener('DOMContentLoaded',function(){_idle(initSwipeDots)});
 
 /* ---- v3-18. Exit Intent — 스크롤 올리면 이탈 방지 ---- */
-var exitShown=false,exitClosed=false,prevScrollY=0;
+var exitShown=false,prevScrollY=0;
+var exitClosed=(function(){try{return sessionStorage.getItem('ucn_exit_closed')==='1'}catch(e){return false}})();
 window.addEventListener('scroll',function(){
   if(exitClosed||exitShown)return;
   var y=window.pageYOffset||0;
@@ -1009,9 +1010,13 @@ window.addEventListener('scroll',function(){
   }
   prevScrollY=y;
 },{passive:true});
-function closeExitBanner(){
-  document.getElementById('exitBanner').classList.remove('show');
+function closeExitBanner(e){
+  if(e&&e.stopPropagation)e.stopPropagation();
+  var b=document.getElementById('exitBanner');
+  if(b)b.classList.remove('show');
   exitClosed=true;
+  exitShown=false;
+  try{sessionStorage.setItem('ucn_exit_closed','1')}catch(err){}
 }
 
 /* ---- 🚀 코어 타이머 최초 시작 (TBT 절감: idle 시점에 시작) ---- */

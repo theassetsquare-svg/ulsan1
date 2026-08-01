@@ -245,14 +245,28 @@ html.r-main #page-main,html.r-dresscode #page-dresscode,html.r-budget #page-budg
 .swipe-dots span.active{background:var(--gold);width:16px;border-radius:3px}
 
 /* EXIT INTENT */
-.exit-banner{position:fixed;top:52px;left:0;right:0;z-index:250;background:linear-gradient(135deg,#6B21A8,#7C3AED);padding:14px 20px;text-align:center;transform:translateY(-100%);transition:transform .4s cubic-bezier(.2,.8,.3,1);box-shadow:0 4px 20px rgba(107,33,168,.3)}
-.exit-banner.show{transform:translateY(0)}
+.exit-banner{position:fixed;top:52px;left:0;right:0;z-index:250;background:linear-gradient(135deg,#6B21A8,#7C3AED);padding:14px 20px;text-align:center;transform:translateY(calc(-100% - 52px));opacity:0;visibility:hidden;pointer-events:none;transition:transform .4s cubic-bezier(.2,.8,.3,1),opacity .3s,visibility 0s .4s;box-shadow:0 4px 20px rgba(107,33,168,.3)}
+.exit-banner.show{transform:translateY(0);opacity:1;visibility:visible;pointer-events:auto;transition:transform .4s cubic-bezier(.2,.8,.3,1),opacity .3s,visibility 0s}
 .exit-banner p{color:#fff;font-size:13px;font-weight:700;margin:0;text-shadow:0 1px 3px rgba(0,0,0,.2)}
 .exit-banner .exit-close{position:absolute;right:16px;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.6);font-size:18px;cursor:pointer;background:none;border:none;min-height:44px;min-width:44px;display:flex;align-items:center;justify-content:center}
 
 /* NOLCOOL PURPLE CTA */
 .nolcool-cta{display:block;text-align:center;background:linear-gradient(135deg,#6B21A8,#7C3AED);color:#fff;padding:16px 24px;border-radius:14px;font-size:16px;font-weight:800;transition:.2s;text-decoration:none;min-height:44px;box-shadow:0 4px 16px rgba(107,33,168,.3);letter-spacing:-.3px}
 .nolcool-cta:hover{opacity:.92;transform:translateY(-1px);box-shadow:0 6px 24px rgba(107,33,168,.4);text-decoration:none;color:#fff}
+
+/* MAIN 카테고리 바로가기 — 메인화면 상단 노출 */
+.cat-nav{margin:16px 0}
+.cat-nav h2{font-size:15px;color:var(--navy);font-weight:800;margin:0 0 10px;letter-spacing:-.3px}
+.cat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.cat-item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;background:var(--gray);border:1.5px solid transparent;border-radius:14px;padding:12px 4px;min-height:74px;text-decoration:none;color:inherit;transition:.2s;text-align:center}
+.cat-item:hover,.cat-item:focus-visible{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.07);text-decoration:none;color:inherit}
+.cat-item .ci-icon{font-size:22px;line-height:1}
+.cat-item .ci-label{font-size:11.5px;font-weight:700;color:var(--navy);line-height:1.3;word-break:keep-all}
+.cat-item.is-call{background:linear-gradient(135deg,#6B21A8,#7C3AED)}
+.cat-item.is-call .ci-label{color:#fff}
+html:not(.r-main) .cat-nav{display:none}
+@media(max-width:340px){.cat-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:768px){.cat-grid{grid-template-columns:repeat(8,1fr)}.cat-item{min-height:84px}.cat-item .ci-label{font-size:12.5px}}
 
 /* SEARCH BOX */
 .search-box{margin-bottom:16px;position:relative}
@@ -577,6 +591,21 @@ img,svg{max-width:100%;height:auto}
 <div class="social-read-count">📖 이 글을 <strong id="totalReaders">0</strong>명이 읽었습니다</div>
 
 <div class="wrap">
+
+<!-- 메인 카테고리 바로가기 (메인화면 상단 고정 노출) -->
+<nav class="cat-nav" id="catNav" aria-label="울산챔피언나이트 카테고리">
+<h2>울산나이트 카테고리 한눈에 보기</h2>
+<div class="cat-grid">
+<a class="cat-item" href="/dresscode" title="울산챔피언나이트 드레스코드"><span class="ci-icon" aria-hidden="true">👔</span><span class="ci-label">드레스코드</span></a>
+<a class="cat-item" href="/budget" title="울산챔피언나이트 예산"><span class="ci-icon" aria-hidden="true">💰</span><span class="ci-label">예산</span></a>
+<a class="cat-item" href="/timing" title="울산챔피언나이트 시간대"><span class="ci-icon" aria-hidden="true">⏰</span><span class="ci-label">시간대</span></a>
+<a class="cat-item" href="/parking" title="울산챔피언나이트 주차 교통"><span class="ci-icon" aria-hidden="true">🚗</span><span class="ci-label">주차·교통</span></a>
+<a class="cat-item" href="/manners" title="울산챔피언나이트 매너"><span class="ci-icon" aria-hidden="true">🤝</span><span class="ci-label">매너</span></a>
+<a class="cat-item" href="/nearby" title="울산챔피언나이트 주변 코스"><span class="ci-icon" aria-hidden="true">🍻</span><span class="ci-label">주변코스</span></a>
+<a class="cat-item" href="/compare" title="울산챔피언나이트 나이트 비교"><span class="ci-icon" aria-hidden="true">⚔️</span><span class="ci-label">나이트 비교</span></a>
+<a class="cat-item is-call" href="tel:010-5653-0069" target="_blank" rel="noopener noreferrer" title="울산챔피언나이트 전화 문의"><span class="ci-icon" aria-hidden="true">📞</span><span class="ci-label">전화 문의</span></a>
+</div>
+</nav>
 
 <!-- 내부 검색 -->
 <div class="search-box" id="searchBox">
@@ -2104,7 +2133,7 @@ img,svg{max-width:100%;height:auto}
 <!-- Exit Intent 배너 -->
 <div class="exit-banner" id="exitBanner">
 <p>잠깐! 아직 안 본 꿀팁이 남았다 — 80% 스크롤하면 시크릿이 열린다</p>
-<button class="exit-close" onclick="closeExitBanner()" aria-label="닫기">&times;</button>
+<button type="button" class="exit-close" onclick="closeExitBanner(event)" aria-label="배너 닫기">&times;</button>
 </div>
 
 <!-- 소셜 프루프 티커 -->
