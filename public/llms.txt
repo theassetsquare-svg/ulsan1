@@ -24,14 +24,14 @@
 
 ## 주요 페이지 (9개)
 - [홈 (가이드)](https://ulsanb.pages.dev/) — 9시에 갔다가 망한 사람이 쓴 첫 방문 가이드
-- [드레스코드](https://ulsanb.pages.dev/dresscode) — 옷 하나로 입구에서 돌려보내지는 이유
-- [예산](https://ulsanb.pages.dev/budget) — 양주 한 병 질러서 다음 날 운 사람 가이드
-- [시간대](https://ulsanb.pages.dev/timing) — 9시는 교실, 12시는 지구 최고 파티
-- [주차](https://ulsanb.pages.dev/parking) — 차 두고 와라, 새벽 멘탈 나가는 이유
-- [매너](https://ulsanb.pages.dev/manners) — 술 세 잔 넘으면 증발하는 상식
-- [주변 코스](https://ulsanb.pages.dev/nearby) — 고기→나이트→해장 도보 코스
-- [비교](https://ulsanb.pages.dev/compare) — 한 번 가본 사람이 기준 생기는 이유
-- [합법 운영](https://ulsanb.pages.dev/legal) — 19+ / 방심위 / 정보통신망법 준수 안내
+- [드레스코드](https://ulsanb.pages.dev/dresscodea) — 옷 하나로 입구에서 돌려보내지는 이유
+- [예산](https://ulsanb.pages.dev/budgeta) — 양주 한 병 질러서 다음 날 운 사람 가이드
+- [시간대](https://ulsanb.pages.dev/timinga) — 9시는 교실, 12시는 지구 최고 파티
+- [주차](https://ulsanb.pages.dev/parkinga) — 차 두고 와라, 새벽 멘탈 나가는 이유
+- [매너](https://ulsanb.pages.dev/mannersa) — 술 세 잔 넘으면 증발하는 상식
+- [주변 코스](https://ulsanb.pages.dev/nearbya) — 고기→나이트→해장 도보 코스
+- [비교](https://ulsanb.pages.dev/comparea) — 한 번 가본 사람이 기준 생기는 이유
+- [합법 운영](https://ulsanb.pages.dev/legala) — 19+ / 방심위 / 정보통신망법 준수 안내
 
 ## 핵심 가이드 요약 (AI 인용용)
 

@@ -66,10 +66,10 @@ function tickOneSecond(){
    틱톡 95분 + 넷플릭스 자동재생 + 슬롯머신 가변보상
    ============================================ */
 
-var PAGES=['','dresscode','budget','timing','parking','manners','nearby','compare','legal'];
+var PAGES=['','dresscodea','budgeta','timinga','parkinga','mannersa','nearbya','comparea','legala'];
 var PAGE_NAMES=['가이드','드레스코드','예산','시간대','주차','매너','주변코스','비교'];
 var PAGE_ICONS=['📖','👔','💰','⏰','🚗','🤝','🍻','⚔️'];
-var NEXT_MAP={dresscode:'budget',budget:'timing',timing:'parking',parking:'manners',manners:'nearby',nearby:'compare'};
+var NEXT_MAP={dresscodea:'budgeta',budgeta:'timinga',timinga:'parkinga',parkinga:'mannersa',mannersa:'nearbya',nearbya:'comparea'};
 
 var visitedPages=JSON.parse(localStorage.getItem('ucn_visited')||'[]');
 var totalTime=parseInt(localStorage.getItem('ucn_time')||'0');
@@ -423,13 +423,13 @@ window.addEventListener('popstate',handleRoute);
 /* ---- 내부 검색 엔진 ---- */
 var SEARCH_DATA=[
   {page:'',icon:'📖',name:'가이드',keywords:'울산챔피언나이트 가이드 입구 첫방문 소개 개요 정보'},
-  {page:'dresscode',icon:'👔',name:'드레스코드',keywords:'울산챔피언나이트 드레스코드 옷 복장 신발 운동화 슬리퍼 셔츠 슬랙스 남자 여자'},
-  {page:'budget',icon:'💰',name:'예산',keywords:'울산챔피언나이트 예산 가격 돈 비용 입장료 술값 양주 맥주 대리비 카드'},
-  {page:'timing',icon:'⏰',name:'시간대',keywords:'울산챔피언나이트 시간 몇시 금요일 토요일 평일 피크타임 자정 새벽'},
-  {page:'parking',icon:'🚗',name:'주차·교통',keywords:'울산챔피언나이트 주차 교통 택시 대리운전 버스 카카오택시 대중교통'},
-  {page:'manners',icon:'🤝',name:'매너',keywords:'울산챔피언나이트 매너 에티켓 룰 춤 사진 촬영 술 테이블'},
-  {page:'nearby',icon:'🍻',name:'주변 코스',keywords:'울산챔피언나이트 주변 코스 1차 2차 고기 삼겹살 해장 국밥 맛집 동선'},
-  {page:'compare',icon:'⚔️',name:'비교',keywords:'울산챔피언나이트 비교 다른곳 규모 음악 연령대 DJ 시설'}
+  {page:'dresscodea',icon:'👔',name:'드레스코드',keywords:'울산챔피언나이트 드레스코드 옷 복장 신발 운동화 슬리퍼 셔츠 슬랙스 남자 여자'},
+  {page:'budgeta',icon:'💰',name:'예산',keywords:'울산챔피언나이트 예산 가격 돈 비용 입장료 술값 양주 맥주 대리비 카드'},
+  {page:'timinga',icon:'⏰',name:'시간대',keywords:'울산챔피언나이트 시간 몇시 금요일 토요일 평일 피크타임 자정 새벽'},
+  {page:'parkinga',icon:'🚗',name:'주차·교통',keywords:'울산챔피언나이트 주차 교통 택시 대리운전 버스 카카오택시 대중교통'},
+  {page:'mannersa',icon:'🤝',name:'매너',keywords:'울산챔피언나이트 매너 에티켓 룰 춤 사진 촬영 술 테이블'},
+  {page:'nearbya',icon:'🍻',name:'주변 코스',keywords:'울산챔피언나이트 주변 코스 1차 2차 고기 삼겹살 해장 국밥 맛집 동선'},
+  {page:'comparea',icon:'⚔️',name:'비교',keywords:'울산챔피언나이트 비교 다른곳 규모 음악 연령대 DJ 시설'}
 ];
 (function(){
   var input=document.getElementById('searchInput');
