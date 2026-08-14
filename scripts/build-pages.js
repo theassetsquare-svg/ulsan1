@@ -145,7 +145,10 @@ function build(page) {
 const written = [];
 for (const page of pages) {
   const html = build(page);
-  const file = page.slug ? path.join(ROOT, page.slug, 'index.html') : path.join(ROOT, 'index.html');
+  /* <slug>.html 로 쓴다. Cloudflare Pages가 /<slug> 요청에 이 파일을 200으로 바로 준다.
+     <slug>/index.html 로 두면 /<slug> → /<slug>/ 로 308 리다이렉트가 붙어
+     canonical(슬래시 없음)과 어긋나고 홉이 하나 더 생긴다. */
+  const file = page.slug ? path.join(ROOT, page.slug + '.html') : path.join(ROOT, 'index.html');
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, html, 'utf8');
   written.push([page.url, path.relative(ROOT, file), html.length]);

@@ -70,7 +70,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import re, sys, glob
-          files = ['index.html'] + sorted(glob.glob('*a/index.html'))
+          files = ['index.html'] + sorted(glob.glob('*a.html'))
           seen, fail = {}, 0
           for f in files:
               h = open(f, encoding='utf-8').read()
@@ -79,7 +79,7 @@ jobs:
               if c in seen:
                   print(f'❌ canonical 중복: {f} ↔ {seen[c]}'); fail = 1
               seen[c] = f
-              expect = '/' if f == 'index.html' else '/' + f.split('/')[0]
+              expect = '/' if f == 'index.html' else '/' + f[:-5]
               if not c.endswith(expect):
                   print(f'❌ canonical 불일치: {f} → {c}'); fail = 1
               else:
