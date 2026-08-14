@@ -115,7 +115,7 @@ jobs:
     steps:
       - name: Live 9-page dangerous word scan
         run: |
-          PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala"
+          PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala /bulgwang-hobak"
           DANGEROUS="밤문화 유흥"
           FAIL=0
           for page in $PAGES; do

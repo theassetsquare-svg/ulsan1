@@ -9,10 +9,10 @@ jobs:
   health:
     runs-on: ubuntu-latest
     steps:
-      - name: 9 페이지 200 OK 확인
+      - name: 전 페이지 200 OK 확인
         run: |
           set -e
-          PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala"
+          PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala /bulgwang-hobak"
           FAIL=0
           for page in $PAGES; do
             URL="https://ulsanb.pages.dev$page"
@@ -29,7 +29,7 @@ jobs:
       - name: 핵심 자산 200 OK
         run: |
           set -e
-          ASSETS="/sitemap.xml /robots.txt /llms.txt /site.webmanifest /sw.js /favicon.svg /og/main.png /icon-192.png /icon-512.png /apple-touch-icon.png"
+          ASSETS="/og/bulgwang-hobak.png /sitemap.xml /robots.txt /llms.txt /site.webmanifest /sw.js /favicon.svg /og/main.png /icon-192.png /icon-512.png /apple-touch-icon.png"
           FAIL=0
           for a in $ASSETS; do
             URL="https://ulsanb.pages.dev$a"
