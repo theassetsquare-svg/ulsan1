@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'src/index.template.html'
       - '_headers'
       - 'sw.js'
       - 'site.webmanifest'
@@ -25,7 +26,7 @@ jobs:
       - name: Run Lighthouse on 9 pages
         run: |
           mkdir -p lh-reports
-          PAGES="/ /dresscode /budget /timing /parking /manners /nearby /compare /legal"
+          PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala"
           PASS=1
           for page in $PAGES; do
             slug=$(echo "$page" | sed 's|/|root|; s|^root$|home|; s|^/||')

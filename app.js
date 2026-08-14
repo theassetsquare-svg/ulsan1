@@ -81,7 +81,16 @@ var toastQueue=[];
 var toastShowing=false;
 
 /* ---- 1. 라우터 (빈 화면 방지 try-catch) ---- */
-function go(page){
+/* 페이지별 정적 HTML 분리 이후: 각 URL은 자기 article만 들고 있다.
+   DOM에 없는 페이지는 SPA로 못 그리므로 실제 주소로 이동시킨다. 절대 메인으로 되돌리지 않는다. */
+function hasPage(page){
+  return !!document.getElementById(page?'page-'+page:'page-main');
+}
+function go(page,skipPush){
+  if(!hasPage(page)){
+    location.href=page?'/'+page:'/';
+    return;
+  }
   try{
     document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active')});
     document.querySelectorAll('.nav-link').forEach(function(n){n.classList.remove('active')});
@@ -121,7 +130,8 @@ function go(page){
       }
     }
     window.scrollTo(0,0);
-    history.pushState(null,null,page?'/'+page:'/');
+    /* 최초 로드/뒤로가기 복원 때는 주소를 건드리지 않는다 (히스토리 중복 방지) */
+    if(!skipPush)history.pushState(null,null,page?'/'+page:'/');
     currentPage=page||'';
     scrollDepthMax=0;
     try{sessionStorage.setItem('ucn_page',currentPage)}catch(e){}
@@ -407,14 +417,11 @@ function getPageFromPath(){
   if(PAGES.indexOf(p)===-1)p='';
   return p;
 }
-function handleRoute(){go(getPageFromPath())}
+function handleRoute(){go(getPageFromPath(),true)}
 window.addEventListener('DOMContentLoaded',function(){
-  /* persistSession: URL 우선, 없으면 sessionStorage 복원 */
-  var urlPage=getPageFromPath();
-  if(!urlPage){
-    try{var saved=sessionStorage.getItem('ucn_page');if(saved&&PAGES.indexOf(saved)!==-1)urlPage=saved}catch(e){}
-  }
-  if(urlPage)go(urlPage);else handleRoute();
+  /* 주소창이 유일한 진실. 정적 페이지 분리 후에는 sessionStorage 복원으로
+     주소를 바꿔치기하지 않는다 (그게 "클릭한 주소가 메인으로 튀는" 원인이었다). */
+  go(getPageFromPath(),true);
   /* TBT 절감: 비핵심 초기화를 idle로 미룸 */
   _idle(function(){updateLiveCount();initRevealAnimations();});
 });
@@ -464,11 +471,13 @@ document.addEventListener('click',function(e){
   var href=a.getAttribute('href');
   if(!href)return;
   if(href.charAt(0)==='/'&&!a.getAttribute('target')){
-    e.preventDefault();
-    var page=href.replace(/^\//,'');
-    if(PAGES.indexOf(page)!==-1||page===''){
+    var page=href.replace(/^\//,'').replace(/\/$/,'');
+    /* 그 페이지 본문이 이 문서에 있을 때만 SPA 전환.
+       없으면 기본 동작(정적 HTML 전체 이동)을 그대로 둔다 = 주소 그대로 열린다. */
+    if((PAGES.indexOf(page)!==-1||page==='')&&hasPage(page)){
+      e.preventDefault();
       history.pushState(null,null,href);
-      go(page);
+      go(page,true);
     }
   }
 });

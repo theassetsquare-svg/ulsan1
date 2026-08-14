@@ -53,4 +53,4 @@ jobs:
           fi
           curl -sX POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json" \
-            -d "{\"host\":\"ulsanb.pages.dev\",\"key\":\"$KEY\",\"urlList\":[\"https://ulsanb.pages.dev/\",\"https://ulsanb.pages.dev/dresscode\",\"https://ulsanb.pages.dev/budget\",\"https://ulsanb.pages.dev/timing\",\"https://ulsanb.pages.dev/parking\",\"https://ulsanb.pages.dev/manners\",\"https://ulsanb.pages.dev/nearby\",\"https://ulsanb.pages.dev/compare\",\"https://ulsanb.pages.dev/legal\"]}" || true
+            -d "{\"host\":\"ulsanb.pages.dev\",\"key\":\"$KEY\",\"urlList\":[\"https://ulsanb.pages.dev/\",\"https://ulsanb.pages.dev/dresscodea\",\"https://ulsanb.pages.dev/budgeta\",\"https://ulsanb.pages.dev/timinga\",\"https://ulsanb.pages.dev/parkinga\",\"https://ulsanb.pages.dev/mannersa\",\"https://ulsanb.pages.dev/nearbya\",\"https://ulsanb.pages.dev/comparea\",\"https://ulsanb.pages.dev/legala\"]}" || true

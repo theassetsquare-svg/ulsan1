@@ -15,16 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Block dangerous words in index.html (영구 룰)
+      - name: Block dangerous words in src/index.template.html (영구 룰)
         run: |
           set -e
           DANGEROUS="밤문화 유흥 사창 성매매 도박"
           FAIL=0
           for word in $DANGEROUS; do
-            COUNT=$(grep -c "$word" index.html || true)
+            COUNT=$(grep -c "$word" src/index.template.html || true)
             if [ "$COUNT" -gt 0 ]; then
-              echo "::error::❌ 위험 단어 발견: '$word' x$COUNT 회 in index.html"
-              grep -n "$word" index.html | head -5
+              echo "::error::❌ 위험 단어 발견: '$word' x$COUNT 회 in src/index.template.html"
+              grep -n "$word" src/index.template.html | head -5
               FAIL=1
             else
               echo "✅ '$word' 0건"
@@ -34,9 +34,9 @@ jobs:
 
       - name: Block AggregateRating (가짜 별점 영구 룰)
         run: |
-          if grep -q "AggregateRating\|aggregateRating" index.html; then
+          if grep -q "AggregateRating\|aggregateRating" src/index.template.html; then
             echo "::error::❌ 가짜 별점(AggregateRating) 발견 — 영구 룰 위반"
-            grep -n "AggregateRating\|aggregateRating" index.html
+            grep -n "AggregateRating\|aggregateRating" src/index.template.html
             exit 1
           fi
           echo "✅ 가짜 별점 0건"
@@ -47,7 +47,7 @@ jobs:
           REQ='WebSite NightClub LocalBusiness Article BreadcrumbList FAQPage HowTo Organization'
           FAIL=0
           for s in $REQ; do
-            if ! grep -q "\"@type\": \"$s\"" index.html; then
+            if ! grep -q "\"@type\": \"$s\"" src/index.template.html; then
               echo "::error::❌ Schema 누락: $s"
               FAIL=1
             else
@@ -56,13 +56,46 @@ jobs:
           done
           exit $FAIL
 
+      - name: 정적 페이지 = 템플릿 동기화 확인 (빌드 산출물 커밋 누락 방지)
+        run: |
+          node scripts/build-pages.js
+          if ! git diff --quiet; then
+            echo "::error::❌ 생성된 정적 페이지가 템플릿과 다름 — 'node scripts/build-pages.js' 실행 후 커밋할 것"
+            git diff --stat
+            exit 1
+          fi
+          echo "✅ index.html + 8개 정적 페이지가 템플릿과 일치"
+
+      - name: 페이지별 canonical 유일성 확인
+        run: |
+          python3 - <<'PY'
+          import re, sys, glob
+          files = ['index.html'] + sorted(glob.glob('*a/index.html'))
+          seen, fail = {}, 0
+          for f in files:
+              h = open(f, encoding='utf-8').read()
+              c = re.search(r'<link rel="canonical" href="([^"]+)"', h).group(1)
+              t = re.search(r'<title>([^<]+)</title>', h).group(1)
+              if c in seen:
+                  print(f'❌ canonical 중복: {f} ↔ {seen[c]}'); fail = 1
+              seen[c] = f
+              expect = '/' if f == 'index.html' else '/' + f.split('/')[0]
+              if not c.endswith(expect):
+                  print(f'❌ canonical 불일치: {f} → {c}'); fail = 1
+              else:
+                  print(f'✅ {f:<24} {c}  |  {t[:30]}')
+          if len(files) != 9:
+              print(f'❌ 페이지 수 {len(files)} ≠ 9'); fail = 1
+          sys.exit(fail)
+          PY
+
       - name: Validate JSON-LD parses
         run: |
           npm install -g @schemarkup/cli || true
           # Extract each <script type="application/ld+json"> and parse
           python3 - <<'PY'
           import re, json, sys
-          html = open('index.html', encoding='utf-8').read()
+          html = open('src/index.template.html', encoding='utf-8').read()
           blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
           print(f"Found {len(blocks)} JSON-LD blocks")
           fail = 0
@@ -82,7 +115,7 @@ jobs:
     steps:
       - name: Live 9-page dangerous word scan
         run: |
-          PAGES="/ /dresscode /budget /timing /parking /manners /nearby /compare /legal"
+          PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala"
           DANGEROUS="밤문화 유흥"
           FAIL=0
           for page in $PAGES; do

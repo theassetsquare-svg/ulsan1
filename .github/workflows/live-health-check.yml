@@ -12,7 +12,7 @@ jobs:
       - name: 9 페이지 200 OK 확인
         run: |
           set -e
-          PAGES="/ /dresscode /budget /timing /parking /manners /nearby /compare /legal"
+          PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala"
           FAIL=0
           for page in $PAGES; do
             URL="https://ulsanb.pages.dev$page"

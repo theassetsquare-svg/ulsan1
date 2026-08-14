@@ -1,6 +1,6 @@
 /* 울산챔피언나이트 가이드 Service Worker
    영구 룰: 오프라인 폴백, 캐시 우선, 자동 정리 */
-const VERSION = 'ucn-v2026-05-21';
+const VERSION = 'ucn-v2026-08-14';
 const STATIC_CACHE = `static-${VERSION}`;
 const RUNTIME_CACHE = `runtime-${VERSION}`;
 
