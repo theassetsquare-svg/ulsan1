@@ -880,6 +880,9 @@ var easterFound=JSON.parse(localStorage.getItem('ucn_easter')||'[]');
 // 로고를 5번 클릭하면 이스터에그
 var logoClicks=0;
 document.querySelector('.nav-logo').addEventListener('click',function(e){
+  /* 정적 페이지 분리 이후: 메인 본문이 없는 문서에서는 로고가 홈으로 가는 링크로 동작해야 한다.
+     여기서 무조건 preventDefault 하면 서브페이지에서 로고가 먹통이 된다. */
+  if(!document.getElementById('page-main'))return;
   e.preventDefault();
   logoClicks++;
   if(logoClicks===5){
