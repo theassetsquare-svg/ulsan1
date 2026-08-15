@@ -1,0 +1,1002 @@
+{
+ "curlRows": [
+  {
+   "no": 1,
+   "name": "불광동호박나이트",
+   "url": "https://ulsanb.pages.dev/night/bulgwang-hobak-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/bulgwang-hobak-night/",
+   "noindex": false
+  },
+  {
+   "no": 2,
+   "name": "창원룰루랄라나이트",
+   "url": "https://ulsanb.pages.dev/night/changwon-lululala-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/changwon-lululala-night/",
+   "noindex": false
+  },
+  {
+   "no": 3,
+   "name": "울산챔피언나이트",
+   "url": "https://ulsanb.pages.dev/night/ulsan-champion-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/ulsan-champion-night/",
+   "noindex": false
+  },
+  {
+   "no": 4,
+   "name": "청담나이트",
+   "url": "https://ulsanb.pages.dev/night/cheongdam-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/cheongdam-night/",
+   "noindex": false
+  },
+  {
+   "no": 5,
+   "name": "대전원나이트",
+   "url": "https://ulsanb.pages.dev/night/daejeon-one-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/daejeon-one-night/",
+   "noindex": false
+  },
+  {
+   "no": 6,
+   "name": "신림그랑프리나이트",
+   "url": "https://ulsanb.pages.dev/night/sillim-grandprix-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/sillim-grandprix-night/",
+   "noindex": false
+  },
+  {
+   "no": 7,
+   "name": "상봉동한국관나이트",
+   "url": "https://ulsanb.pages.dev/night/sangbong-hangukgwan-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/sangbong-hangukgwan-night/",
+   "noindex": false
+  },
+  {
+   "no": 8,
+   "name": "수유샴푸나이트",
+   "url": "https://ulsanb.pages.dev/night/suyu-shampoo-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/suyu-shampoo-night/",
+   "noindex": false
+  },
+  {
+   "no": 9,
+   "name": "부산아시아드나이트",
+   "url": "https://ulsanb.pages.dev/night/busan-asiad-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/busan-asiad-night/",
+   "noindex": false
+  },
+  {
+   "no": 10,
+   "name": "수원찬스돔나이트",
+   "url": "https://ulsanb.pages.dev/night/suwon-chance-dome-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/suwon-chance-dome-night/",
+   "noindex": false
+  },
+  {
+   "no": 11,
+   "name": "안산히트나이트",
+   "url": "https://ulsanb.pages.dev/night/ansan-hit-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/ansan-hit-night/",
+   "noindex": false
+  },
+  {
+   "no": 12,
+   "name": "대전세븐나이트",
+   "url": "https://ulsanb.pages.dev/night/daejeon-seven-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/daejeon-seven-night/",
+   "noindex": false
+  },
+  {
+   "no": 13,
+   "name": "일산샴푸나이트",
+   "url": "https://ulsanb.pages.dev/night/ilsan-shampoo-night/",
+   "http": 200,
+   "name_ok": true,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/ilsan-shampoo-night/",
+   "noindex": false
+  }
+ ],
+ "ogRows": [
+  {
+   "file": "bulgwang-hobak-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/bulgwang-hobak-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "changwon-lululala-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/changwon-lululala-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "ulsan-champion-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/ulsan-champion-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "cheongdam-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/cheongdam-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "daejeon-one-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/daejeon-one-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "sillim-grandprix-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/sillim-grandprix-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "sangbong-hangukgwan-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/sangbong-hangukgwan-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "suyu-shampoo-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/suyu-shampoo-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "busan-asiad-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/busan-asiad-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "suwon-chance-dome-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/suwon-chance-dome-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "ansan-hit-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/ansan-hit-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "daejeon-seven-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/daejeon-seven-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  },
+  {
+   "file": "ilsan-shampoo-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/ilsan-shampoo-night-og.png",
+   "http": 200,
+   "dim": "1200x1200"
+  }
+ ],
+ "bar": [
+  {
+   "vp": "모바일 390x844",
+   "name": "불광동호박나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "창원룰루랄라나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "울산챔피언나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "청담나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전원나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "신림그랑프리나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "상봉동한국관나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수유샴푸나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "부산아시아드나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수원찬스돔나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "안산히트나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전세븐나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "일산샴푸나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "불광동호박나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "창원룰루랄라나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "울산챔피언나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "청담나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전원나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "신림그랑프리나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "상봉동한국관나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수유샴푸나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "부산아시아드나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수원찬스돔나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "안산히트나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전세븐나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "일산샴푸나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  }
+ ],
+ "anc": [
+  {
+   "vp": "모바일 390x844",
+   "name": "불광동호박나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "창원룰루랄라나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "울산챔피언나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "청담나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전원나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "신림그랑프리나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "상봉동한국관나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수유샴푸나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "부산아시아드나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수원찬스돔나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "안산히트나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전세븐나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "일산샴푸나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "불광동호박나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "창원룰루랄라나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "울산챔피언나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "청담나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전원나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "신림그랑프리나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "상봉동한국관나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수유샴푸나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "부산아시아드나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수원찬스돔나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "안산히트나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전세븐나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "일산샴푸나이트",
+   "parent": "body",
+   "bad": "없음"
+  }
+ ],
+ "group": [
+  {
+   "vp": "모바일 390x844",
+   "name": "불광동호박나이트",
+   "grp": "A",
+   "barTxt": "📞 손흥민 010-2221-1937",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "창원룰루랄라나이트",
+   "grp": "A",
+   "barTxt": "📞 로또 010-7528-4936",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "울산챔피언나이트",
+   "grp": "A",
+   "barTxt": "📞 춘자 010-5653-0069",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "청담나이트",
+   "grp": "A",
+   "barTxt": "📞 펩시맨 010-5655-4866",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전원나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "신림그랑프리나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "상봉동한국관나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수유샴푸나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "부산아시아드나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수원찬스돔나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "안산히트나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전세븐나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "일산샴푸나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "불광동호박나이트",
+   "grp": "A",
+   "barTxt": "📞 손흥민 010-2221-1937",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "창원룰루랄라나이트",
+   "grp": "A",
+   "barTxt": "📞 로또 010-7528-4936",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "울산챔피언나이트",
+   "grp": "A",
+   "barTxt": "📞 춘자 010-5653-0069",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "청담나이트",
+   "grp": "A",
+   "barTxt": "📞 펩시맨 010-5655-4866",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전원나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "신림그랑프리나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "상봉동한국관나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수유샴푸나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "부산아시아드나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수원찬스돔나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "안산히트나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전세븐나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "일산샴푸나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  }
+ ],
+ "cover": [
+  {
+   "vp": "모바일 390x844",
+   "name": "불광동호박나이트",
+   "ok": true,
+   "adBottom": 750.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "창원룰루랄라나이트",
+   "ok": true,
+   "adBottom": 749.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "울산챔피언나이트",
+   "ok": true,
+   "adBottom": 750.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "청담나이트",
+   "ok": true,
+   "adBottom": 749.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전원나이트",
+   "ok": true,
+   "adBottom": 750.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "신림그랑프리나이트",
+   "ok": true,
+   "adBottom": 749.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "상봉동한국관나이트",
+   "ok": true,
+   "adBottom": 749.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수유샴푸나이트",
+   "ok": true,
+   "adBottom": 750.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "부산아시아드나이트",
+   "ok": true,
+   "adBottom": 750.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "수원찬스돔나이트",
+   "ok": true,
+   "adBottom": 749.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "안산히트나이트",
+   "ok": true,
+   "adBottom": 749.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "대전세븐나이트",
+   "ok": true,
+   "adBottom": 749.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "name": "일산샴푸나이트",
+   "ok": true,
+   "adBottom": 750.2,
+   "barTop": 784
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "불광동호박나이트",
+   "ok": true,
+   "adBottom": 981.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "창원룰루랄라나이트",
+   "ok": true,
+   "adBottom": 982.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "울산챔피언나이트",
+   "ok": true,
+   "adBottom": 981.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "청담나이트",
+   "ok": true,
+   "adBottom": 982.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전원나이트",
+   "ok": true,
+   "adBottom": 981.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "신림그랑프리나이트",
+   "ok": true,
+   "adBottom": 982.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "상봉동한국관나이트",
+   "ok": true,
+   "adBottom": 982.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수유샴푸나이트",
+   "ok": true,
+   "adBottom": 981.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "부산아시아드나이트",
+   "ok": true,
+   "adBottom": 981.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "수원찬스돔나이트",
+   "ok": true,
+   "adBottom": 982.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "안산히트나이트",
+   "ok": true,
+   "adBottom": 982.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "대전세븐나이트",
+   "ok": true,
+   "adBottom": 982.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "name": "일산샴푸나이트",
+   "ok": true,
+   "adBottom": 981.9,
+   "barTop": 1016
+  }
+ ]
+}
