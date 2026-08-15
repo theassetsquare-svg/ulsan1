@@ -249,4 +249,147 @@
       <image:title>일산샴푸나이트</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/eunpyeong-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/eunpyeong-night-og.png</image:loc>
+      <image:caption>은평나이트 서울 은평구 지역 안내 브랜드 카드</image:caption>
+      <image:title>은평나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/changwon-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/changwon-night-og.png</image:loc>
+      <image:caption>창원나이트 경남 창원시 지역 안내 브랜드 카드</image:caption>
+      <image:title>창원나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/ulsan-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/ulsan-night-og.png</image:loc>
+      <image:caption>울산나이트 울산광역시 지역 안내 브랜드 카드</image:caption>
+      <image:title>울산나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/gangnam-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/gangnam-night-og.png</image:loc>
+      <image:caption>강남나이트 서울 강남구 지역 안내 브랜드 카드</image:caption>
+      <image:title>강남나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/daejeon-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/daejeon-night-og.png</image:loc>
+      <image:caption>대전나이트 대전광역시 지역 안내 브랜드 카드</image:caption>
+      <image:title>대전나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/sillim-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/sillim-night-og.png</image:loc>
+      <image:caption>신림나이트 서울 관악구 지역 안내 브랜드 카드</image:caption>
+      <image:title>신림나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/sangbong-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/sangbong-night-og.png</image:loc>
+      <image:caption>상봉동나이트 서울 중랑구 지역 안내 브랜드 카드</image:caption>
+      <image:title>상봉동나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/suyu-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/suyu-night-og.png</image:loc>
+      <image:caption>수유나이트 서울 강북구 지역 안내 브랜드 카드</image:caption>
+      <image:title>수유나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/busan-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/busan-night-og.png</image:loc>
+      <image:caption>부산나이트 부산광역시 지역 안내 브랜드 카드</image:caption>
+      <image:title>부산나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/suwon-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/suwon-night-og.png</image:loc>
+      <image:caption>수원나이트 경기 수원시 지역 안내 브랜드 카드</image:caption>
+      <image:title>수원나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/ansan-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/ansan-night-og.png</image:loc>
+      <image:caption>안산나이트 경기 안산시 지역 안내 브랜드 카드</image:caption>
+      <image:title>안산나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/yucheon-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/yucheon-night-og.png</image:loc>
+      <image:caption>유천동나이트 대전 중구 유천동 지역 안내 브랜드 카드</image:caption>
+      <image:title>유천동나이트</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ulsanb.pages.dev/night/ilsan-night/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanb.pages.dev/og/ilsan-night-og.png</image:loc>
+      <image:caption>일산나이트 경기 고양시 지역 안내 브랜드 카드</image:caption>
+      <image:title>일산나이트</image:title>
+    </image:image>
+  </url>
 </urlset>
