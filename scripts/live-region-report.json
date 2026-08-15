@@ -1,0 +1,1306 @@
+{
+ "curlRows": [
+  {
+   "no": 1,
+   "kw": "은평나이트",
+   "url": "https://ulsanb.pages.dev/night/eunpyeong-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/eunpyeong-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 2,
+   "kw": "창원나이트",
+   "url": "https://ulsanb.pages.dev/night/changwon-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/changwon-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 3,
+   "kw": "울산나이트",
+   "url": "https://ulsanb.pages.dev/night/ulsan-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/ulsan-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 4,
+   "kw": "강남나이트",
+   "url": "https://ulsanb.pages.dev/night/gangnam-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/gangnam-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 5,
+   "kw": "대전나이트",
+   "url": "https://ulsanb.pages.dev/night/daejeon-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/daejeon-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 6,
+   "kw": "신림나이트",
+   "url": "https://ulsanb.pages.dev/night/sillim-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/sillim-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 7,
+   "kw": "상봉동나이트",
+   "url": "https://ulsanb.pages.dev/night/sangbong-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/sangbong-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 8,
+   "kw": "수유나이트",
+   "url": "https://ulsanb.pages.dev/night/suyu-night/",
+   "http": 200,
+   "kwA": 23,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/suyu-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 9,
+   "kw": "부산나이트",
+   "url": "https://ulsanb.pages.dev/night/busan-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/busan-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 10,
+   "kw": "수원나이트",
+   "url": "https://ulsanb.pages.dev/night/suwon-night/",
+   "http": 200,
+   "kwA": 23,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/suwon-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 11,
+   "kw": "안산나이트",
+   "url": "https://ulsanb.pages.dev/night/ansan-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/ansan-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 12,
+   "kw": "유천동나이트",
+   "url": "https://ulsanb.pages.dev/night/yucheon-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/yucheon-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  },
+  {
+   "no": 13,
+   "kw": "일산나이트",
+   "url": "https://ulsanb.pages.dev/night/ilsan-night/",
+   "http": 200,
+   "kwA": 24,
+   "callbar": true,
+   "canonical": "https://ulsanb.pages.dev/night/ilsan-night/",
+   "noindex": false,
+   "redirected": false,
+   "venueLink": true
+  }
+ ],
+ "oldRows": [
+  {
+   "name": "불광동호박나이트",
+   "http": 200
+  },
+  {
+   "name": "창원룰루랄라나이트",
+   "http": 200
+  },
+  {
+   "name": "울산챔피언나이트",
+   "http": 200
+  },
+  {
+   "name": "청담나이트",
+   "http": 200
+  },
+  {
+   "name": "대전원나이트",
+   "http": 200
+  },
+  {
+   "name": "신림그랑프리나이트",
+   "http": 200
+  },
+  {
+   "name": "상봉동한국관나이트",
+   "http": 200
+  },
+  {
+   "name": "수유샴푸나이트",
+   "http": 200
+  },
+  {
+   "name": "부산아시아드나이트",
+   "http": 200
+  },
+  {
+   "name": "수원찬스돔나이트",
+   "http": 200
+  },
+  {
+   "name": "안산히트나이트",
+   "http": 200
+  },
+  {
+   "name": "대전세븐나이트",
+   "http": 200
+  },
+  {
+   "name": "일산샴푸나이트",
+   "http": 200
+  }
+ ],
+ "venueRows": [
+  {
+   "kw": "은평나이트",
+   "venue": "불광동호박나이트",
+   "url": "https://ulsanb.pages.dev/night/bulgwang-hobak-night/",
+   "http": 200
+  },
+  {
+   "kw": "창원나이트",
+   "venue": "창원룰루랄라나이트",
+   "url": "https://ulsanb.pages.dev/night/changwon-lululala-night/",
+   "http": 200
+  },
+  {
+   "kw": "울산나이트",
+   "venue": "울산챔피언나이트",
+   "url": "https://ulsanb.pages.dev/night/ulsan-champion-night/",
+   "http": 200
+  },
+  {
+   "kw": "강남나이트",
+   "venue": "청담나이트",
+   "url": "https://ulsanb.pages.dev/night/cheongdam-night/",
+   "http": 200
+  },
+  {
+   "kw": "대전나이트",
+   "venue": "대전원나이트",
+   "url": "https://ulsanb.pages.dev/night/daejeon-one-night/",
+   "http": 200
+  },
+  {
+   "kw": "신림나이트",
+   "venue": "신림그랑프리나이트",
+   "url": "https://ulsanb.pages.dev/night/sillim-grandprix-night/",
+   "http": 200
+  },
+  {
+   "kw": "상봉동나이트",
+   "venue": "상봉동한국관나이트",
+   "url": "https://ulsanb.pages.dev/night/sangbong-hangukgwan-night/",
+   "http": 200
+  },
+  {
+   "kw": "수유나이트",
+   "venue": "수유샴푸나이트",
+   "url": "https://ulsanb.pages.dev/night/suyu-shampoo-night/",
+   "http": 200
+  },
+  {
+   "kw": "부산나이트",
+   "venue": "부산아시아드나이트",
+   "url": "https://ulsanb.pages.dev/night/busan-asiad-night/",
+   "http": 200
+  },
+  {
+   "kw": "수원나이트",
+   "venue": "수원찬스돔나이트",
+   "url": "https://ulsanb.pages.dev/night/suwon-chance-dome-night/",
+   "http": 200
+  },
+  {
+   "kw": "안산나이트",
+   "venue": "안산히트나이트",
+   "url": "https://ulsanb.pages.dev/night/ansan-hit-night/",
+   "http": 200
+  },
+  {
+   "kw": "유천동나이트",
+   "venue": "대전세븐나이트",
+   "url": "https://ulsanb.pages.dev/night/daejeon-seven-night/",
+   "http": 200
+  },
+  {
+   "kw": "일산나이트",
+   "venue": "일산샴푸나이트",
+   "url": "https://ulsanb.pages.dev/night/ilsan-shampoo-night/",
+   "http": 200
+  }
+ ],
+ "ogRows": [
+  {
+   "file": "eunpyeong-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/eunpyeong-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 74
+  },
+  {
+   "file": "changwon-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/changwon-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 79
+  },
+  {
+   "file": "ulsan-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/ulsan-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 73
+  },
+  {
+   "file": "gangnam-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/gangnam-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 74
+  },
+  {
+   "file": "daejeon-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/daejeon-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 83
+  },
+  {
+   "file": "sillim-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/sillim-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 79
+  },
+  {
+   "file": "sangbong-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/sangbong-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 88
+  },
+  {
+   "file": "suyu-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/suyu-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 78
+  },
+  {
+   "file": "busan-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/busan-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 78
+  },
+  {
+   "file": "suwon-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/suwon-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 85
+  },
+  {
+   "file": "ansan-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/ansan-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 75
+  },
+  {
+   "file": "yucheon-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/yucheon-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 82
+  },
+  {
+   "file": "ilsan-night-og.png",
+   "url": "https://ulsanb.pages.dev/og/ilsan-night-og.png",
+   "http": 200,
+   "dim": "1200x1200",
+   "kb": 79
+  }
+ ],
+ "robots": {
+  "http": 200,
+  "yeti": true,
+  "googlebot": true,
+  "disallow": 0
+ },
+ "sitemap": {
+  "http": 200,
+  "hits": 13
+ },
+ "bar": [
+  {
+   "vp": "모바일 390x844",
+   "kw": "은평나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "창원나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "울산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "강남나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "대전나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "신림나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "상봉동나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수유나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "부산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수원나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "안산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "유천동나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "일산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 784,
+   "top1": 784,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "은평나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "창원나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "울산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "강남나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "대전나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "신림나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "상봉동나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수유나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "부산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수원나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "안산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "유천동나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "일산나이트",
+   "scrollable": true,
+   "atBottom": true,
+   "top0": 1016,
+   "top1": 1016,
+   "diff": 0
+  }
+ ],
+ "anc": [
+  {
+   "vp": "모바일 390x844",
+   "kw": "은평나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "창원나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "울산나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "강남나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "대전나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "신림나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "상봉동나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수유나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "부산나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수원나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "안산나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "유천동나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "일산나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "은평나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "창원나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "울산나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "강남나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "대전나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "신림나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "상봉동나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수유나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "부산나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수원나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "안산나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "유천동나이트",
+   "parent": "body",
+   "bad": "없음"
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "일산나이트",
+   "parent": "body",
+   "bad": "없음"
+  }
+ ],
+ "group": [
+  {
+   "vp": "모바일 390x844",
+   "kw": "은평나이트",
+   "grp": "A",
+   "barTxt": "📞 손흥민 010-2221-1937",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "창원나이트",
+   "grp": "A",
+   "barTxt": "📞 로또 010-7528-4936",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "울산나이트",
+   "grp": "A",
+   "barTxt": "📞 춘자 010-5653-0069",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "강남나이트",
+   "grp": "A",
+   "barTxt": "📞 펩시맨 010-5655-4866",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "대전나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "신림나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "상봉동나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수유나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "부산나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수원나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "안산나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "유천동나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "일산나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "은평나이트",
+   "grp": "A",
+   "barTxt": "📞 손흥민 010-2221-1937",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "창원나이트",
+   "grp": "A",
+   "barTxt": "📞 로또 010-7528-4936",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "울산나이트",
+   "grp": "A",
+   "barTxt": "📞 춘자 010-5653-0069",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "강남나이트",
+   "grp": "A",
+   "barTxt": "📞 펩시맨 010-5655-4866",
+   "barBesta": false,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "대전나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "신림나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "상봉동나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수유나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "부산나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수원나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "안산나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "유천동나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "일산나이트",
+   "grp": "B",
+   "barTxt": "광고·제휴 입점 문의 카톡 besta12",
+   "barBesta": true,
+   "footBesta": true
+  }
+ ],
+ "cover": [
+  {
+   "vp": "모바일 390x844",
+   "kw": "은평나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "창원나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "울산나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "강남나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "대전나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "신림나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "상봉동나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수유나이트",
+   "ok": true,
+   "adBottom": 729.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "부산나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "수원나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "안산나이트",
+   "ok": true,
+   "adBottom": 730.2,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "유천동나이트",
+   "ok": true,
+   "adBottom": 729.6,
+   "barTop": 784
+  },
+  {
+   "vp": "모바일 390x844",
+   "kw": "일산나이트",
+   "ok": true,
+   "adBottom": 729.6,
+   "barTop": 784
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "은평나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "창원나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "울산나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "강남나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "대전나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "신림나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "상봉동나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수유나이트",
+   "ok": true,
+   "adBottom": 962.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "부산나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "수원나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "안산나이트",
+   "ok": true,
+   "adBottom": 961.9,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "유천동나이트",
+   "ok": true,
+   "adBottom": 962.2,
+   "barTop": 1016
+  },
+  {
+   "vp": "데스크톱 1920x1080",
+   "kw": "일산나이트",
+   "ok": true,
+   "adBottom": 962.2,
+   "barTop": 1016
+  }
+ ],
+ "alts": [
+  {
+   "kw": "은평나이트",
+   "missAlt": 0,
+   "ogAlt": "은평나이트 안내 카드 · 예약 담당 손흥민 010-2221-1937"
+  },
+  {
+   "kw": "창원나이트",
+   "missAlt": 0,
+   "ogAlt": "창원나이트 안내 카드 · 만 27세 이상 · 담당 로또 010-7528-4936"
+  },
+  {
+   "kw": "울산나이트",
+   "missAlt": 0,
+   "ogAlt": "울산나이트 안내 카드 · 예약 문의 춘자 010-5653-0069"
+  },
+  {
+   "kw": "강남나이트",
+   "missAlt": 0,
+   "ogAlt": "강남나이트 안내 카드 · 청담 담당 펩시맨 010-5655-4866"
+  },
+  {
+   "kw": "대전나이트",
+   "missAlt": 0,
+   "ogAlt": "대전나이트 지역 안내 카드 · 만 38세 이상 홀 표기"
+  },
+  {
+   "kw": "신림나이트",
+   "missAlt": 0,
+   "ogAlt": "신림나이트 지역 안내 카드 · 관악 고층 홀 소개"
+  },
+  {
+   "kw": "상봉동나이트",
+   "missAlt": 0,
+   "ogAlt": "상봉동나이트 지역 안내 카드 · 중랑 망우로 밤 안내"
+  },
+  {
+   "kw": "수유나이트",
+   "missAlt": 0,
+   "ogAlt": "수유나이트 지역 안내 카드 · 강북 도봉로 홀 소개"
+  },
+  {
+   "kw": "부산나이트",
+   "missAlt": 0,
+   "ogAlt": "부산나이트 지역 안내 카드 · 동래 온천장 밤 안내"
+  },
+  {
+   "kw": "수원나이트",
+   "missAlt": 0,
+   "ogAlt": "수원나이트 지역 안내 카드 · 권선 돔 홀 소개"
+  },
+  {
+   "kw": "안산나이트",
+   "missAlt": 0,
+   "ogAlt": "안산나이트 지역 안내 카드 · 상록 공단 도시의 밤"
+  },
+  {
+   "kw": "유천동나이트",
+   "missAlt": 0,
+   "ogAlt": "유천동나이트 지역 안내 카드 · 대전 구도심 밤 안내"
+  },
+  {
+   "kw": "일산나이트",
+   "missAlt": 0,
+   "ogAlt": "일산나이트 지역 안내 카드 · 고양 마두 상권 소개"
+  }
+ ],
+ "load": [
+  {
+   "kw": "은평나이트",
+   "ms": 861
+  },
+  {
+   "kw": "창원나이트",
+   "ms": 742
+  },
+  {
+   "kw": "울산나이트",
+   "ms": 715
+  },
+  {
+   "kw": "강남나이트",
+   "ms": 751
+  },
+  {
+   "kw": "대전나이트",
+   "ms": 779
+  },
+  {
+   "kw": "신림나이트",
+   "ms": 842
+  },
+  {
+   "kw": "상봉동나이트",
+   "ms": 770
+  },
+  {
+   "kw": "수유나이트",
+   "ms": 764
+  },
+  {
+   "kw": "부산나이트",
+   "ms": 777
+  },
+  {
+   "kw": "수원나이트",
+   "ms": 746
+  },
+  {
+   "kw": "안산나이트",
+   "ms": 767
+  },
+  {
+   "kw": "유천동나이트",
+   "ms": 785
+  },
+  {
+   "kw": "일산나이트",
+   "ms": 758
+  }
+ ]
+}
