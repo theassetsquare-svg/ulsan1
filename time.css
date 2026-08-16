@@ -1,0 +1,157 @@
+/* 밤 시간표 연구소 — 공통 스타일 1개 (다크 네이비 + 일렉트릭 블루 / 타임라인 UI) */
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0A1424;          /* 다크 네이비 */
+  --bg2:#0E1C31;
+  --card:#132540;
+  --line:#1E3A5F;
+  --ink:#EAF1FA;
+  --dim:#A9BCD4;
+  --blue:#38BDF8;        /* 일렉트릭 블루 */
+  --blue2:#2563EB;
+  --glow:rgba(56,189,248,.18);
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  background:var(--bg);color:var(--ink);
+  font-size:16px;line-height:1.7;word-break:keep-all;letter-spacing:-.2px;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:calc(88px + env(safe-area-inset-bottom,0px));
+}
+.wrap{max-width:780px;margin:0 auto;padding:0 18px}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ── 헤더 ── */
+.top{
+  background:
+    radial-gradient(900px 320px at 18% -10%, rgba(37,99,235,.38), transparent 60%),
+    radial-gradient(700px 300px at 92% 0%, rgba(56,189,248,.22), transparent 62%),
+    linear-gradient(180deg,#0B1728 0%,#0A1424 100%);
+  border-bottom:1px solid var(--line);
+  padding:26px 0 30px;
+}
+.crumb{font-size:12.5px;color:var(--dim);margin-bottom:14px}
+.crumb ol{list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.crumb li+li::before{content:'›';margin-right:6px;opacity:.55}
+.crumb a{color:var(--dim)}
+.tag{
+  display:inline-block;font-size:12.5px;font-weight:700;color:#BFE6FB;
+  background:rgba(56,189,248,.12);border:1px solid rgba(56,189,248,.42);
+  padding:5px 11px;border-radius:999px;margin-bottom:12px
+}
+h1{font-size:25px;line-height:1.38;font-weight:800;letter-spacing:-.6px}
+.top.home h1{font-size:26px}
+
+/* ── 본문 공통 ── */
+main{padding-top:26px}
+p{margin-bottom:13px}
+strong,b{color:#fff;font-weight:800}
+.lead p{color:#D7E4F3;font-size:16.5px}
+.lead p:first-child{font-size:17px}
+
+.answer{
+  background:linear-gradient(180deg,var(--card),#101F36);
+  border:1px solid var(--line);border-left:5px solid var(--blue);
+  border-radius:14px;padding:16px 18px;margin:24px 0;
+  box-shadow:0 10px 30px -18px var(--glow)
+}
+.answer b{display:block;font-size:13px;letter-spacing:1px;color:var(--blue);margin-bottom:8px}
+.answer ul{list-style:none}
+.answer li{padding-left:18px;position:relative;margin-bottom:6px}
+.answer li:last-child{margin-bottom:0}
+.answer li::before{content:'';position:absolute;left:0;top:11px;width:8px;height:8px;border-radius:50%;background:var(--blue)}
+
+.tablewrap{overflow-x:auto;margin:24px 0}
+table{width:100%;border-collapse:collapse;font-size:15.5px;min-width:340px;background:#0E1C31;border-radius:12px;overflow:hidden}
+caption{text-align:left;font-size:13.5px;color:var(--dim);padding-bottom:8px}
+th,td{border-bottom:1px solid var(--line);padding:11px 14px;text-align:left;vertical-align:top}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:0}
+th{width:96px;color:var(--dim);font-weight:700;background:#122036}
+
+/* ── 타임라인 ── */
+.tl{position:relative;margin:30px 0 6px;padding-left:26px}
+.tl::before{content:'';position:absolute;left:7px;top:8px;bottom:8px;width:2px;
+  background:linear-gradient(180deg,var(--blue),var(--blue2) 55%,rgba(37,99,235,.15))}
+.tl-item{position:relative;margin-bottom:30px}
+.tl-item::before{
+  content:'';position:absolute;left:-26px;top:7px;width:16px;height:16px;border-radius:50%;
+  background:var(--bg);border:3px solid var(--blue);box-shadow:0 0 0 4px rgba(56,189,248,.12)
+}
+.tl-mark{display:inline-block;font-size:12px;font-weight:800;letter-spacing:.4px;color:#9FE3FF;
+  background:rgba(37,99,235,.18);border:1px solid rgba(56,189,248,.3);padding:3px 9px;border-radius:6px;margin-bottom:9px}
+h2{font-size:20px;font-weight:800;line-height:1.42;margin-bottom:11px;letter-spacing:-.5px;color:#fff}
+
+.ending{
+  margin:34px 0 0;padding:20px 18px;border-radius:14px;
+  background:linear-gradient(180deg,#132540,#0D1B2F);border:1px solid var(--line)
+}
+.ending h2{color:var(--blue)}
+
+.faqwrap{margin:32px 0 0}
+.faq{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#0E1C31}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:last-child{border-bottom:0}
+.faq summary{cursor:pointer;padding:14px 16px;font-weight:700;min-height:44px;display:flex;align-items:center;gap:8px}
+.faq summary::marker{color:var(--blue)}
+.faq .a{padding:0 16px 15px;color:var(--dim)}
+
+.oneline{margin:26px 0 0;padding:14px 16px;border-left:4px solid var(--blue2);
+  background:rgba(37,99,235,.10);border-radius:0 10px 10px 0;font-weight:700}
+
+.near{margin:30px 0 0;padding:16px 18px;border:1px dashed var(--line);border-radius:12px}
+.near b{display:block;margin-bottom:8px;font-size:14.5px}
+.near ul{list-style:none}
+.near li{margin-bottom:7px;padding-left:16px;position:relative}
+.near li::before{content:'▸';position:absolute;left:0;color:var(--blue)}
+.near a{display:inline-block;min-height:30px;line-height:1.5}
+
+/* ── 허브 목록 ── */
+.hubsec{margin:30px 0}
+.hubsec h2{padding-bottom:8px;border-bottom:2px solid var(--line)}
+.hublist{list-style:none;display:grid;gap:10px}
+.hublist a{display:block;background:#0E1C31;border:1px solid var(--line);border-radius:12px;
+  padding:13px 15px;min-height:44px}
+.hublist a:hover{border-color:var(--blue);text-decoration:none}
+.hublist b{display:block;color:#fff;font-size:16px}
+.hublist span{display:block;color:var(--dim);font-size:14px;margin-top:3px}
+
+/* ── 푸터 ── */
+footer{margin-top:38px;padding:24px 0 14px;border-top:1px solid var(--line)}
+.adbox{
+  background:linear-gradient(135deg,var(--blue2),#1D4ED8);
+  border:2px solid var(--blue);border-radius:14px;
+  padding:18px 16px;text-align:center;margin-bottom:16px;
+  box-shadow:0 12px 34px -20px var(--blue)
+}
+.adbox b{font-size:20px;font-weight:900;letter-spacing:.3px;color:#fff}
+.disc{color:var(--dim);font-size:13.5px;margin-bottom:6px}
+.fnav{font-size:14px;margin-top:10px}
+
+/* ── 고정 전화바 ── */
+.callbar{
+  position:fixed;bottom:0;left:0;width:100%;z-index:9999;
+  background:#060E1A;border-top:2px solid var(--blue);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  box-shadow:0 -6px 22px rgba(0,0,0,.55)
+}
+.callbar a{
+  display:flex;align-items:center;justify-content:center;
+  width:100%;height:60px;color:#fff;font-size:18px;font-weight:800;letter-spacing:.2px;
+  text-decoration:none
+}
+.callbar a:hover{text-decoration:none;background:rgba(56,189,248,.10)}
+
+@media(max-width:480px){
+  h1{font-size:22px}
+  h2{font-size:18.5px}
+  .callbar a{height:56px;font-size:16px}
+  body{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+}
+@media(min-width:768px){
+  body{font-size:17px}
+  h1{font-size:30px}
+  h2{font-size:22px}
+  .hublist{grid-template-columns:1fr 1fr}
+}

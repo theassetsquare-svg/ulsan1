@@ -2,7 +2,7 @@
 # 영구 룰: 최적 캐시 + 보안 헤더 + LCP preload
 
 /
-  Link: </og/main.png>; rel=preload; as=image; fetchpriority=high, </favicon.svg>; rel=preload; as=image
+  Link: </time.css>; rel=preload; as=style, </og/time-home.png>; rel=preload; as=image; fetchpriority=high
   Cache-Control: public, max-age=60, s-maxage=300
   X-Content-Type-Options: nosniff
   X-Frame-Options: SAMEORIGIN
