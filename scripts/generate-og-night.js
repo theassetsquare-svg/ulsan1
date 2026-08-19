@@ -29,7 +29,7 @@ if (!process.env.FONTCONFIG_FILE) {
 const sharp = require('sharp');
 
 const SIZE = 1200, FONT = 'Noto Sans KR', ROOT = path.resolve(__dirname, '..');
-const BRAND = 'ulsanb.pages.dev';
+const BRAND = 'ulsanf.pages.dev';
 
 /* ── 실측: 텍스트 잉크 박스 ── */
 const cache = new Map();

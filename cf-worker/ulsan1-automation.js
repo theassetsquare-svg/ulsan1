@@ -1,7 +1,7 @@
-// ulsanb.pages.dev — 24h 자동화 Cloudflare Worker
+// ulsanf.pages.dev — 24h 자동화 Cloudflare Worker
 // 영구 룰: 위험 단어 / 가짜별점 / Schema 5종 자동 감시
 
-const SITE = 'https://ulsanb.pages.dev';
+const SITE = 'https://ulsanf.pages.dev';
 const PAGES = ['/', '/dresscode', '/budget', '/timing', '/parking', '/manners', '/nearby', '/compare', '/legal'];
 const ASSETS = ['/sitemap.xml', '/robots.txt', '/llms.txt', '/site.webmanifest', '/sw.js', '/favicon.svg', '/og/main.png', '/icon-192.png', '/icon-512.png', '/apple-touch-icon.png'];
 const DANGEROUS = ['밤문화', '유흥'];
@@ -94,7 +94,7 @@ async function indexNowPing() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        host: 'ulsanb.pages.dev',
+        host: 'ulsanf.pages.dev',
         key: indexNowKey,
         urlList: PAGES.map((p) => SITE + p),
       }),

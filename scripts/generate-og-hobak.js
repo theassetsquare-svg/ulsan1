@@ -83,7 +83,7 @@ const svg = `<svg width="${SIZE}" height="${SIZE}" xmlns="http://www.w3.org/2000
         font-size="50" font-weight="700" font-family="${FONT}">불광역 인근 · 주말 예약 필수</text>
 
   <text x="600" y="1136" text-anchor="middle" fill="rgba(255,255,255,0.45)"
-        font-size="36" font-weight="600" font-family="${FONT}">ulsanb.pages.dev/bulgwang-hobak</text>
+        font-size="36" font-weight="600" font-family="${FONT}">ulsanf.pages.dev/bulgwang-hobak</text>
   <rect x="0" y="${SIZE - 12}" width="${SIZE}" height="12" fill="${GOLD}"/>
 </svg>`;
 

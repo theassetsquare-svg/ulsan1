@@ -94,7 +94,7 @@ User-agent: Twitterbot
 Allow: /
 
 # Sitemaps
-Sitemap: https://ulsanb.pages.dev/sitemap.xml
+Sitemap: https://ulsanf.pages.dev/sitemap.xml
 
 # Host
-Host: ulsanb.pages.dev
+Host: ulsanf.pages.dev

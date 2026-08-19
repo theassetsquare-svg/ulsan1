@@ -5,7 +5,7 @@ const { chromium } = require('playwright');
 const { REGIONS } = require('./region-data.js');
 const { VENUES } = require('./night-data.js');
 const fs = require('fs'), path = require('path');
-const SITE = 'https://ulsanb.pages.dev';
+const SITE = 'https://ulsanf.pages.dev';
 const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'willChange', 'contain'];
 
 (async () => {

@@ -3,7 +3,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import os
 
-DOMAIN = "ulsanb.pages.dev"
+DOMAIN = "ulsanf.pages.dev"
 SIZE = 1200
 OUT_DIR = "og"
 PUBLIC_DIR = "public/og"
@@ -92,7 +92,7 @@ def create_og(filename, main_text, sub_text, accent_hex):
 
     # Bottom text
     bottom_font = find_font(28)
-    bt = f"ulsanb.pages.dev"
+    bt = f"ulsanf.pages.dev"
     bbox_bt = draw.textbbox((0, 0), bt, font=bottom_font)
     btw = bbox_bt[2] - bbox_bt[0]
     draw.text(((SIZE - btw) // 2, SIZE - 60), bt, fill=(255, 255, 255, 200), font=bottom_font)

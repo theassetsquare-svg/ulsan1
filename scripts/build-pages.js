@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SITE = 'https://ulsanb.pages.dev';
+const SITE = 'https://ulsanf.pages.dev';
 const TPL = path.join(ROOT, 'src/index.template.html');
 /* app.js 캐시버스터 — 내용 해시로 자동 생성.
    _headers가 /*.js를 immutable(1년)로 주기 때문에 버전이 안 바뀌면 브라우저·서비스워커가
@@ -105,7 +105,7 @@ function build(page) {
     [/<meta name="twitter:image" content="[^"]*">/, `<meta name="twitter:image" content="${page.og}">`],
     [/<link rel="canonical" href="[^"]*">/, `<link rel="canonical" href="${page.url}">`],
     [/<link rel="image_src" href="[^"]*">/, `<link rel="image_src" href="${page.og}">`],
-    [/<link rel="preload" href="https:\/\/ulsanb\.pages\.dev\/og\/[^"]*" as="image" fetchpriority="high">/,
+    [/<link rel="preload" href="https:\/\/ulsanf\.pages\.dev\/og\/[^"]*" as="image" fetchpriority="high">/,
       `<link rel="preload" href="${page.og}" as="image" fetchpriority="high">`],
     /* JS 없이도 해당 페이지가 보이도록 라우팅 클래스를 서버 응답에 박는다 */
     [/<html lang="ko"[^>]*>/, `<html lang="ko" class="r-${page.slug || 'main'}">`],
@@ -126,15 +126,15 @@ function build(page) {
   /* 2-3. JSON-LD — Article / BreadcrumbList를 이 페이지 기준으로 */
   if (page.slug) {
     out = out
-      .replace('"@id": "https://ulsanb.pages.dev/#article"', `"@id": "${page.url}#article"`)
+      .replace('"@id": "https://ulsanf.pages.dev/#article"', `"@id": "${page.url}#article"`)
       .replace(/"headline": "[^"]*"/, `"headline": "${jesc(page.title)}"`)
       .replace(/"@type": "Article",([\s\S]{0,200}?)"description": "[^"]*"/, `"@type": "Article",$1"description": "${jesc(page.desc)}"`)
-      .replace('"mainEntityOfPage": "https://ulsanb.pages.dev/"', `"mainEntityOfPage": "${page.url}"`)
-      .replace('"@id": "https://ulsanb.pages.dev/#breadcrumb"', `"@id": "${page.url}#breadcrumb"`)
+      .replace('"mainEntityOfPage": "https://ulsanf.pages.dev/"', `"mainEntityOfPage": "${page.url}"`)
+      .replace('"@id": "https://ulsanf.pages.dev/#breadcrumb"', `"@id": "${page.url}#breadcrumb"`)
       .replace(/("@id": "[^"]*#breadcrumb",\s*"itemListElement": )\[[\s\S]*?\]/,
         `$1[\n        {"@type":"ListItem","position":1,"name":"홈","item":"${SITE}/"},\n        {"@type":"ListItem","position":2,"name":"${jesc(page.name)}","item":"${page.url}"}\n      ]`);
     /* Article 대표 이미지도 페이지 og로 */
-    out = out.replace(/("@type": "ImageObject",\s*"url": ")https:\/\/ulsanb\.pages\.dev\/og\/main\.png(",\s*"width": 1200,\s*"height": 1200\s*\}\s*\}\s*,\s*\{\s*"@type": "BreadcrumbList")/,
+    out = out.replace(/("@type": "ImageObject",\s*"url": ")https:\/\/ulsanf\.pages\.dev\/og\/main\.png(",\s*"width": 1200,\s*"height": 1200\s*\}\s*\}\s*,\s*\{\s*"@type": "BreadcrumbList")/,
       `$1${page.og}$2`);
   }
 
@@ -144,6 +144,9 @@ function build(page) {
 /* ---- 3. 파일 쓰기 ---- */
 const written = [];
 for (const page of pages) {
+  /* 홈(/)은 독립 성공스토리 단독 페이지(src/home-story.html)로 분리됐다.
+     여기서 다시 만들면 그 페이지를 덮어쓰므로 루트는 건너뛴다. */
+  if (!page.slug) continue;
   const html = build(page);
   /* <slug>.html 로 쓴다. Cloudflare Pages가 /<slug> 요청에 이 파일을 200으로 바로 준다.
      <slug>/index.html 로 두면 /<slug> → /<slug>/ 로 308 리다이렉트가 붙어

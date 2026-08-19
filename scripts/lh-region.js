@@ -16,7 +16,7 @@ const PORT = 9333;
   }
   const rows = [];
   for (const v of REGIONS) {
-    const url = `https://ulsanb.pages.dev/night/${v.slug}/`;
+    const url = `https://ulsanf.pages.dev/night/${v.slug}/`;
     const r = await lighthouse(url, { port: PORT, output: 'json', logLevel: 'error',
       onlyCategories: ['seo', 'accessibility', 'performance'], formFactor: 'mobile',
       screenEmulation: { mobile: true, width: 390, height: 844, deviceScaleFactor: 2 } });

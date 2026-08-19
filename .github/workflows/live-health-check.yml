@@ -15,7 +15,7 @@ jobs:
           PAGES="/ /dresscodea /budgeta /timinga /parkinga /mannersa /nearbya /comparea /legala /bulgwang-hobak"
           FAIL=0
           for page in $PAGES; do
-            URL="https://ulsanb.pages.dev$page"
+            URL="https://ulsanf.pages.dev$page"
             CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
             if [ "$CODE" != "200" ]; then
               echo "::error::❌ $URL → $CODE"
@@ -32,7 +32,7 @@ jobs:
           ASSETS="/og/bulgwang-hobak.png /sitemap.xml /robots.txt /llms.txt /site.webmanifest /sw.js /favicon.svg /og/main.png /icon-192.png /icon-512.png /apple-touch-icon.png"
           FAIL=0
           for a in $ASSETS; do
-            URL="https://ulsanb.pages.dev$a"
+            URL="https://ulsanf.pages.dev$a"
             CODE=$(curl -s -o /dev/null -w "%{http_code}" "$URL")
             if [ "$CODE" != "200" ]; then
               echo "::error::❌ $URL → $CODE"
@@ -45,7 +45,7 @@ jobs:
 
       - name: Schema/FAQ 라이브 존재 확인
         run: |
-          BODY=$(curl -sL https://ulsanb.pages.dev/)
+          BODY=$(curl -sL https://ulsanf.pages.dev/)
           for type in NightClub LocalBusiness WebSite Article BreadcrumbList FAQPage HowTo Organization; do
             if echo "$BODY" | grep -q "\"@type\": \"$type\""; then
               echo "✅ $type"

@@ -363,7 +363,8 @@ for (const v of VENUES) {
   written.push([`/time/${v.slug}/`, html.length]);
 }
 fs.writeFileSync(path.join(ROOT, 'time', 'index.html'), hubPage(), 'utf8');
-fs.writeFileSync(path.join(ROOT, 'index.html'), homePage(), 'utf8');
+/* 홈(/)은 독립 성공스토리 단독 페이지다. 빌드가 덮어쓰지 않도록 src/home-story.html을 그대로 복사한다. */
+fs.copyFileSync(path.join(ROOT, 'src', 'home-story.html'), path.join(ROOT, 'index.html'));
 
 console.log(`✅ /time/ ${VENUES.length}개 + 허브 + 홈 생성`);
 for (const [u, l] of written) console.log('  ' + u.padEnd(34) + (l / 1024).toFixed(1) + 'KB');
