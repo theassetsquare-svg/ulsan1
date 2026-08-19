@@ -75,7 +75,25 @@ const SPLIT = {
   'suwon-chance-dome-night': ['수원', '찬스돔나이트'],
   'ansan-hit-night': ['안산', '히트나이트'],
   'daejeon-seven-night': ['대전', '세븐나이트'],
-  'ilsan-shampoo-night': ['일산', '샴푸나이트']
+  'ilsan-shampoo-night': ['일산', '샴푸나이트'],
+  /* /night/ 허브 — 업소가 아니므로 B그룹(브랜드 표기) 규칙 그대로 */
+  'night-hub': ['나이트', '안내 목록'],
+  /* 홈(/) 독립 성공스토리 페이지 — 같은 B그룹 규칙 */
+  'home-success': ['성공스토리', '1,340일의 기록']
+};
+
+/* /night/ 목록 페이지용 썸네일 — 페이지 헤더 색과 동일 */
+const HUB_OG = {
+  slug: 'night-hub', name: '나이트 안내 목록', group: 'B',
+  ogBg: ['#15171C', '#374151'], ogAccent: '#9CA3AF',
+  ogRegion: '전국 13곳 방문 정보', age: null
+};
+
+/* 홈(/) 성공스토리 단독 페이지용 썸네일 — 페이지 색(종이/먹) 대비 규칙 유지 */
+const HOME_OG = {
+  slug: 'home-success', name: '성공스토리', group: 'B',
+  ogBg: ['#12100E', '#3D3630'], ogAccent: '#C9A96E',
+  ogRegion: '바닥에서 다시 선 사람의 기록', age: null
 };
 
 const report = [];
@@ -178,6 +196,8 @@ async function build(v) {
 
 (async () => {
   for (const v of VENUES) await build(v);
+  await build(HUB_OG);
+  await build(HOME_OG);
   const bgs = new Set(report.map(r => r.bg));
   console.log('\nfile                          size      grp nick   phone          글자높이 폭   잘림 띠대비  배경대비 배지');
   console.log('─'.repeat(128));

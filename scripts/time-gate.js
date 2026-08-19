@@ -7,8 +7,9 @@ const path = require('path');
 const { VENUES, HOME, HUB, TODAY, ADVERTISERS, KAKAO_ID } = require('./time-data.js');
 
 const ROOT = path.resolve(__dirname, '..');
+/* 홈(/)은 업소 시간표 페이지가 아니라 독립 성공스토리 단독 페이지로 분리됐다.
+   업소 페이지 기준(업소명·전화바·FAQ·글자수)으로 재면 전부 오탐이므로 대상에서 뺀다. */
 const PAGES = [
-  { key: 'HOME /', file: path.join(ROOT, 'index.html'), v: HOME, kind: 'venue' },
   { key: 'HUB /time/', file: path.join(ROOT, 'time', 'index.html'), v: HUB, kind: 'hub' },
   ...VENUES.map(v => ({ key: `/time/${v.slug}/`, file: path.join(ROOT, 'time', v.slug, 'index.html'), v, kind: 'venue' }))
 ];

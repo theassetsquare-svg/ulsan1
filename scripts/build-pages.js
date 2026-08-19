@@ -9,6 +9,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const SITE = 'https://ulsanf.pages.dev';
+const THUMB_NAME = '울산챔피언나이트';   /* 썸네일 alt에 반드시 들어가는 가게이름 */
 const TPL = path.join(ROOT, 'src/index.template.html');
 /* app.js 캐시버스터 — 내용 해시로 자동 생성.
    _headers가 /*.js를 immutable(1년)로 주기 때문에 버전이 안 바뀌면 브라우저·서비스워커가
@@ -111,7 +112,12 @@ function build(page) {
     [/<html lang="ko"[^>]*>/, `<html lang="ko" class="r-${page.slug || 'main'}">`],
     /* 히어로 카피도 페이지별로 (JS 실행 전 CLS·빈 텍스트 방지) */
     [/<h1 id="hero-title">[\s\S]*?<\/h1>/, `<h1 id="hero-title"><em>울산챔피언나이트</em> ${esc(page.hero)}</h1>`],
-    [/<p class="hero-sub" id="hero-sub">[\s\S]*?<\/p>/, `<p class="hero-sub" id="hero-sub">${esc(page.sub)}</p>`],
+    [/<p class="hero-sub" id="hero-sub">[\s\S]*?<\/p>/,
+      `<p class="hero-sub" id="hero-sub">${esc(page.sub)}</p>\n` +
+      /* 네이버 썸네일 조건: og:image와 같은 파일을 본문에도 실제로 넣는다 (h1 바로 아래) */
+      `<img src="/og/${page.og.split('/og/')[1]}" alt="${esc(THUMB_NAME + ' ' + page.hero)}" width="1200" height="1200" style="max-width:100%;height:auto" loading="eager">`],
+    [/<meta property="og:image:alt" content="[^"]*">/,
+      `<meta property="og:image:alt" content="${esc(THUMB_NAME + ' ' + page.hero)}">`],
     /* 캐시버스터 */
     [/<script src="\/app\.js[^"]*" defer><\/script>/, `<script src="/app.js?v=${ASSET_VERSION}" defer></script>`],
   ];

@@ -168,6 +168,8 @@ ${v.answer3.map(a => `      <li>${a}</li>`).join('\n')}
     </ul>
   </div>
 
+  <img src="/og/time-${v.slug}.png" alt="${esc(v.name)} ${esc(v.title.replace(/^[^,—]+[,—]\s*/, ''))}" width="1200" height="1200" style="max-width:100%;height:auto" loading="eager">
+
 ${factTable(v)}
 
 ${timeline(v)}
@@ -242,6 +244,8 @@ ${head({ title: HUB.title, desc: HUB.desc, url, og, ogAlt: HUB.ogAlt, ogType: 'w
 
 <main class="wrap">
 <article>
+  <img src="/og/time-${HUB.slug}.png" alt="${esc(HUB.h1)} 지역별 시간표 모음" width="1200" height="1200" style="max-width:100%;height:auto" loading="eager">
+
   <div class="lead">
 ${HUB.lead.map(p => `    <p>${p}</p>`).join('\n')}
   </div>

@@ -213,6 +213,8 @@ ${v.lead.map(l => `      <p>${l}</p>`).join('\n')}
     <p><strong>${esc(v.name)}</strong>은 ${esc(v.region)}에 있는 나이트클럽입니다. ${esc(v.answer2)}.${v.age ? ` 출입은 <strong>${esc(v.age)}</strong>만 가능합니다.` : ''}</p>
   </div>
 
+  <img src="/og/${v.slug}-og.png" alt="${esc(v.name)} ${esc(v.region)} ${esc(v.suffix)}" width="1200" height="1200" style="max-width:100%;height:auto" loading="eager">
+
 ${secs}
 
   <section id="faq" aria-labelledby="h-faq">
@@ -282,8 +284,20 @@ ${REGIONS.map(v => `      <li><a href="/night/${v.slug}/">${esc(v.kw)}</a> — $
 <link rel="canonical" href="${SITE}/night/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="나이트 안내 목록 — 전국 13곳 방문 정보">
+<meta property="og:description" content="전국 나이트클럽 13곳의 방문 안내를 한곳에 모았다. 지역별 홀 구조와 좌석, 시간대, 예약 순서를 업소마다 따로 정리한 목록 페이지다.">
 <meta property="og:url" content="${SITE}/night/">
 <meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="${SITE}/og/night-hub-og.png">
+<meta property="og:image:secure_url" content="${SITE}/og/night-hub-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="나이트 안내 목록 전국 13곳 방문 정보">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="나이트 안내 목록 — 전국 13곳 방문 정보">
+<meta name="twitter:description" content="전국 나이트클럽 13곳의 방문 안내를 한곳에 모았다. 지역별 홀 구조와 좌석, 시간대, 예약 순서를 업소마다 따로 정리한 목록 페이지다.">
+<meta name="twitter:image" content="${SITE}/og/night-hub-og.png">
+<meta name="thumbnail" content="${SITE}/og/night-hub-og.png">
 ${VERIFY}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>${css({ ogBg: ['#15171C', '#374151'], ogAccent: '#9CA3AF' })}</style>
@@ -296,6 +310,8 @@ ${VERIFY}
   <p class="stamp">최종 정리 <time datetime="${TODAY}">${TODAY}</time></p>
 </div></header>
 <main class="wrap"><article>
+  <img src="/og/night-hub-og.png" alt="나이트 안내 목록 전국 13곳 방문 정보" width="1200" height="1200" style="max-width:100%;height:auto" loading="eager">
+
   <section id="list" aria-labelledby="h-list">
     <h2 id="h-list">지역별 나이트 13곳</h2>
     <ul>

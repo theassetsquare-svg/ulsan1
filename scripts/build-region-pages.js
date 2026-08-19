@@ -201,6 +201,8 @@ ${v.lead.map(l => `      <p>${l}</p>`).join('\n')}
     <p><strong>${esc(v.kw)}</strong>는 ${esc(v.area)}의 나이트클럽 밤 문화를 뜻합니다. ${esc(v.answer2)}.</p>
   </div>
 
+  <img src="/og/${v.slug}-og.png" alt="${esc(v.kw)} ${esc(v.area)} ${esc(v.suffix)}" width="1200" height="1200" style="max-width:100%;height:auto" loading="eager">
+
 ${secs}
 
   <section id="faq" aria-labelledby="h-faq">

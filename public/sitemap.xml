@@ -7,6 +7,11 @@
     <lastmod>2026-08-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ulsanf.pages.dev/og/home-success-og.png</image:loc>
+      <image:caption>성공스토리 — 바닥에서 다시 선 1,340일의 기록</image:caption>
+      <image:title>성공스토리</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://ulsanf.pages.dev/time/</loc>
@@ -534,6 +539,11 @@
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ulsanf.pages.dev/og/legal.png</image:loc>
+      <image:caption>울산챔피언나이트 합법 운영 안내</image:caption>
+      <image:title>울산챔피언나이트 합법 운영 안내</image:title>
+    </image:image>
   </url>
 <url>
     <loc>https://ulsanf.pages.dev/bulgwang-hobak</loc>
@@ -551,6 +561,11 @@
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ulsanf.pages.dev/og/night-hub-og.png</image:loc>
+      <image:caption>나이트 안내 목록 전국 13곳 방문 정보</image:caption>
+      <image:title>나이트 안내 목록</image:title>
+    </image:image>
   </url>
 <url>
     <loc>https://ulsanf.pages.dev/night/bulgwang-hobak-night/</loc>
