@@ -99,10 +99,9 @@ function jsonld(v) {
     datePublished: TODAY, dateModified: TODAY,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     image: og,
-    about: { '@type': 'Place', name: v.area },
-    mentions: [{ '@type': 'NightClub', name: v.venue.name, url: `${SITE}/night/${v.venue.slug}/` }]
+    about: { '@type': 'Place', name: v.area }
   };
-  if (v.age) article.audience = { '@type': 'Audience', name: v.venue.name + ' 출입 기준', suggestedMinAge: v.age };
+  if (v.age) article.audience = { '@type': 'Audience', name: v.kw + ' 출입 기준', suggestedMinAge: v.age };
   const faq = {
     '@context': 'https://schema.org', '@type': 'FAQPage', '@id': url + '#faq',
     mainEntity: v.faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
@@ -110,9 +109,8 @@ function jsonld(v) {
   const bc = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: SITE + '/' },
-      { '@type': 'ListItem', position: 2, name: '나이트', item: SITE + '/night/' },
-      { '@type': 'ListItem', position: 3, name: v.kw, item: url }
+      { '@type': 'ListItem', position: 1, name: '나이트', item: SITE + '/night/' },
+      { '@type': 'ListItem', position: 2, name: v.kw, item: url }
     ]
   };
   return [article, faq, bc].map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n');
@@ -180,7 +178,6 @@ ${jsonld(v)}
   <div class="wrap">
     <nav class="crumb" aria-label="현재 위치">
       <ol>
-        <li><a href="/">홈</a></li>
         <li><a href="/night/">나이트</a></li>
         <li>${esc(v.kw)}</li>
       </ol>
@@ -238,7 +235,7 @@ ${rel.map(r => `      <li><a href="/night/${r.slug}/">${esc(r.kw)}</a> — ${esc
   </div>
   <p class="footer-note">본 페이지는 업소 정보 제공 페이지입니다. 출입 연령 및 이용 규정은 각 업소 방침을 따릅니다.</p>
   <p class="footer-note">최종 수정 <time datetime="${TODAY}">${TODAY_KR}</time> · 공개된 웹 정보를 정리했으며 실제와 다를 수 있습니다.</p>
-  <p class="footer-note"><a href="/night/">나이트 목록</a> · <a href="/">홈</a></p>
+  <p class="footer-note"><a href="/night/">나이트 목록</a></p>
 </footer>
 
 ${callbar(v)}

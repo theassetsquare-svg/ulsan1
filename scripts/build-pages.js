@@ -138,7 +138,7 @@ function build(page) {
       .replace('"mainEntityOfPage": "https://ulsanf.pages.dev/"', `"mainEntityOfPage": "${page.url}"`)
       .replace('"@id": "https://ulsanf.pages.dev/#breadcrumb"', `"@id": "${page.url}#breadcrumb"`)
       .replace(/("@id": "[^"]*#breadcrumb",\s*"itemListElement": )\[[\s\S]*?\]/,
-        `$1[\n        {"@type":"ListItem","position":1,"name":"홈","item":"${SITE}/"},\n        {"@type":"ListItem","position":2,"name":"${jesc(page.name)}","item":"${page.url}"}\n      ]`);
+        `$1[\n        {"@type":"ListItem","position":1,"name":"${jesc(page.name)}","item":"${page.url}"}\n      ]`);
     /* Article 대표 이미지도 페이지 og로 */
     out = out.replace(/("@type": "ImageObject",\s*"url": ")https:\/\/ulsanf\.pages\.dev\/og\/main\.png(",\s*"width": 1200,\s*"height": 1200\s*\}\s*\}\s*,\s*\{\s*"@type": "BreadcrumbList")/,
       `$1${page.og}$2`);

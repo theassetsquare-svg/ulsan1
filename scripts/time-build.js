@@ -58,7 +58,7 @@ function footer(v) {
   <div class="adbox"><b>광고문의 카톡: ${KAKAO_ID}</b></div>
   <p class="disc">공개된 웹 정보를 정리했으며 실제와 다를 수 있습니다.</p>
   <p class="disc">작성일 <time datetime="${TODAY}">${TODAY}</time></p>
-  <p class="fnav"><a href="/">홈</a> · <a href="/time/">전국 나이트 시간표 40</a></p>
+  <p class="fnav"><a href="/time/">전국 나이트 시간표 40</a></p>
 </footer>`;
 }
 
@@ -109,9 +109,8 @@ function jsonld(v) {
   const bc = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: SITE + '/' },
-      { '@type': 'ListItem', position: 2, name: '전국 나이트 시간표 40', item: SITE + '/time/' },
-      { '@type': 'ListItem', position: 3, name: v.name, item: url }
+      { '@type': 'ListItem', position: 1, name: '전국 나이트 시간표 40', item: SITE + '/time/' },
+      { '@type': 'ListItem', position: 2, name: v.name, item: url }
     ]
   };
   return [club, faq, bc].map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n');
@@ -145,7 +144,7 @@ ${jsonld(v)}
 <header class="top">
   <div class="wrap">
     <nav class="crumb"><ol>
-      <li><a href="/">밤 시간표 연구소</a></li>
+      <li>밤 시간표 연구소</li>
       <li><a href="/time/">시간표 40</a></li>
       <li>${esc(v.name)}</li>
     </ol></nav>
@@ -221,8 +220,7 @@ function hubPage() {
   const bc = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: SITE + '/' },
-      { '@type': 'ListItem', position: 2, name: HUB.h1, item: url }
+      { '@type': 'ListItem', position: 1, name: HUB.h1, item: url }
     ]
   };
   return `<!DOCTYPE html>
@@ -236,7 +234,7 @@ ${head({ title: HUB.title, desc: HUB.desc, url, og, ogAlt: HUB.ogAlt, ogType: 'w
 
 <header class="top">
   <div class="wrap">
-    <nav class="crumb"><ol><li><a href="/">밤 시간표 연구소</a></li><li>시간표 40</li></ol></nav>
+    <nav class="crumb"><ol><li>밤 시간표 연구소</li><li>시간표 40</li></ol></nav>
     <span class="tag">시간·요일 축으로 다시 쓴 40곳</span>
     <h1>${esc(HUB.h1)}</h1>
   </div>

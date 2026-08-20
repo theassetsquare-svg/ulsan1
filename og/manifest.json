@@ -1,0 +1,2970 @@
+[
+  {
+    "file": "/og/budget.png",
+    "page": "https://ulsanf.pages.dev/budgeta",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 31247
+  },
+  {
+    "file": "/og/bulgwang-hobak.png",
+    "page": "https://ulsanf.pages.dev/bulgwang-hobak",
+    "venue": "불광동호박나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "불광동호박나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "손흥민",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 183.8,
+        "scaleX": 1.0041
+      },
+      {
+        "text": "010-2221-1937",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5873
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-2221-1937",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 26633
+  },
+  {
+    "file": "/og/compare.png",
+    "page": "https://ulsanf.pages.dev/comparea",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 31247
+  },
+  {
+    "file": "/og/dresscode.png",
+    "page": "https://ulsanf.pages.dev/dresscodea",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 31130
+  },
+  {
+    "file": "/og/legal.png",
+    "page": "https://ulsanf.pages.dev/legala",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 31276
+  },
+  {
+    "file": "/og/manners.png",
+    "page": "https://ulsanf.pages.dev/mannersa",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 31277
+  },
+  {
+    "file": "/og/nearby.png",
+    "page": "https://ulsanf.pages.dev/nearbya",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 30071
+  },
+  {
+    "file": "/og/ansan-hit-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/ansan-hit-night/",
+    "venue": "안산히트나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "안산히트나이트",
+        "widthPx": 648,
+        "heightPx": 94.8,
+        "fontSizePx": 102,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20254
+  },
+  {
+    "file": "/og/ansan-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/ansan-night/",
+    "venue": "안산나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "안산나이트",
+        "widthPx": 648,
+        "heightPx": 133.4,
+        "fontSizePx": 143.6,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20513
+  },
+  {
+    "file": "/og/bulgwang-hobak-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/bulgwang-hobak-night/",
+    "venue": "불광동호박나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "불광동호박나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "손흥민",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 183.8,
+        "scaleX": 1.0041
+      },
+      {
+        "text": "010-2221-1937",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5873
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-2221-1937",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 26706
+  },
+  {
+    "file": "/og/busan-asiad-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/busan-asiad-night/",
+    "venue": "부산아시아드나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "부산아시아드나이트",
+        "widthPx": 648,
+        "heightPx": 73.4,
+        "fontSizePx": 79,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20496
+  },
+  {
+    "file": "/og/busan-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/busan-night/",
+    "venue": "부산나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "부산나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.4,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19715
+  },
+  {
+    "file": "/og/changwon-lululala-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/changwon-lululala-night/",
+    "venue": "창원룰루랄라나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "창원룰루랄라나이트",
+        "widthPx": 648,
+        "heightPx": 73.4,
+        "fontSizePx": 79,
+        "scaleX": 1
+      },
+      {
+        "text": "로또",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 224.8,
+        "scaleX": 1.2289
+      },
+      {
+        "text": "010-7528-4936",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5868
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-7528-4936",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 27176
+  },
+  {
+    "file": "/og/changwon-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/changwon-night/",
+    "venue": "창원나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "창원나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.2,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 21258
+  },
+  {
+    "file": "/og/cheongdam-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/cheongdam-night/",
+    "venue": "청담나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "청담나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.2,
+        "scaleX": 1
+      },
+      {
+        "text": "펩시맨",
+        "widthPx": 492.5,
+        "heightPx": 172,
+        "fontSizePx": 185.1,
+        "scaleX": 1
+      },
+      {
+        "text": "010-5655-4866",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5868
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5655-4866",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 29254
+  },
+  {
+    "file": "/og/daejeon-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/daejeon-night/",
+    "venue": "대전나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "대전나이트",
+        "widthPx": 648,
+        "heightPx": 134,
+        "fontSizePx": 144.2,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19948
+  },
+  {
+    "file": "/og/daejeon-one-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/daejeon-one-night/",
+    "venue": "대전원나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "대전원나이트",
+        "widthPx": 648,
+        "heightPx": 111.2,
+        "fontSizePx": 119.7,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20355
+  },
+  {
+    "file": "/og/daejeon-seven-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/daejeon-seven-night/",
+    "venue": "대전세븐나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "대전세븐나이트",
+        "widthPx": 648,
+        "heightPx": 95.1,
+        "fontSizePx": 102.3,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19759
+  },
+  {
+    "file": "/og/eunpyeong-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/eunpyeong-night/",
+    "venue": "은평나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "은평나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.4,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20832
+  },
+  {
+    "file": "/og/gangnam-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/gangnam-night/",
+    "venue": "강남나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "강남나이트",
+        "widthPx": 648,
+        "heightPx": 133,
+        "fontSizePx": 143.2,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20517
+  },
+  {
+    "file": "/og/ilsan-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/ilsan-night/",
+    "venue": "일산나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "일산나이트",
+        "widthPx": 648,
+        "heightPx": 133.6,
+        "fontSizePx": 143.8,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20394
+  },
+  {
+    "file": "/og/ilsan-shampoo-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/ilsan-shampoo-night/",
+    "venue": "일산샴푸나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "일산샴푸나이트",
+        "widthPx": 648,
+        "heightPx": 94.9,
+        "fontSizePx": 102.1,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20213
+  },
+  {
+    "file": "/og/night-hub-og.png",
+    "page": "https://ulsanf.pages.dev/night/",
+    "venue": "(허브 목록)",
+    "rule": "a(허브·중립문구)",
+    "texts": [
+      {
+        "text": "전국 나이트 안내 목록",
+        "widthPx": 648,
+        "heightPx": 67.8,
+        "fontSizePx": 72.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19362
+  },
+  {
+    "file": "/og/sangbong-hangukgwan-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/sangbong-hangukgwan-night/",
+    "venue": "상봉동한국관나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "상봉동한국관나이트",
+        "widthPx": 648,
+        "heightPx": 73.3,
+        "fontSizePx": 78.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20795
+  },
+  {
+    "file": "/og/sangbong-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/sangbong-night/",
+    "venue": "상봉동나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "상봉동나이트",
+        "widthPx": 648,
+        "heightPx": 110.4,
+        "fontSizePx": 118.8,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20958
+  },
+  {
+    "file": "/og/sillim-grandprix-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/sillim-grandprix-night/",
+    "venue": "신림그랑프리나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "신림그랑프리나이트",
+        "widthPx": 648,
+        "heightPx": 73.4,
+        "fontSizePx": 79,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19896
+  },
+  {
+    "file": "/og/sillim-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/sillim-night/",
+    "venue": "신림나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "신림나이트",
+        "widthPx": 648,
+        "heightPx": 133.1,
+        "fontSizePx": 143.3,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19893
+  },
+  {
+    "file": "/og/suwon-chance-dome-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/suwon-chance-dome-night/",
+    "venue": "수원찬스돔나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "수원찬스돔나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20450
+  },
+  {
+    "file": "/og/suwon-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/suwon-night/",
+    "venue": "수원나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "수원나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.4,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20510
+  },
+  {
+    "file": "/og/suyu-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/suyu-night/",
+    "venue": "수유나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "수유나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.4,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20452
+  },
+  {
+    "file": "/og/suyu-shampoo-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/suyu-shampoo-night/",
+    "venue": "수유샴푸나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "수유샴푸나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20064
+  },
+  {
+    "file": "/og/ulsan-champion-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/ulsan-champion-night/",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 30071
+  },
+  {
+    "file": "/og/ulsan-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/ulsan-night/",
+    "venue": "울산나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "울산나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.4,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20380
+  },
+  {
+    "file": "/og/yucheon-night-og.png",
+    "page": "https://ulsanf.pages.dev/night/yucheon-night/",
+    "venue": "유천동나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "유천동나이트",
+        "widthPx": 648,
+        "heightPx": 110.7,
+        "fontSizePx": 119.1,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20650
+  },
+  {
+    "file": "/og/parking.png",
+    "page": "https://ulsanf.pages.dev/parkinga",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 30051
+  },
+  {
+    "file": "/og/time-ansan-hit.png",
+    "page": "https://ulsanf.pages.dev/time/ansan-hit/",
+    "venue": "안산히트나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "안산히트나이트",
+        "widthPx": 648,
+        "heightPx": 94.8,
+        "fontSizePx": 102,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20211
+  },
+  {
+    "file": "/og/time-bucheon-gorae.png",
+    "page": "https://ulsanf.pages.dev/time/bucheon-gorae/",
+    "venue": "부천고래나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "부천고래나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19558
+  },
+  {
+    "file": "/og/time-bulgwang-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/bulgwang-hobak/",
+    "venue": "불광동호박나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "불광동호박나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "손흥민",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 183.8,
+        "scaleX": 1.0041
+      },
+      {
+        "text": "010-2221-1937",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5873
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-2221-1937",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 26706
+  },
+  {
+    "file": "/og/time-busan-asiad.png",
+    "page": "https://ulsanf.pages.dev/time/busan-asiad/",
+    "venue": "부산아시아드나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "부산아시아드나이트",
+        "widthPx": 648,
+        "heightPx": 73.4,
+        "fontSizePx": 79,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20475
+  },
+  {
+    "file": "/og/time-changwon-lululala.png",
+    "page": "https://ulsanf.pages.dev/time/changwon-lululala/",
+    "venue": "창원룰루랄라나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "창원룰루랄라나이트",
+        "widthPx": 648,
+        "heightPx": 73.4,
+        "fontSizePx": 79,
+        "scaleX": 1
+      },
+      {
+        "text": "로또",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 224.8,
+        "scaleX": 1.2289
+      },
+      {
+        "text": "010-7528-4936",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5868
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-7528-4936",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 28188
+  },
+  {
+    "file": "/og/time-cheonan-korea.png",
+    "page": "https://ulsanf.pages.dev/time/cheonan-korea/",
+    "venue": "천안코리아나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "천안코리아나이트",
+        "widthPx": 648,
+        "heightPx": 82.6,
+        "fontSizePx": 88.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20605
+  },
+  {
+    "file": "/og/time-cheonan-stardome.png",
+    "page": "https://ulsanf.pages.dev/time/cheonan-stardome/",
+    "venue": "천안스타돔나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "천안스타돔나이트",
+        "widthPx": 648,
+        "heightPx": 82.6,
+        "fontSizePx": 88.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20090
+  },
+  {
+    "file": "/og/time-cheongdam.png",
+    "page": "https://ulsanf.pages.dev/time/cheongdam/",
+    "venue": "청담나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "청담나이트",
+        "widthPx": 648,
+        "heightPx": 133.2,
+        "fontSizePx": 143.2,
+        "scaleX": 1
+      },
+      {
+        "text": "펩시맨",
+        "widthPx": 492.5,
+        "heightPx": 172,
+        "fontSizePx": 185.1,
+        "scaleX": 1
+      },
+      {
+        "text": "010-5655-4866",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5868
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5655-4866",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 30301
+  },
+  {
+    "file": "/og/time-cheongju-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/cheongju-hobak/",
+    "venue": "청주호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "청주호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.8,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20614
+  },
+  {
+    "file": "/og/time-daegu-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/daegu-hobak/",
+    "venue": "대구호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "대구호박나이트",
+        "widthPx": 648,
+        "heightPx": 95.1,
+        "fontSizePx": 102.3,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19388
+  },
+  {
+    "file": "/og/time-daejeon-one.png",
+    "page": "https://ulsanf.pages.dev/time/daejeon-one/",
+    "venue": "대전원나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "대전원나이트",
+        "widthPx": 648,
+        "heightPx": 111.2,
+        "fontSizePx": 119.7,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20384
+  },
+  {
+    "file": "/og/time-daejeon-seven.png",
+    "page": "https://ulsanf.pages.dev/time/daejeon-seven/",
+    "venue": "대전세븐나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "대전세븐나이트",
+        "widthPx": 648,
+        "heightPx": 95.1,
+        "fontSizePx": 102.3,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19762
+  },
+  {
+    "file": "/og/time-dapsimni-miracle.png",
+    "page": "https://ulsanf.pages.dev/time/dapsimni-miracle/",
+    "venue": "답십리미라클나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "답십리미라클나이트",
+        "widthPx": 648,
+        "heightPx": 73.7,
+        "fontSizePx": 79.4,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19541
+  },
+  {
+    "file": "/og/time-doksan-gukbingwan.png",
+    "page": "https://ulsanf.pages.dev/time/doksan-gukbingwan/",
+    "venue": "독산동국빈관나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "독산동국빈관나이트",
+        "widthPx": 648,
+        "heightPx": 73.5,
+        "fontSizePx": 79,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19850
+  },
+  {
+    "file": "/og/time-gangseo-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/gangseo-hobak/",
+    "venue": "강서호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "강서호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.6,
+        "fontSizePx": 101.8,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20775
+  },
+  {
+    "file": "/og/time-gildong-chance.png",
+    "page": "https://ulsanf.pages.dev/time/gildong-chance/",
+    "venue": "길동찬스나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "길동찬스나이트",
+        "widthPx": 648,
+        "heightPx": 94.9,
+        "fontSizePx": 102.1,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20453
+  },
+  {
+    "file": "/og/time-gumi-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/gumi-hobak/",
+    "venue": "구미호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "구미호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19350
+  },
+  {
+    "file": "/og/time-guri-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/guri-hobak/",
+    "venue": "구리호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "구리호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19529
+  },
+  {
+    "file": "/og/time-gwangju-cheomdan.png",
+    "page": "https://ulsanf.pages.dev/time/gwangju-cheomdan/",
+    "venue": "광주첨단나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "광주첨단나이트",
+        "widthPx": 648,
+        "heightPx": 94.6,
+        "fontSizePx": 101.7,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20622
+  },
+  {
+    "file": "/og/time-gwangju-sangmu.png",
+    "page": "https://ulsanf.pages.dev/time/gwangju-sangmu/",
+    "venue": "광주상무나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "광주상무나이트",
+        "widthPx": 648,
+        "heightPx": 94.5,
+        "fontSizePx": 101.7,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20978
+  },
+  {
+    "file": "/og/time-ilsan-shampoo.png",
+    "page": "https://ulsanf.pages.dev/time/ilsan-shampoo/",
+    "venue": "일산샴푸나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "일산샴푸나이트",
+        "widthPx": 648,
+        "heightPx": 94.9,
+        "fontSizePx": 102.1,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20186
+  },
+  {
+    "file": "/og/time-incheon-arabian.png",
+    "page": "https://ulsanf.pages.dev/time/incheon-arabian/",
+    "venue": "인천아라비안나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "인천아라비안나이트",
+        "widthPx": 648,
+        "heightPx": 73.5,
+        "fontSizePx": 79.2,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20510
+  },
+  {
+    "file": "/og/time-indeokwon-gukbingwan.png",
+    "page": "https://ulsanf.pages.dev/time/indeokwon-gukbingwan/",
+    "venue": "인덕원국빈관나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "인덕원국빈관나이트",
+        "widthPx": 648,
+        "heightPx": 73.5,
+        "fontSizePx": 79.2,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20088
+  },
+  {
+    "file": "/og/time-hub.png",
+    "page": "https://ulsanf.pages.dev/time/",
+    "venue": "(허브 목록)",
+    "rule": "a(허브·중립문구)",
+    "texts": [
+      {
+        "text": "전국 나이트 시간표 40",
+        "widthPx": 648,
+        "heightPx": 65.9,
+        "fontSizePx": 70.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20363
+  },
+  {
+    "file": "/og/time-jeju-do.png",
+    "page": "https://ulsanf.pages.dev/time/jeju-do/",
+    "venue": "제주도나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "제주도나이트",
+        "widthPx": 648,
+        "heightPx": 110.3,
+        "fontSizePx": 118.7,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19964
+  },
+  {
+    "file": "/og/time-nowon-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/nowon-hobak/",
+    "venue": "노원호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "노원호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19855
+  },
+  {
+    "file": "/og/time-osan-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/osan-hobak/",
+    "venue": "오산호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "오산호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20294
+  },
+  {
+    "file": "/og/time-paju-yadang-skydome.png",
+    "page": "https://ulsanf.pages.dev/time/paju-yadang-skydome/",
+    "venue": "파주야당스카이돔나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "파주야당스카이돔나이트",
+        "widthPx": 648,
+        "heightPx": 59.9,
+        "fontSizePx": 64.5,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20894
+  },
+  {
+    "file": "/og/time-pyeongtaek-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/pyeongtaek-hobak/",
+    "venue": "평택호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "평택호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20095
+  },
+  {
+    "file": "/og/time-sangbong-hangukgwan.png",
+    "page": "https://ulsanf.pages.dev/time/sangbong-hangukgwan/",
+    "venue": "상봉동한국관나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "상봉동한국관나이트",
+        "widthPx": 648,
+        "heightPx": 73.3,
+        "fontSizePx": 78.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20715
+  },
+  {
+    "file": "/og/time-seongnam-shampoo.png",
+    "page": "https://ulsanf.pages.dev/time/seongnam-shampoo/",
+    "venue": "성남샴푸나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "성남샴푸나이트",
+        "widthPx": 648,
+        "heightPx": 94.5,
+        "fontSizePx": 101.8,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20367
+  },
+  {
+    "file": "/og/time-seosan-hobak.png",
+    "page": "https://ulsanf.pages.dev/time/seosan-hobak/",
+    "venue": "서산호박나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "서산호박나이트",
+        "widthPx": 648,
+        "heightPx": 94.5,
+        "fontSizePx": 101.7,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20382
+  },
+  {
+    "file": "/og/time-sillim-grandprix.png",
+    "page": "https://ulsanf.pages.dev/time/sillim-grandprix/",
+    "venue": "신림그랑프리나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "신림그랑프리나이트",
+        "widthPx": 648,
+        "heightPx": 73.4,
+        "fontSizePx": 79,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19896
+  },
+  {
+    "file": "/og/time-suwon-chancedome.png",
+    "page": "https://ulsanf.pages.dev/time/suwon-chancedome/",
+    "venue": "수원찬스돔나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "수원찬스돔나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20431
+  },
+  {
+    "file": "/og/time-suwon-korea.png",
+    "page": "https://ulsanf.pages.dev/time/suwon-korea/",
+    "venue": "수원코리아나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "수원코리아나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20726
+  },
+  {
+    "file": "/og/time-suyu-shampoo.png",
+    "page": "https://ulsanf.pages.dev/time/suyu-shampoo/",
+    "venue": "수유샴푸나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "수유샴푸나이트",
+        "widthPx": 648,
+        "heightPx": 94.7,
+        "fontSizePx": 101.9,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20064
+  },
+  {
+    "file": "/og/time-uijeongbu-baekakgwan.png",
+    "page": "https://ulsanf.pages.dev/time/uijeongbu-baekakgwan/",
+    "venue": "의정부백악관나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "의정부백악관나이트",
+        "widthPx": 648,
+        "heightPx": 73.5,
+        "fontSizePx": 79.1,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20677
+  },
+  {
+    "file": "/og/time-uijeongbu-hangukgwan.png",
+    "page": "https://ulsanf.pages.dev/time/uijeongbu-hangukgwan/",
+    "venue": "의정부한국관나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "의정부한국관나이트",
+        "widthPx": 648,
+        "heightPx": 73.5,
+        "fontSizePx": 79.1,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 20670
+  },
+  {
+    "file": "/og/time-ulsan-champion.png",
+    "page": "https://ulsanf.pages.dev/time/ulsan-champion/",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 30071
+  },
+  {
+    "file": "/og/time-ulsan-newworld.png",
+    "page": "https://ulsanf.pages.dev/time/ulsan-newworld/",
+    "venue": "울산뉴월드나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "울산뉴월드나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19969
+  },
+  {
+    "file": "/og/time-yeongdeungpo-terminal.png",
+    "page": "https://ulsanf.pages.dev/time/yeongdeungpo-terminal/",
+    "venue": "영등포터미널나이트",
+    "rule": "B(비광고주·광고문의 주인공)",
+    "texts": [
+      {
+        "text": "영등포터미널나이트",
+        "widthPx": 648,
+        "heightPx": 73.5,
+        "fontSizePx": 79.1,
+        "scaleX": 1
+      },
+      {
+        "text": "광고문의",
+        "widthPx": 918,
+        "heightPx": 255,
+        "fontSizePx": 274.5,
+        "scaleX": 0.9431
+      },
+      {
+        "text": "카카오톡 besta12",
+        "widthPx": 864,
+        "heightPx": 130,
+        "fontSizePx": 140.1,
+        "scaleX": 0.8025
+      }
+    ],
+    "heroText": "광고문의",
+    "heroWidthPx": 918,
+    "heroHeightPx": 255,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 19964
+  },
+  {
+    "file": "/og/timing.png",
+    "page": "https://ulsanf.pages.dev/timinga",
+    "venue": "울산챔피언나이트",
+    "rule": "A(광고주·전화번호 주인공)",
+    "texts": [
+      {
+        "text": "울산챔피언나이트",
+        "widthPx": 648,
+        "heightPx": 82.7,
+        "fontSizePx": 89,
+        "scaleX": 1
+      },
+      {
+        "text": "춘자",
+        "widthPx": 486,
+        "heightPx": 172,
+        "fontSizePx": 185.7,
+        "scaleX": 1.4699
+      },
+      {
+        "text": "010-5653-0069",
+        "widthPx": 1015.2,
+        "heightPx": 186,
+        "fontSizePx": 242.2,
+        "scaleX": 0.5875
+      },
+      {
+        "text": "광고문의 카톡 besta12",
+        "widthPx": 594,
+        "heightPx": 56.5,
+        "fontSizePx": 60.8,
+        "scaleX": 1
+      }
+    ],
+    "heroText": "010-5653-0069",
+    "heroWidthPx": 1015.2,
+    "heroHeightPx": 186,
+    "canvas": {
+      "width": 1200,
+      "height": 1200
+    },
+    "bytes": 31277
+  }
+]

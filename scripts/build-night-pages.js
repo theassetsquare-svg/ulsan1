@@ -108,9 +108,8 @@ function jsonld(v) {
   const bc = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '홈', item: SITE + '/' },
-      { '@type': 'ListItem', position: 2, name: '나이트', item: SITE + '/night/' },
-      { '@type': 'ListItem', position: 3, name: v.name, item: url }
+      { '@type': 'ListItem', position: 1, name: '나이트', item: SITE + '/night/' },
+      { '@type': 'ListItem', position: 2, name: v.name, item: url }
     ]
   };
   return [club, faq, bc].map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n');
@@ -192,7 +191,6 @@ ${jsonld(v)}
   <div class="wrap">
     <nav class="crumb" aria-label="현재 위치">
       <ol>
-        <li><a href="/">홈</a></li>
         <li><a href="/night/">나이트</a></li>
         <li>${esc(v.name)}</li>
       </ol>
@@ -247,7 +245,7 @@ ${rel.map(r => `      <li><a href="/night/${r.slug}/">${esc(r.name)}</a> — ${e
 <footer class="wrap">
   <p>이 페이지는 ${esc(v.name)} 방문 안내 목적으로 작성됐다. 요금과 운영 조건은 현장 기준이 우선한다.</p>
   <div class="ad-inquiry">광고·제휴 입점 문의 카톡 <b>${KAKAO}</b> — 업소 사장님 대상 채널입니다. 손님 예약 문의는 받지 않습니다.</div>
-  <p><a href="/night/">나이트 목록</a> · <a href="/">홈</a></p>
+  <p><a href="/night/">나이트 목록</a></p>
 </footer>
 
 ${callbar(v)}
@@ -304,7 +302,7 @@ ${VERIFY}
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <nav class="crumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li>나이트</li></ol></nav>
+  <nav class="crumb" aria-label="현재 위치"><ol><li>나이트</li></ol></nav>
   <h1>나이트 안내 목록</h1>
   <div class="lead"><p>업소마다 홀 구조와 자리 배정 방식이 다르다. 그 차이를 지역별로 나눠 정리했다.</p></div>
   <p class="stamp">최종 정리 <time datetime="${TODAY}">${TODAY}</time></p>
@@ -325,7 +323,6 @@ ${regionRows}  <aside aria-labelledby="h-a"><h2 id="h-a">안내</h2>
 <footer class="wrap">
   <p>업소별 세부 조건은 현장 기준이 우선한다.</p>
   <div class="ad-inquiry">광고·제휴 입점 문의 카톡 <b>${KAKAO}</b> — 업소 사장님 대상 채널입니다.</div>
-  <p><a href="/">홈</a></p>
 </footer>
 <div class="callbar" role="complementary" aria-label="광고 제휴 문의">
   <span>광고·제휴 입점 문의 카톡 <b>${KAKAO}</b></span>
