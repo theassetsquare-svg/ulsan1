@@ -27,7 +27,7 @@ jobs:
       - name: Commit if changed
         run: |
           git config user.name "seo-bot"
-          git config user.email "seo-bot@ulsanf.pages.dev"
+          git config user.email "seo-bot@wish-5yw.pages.dev"
           if ! git diff --quiet; then
             git add sitemap.xml public/sitemap.xml || true
             git commit -m "chore(seo): daily sitemap lastmod refresh"
@@ -38,11 +38,11 @@ jobs:
 
       - name: Ping Google Sitemap
         run: |
-          curl -sI "https://www.google.com/ping?sitemap=https://ulsanf.pages.dev/sitemap.xml" | head -1 || true
+          curl -sI "https://www.google.com/ping?sitemap=https://wish-5yw.pages.dev/sitemap.xml" | head -1 || true
 
       - name: Ping Bing IndexNow
         run: |
-          curl -sI "https://www.bing.com/ping?sitemap=https://ulsanf.pages.dev/sitemap.xml" | head -1 || true
+          curl -sI "https://www.bing.com/ping?sitemap=https://wish-5yw.pages.dev/sitemap.xml" | head -1 || true
 
       - name: Submit URLs via IndexNow (best-effort)
         run: |
@@ -53,4 +53,4 @@ jobs:
           fi
           curl -sX POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json" \
-            -d "{\"host\":\"ulsanf.pages.dev\",\"key\":\"$KEY\",\"urlList\":[\"https://ulsanf.pages.dev/\",\"https://ulsanf.pages.dev/dresscodea\",\"https://ulsanf.pages.dev/budgeta\",\"https://ulsanf.pages.dev/timinga\",\"https://ulsanf.pages.dev/parkinga\",\"https://ulsanf.pages.dev/mannersa\",\"https://ulsanf.pages.dev/nearbya\",\"https://ulsanf.pages.dev/comparea\",\"https://ulsanf.pages.dev/legala\"]}" || true
+            -d "{\"host\":\"wish-5yw.pages.dev\",\"key\":\"$KEY\",\"urlList\":[\"https://wish-5yw.pages.dev/\",\"https://wish-5yw.pages.dev/dresscodea\",\"https://wish-5yw.pages.dev/budgeta\",\"https://wish-5yw.pages.dev/timinga\",\"https://wish-5yw.pages.dev/parkinga\",\"https://wish-5yw.pages.dev/mannersa\",\"https://wish-5yw.pages.dev/nearbya\",\"https://wish-5yw.pages.dev/comparea\",\"https://wish-5yw.pages.dev/legala\"]}" || true

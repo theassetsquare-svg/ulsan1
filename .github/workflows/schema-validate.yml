@@ -119,7 +119,7 @@ jobs:
           DANGEROUS="밤문화 유흥"
           FAIL=0
           for page in $PAGES; do
-            URL="https://ulsanf.pages.dev$page"
+            URL="https://wish-5yw.pages.dev$page"
             BODY=$(curl -sL "$URL")
             for word in $DANGEROUS; do
               COUNT=$(echo "$BODY" | grep -c "$word" || true)
@@ -134,7 +134,7 @@ jobs:
 
       - name: Live AggregateRating scan
         run: |
-          if curl -sL https://ulsanf.pages.dev/ | grep -q "AggregateRating"; then
+          if curl -sL https://wish-5yw.pages.dev/ | grep -q "AggregateRating"; then
             echo "::error::❌ LIVE 가짜 별점 발견"
             exit 1
           fi

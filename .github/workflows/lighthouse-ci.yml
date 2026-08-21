@@ -30,7 +30,7 @@ jobs:
           PASS=1
           for page in $PAGES; do
             slug=$(echo "$page" | sed 's|/|root|; s|^root$|home|; s|^/||')
-            URL="https://ulsanf.pages.dev$page"
+            URL="https://wish-5yw.pages.dev$page"
             echo "=== $URL ==="
             lighthouse "$URL" \
               --output=json --output=html \

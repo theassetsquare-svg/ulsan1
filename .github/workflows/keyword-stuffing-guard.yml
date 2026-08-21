@@ -124,7 +124,7 @@ jobs:
           import urllib.request, re, sys
           # 홈(/)은 독립 성공스토리 단독 페이지 — 업소 키워드가 없으므로 밀도 측정 대상에서 제외
           PAGES = ['/dresscodea', '/budgeta', '/timinga', '/parkinga', '/mannersa', '/nearbya', '/comparea', '/legala']
-          BASE = 'https://ulsanf.pages.dev'
+          BASE = 'https://wish-5yw.pages.dev'
           KW = [('울산챔피언나이트', 8), ('울산나이트', 5)]
           MAX_DENSITY = 2.5
           fail = 0
