@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
-const SITE = 'https://ulsanf.pages.dev';
+const SITE = 'https://wish-5yw.pages.dev';
 const THUMB_NAME = '울산챔피언나이트';   /* 썸네일 alt에 반드시 들어가는 가게이름 */
 const TPL = path.join(ROOT, 'src/index.template.html');
 /* app.js 캐시버스터 — 내용 해시로 자동 생성.
@@ -132,11 +132,11 @@ function build(page) {
   /* 2-3. JSON-LD — Article / BreadcrumbList를 이 페이지 기준으로 */
   if (page.slug) {
     out = out
-      .replace('"@id": "https://ulsanf.pages.dev/#article"', `"@id": "${page.url}#article"`)
+      .replace('"@id": "https://wish-5yw.pages.dev/#article"', `"@id": "${page.url}#article"`)
       .replace(/"headline": "[^"]*"/, `"headline": "${jesc(page.title)}"`)
       .replace(/"@type": "Article",([\s\S]{0,200}?)"description": "[^"]*"/, `"@type": "Article",$1"description": "${jesc(page.desc)}"`)
-      .replace('"mainEntityOfPage": "https://ulsanf.pages.dev/"', `"mainEntityOfPage": "${page.url}"`)
-      .replace('"@id": "https://ulsanf.pages.dev/#breadcrumb"', `"@id": "${page.url}#breadcrumb"`)
+      .replace('"mainEntityOfPage": "https://wish-5yw.pages.dev/"', `"mainEntityOfPage": "${page.url}"`)
+      .replace('"@id": "https://wish-5yw.pages.dev/#breadcrumb"', `"@id": "${page.url}#breadcrumb"`)
       .replace(/("@id": "[^"]*#breadcrumb",\s*"itemListElement": )\[[\s\S]*?\]/,
         `$1[\n        {"@type":"ListItem","position":1,"name":"${jesc(page.name)}","item":"${page.url}"}\n      ]`);
     /* Article 대표 이미지도 페이지 og로 */

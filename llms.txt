@@ -3,8 +3,8 @@
 > 전국 나이트 40곳을 시간·요일 축으로만 정리한 사이트. 오픈 직후부터 마감 흐름까지 구간별로 나눠 서술하며, 공개 자료에서 확인된 항목만 싣고 확인되지 않은 항목은 "확인 불가"로 남긴다.
 
 ## 사이트
-- URL: https://ulsanf.pages.dev/
-- 허브: https://ulsanf.pages.dev/time/  (전국 나이트 시간표 40)
+- URL: https://wish-5yw.pages.dev/
+- 허브: https://wish-5yw.pages.dev/time/  (전국 나이트 시간표 40)
 - 홈(/): 성공스토리 — 바닥에서 다시 선 1,340일의 기록 (독립 단독 페이지, 다른 페이지와 링크 없음)
 - 광고문의: 카카오톡 besta12
 - 갱신일: 2026-08-16
@@ -15,74 +15,74 @@
 - 주소·역·층·연령 기준은 공개 자료에서 확인된 값만 표기하고, 나머지는 "공개 정보로 확인 불가"로 명시한다.
 
 ## 페이지 40 (제목 · URL)
-- 신림그랑프리나이트, 열한 시가 갈라놓는 두 개의 홀 — https://ulsanf.pages.dev/time/sillim-grandprix/
-- 상봉동한국관나이트, 요일이 먼저고 시각은 그다음 — https://ulsanf.pages.dev/time/sangbong-hangukgwan/
-- 수유샴푸나이트, 지하로 내려간 뒤 시간이 사라진다 — https://ulsanf.pages.dev/time/suyu-shampoo/
-- 부산아시아드나이트, 온천장의 밤은 늦게 데워진다 — https://ulsanf.pages.dev/time/busan-asiad/
-- 수원찬스돔나이트, 권선동 금요일은 한 시간 빠르다 — https://ulsanf.pages.dev/time/suwon-chancedome/
-- 안산히트나이트, 퇴근 시간표가 홀을 먼저 정한다 — https://ulsanf.pages.dev/time/ansan-hit/
-- 대전세븐나이트, 유천동의 자정은 두 번 나뉜다 — https://ulsanf.pages.dev/time/daejeon-seven/
-- 일산샴푸나이트, 마두역 막차가 만드는 분기점 — https://ulsanf.pages.dev/time/ilsan-shampoo/
-- 청담나이트, 일찍 가는 사람이 이기는 이유 — https://ulsanf.pages.dev/time/cheongdam/
-- 대전원나이트, 늦은 시작에 익숙해지는 요일 — https://ulsanf.pages.dev/time/daejeon-one/
-- 창원룰루랄라나이트, 지하 세 층 아래의 시간표 — https://ulsanf.pages.dev/time/changwon-lululala/
-- 불광동호박나이트, 가까워서 늦어지는 사람들 — https://ulsanf.pages.dev/time/bulgwang-hobak/
-- 울산챔피언나이트, 첫 곡과 마지막 곡 사이 — https://ulsanf.pages.dev/time/ulsan-champion/
-- 독산동국빈관나이트, 삼층이 만드는 도착 시차 — https://ulsanf.pages.dev/time/doksan-gukbingwan/
-- 답십리미라클나이트, 정보가 없을 때 잡는 시간표 — https://ulsanf.pages.dev/time/dapsimni-miracle/
-- 강서호박나이트, 화곡동에 물결이 두 번 온다 — https://ulsanf.pages.dev/time/gangseo-hobak/
-- 영등포터미널나이트, 오가는 밤은 끊기지 않는다 — https://ulsanf.pages.dev/time/yeongdeungpo-terminal/
-- 노원호박나이트, 상계동의 초반 러시를 읽는 법 — https://ulsanf.pages.dev/time/nowon-hobak/
-- 길동찬스나이트, 걷는 시간이 만드는 여유 — https://ulsanf.pages.dev/time/gildong-chance/
-- 파주야당스카이돔나이트, 신도시의 밤은 짧다 — https://ulsanf.pages.dev/time/paju-yadang-skydome/
-- 구리호박나이트, 오가는 시간이 밤을 자른다 — https://ulsanf.pages.dev/time/guri-hobak/
-- 의정부한국관나이트, 초저녁이 유난히 긴 이유 — https://ulsanf.pages.dev/time/uijeongbu-hangukgwan/
-- 의정부백악관나이트, 마지막 한 시간이 제일 진하다 — https://ulsanf.pages.dev/time/uijeongbu-baekakgwan/
-- 수원코리아나이트, 기다리는 구간이 가장 길다 — https://ulsanf.pages.dev/time/suwon-korea/
-- 오산호박나이트, 위에서 내려다보는 시간표 — https://ulsanf.pages.dev/time/osan-hobak/
-- 인덕원국빈관나이트, 지하인데 시계가 살아 있다 — https://ulsanf.pages.dev/time/indeokwon-gukbingwan/
-- 성남샴푸나이트, 한 자리가 밤새 세 번 바뀐다 — https://ulsanf.pages.dev/time/seongnam-shampoo/
-- 인천아라비안나이트, 넓은 홀은 늦게 채워진다 — https://ulsanf.pages.dev/time/incheon-arabian/
-- 부천고래나이트, 평일 밤이 제일 길게 간다 — https://ulsanf.pages.dev/time/bucheon-gorae/
-- 평택호박나이트, 하루에 몰리는 밤의 구조 — https://ulsanf.pages.dev/time/pyeongtaek-hobak/
-- 천안스타돔나이트, 한 번 앉으면 끝까지 간다 — https://ulsanf.pages.dev/time/cheonan-stardome/
-- 천안코리아나이트, 같은 도시 다른 시작 시각 — https://ulsanf.pages.dev/time/cheonan-korea/
-- 청주호박나이트, 요일보다 그 주가 먼저다 — https://ulsanf.pages.dev/time/cheongju-hobak/
-- 울산뉴월드나이트, 두 시간 단위로 끊어 쓰는 밤 — https://ulsanf.pages.dev/time/ulsan-newworld/
-- 서산호박나이트, 밤이 한 번만 차오른다 — https://ulsanf.pages.dev/time/seosan-hobak/
-- 대구호박나이트, 도심 시계로는 맞지 않는다 — https://ulsanf.pages.dev/time/daegu-hobak/
-- 구미호박나이트, 한 주의 가운데가 제일 두껍다 — https://ulsanf.pages.dev/time/gumi-hobak/
-- 광주상무나이트, 거리 전체가 한 시간표다 — https://ulsanf.pages.dev/time/gwangju-sangmu/
-- 광주첨단나이트, 후반에 합류하는 사람들 — https://ulsanf.pages.dev/time/gwangju-cheomdan/
-- 제주도나이트, 요일보다 날짜가 먼저다 — https://ulsanf.pages.dev/time/jeju-do/
+- 신림그랑프리나이트, 열한 시가 갈라놓는 두 개의 홀 — https://wish-5yw.pages.dev/time/sillim-grandprix/
+- 상봉동한국관나이트, 요일이 먼저고 시각은 그다음 — https://wish-5yw.pages.dev/time/sangbong-hangukgwan/
+- 수유샴푸나이트, 지하로 내려간 뒤 시간이 사라진다 — https://wish-5yw.pages.dev/time/suyu-shampoo/
+- 부산아시아드나이트, 온천장의 밤은 늦게 데워진다 — https://wish-5yw.pages.dev/time/busan-asiad/
+- 수원찬스돔나이트, 권선동 금요일은 한 시간 빠르다 — https://wish-5yw.pages.dev/time/suwon-chancedome/
+- 안산히트나이트, 퇴근 시간표가 홀을 먼저 정한다 — https://wish-5yw.pages.dev/time/ansan-hit/
+- 대전세븐나이트, 유천동의 자정은 두 번 나뉜다 — https://wish-5yw.pages.dev/time/daejeon-seven/
+- 일산샴푸나이트, 마두역 막차가 만드는 분기점 — https://wish-5yw.pages.dev/time/ilsan-shampoo/
+- 청담나이트, 일찍 가는 사람이 이기는 이유 — https://wish-5yw.pages.dev/time/cheongdam/
+- 대전원나이트, 늦은 시작에 익숙해지는 요일 — https://wish-5yw.pages.dev/time/daejeon-one/
+- 창원룰루랄라나이트, 지하 세 층 아래의 시간표 — https://wish-5yw.pages.dev/time/changwon-lululala/
+- 불광동호박나이트, 가까워서 늦어지는 사람들 — https://wish-5yw.pages.dev/time/bulgwang-hobak/
+- 울산챔피언나이트, 첫 곡과 마지막 곡 사이 — https://wish-5yw.pages.dev/time/ulsan-champion/
+- 독산동국빈관나이트, 삼층이 만드는 도착 시차 — https://wish-5yw.pages.dev/time/doksan-gukbingwan/
+- 답십리미라클나이트, 정보가 없을 때 잡는 시간표 — https://wish-5yw.pages.dev/time/dapsimni-miracle/
+- 강서호박나이트, 화곡동에 물결이 두 번 온다 — https://wish-5yw.pages.dev/time/gangseo-hobak/
+- 영등포터미널나이트, 오가는 밤은 끊기지 않는다 — https://wish-5yw.pages.dev/time/yeongdeungpo-terminal/
+- 노원호박나이트, 상계동의 초반 러시를 읽는 법 — https://wish-5yw.pages.dev/time/nowon-hobak/
+- 길동찬스나이트, 걷는 시간이 만드는 여유 — https://wish-5yw.pages.dev/time/gildong-chance/
+- 파주야당스카이돔나이트, 신도시의 밤은 짧다 — https://wish-5yw.pages.dev/time/paju-yadang-skydome/
+- 구리호박나이트, 오가는 시간이 밤을 자른다 — https://wish-5yw.pages.dev/time/guri-hobak/
+- 의정부한국관나이트, 초저녁이 유난히 긴 이유 — https://wish-5yw.pages.dev/time/uijeongbu-hangukgwan/
+- 의정부백악관나이트, 마지막 한 시간이 제일 진하다 — https://wish-5yw.pages.dev/time/uijeongbu-baekakgwan/
+- 수원코리아나이트, 기다리는 구간이 가장 길다 — https://wish-5yw.pages.dev/time/suwon-korea/
+- 오산호박나이트, 위에서 내려다보는 시간표 — https://wish-5yw.pages.dev/time/osan-hobak/
+- 인덕원국빈관나이트, 지하인데 시계가 살아 있다 — https://wish-5yw.pages.dev/time/indeokwon-gukbingwan/
+- 성남샴푸나이트, 한 자리가 밤새 세 번 바뀐다 — https://wish-5yw.pages.dev/time/seongnam-shampoo/
+- 인천아라비안나이트, 넓은 홀은 늦게 채워진다 — https://wish-5yw.pages.dev/time/incheon-arabian/
+- 부천고래나이트, 평일 밤이 제일 길게 간다 — https://wish-5yw.pages.dev/time/bucheon-gorae/
+- 평택호박나이트, 하루에 몰리는 밤의 구조 — https://wish-5yw.pages.dev/time/pyeongtaek-hobak/
+- 천안스타돔나이트, 한 번 앉으면 끝까지 간다 — https://wish-5yw.pages.dev/time/cheonan-stardome/
+- 천안코리아나이트, 같은 도시 다른 시작 시각 — https://wish-5yw.pages.dev/time/cheonan-korea/
+- 청주호박나이트, 요일보다 그 주가 먼저다 — https://wish-5yw.pages.dev/time/cheongju-hobak/
+- 울산뉴월드나이트, 두 시간 단위로 끊어 쓰는 밤 — https://wish-5yw.pages.dev/time/ulsan-newworld/
+- 서산호박나이트, 밤이 한 번만 차오른다 — https://wish-5yw.pages.dev/time/seosan-hobak/
+- 대구호박나이트, 도심 시계로는 맞지 않는다 — https://wish-5yw.pages.dev/time/daegu-hobak/
+- 구미호박나이트, 한 주의 가운데가 제일 두껍다 — https://wish-5yw.pages.dev/time/gumi-hobak/
+- 광주상무나이트, 거리 전체가 한 시간표다 — https://wish-5yw.pages.dev/time/gwangju-sangmu/
+- 광주첨단나이트, 후반에 합류하는 사람들 — https://wish-5yw.pages.dev/time/gwangju-cheomdan/
+- 제주도나이트, 요일보다 날짜가 먼저다 — https://wish-5yw.pages.dev/time/jeju-do/
 
 ## 허브
-- 전국 나이트 시간표 40 — 도시마다 밤이 다르다 — https://ulsanf.pages.dev/time/
+- 전국 나이트 시간표 40 — 도시마다 밤이 다르다 — https://wish-5yw.pages.dev/time/
 
 ## 참고: 기존 지역 안내 페이지
-- https://ulsanf.pages.dev/night/ansan-hit-night/
-- https://ulsanf.pages.dev/night/ansan-night/
-- https://ulsanf.pages.dev/night/bulgwang-hobak-night/
-- https://ulsanf.pages.dev/night/busan-asiad-night/
-- https://ulsanf.pages.dev/night/busan-night/
-- https://ulsanf.pages.dev/night/changwon-lululala-night/
-- https://ulsanf.pages.dev/night/changwon-night/
-- https://ulsanf.pages.dev/night/cheongdam-night/
-- https://ulsanf.pages.dev/night/daejeon-night/
-- https://ulsanf.pages.dev/night/daejeon-one-night/
-- https://ulsanf.pages.dev/night/daejeon-seven-night/
-- https://ulsanf.pages.dev/night/eunpyeong-night/
-- https://ulsanf.pages.dev/night/gangnam-night/
-- https://ulsanf.pages.dev/night/ilsan-night/
-- https://ulsanf.pages.dev/night/ilsan-shampoo-night/
-- https://ulsanf.pages.dev/night/sangbong-hangukgwan-night/
-- https://ulsanf.pages.dev/night/sangbong-night/
-- https://ulsanf.pages.dev/night/sillim-grandprix-night/
-- https://ulsanf.pages.dev/night/sillim-night/
-- https://ulsanf.pages.dev/night/suwon-chance-dome-night/
-- https://ulsanf.pages.dev/night/suwon-night/
-- https://ulsanf.pages.dev/night/suyu-night/
-- https://ulsanf.pages.dev/night/suyu-shampoo-night/
-- https://ulsanf.pages.dev/night/ulsan-champion-night/
-- https://ulsanf.pages.dev/night/ulsan-night/
-- https://ulsanf.pages.dev/night/yucheon-night/
+- https://wish-5yw.pages.dev/night/ansan-hit-night/
+- https://wish-5yw.pages.dev/night/ansan-night/
+- https://wish-5yw.pages.dev/night/bulgwang-hobak-night/
+- https://wish-5yw.pages.dev/night/busan-asiad-night/
+- https://wish-5yw.pages.dev/night/busan-night/
+- https://wish-5yw.pages.dev/night/changwon-lululala-night/
+- https://wish-5yw.pages.dev/night/changwon-night/
+- https://wish-5yw.pages.dev/night/cheongdam-night/
+- https://wish-5yw.pages.dev/night/daejeon-night/
+- https://wish-5yw.pages.dev/night/daejeon-one-night/
+- https://wish-5yw.pages.dev/night/daejeon-seven-night/
+- https://wish-5yw.pages.dev/night/eunpyeong-night/
+- https://wish-5yw.pages.dev/night/gangnam-night/
+- https://wish-5yw.pages.dev/night/ilsan-night/
+- https://wish-5yw.pages.dev/night/ilsan-shampoo-night/
+- https://wish-5yw.pages.dev/night/sangbong-hangukgwan-night/
+- https://wish-5yw.pages.dev/night/sangbong-night/
+- https://wish-5yw.pages.dev/night/sillim-grandprix-night/
+- https://wish-5yw.pages.dev/night/sillim-night/
+- https://wish-5yw.pages.dev/night/suwon-chance-dome-night/
+- https://wish-5yw.pages.dev/night/suwon-night/
+- https://wish-5yw.pages.dev/night/suyu-night/
+- https://wish-5yw.pages.dev/night/suyu-shampoo-night/
+- https://wish-5yw.pages.dev/night/ulsan-champion-night/
+- https://wish-5yw.pages.dev/night/ulsan-night/
+- https://wish-5yw.pages.dev/night/yucheon-night/

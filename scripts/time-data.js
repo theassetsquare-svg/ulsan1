@@ -1,7 +1,7 @@
 /* 밤 시간표 연구소 — 데이터 집계
    업소 원고는 time-venues-1..4.js 에 나뉘어 있다. 공용 문장 풀 없음: 페이지마다 새로 씀. */
 
-const SITE = 'https://ulsanf.pages.dev';
+const SITE = 'https://wish-5yw.pages.dev';
 const TODAY = '2026-08-16';
 const KAKAO_ID = 'besta12';
 const KAKAO_URL = 'https://open.kakao.com/o/sBesta12';

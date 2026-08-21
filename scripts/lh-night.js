@@ -7,7 +7,7 @@ const fs = require('fs');
     chromeFlags: ['--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage'] });
   const rows = [];
   for (const v of VENUES) {
-    const url = `https://ulsanf.pages.dev/night/${v.slug}/`;
+    const url = `https://wish-5yw.pages.dev/night/${v.slug}/`;
     const r = await lighthouse(url, { port: chrome.port, output: 'json', logLevel: 'error',
       onlyCategories: ['seo', 'accessibility', 'performance'], formFactor: 'mobile', screenEmulation: { mobile: true, width: 390, height: 844, deviceScaleFactor: 2 } });
     const c = r.lhr.categories;

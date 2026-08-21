@@ -110,7 +110,7 @@ function svgFor(label) {
         font-size="52" font-weight="700" font-family="${FONT}">${esc(label)}</text>
 
   <text x="600" y="1128" text-anchor="middle" fill="rgba(255,255,255,0.42)"
-        font-size="36" font-weight="600" font-family="${FONT}">ulsanf.pages.dev</text>
+        font-size="36" font-weight="600" font-family="${FONT}">wish-5yw.pages.dev</text>
   <rect x="0" y="${SIZE - 12}" width="${SIZE}" height="12" fill="${GOLD}"/>
 </svg>`;
 }

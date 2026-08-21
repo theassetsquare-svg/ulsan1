@@ -106,8 +106,8 @@ function go(page,skipPush){
       var t=el.getAttribute('data-title'),d=el.getAttribute('data-desc'),og=el.getAttribute('data-og'),hero=el.getAttribute('data-hero'),sub=el.getAttribute('data-sub');
       if(t)document.title=t;
       var dm=document.querySelector('meta[name="description"]');if(dm&&d)dm.setAttribute('content',d);
-      var imgUrl=og?'https://ulsanf.pages.dev/'+og:'https://ulsanf.pages.dev/og/main.png';
-      var pageUrl=page?'https://ulsanf.pages.dev/'+page:'https://ulsanf.pages.dev/';
+      var imgUrl=og?'https://wish-5yw.pages.dev/'+og:'https://wish-5yw.pages.dev/og/main.png';
+      var pageUrl=page?'https://wish-5yw.pages.dev/'+page:'https://wish-5yw.pages.dev/';
       /* OG tags */
       var om=document.querySelector('meta[property="og:image"]');if(om)om.setAttribute('content',imgUrl);
       var ot=document.querySelector('meta[property="og:title"]');if(ot&&t)ot.setAttribute('content',t);
@@ -586,9 +586,9 @@ function showTTResult(){
 }
 function shareTTResult(name){
   if(navigator.share){
-    navigator.share({title:'나의 나이트 유형: '+name,text:'울산챔피언나이트 유형 테스트 결과: '+name+' 🎉',url:'https://ulsanf.pages.dev/'});
+    navigator.share({title:'나의 나이트 유형: '+name,text:'울산챔피언나이트 유형 테스트 결과: '+name+' 🎉',url:'https://wish-5yw.pages.dev/'});
   }else{
-    navigator.clipboard.writeText('나의 나이트 유형: '+name+' 🎉 https://ulsanf.pages.dev/').then(function(){showToast('📋 복사됐다. 친구한테 보내봐')});
+    navigator.clipboard.writeText('나의 나이트 유형: '+name+' 🎉 https://wish-5yw.pages.dev/').then(function(){showToast('📋 복사됐다. 친구한테 보내봐')});
   }
 }
 window.addEventListener('DOMContentLoaded',function(){_idle(initTypeTest)});

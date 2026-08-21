@@ -2,7 +2,7 @@
    각도번호 = ((SITE_INDEX-1) + (업소번호-1) + 7) mod 13 + 1
    ★1차(night-data.js)와 공용 문장 0. 페이지마다 전부 새로 씀. */
 
-const SITE = 'https://ulsanf.pages.dev';
+const SITE = 'https://wish-5yw.pages.dev';
 
 const REGIONS = [
 

@@ -4,7 +4,7 @@
 const { chromium } = require('playwright');
 const { VENUES } = require('./night-data.js');
 const fs = require('fs'), path = require('path');
-const SITE = 'https://ulsanf.pages.dev';
+const SITE = 'https://wish-5yw.pages.dev';
 
 const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'willChange', 'contain'];
 

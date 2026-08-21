@@ -77,7 +77,7 @@ for (const page of pages) {
   ctx.fillRect(0, h - 70, w, 70);
   ctx.fillStyle = '#C9A96E';
   ctx.font = '22px sans-serif';
-  ctx.fillText('ulsanf.pages.dev', 60, h - 25);
+  ctx.fillText('wish-5yw.pages.dev', 60, h - 25);
 
   // Right side decorative dots
   for (let i = 0; i < 40; i++) {
