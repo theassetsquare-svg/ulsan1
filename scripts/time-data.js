@@ -6,12 +6,13 @@ const TODAY = '2026-08-16';
 const KAKAO_ID = 'besta12';
 const KAKAO_URL = 'https://open.kakao.com/o/sBesta12';
 
-/* 페이지 단위 전화 정답표 — 이 셋과 홈 외에는 어떤 전화번호도 넣지 않는다 */
+/* 페이지 단위 전화 정답표 — 여기 적힌 페이지와 홈 외에는 어떤 전화번호도 넣지 않는다 */
 const ADVERTISERS = {
   '__home__': { label: '울산챔피언나이트 춘자', phone: '010-5653-0069' },
   'ulsan-champion': { label: '울산챔피언나이트 춘자', phone: '010-5653-0069' },
   'changwon-lululala': { label: '창원룰루랄라나이트 로또', phone: '010-7528-4936' },
-  'bulgwang-hobak': { label: '불광동호박나이트 손흥민', phone: '010-2221-1937' }
+  'bulgwang-hobak': { label: '불광동호박나이트 손흥민', phone: '010-2221-1937' },
+  'dapsimni-miracle': { label: '답십리미라클나이트 유재석', phone: '010-8156-6558' }
 };
 
 const VENUES = [].concat(
