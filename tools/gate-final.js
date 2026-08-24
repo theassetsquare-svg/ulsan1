@@ -9,8 +9,17 @@ const PAGES=ALL.filter(f=>!f.startsWith('src/'));
 const HOME='index.html';
 const fail=[],pass=[];
 const F=(g,m)=>fail.push(g+' :: '+m);
-const OWNPH={'울산챔피언나이트':'010-5653-0069','창원룰루랄라나이트':'010-7528-4936','불광동호박나이트':'010-2221-1937','청담나이트':'010-5655-4866','답십리미라클나이트':'010-8156-6558'};
-const NICKS={'춘자':'울산챔피언나이트','로또':'창원룰루랄라나이트','손흥민':'불광동호박나이트','펩시맨':'청담나이트','유재석':'답십리미라클나이트'};
+/* ★ 2026-08-24 — 예전에는 이 두 표를 손으로 적어 뒀다. 광고주를 새로 넣으면 여기에 없어
+   "미등록 번호"로 막혔다(다른 저장소에서 실제로 막혀 있었다).
+   썸네일 명세(tools/thumb-specs.json)의 A형 항목에서 만든다. 표는 그 한 곳뿐이다. */
+const _SPECS = require('./thumb-specs.json');
+const OWNPH = {};
+const NICKS = {};
+for (const sp of _SPECS) {
+  if (!sp || sp.type !== 'A' || !sp.phone || !sp.venue) continue;
+  OWNPH[sp.venue] = sp.phone;
+  if (sp.nick) NICKS[sp.nick] = sp.venue;
+}
 const REGIONKW=new Set(['은평나이트','창원나이트','울산나이트','강남나이트','대전나이트','신림나이트','상봉동나이트','수유나이트','부산나이트','수원나이트','안산나이트','유천동나이트','일산나이트']);
 const HUBS=new Set(['night/index.html','time/index.html']);
 

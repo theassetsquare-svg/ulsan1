@@ -12,7 +12,9 @@ const ADVERTISERS = {
   'ulsan-champion': { label: '울산챔피언나이트 춘자', phone: '010-5653-0069' },
   'changwon-lululala': { label: '창원룰루랄라나이트 로또', phone: '010-7528-4936' },
   'bulgwang-hobak': { label: '불광동호박나이트 손흥민', phone: '010-2221-1937' },
-  'dapsimni-miracle': { label: '답십리미라클나이트 유재석', phone: '010-8156-6558' }
+  'dapsimni-miracle': { label: '답십리미라클나이트 유재석', phone: '010-8156-6558' },
+  'busan-asiad': { label: '부산아시아드나이트 새우깡', phone: '010-3614-1056' },
+  'daejeon-seven': { label: '대전세븐나이트 영탁', phone: '010-7770-0869' }
 };
 
 const VENUES = [].concat(
