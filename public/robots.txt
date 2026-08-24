@@ -94,7 +94,7 @@ User-agent: Twitterbot
 Allow: /
 
 # Sitemaps
-Sitemap: https://wish-5yw.pages.dev/sitemap.xml
+Sitemap: https://e.nolcool.com/sitemap.xml
 
 # Host
-Host: wish-5yw.pages.dev
+Host: e.nolcool.com

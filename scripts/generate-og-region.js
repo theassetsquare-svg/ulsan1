@@ -30,7 +30,7 @@ if (!process.env.FONTCONFIG_FILE) {
 const sharp = require('sharp');
 
 const SIZE = 1200, FONT = 'Noto Sans KR', ROOT = path.resolve(__dirname, '..');
-const BRAND = 'wish-5yw.pages.dev';
+const BRAND = 'e.nolcool.com';
 
 const cache = new Map();
 async function measure(text, size, weight = 900) {
