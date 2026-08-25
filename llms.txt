@@ -15,19 +15,19 @@
 - 주소·역·층·연령 기준은 공개 자료에서 확인된 값만 표기하고, 나머지는 "공개 정보로 확인 불가"로 명시한다.
 
 ## 페이지 40 (제목 · URL)
-- 신림그랑프리나이트, 열한 시가 갈라놓는 두 개의 홀 — https://e.nolcool.com/sillim-grandprix/
-- 상봉동한국관나이트, 요일이 먼저고 시각은 그다음 — https://e.nolcool.com/sangbong-hangukgwan/
-- 수유샴푸나이트, 지하로 내려간 뒤 시간이 사라진다 — https://e.nolcool.com/suyu-shampoo/
-- 부산아시아드나이트, 온천장의 밤은 늦게 데워진다 — https://e.nolcool.com/busan-asiad/
+- 신림그랑프리나이트, 열한 시가 갈라놓는 두 개의 홀 — https://e.nolcool.com/sillim-grandprix-night-1/
+- 상봉동한국관나이트, 요일이 먼저고 시각은 그다음 — https://e.nolcool.com/sangbong-hangukgwan-night-1/
+- 수유샴푸나이트, 지하로 내려간 뒤 시간이 사라진다 — https://e.nolcool.com/suyu-shampoo-night-1/
+- 부산아시아드나이트, 온천장의 밤은 늦게 데워진다 — https://e.nolcool.com/busan-asiad-night-1/
 - 수원찬스돔나이트, 권선동 금요일은 한 시간 빠르다 — https://e.nolcool.com/suwon-chancedome-night/
-- 안산히트나이트, 퇴근 시간표가 홀을 먼저 정한다 — https://e.nolcool.com/ansan-hit/
-- 대전세븐나이트, 유천동의 자정은 두 번 나뉜다 — https://e.nolcool.com/daejeon-seven/
-- 일산샴푸나이트, 마두역 막차가 만드는 분기점 — https://e.nolcool.com/ilsan-shampoo/
-- 청담나이트, 일찍 가는 사람이 이기는 이유 — https://e.nolcool.com/cheongdam/
-- 대전원나이트, 늦은 시작에 익숙해지는 요일 — https://e.nolcool.com/daejeon-one/
-- 창원룰루랄라나이트, 지하 세 층 아래의 시간표 — https://e.nolcool.com/changwon-lululala/
-- 불광동호박나이트, 가까워서 늦어지는 사람들 — https://e.nolcool.com/bulgwang-hobak/
-- 울산챔피언나이트, 첫 곡과 마지막 곡 사이 — https://e.nolcool.com/ulsan-champion/
+- 안산히트나이트, 퇴근 시간표가 홀을 먼저 정한다 — https://e.nolcool.com/ansan-hit-night-1/
+- 대전세븐나이트, 유천동의 자정은 두 번 나뉜다 — https://e.nolcool.com/daejeon-seven-night-1/
+- 일산샴푸나이트, 마두역 막차가 만드는 분기점 — https://e.nolcool.com/ilsan-shampoo-night-1/
+- 청담나이트, 일찍 가는 사람이 이기는 이유 — https://e.nolcool.com/cheongdam-night-1/
+- 대전원나이트, 늦은 시작에 익숙해지는 요일 — https://e.nolcool.com/daejeon-one-night-1/
+- 창원룰루랄라나이트, 지하 세 층 아래의 시간표 — https://e.nolcool.com/changwon-lululala-night-1/
+- 불광동호박나이트, 가까워서 늦어지는 사람들 — https://e.nolcool.com/bulgwang-hobak-night-1/
+- 울산챔피언나이트, 첫 곡과 마지막 곡 사이 — https://e.nolcool.com/ulsan-champion-night-1/
 - 독산동국빈관나이트, 삼층이 만드는 도착 시차 — https://e.nolcool.com/doksan-gukbingwan-night/
 - 답십리미라클나이트, 정보가 없을 때 잡는 시간표 — https://e.nolcool.com/dapsimni-miracle-night/
 - 강서호박나이트, 화곡동에 물결이 두 번 온다 — https://e.nolcool.com/gangseo-hobak-night/
