@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-  <title>nolcool — 전국 나이트 안내</title>
+  <title>성공스토리 — 바닥에서 다시 선 1,340일의 기록</title>
   <link>https://e.nolcool.com/</link>
-  <description>전국 나이트 가게 안내 페이지 모음</description>
+  <description>전국 나이트 안내 — 전체 페이지</description>
   <language>ko</language>
   <lastBuildDate>Wed, 26 Aug 2026 00:00:00 GMT</lastBuildDate>
+  <item>
+    <title>성공스토리 — 바닥에서 다시 선 1,340일의 기록</title>
+    <link>https://e.nolcool.com/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/</guid>
+    <description>성공스토리 한 편. 잔액 3,140원과 새벽 컨베이어에서 출발해 1,340일 만에 자기 이름을 되찾은 사람의 기록. 포기하고 싶은 날 끝까지 읽게 되는 글.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>전국 나이트 시간표 40 — 도시마다 밤이 다르다</title>
+    <link>https://e.nolcool.com/time/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/time/</guid>
+    <description>전국 나이트 마흔 곳을 시간과 요일 축으로만 정리한 목록이다. 도시마다 밤이 데워지는 속도가 다르다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
   <item>
     <title>신림그랑프리나이트, 열한 시가 갈라놓는 두 개의 홀</title>
     <link>https://e.nolcool.com/sillim-grandprix-night-1/</link>
@@ -140,6 +154,13 @@
     <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
+    <title>파주야당스카이돔나이트, 신도시의 밤은 짧다</title>
+    <link>https://e.nolcool.com/paju-yadang-skydome/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/paju-yadang-skydome/</guid>
+    <description>파주야당스카이돔나이트는 야당역 도보권으로 확인된다. 파주나이트의 밤이 왜 늦게 시작해 빨리 닫히는지 구간별로 하나씩 정리했다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>구리호박나이트, 오가는 시간이 밤을 자른다</title>
     <link>https://e.nolcool.com/guri-hobak-night/</link>
     <guid isPermaLink="true">https://e.nolcool.com/guri-hobak-night/</guid>
@@ -172,6 +193,13 @@
     <link>https://e.nolcool.com/osan-hobak-night/</link>
     <guid isPermaLink="true">https://e.nolcool.com/osan-hobak-night/</guid>
     <description>오산호박나이트는 성호대로 중앙상가빌딩 높은 층으로 확인된다. 오산나이트의 시간 신호가 왜 창밖에서 먼저 오는지 구간별로 나눠 적었다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>인덕원국빈관나이트, 지하인데 시계가 살아 있다</title>
+    <link>https://e.nolcool.com/indeokwon-gukbingwan/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/indeokwon-gukbingwan/</guid>
+    <description>인덕원국빈관나이트는 흥안대로 지하 1층으로 확인된다. 안양나이트의 지하 홀에서 시간 감각이 무뎌지지 않는 이유를 구간별로 정리했다.</description>
     <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -273,10 +301,73 @@
     <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
+    <title>울산챔피언나이트 드레스코드 — 옷 하나로 입구에서 돌려보내지는 이유</title>
+    <link>https://e.nolcool.com/dresscodea</link>
+    <guid isPermaLink="true">https://e.nolcool.com/dresscodea</guid>
+    <description>울산챔피언나이트 드레스코드 — 입구에서 돌려보내지는 옷, 통과하는 옷. 신발 8할 옷차림 2할 공식. 운동화 OK, 정장 NO, 슬리퍼 즉시 컷. 울산나이트 첫 방문 전 이 한 페이지면 옷장 고민 끝.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산챔피언나이트 예산 — 양주 한 병 질러서 다음 날 운 사람 가이드</title>
+    <link>https://e.nolcool.com/budgeta</link>
+    <guid isPermaLink="true">https://e.nolcool.com/budgeta</guid>
+    <description>울산챔피언나이트 4명 1팀 진짜 예산표. 맥주 vs 양주 첫 잔 선택이 통장을 가른다. 대리비 1.5~3만, 평일 할인 치트키, 카드 명세서 봉변 피하는 법. 울산나이트 가성비 100% 공개.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산챔피언나이트 시간대 — 9시 교실, 자정 지구 최고 파티</title>
+    <link>https://e.nolcool.com/timinga</link>
+    <guid isPermaLink="true">https://e.nolcool.com/timinga</guid>
+    <description>울산챔피언나이트 금/토/평일 시간대별 분위기 완벽 정리. 울산나이트 첫 방문은 금요일 밤 11시, 인파 폭발은 토요일 22시 30분, 평일은 23시. 외워라.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산챔피언나이트 차 두고 와라 — 새벽 멘탈 나가는 이유</title>
+    <link>https://e.nolcool.com/parkinga</link>
+    <guid isPermaLink="true">https://e.nolcool.com/parkinga</guid>
+    <description>울산챔피언나이트 차 두고 가야 하는 이유 — 새벽 멘탈 나가는 주차 현실. 대리비 1.5~3만, 택시 잡는 치트키, 카카오 대리 vs 로컬 대리 비교, 새벽 1시 30분 미리 예약. 울산나이트 교통 완전 정리.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산챔피언나이트 매너 — 술 세 잔 넘으면 증발하는 상식 정리</title>
+    <link>https://e.nolcool.com/mannersa</link>
+    <guid isPermaLink="true">https://e.nolcool.com/mannersa</guid>
+    <description>울산챔피언나이트 처음이라 긴장된다면 — 아무도 안 알려주는 안 보이는 룰 3가지 정리. 공간 존중, 적당한 음주, 자연스러운 태도. 울산나이트 처음 매너만 지키면 어디서든 통한다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산챔피언나이트 1차·2차 동선 — 고기→나이트→해장 도보 코스</title>
+    <link>https://e.nolcool.com/nearbya</link>
+    <guid isPermaLink="true">https://e.nolcool.com/nearbya</guid>
+    <description>울산챔피언나이트 1차→2차→해장까지 도보 동선 완벽 정리. 삼산동 고기집은 70%만 채우고, 자정 입장, 새벽 3시 국밥집 마무리. 울산나이트 한 번 가본 사람만 아는 황금 코스 공개.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산챔피언나이트 vs 다른 곳 — 한 번 가본 사람이 기준 생기는 이유</title>
+    <link>https://e.nolcool.com/comparea</link>
+    <guid isPermaLink="true">https://e.nolcool.com/comparea</guid>
+    <description>울산챔피언나이트 vs 다른 곳 — 같은 달 세 군데 다 가본 사람의 솔직 비교. 규모, 음악, 연령대, 시설, 동선까지 항목별 점수. 울산나이트 가기 전에 이 비교표 한 번 보고 결정해라.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산챔피언나이트 — 합법 운영 정책 안내</title>
+    <link>https://e.nolcool.com/legala</link>
+    <guid isPermaLink="true">https://e.nolcool.com/legala</guid>
+    <description>울산챔피언나이트 합법 운영 정책 전문 공개 — 사업자 등록, 19+ 검문, 방심위 가이드라인, 정보통신망법 준수, 음주운전 방지 안내. 본 울산나이트 안내 사이트의 광고/후기 정책까지 투명 공개.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>불광동호박나이트, 가까워서 늦어지는 사람들</title>
     <link>https://e.nolcool.com/bulgwang-hobak-night-1</link>
     <guid isPermaLink="true">https://e.nolcool.com/bulgwang-hobak-night-1</guid>
     <description>불광동호박나이트는 통일로 지하 1층, 역에서 아주 가깝다. 불광동나이트에서 도착이 늦어지는 역설과 몰림 구간을 시간 순서로 짚었다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>나이트 안내 목록 — 전국 13곳 방문 정보</title>
+    <link>https://e.nolcool.com/night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/night/</guid>
+    <description>전국 나이트클럽 13곳의 방문 안내를 한곳에 모았다. 지역별 홀 구조와 좌석, 시간대, 예약 순서를 업소마다 따로 정리한 목록 페이지다.</description>
     <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
@@ -343,6 +434,13 @@
     <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
   </item>
   <item>
+    <title>수원찬스돔나이트 — 권선동 홀의 소수 방문 안내</title>
+    <link>https://e.nolcool.com/suwon-chance-dome-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/suwon-chance-dome-night/</guid>
+    <description>수원찬스돔나이트를 둘, 넷, 단체로 나눠 인원별 공략을 정리했다. 권선구 권선로 홀에서 인원에 따라 자리 배정과 부킹 흐름이 어떻게 달라지는지 짚는다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
     <title>안산히트나이트 — 상록수 홀에서 준비 부족 신호</title>
     <link>https://e.nolcool.com/ansan-hit-night/</link>
     <guid isPermaLink="true">https://e.nolcool.com/ansan-hit-night/</guid>
@@ -361,6 +459,97 @@
     <link>https://e.nolcool.com/ilsan-shampoo-night/</link>
     <guid isPermaLink="true">https://e.nolcool.com/ilsan-shampoo-night/</guid>
     <description>일산샴푸나이트가 어떤 홀인지 정면으로 규정하고 시작한다. 고양시 마두동 중앙로 건물의 홀 성격, 좌석 구성, 시간대, 부킹 방식을 순서대로 설명한 안내다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>은평나이트 — 불광·연신내 밤 판은 뭐가 다를까</title>
+    <link>https://e.nolcool.com/eunpyeong-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/eunpyeong-night/</guid>
+    <description>은평나이트가 다른 지역 홀과 어디서 갈리는지 구조부터 비교했다. 불광·연신내 상권의 좌석 구분과 손님층, 통화에서 확인할 항목까지 한 번에 정리했다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>창원나이트 — 상남동 밤 상권 지도 한눈에 보기</title>
+    <link>https://e.nolcool.com/changwon-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/changwon-night/</guid>
+    <description>창원나이트를 표 세 개로 압축했다. 성산구 상남동 지하 홀의 좌석 구분, 붐비는 시각, 인원 기준, 만 27세 이상 출입 조건까지 한 장 분량으로 끊어 정리했다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>울산나이트 — 삼산동 홀에서 넷이 딱 좋은 이유</title>
+    <link>https://e.nolcool.com/ulsan-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/ulsan-night/</guid>
+    <description>울산나이트를 둘·넷·단체로 갈라 인원별 공략을 정리했다. 삼산동 대형 홀에서 일행 수에 따라 자리 배정과 부킹 동선이 어떻게 달라지는지 짚었다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>강남나이트 — 청담 호텔 지하에서 실수 줄이는 법</title>
+    <link>https://e.nolcool.com/gangnam-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/gangnam-night/</guid>
+    <description>강남나이트에서 반복되는 실수 세 가지를 시간·인원·복장 순서로 짚었다. 청담 호텔 지하 홀이 클럽과 어떻게 다른지, 헛걸음을 막는 대안까지 정리했다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>대전나이트 — 용전동 홀이 익는 두 번째 방문부터</title>
+    <link>https://e.nolcool.com/daejeon-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/daejeon-night/</guid>
+    <description>대전나이트를 여러 번 다닌 시선으로 자리 확보와 웨이터 소통 요령을 정리했다. 용전동과 유천동의 성격 차이, 만 38세 이상 홀의 기준까지 함께 짚었다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>신림나이트 — 관악 고층 홀은 간판보다 안이 다르다</title>
+    <link>https://e.nolcool.com/sillim-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/sillim-night/</guid>
+    <description>신림나이트가 어떤 밤인지 정면으로 규정하고 시작한다. 관악구 역세권 고층 홀의 좌석 구성과 시간대, 부킹이 도는 방식을 순서대로 설명한 안내다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>상봉동나이트 — 망우로 2층 홀은 몇 시가 좋을까</title>
+    <link>https://e.nolcool.com/sangbong-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/sangbong-night/</guid>
+    <description>상봉동나이트에 몇 시에 들어가야 하는지를 시간표로 풀었다. 중랑구 망우로 홀의 2부제 전환과 좌석 성격, 자리가 빠지는 순서까지 짚어 정리했다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>수유나이트 — 도봉로 홀에 첫 곡이 깔리는 순간</title>
+    <link>https://e.nolcool.com/suyu-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/suyu-night/</guid>
+    <description>수유나이트의 밤을 장면으로 따라간다. 강북구 도봉로 건물 위층 홀에서 첫 곡이 걸리고 조명이 바뀌며 사람이 두꺼워지는 순서를 시각 그대로 적었다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>부산나이트 — 온천장 지하 홀 첫 방문 전 확인</title>
+    <link>https://e.nolcool.com/busan-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/busan-night/</guid>
+    <description>부산나이트를 처음 가는 사람이 막히는 지점만 골라 정리했다. 서면과 동래 온천장의 성격 차이, 도착 직후 할 일과 자리 고르는 순서를 앞에서부터 짚는다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>수원나이트 — 권선로 돔 홀이 기억에 남는 이유</title>
+    <link>https://e.nolcool.com/suwon-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/suwon-night/</guid>
+    <description>수원나이트를 다시 찾는 이유를 네 가지로 끊어 정리했다. 권선구와 인계동의 성격 차이, 돔 구조 홀의 규모와 손님층, 인원별 배정 기준까지 짚었다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>안산나이트 — 상록구 공단 도시의 밤, 막상 가보면</title>
+    <link>https://e.nolcool.com/ansan-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/ansan-night/</guid>
+    <description>안산나이트를 두고 도는 오해를 복장과 준비물부터 뒤집는다. 상록구와 단원구의 성격 차이, 실제 좌석 기준과 요일별 밀도까지 사실만 골라 정리했다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>유천동나이트 — 대전 구도심 밤 질문 모아보기</title>
+    <link>https://e.nolcool.com/yucheon-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/yucheon-night/</guid>
+    <description>유천동나이트에 들어오는 질문 열세 개를 골라 짧게 답했다. 중구 당디로 골목 홀의 예약 순서와 자리 선택, 밴드 무대와 시간대까지 궁금한 차례대로 배치했다.</description>
+    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+  </item>
+  <item>
+    <title>일산나이트 — 마두역 앞 밤이 도는 시간표 정리</title>
+    <link>https://e.nolcool.com/ilsan-night/</link>
+    <guid isPermaLink="true">https://e.nolcool.com/ilsan-night/</guid>
+    <description>일산나이트의 하룻밤을 저녁 여덟 시부터 새벽까지 순서대로 따라간다. 고양시 마두 상권 홀의 자리 잡는 구간, 밀도가 오르는 지점, 절정 시각을 짚었다.</description>
     <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
   </item>
 </channel>
