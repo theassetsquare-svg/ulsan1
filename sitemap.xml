@@ -842,4 +842,10 @@
       <image:title>일산나이트</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://e.nolcool.com/drive-guide/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
