@@ -58,7 +58,7 @@ function footer(v) {
   <div class="adbox"><b>광고문의 카톡: ${KAKAO_ID}</b></div>
   <p class="disc">공개된 웹 정보를 정리했으며 실제와 다를 수 있습니다.</p>
   <p class="disc">작성일 <time datetime="${TODAY}">${TODAY}</time></p>
-  <p class="fnav"><a href="/time/">전국 나이트 시간표 40</a></p>
+  <p class="fnav"><a href="/area/time/">전국 나이트 시간표 40</a></p>
 </footer>`;
 }
 
@@ -109,7 +109,7 @@ function jsonld(v) {
   const bc = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '전국 나이트 시간표 40', item: SITE + '/time/' },
+      { '@type': 'ListItem', position: 1, name: '전국 나이트 시간표 40', item: SITE + '/area/time/' },
       { '@type': 'ListItem', position: 2, name: v.name, item: url }
     ]
   };
@@ -145,7 +145,7 @@ ${jsonld(v)}
   <div class="wrap">
     <nav class="crumb"><ol>
       <li>밤 시간표 연구소</li>
-      <li><a href="/time/">시간표 40</a></li>
+      <li><a href="/area/time/">시간표 40</a></li>
       <li>${esc(v.name)}</li>
     </ol></nav>
     <span class="tag">${esc(v.region)}</span>
@@ -190,7 +190,7 @@ ${v.faq.map(f => `      <details><summary>${esc(f.q)}</summary><div class="a">${
   <nav class="near">
     <b>같은 시간대를 다르게 쓰는 곳</b>
     <ul>
-      <li><a href="/time/">전국 나이트 시간표 40 — 허브</a></li>
+      <li><a href="/area/time/">전국 나이트 시간표 40 — 허브</a></li>
 ${rel.map(r => `      <li><a href="/time/${r.slug}/">${esc(r.title)}</a></li>`).join('\n')}
     </ul>
   </nav>
@@ -339,7 +339,7 @@ ${HOME.faq.map(f => `      <details><summary>${esc(f.q)}</summary><div class="a"
   <nav class="near">
     <b>전국 시간표로 넘어가기</b>
     <ul>
-      <li><a href="/time/">전국 나이트 시간표 40 — 허브</a></li>
+      <li><a href="/area/time/">전국 나이트 시간표 40 — 허브</a></li>
 ${HOME.related.map(s => VENUES.find(x => x.slug === s)).filter(Boolean).map(v => `      <li><a href="/time/${v.slug}/">${esc(v.title)}</a></li>`).join('\n')}
     </ul>
   </nav>

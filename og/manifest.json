@@ -1,7 +1,7 @@
 [
   {
     "file": "/og/budget.png",
-    "page": "https://e.nolcool.com/budgeta",
+    "page": "https://e.nolcool.com/area/budgeta/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -45,7 +45,7 @@
   },
   {
     "file": "/og/bulgwang-hobak.png",
-    "page": "https://e.nolcool.com/bulgwang-hobak-night-1",
+    "page": "https://e.nolcool.com/place/bulgwang-hobak-night-1/",
     "venue": "불광동호박나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -89,7 +89,7 @@
   },
   {
     "file": "/og/compare.png",
-    "page": "https://e.nolcool.com/comparea",
+    "page": "https://e.nolcool.com/area/comparea/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -133,7 +133,7 @@
   },
   {
     "file": "/og/dresscode.png",
-    "page": "https://e.nolcool.com/dresscodea",
+    "page": "https://e.nolcool.com/area/dresscodea/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -177,7 +177,7 @@
   },
   {
     "file": "/og/legal.png",
-    "page": "https://e.nolcool.com/legala",
+    "page": "https://e.nolcool.com/area/legala/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -221,7 +221,7 @@
   },
   {
     "file": "/og/manners.png",
-    "page": "https://e.nolcool.com/mannersa",
+    "page": "https://e.nolcool.com/area/mannersa/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -265,7 +265,7 @@
   },
   {
     "file": "/og/nearby.png",
-    "page": "https://e.nolcool.com/nearbya",
+    "page": "https://e.nolcool.com/area/nearbya/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -309,7 +309,7 @@
   },
   {
     "file": "/og/ansan-hit-night-og.png",
-    "page": "https://e.nolcool.com/ansan-hit-night/",
+    "page": "https://e.nolcool.com/place/ansan-hit-night/",
     "venue": "안산히트나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -346,7 +346,7 @@
   },
   {
     "file": "/og/ansan-night-og.png",
-    "page": "https://e.nolcool.com/ansan-night/",
+    "page": "https://e.nolcool.com/area/ansan-night/",
     "venue": "안산나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -383,7 +383,7 @@
   },
   {
     "file": "/og/bulgwang-hobak-night-og.png",
-    "page": "https://e.nolcool.com/bulgwang-hobak-night/",
+    "page": "https://e.nolcool.com/place/bulgwang-hobak-night/",
     "venue": "불광동호박나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -427,7 +427,7 @@
   },
   {
     "file": "/og/busan-asiad-night-og.png",
-    "page": "https://e.nolcool.com/busan-asiad-night/",
+    "page": "https://e.nolcool.com/place/busan-asiad-night/",
     "venue": "부산아시아드나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -471,7 +471,7 @@
   },
   {
     "file": "/og/busan-night-og.png",
-    "page": "https://e.nolcool.com/busan-night/",
+    "page": "https://e.nolcool.com/area/busan-night/",
     "venue": "부산나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -508,7 +508,7 @@
   },
   {
     "file": "/og/changwon-lululala-night-og.png",
-    "page": "https://e.nolcool.com/changwon-lululala-night/",
+    "page": "https://e.nolcool.com/place/changwon-lululala-night/",
     "venue": "창원룰루랄라나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -552,7 +552,7 @@
   },
   {
     "file": "/og/changwon-night-og.png",
-    "page": "https://e.nolcool.com/changwon-night/",
+    "page": "https://e.nolcool.com/area/changwon-night/",
     "venue": "창원나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -589,7 +589,7 @@
   },
   {
     "file": "/og/cheongdam-night-og.png",
-    "page": "https://e.nolcool.com/cheongdam-night/",
+    "page": "https://e.nolcool.com/place/cheongdam-night/",
     "venue": "청담나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -633,7 +633,7 @@
   },
   {
     "file": "/og/daejeon-night-og.png",
-    "page": "https://e.nolcool.com/daejeon-night/",
+    "page": "https://e.nolcool.com/area/daejeon-night/",
     "venue": "대전나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -670,7 +670,7 @@
   },
   {
     "file": "/og/daejeon-one-night-og.png",
-    "page": "https://e.nolcool.com/daejeon-one-night/",
+    "page": "https://e.nolcool.com/place/daejeon-one-night/",
     "venue": "대전원나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -707,7 +707,7 @@
   },
   {
     "file": "/og/daejeon-seven-night-og.png",
-    "page": "https://e.nolcool.com/daejeon-seven-night/",
+    "page": "https://e.nolcool.com/place/daejeon-seven-night/",
     "venue": "대전세븐나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -751,7 +751,7 @@
   },
   {
     "file": "/og/eunpyeong-night-og.png",
-    "page": "https://e.nolcool.com/eunpyeong-night/",
+    "page": "https://e.nolcool.com/area/eunpyeong-night/",
     "venue": "은평나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -788,7 +788,7 @@
   },
   {
     "file": "/og/gangnam-night-og.png",
-    "page": "https://e.nolcool.com/gangnam-night/",
+    "page": "https://e.nolcool.com/area/gangnam-night/",
     "venue": "강남나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -825,7 +825,7 @@
   },
   {
     "file": "/og/ilsan-night-og.png",
-    "page": "https://e.nolcool.com/ilsan-night/",
+    "page": "https://e.nolcool.com/area/ilsan-night/",
     "venue": "일산나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -862,7 +862,7 @@
   },
   {
     "file": "/og/ilsan-shampoo-night-og.png",
-    "page": "https://e.nolcool.com/ilsan-shampoo-night/",
+    "page": "https://e.nolcool.com/place/ilsan-shampoo-night/",
     "venue": "일산샴푸나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -936,7 +936,7 @@
   },
   {
     "file": "/og/sangbong-hangukgwan-night-og.png",
-    "page": "https://e.nolcool.com/sangbong-hangukgwan-night/",
+    "page": "https://e.nolcool.com/place/sangbong-hangukgwan-night/",
     "venue": "상봉동한국관나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -973,7 +973,7 @@
   },
   {
     "file": "/og/sangbong-night-og.png",
-    "page": "https://e.nolcool.com/sangbong-night/",
+    "page": "https://e.nolcool.com/area/sangbong-night/",
     "venue": "상봉동나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1010,7 +1010,7 @@
   },
   {
     "file": "/og/sillim-grandprix-night-og.png",
-    "page": "https://e.nolcool.com/sillim-grandprix-night/",
+    "page": "https://e.nolcool.com/place/sillim-grandprix-night/",
     "venue": "신림그랑프리나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1047,7 +1047,7 @@
   },
   {
     "file": "/og/sillim-night-og.png",
-    "page": "https://e.nolcool.com/sillim-night/",
+    "page": "https://e.nolcool.com/area/sillim-night/",
     "venue": "신림나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1084,7 +1084,7 @@
   },
   {
     "file": "/og/suwon-chance-dome-night-og.png",
-    "page": "https://e.nolcool.com/suwon-chance-dome-night/",
+    "page": "https://e.nolcool.com/area/suwon-chance-dome-night/",
     "venue": "수원찬스돔나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1121,7 +1121,7 @@
   },
   {
     "file": "/og/suwon-night-og.png",
-    "page": "https://e.nolcool.com/suwon-night/",
+    "page": "https://e.nolcool.com/area/suwon-night/",
     "venue": "수원나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1158,7 +1158,7 @@
   },
   {
     "file": "/og/suyu-night-og.png",
-    "page": "https://e.nolcool.com/suyu-night/",
+    "page": "https://e.nolcool.com/area/suyu-night/",
     "venue": "수유나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1195,7 +1195,7 @@
   },
   {
     "file": "/og/suyu-shampoo-night-og.png",
-    "page": "https://e.nolcool.com/suyu-shampoo-night/",
+    "page": "https://e.nolcool.com/place/suyu-shampoo-night/",
     "venue": "수유샴푸나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1232,7 +1232,7 @@
   },
   {
     "file": "/og/ulsan-champion-night-og.png",
-    "page": "https://e.nolcool.com/ulsan-champion-night/",
+    "page": "https://e.nolcool.com/place/ulsan-champion-night/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1276,7 +1276,7 @@
   },
   {
     "file": "/og/ulsan-night-og.png",
-    "page": "https://e.nolcool.com/ulsan-night/",
+    "page": "https://e.nolcool.com/area/ulsan-night/",
     "venue": "울산나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1313,7 +1313,7 @@
   },
   {
     "file": "/og/yucheon-night-og.png",
-    "page": "https://e.nolcool.com/yucheon-night/",
+    "page": "https://e.nolcool.com/area/yucheon-night/",
     "venue": "유천동나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1350,7 +1350,7 @@
   },
   {
     "file": "/og/parking.png",
-    "page": "https://e.nolcool.com/parkinga",
+    "page": "https://e.nolcool.com/area/parkinga/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1394,7 +1394,7 @@
   },
   {
     "file": "/og/time-ansan-hit.png",
-    "page": "https://e.nolcool.com/ansan-hit-night-1/",
+    "page": "https://e.nolcool.com/place/ansan-hit-night-1/",
     "venue": "안산히트나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1431,7 +1431,7 @@
   },
   {
     "file": "/og/time-bucheon-gorae.png",
-    "page": "https://e.nolcool.com/bucheon-gorae-night/",
+    "page": "https://e.nolcool.com/place/bucheon-gorae-night/",
     "venue": "부천고래나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1468,7 +1468,7 @@
   },
   {
     "file": "/og/time-bulgwang-hobak.png",
-    "page": "https://e.nolcool.com/bulgwang-hobak-night-1/",
+    "page": "https://e.nolcool.com/place/bulgwang-hobak-night-1/",
     "venue": "불광동호박나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1512,7 +1512,7 @@
   },
   {
     "file": "/og/time-busan-asiad.png",
-    "page": "https://e.nolcool.com/busan-asiad-night-1/",
+    "page": "https://e.nolcool.com/place/busan-asiad-night-1/",
     "venue": "부산아시아드나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1556,7 +1556,7 @@
   },
   {
     "file": "/og/time-changwon-lululala.png",
-    "page": "https://e.nolcool.com/changwon-lululala-night-1/",
+    "page": "https://e.nolcool.com/place/changwon-lululala-night-1/",
     "venue": "창원룰루랄라나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1600,7 +1600,7 @@
   },
   {
     "file": "/og/time-cheonan-korea.png",
-    "page": "https://e.nolcool.com/cheonan-korea-night/",
+    "page": "https://e.nolcool.com/place/cheonan-korea-night/",
     "venue": "천안코리아나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1637,7 +1637,7 @@
   },
   {
     "file": "/og/time-cheonan-stardome.png",
-    "page": "https://e.nolcool.com/cheonan-stardome-night/",
+    "page": "https://e.nolcool.com/place/cheonan-stardome-night/",
     "venue": "천안스타돔나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1674,7 +1674,7 @@
   },
   {
     "file": "/og/time-cheongdam.png",
-    "page": "https://e.nolcool.com/cheongdam-night-1/",
+    "page": "https://e.nolcool.com/place/cheongdam-night-1/",
     "venue": "청담나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1718,7 +1718,7 @@
   },
   {
     "file": "/og/time-cheongju-hobak.png",
-    "page": "https://e.nolcool.com/cheongju-hobak-night/",
+    "page": "https://e.nolcool.com/place/cheongju-hobak-night/",
     "venue": "청주호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1755,7 +1755,7 @@
   },
   {
     "file": "/og/time-daegu-hobak.png",
-    "page": "https://e.nolcool.com/daegu-hobak-night/",
+    "page": "https://e.nolcool.com/place/daegu-hobak-night/",
     "venue": "대구호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1792,7 +1792,7 @@
   },
   {
     "file": "/og/time-daejeon-one.png",
-    "page": "https://e.nolcool.com/daejeon-one-night-1/",
+    "page": "https://e.nolcool.com/place/daejeon-one-night-1/",
     "venue": "대전원나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1829,7 +1829,7 @@
   },
   {
     "file": "/og/time-daejeon-seven.png",
-    "page": "https://e.nolcool.com/daejeon-seven-night-1/",
+    "page": "https://e.nolcool.com/place/daejeon-seven-night-1/",
     "venue": "대전세븐나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1873,7 +1873,7 @@
   },
   {
     "file": "/og/time-dapsimni-miracle.png",
-    "page": "https://e.nolcool.com/dapsimni-miracle-night/",
+    "page": "https://e.nolcool.com/place/dapsimni-miracle-night/",
     "venue": "답십리미라클나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -1917,7 +1917,7 @@
   },
   {
     "file": "/og/time-doksan-gukbingwan.png",
-    "page": "https://e.nolcool.com/doksan-gukbingwan-night/",
+    "page": "https://e.nolcool.com/place/doksan-gukbingwan-night/",
     "venue": "독산동국빈관나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1954,7 +1954,7 @@
   },
   {
     "file": "/og/time-gangseo-hobak.png",
-    "page": "https://e.nolcool.com/gangseo-hobak-night/",
+    "page": "https://e.nolcool.com/place/gangseo-hobak-night/",
     "venue": "강서호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1991,7 +1991,7 @@
   },
   {
     "file": "/og/time-gildong-chance.png",
-    "page": "https://e.nolcool.com/gildong-chance-night/",
+    "page": "https://e.nolcool.com/place/gildong-chance-night/",
     "venue": "길동찬스나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2028,7 +2028,7 @@
   },
   {
     "file": "/og/time-gumi-hobak.png",
-    "page": "https://e.nolcool.com/gumi-hobak-night/",
+    "page": "https://e.nolcool.com/place/gumi-hobak-night/",
     "venue": "구미호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2065,7 +2065,7 @@
   },
   {
     "file": "/og/time-guri-hobak.png",
-    "page": "https://e.nolcool.com/guri-hobak-night/",
+    "page": "https://e.nolcool.com/place/guri-hobak-night/",
     "venue": "구리호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2102,7 +2102,7 @@
   },
   {
     "file": "/og/time-gwangju-cheomdan.png",
-    "page": "https://e.nolcool.com/gwangju-cheomdan-night/",
+    "page": "https://e.nolcool.com/place/gwangju-cheomdan-night/",
     "venue": "광주첨단나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2139,7 +2139,7 @@
   },
   {
     "file": "/og/time-gwangju-sangmu.png",
-    "page": "https://e.nolcool.com/gwangju-sangmu-night/",
+    "page": "https://e.nolcool.com/place/gwangju-sangmu-night/",
     "venue": "광주상무나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2176,7 +2176,7 @@
   },
   {
     "file": "/og/time-ilsan-shampoo.png",
-    "page": "https://e.nolcool.com/ilsan-shampoo-night-1/",
+    "page": "https://e.nolcool.com/place/ilsan-shampoo-night-1/",
     "venue": "일산샴푸나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2213,7 +2213,7 @@
   },
   {
     "file": "/og/time-incheon-arabian.png",
-    "page": "https://e.nolcool.com/incheon-arabian-night/",
+    "page": "https://e.nolcool.com/place/incheon-arabian-night/",
     "venue": "인천아라비안나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2250,7 +2250,7 @@
   },
   {
     "file": "/og/time-indeokwon-gukbingwan.png",
-    "page": "https://e.nolcool.com/indeokwon-gukbingwan/",
+    "page": "https://e.nolcool.com/area/indeokwon-gukbingwan/",
     "venue": "인덕원국빈관나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2287,7 +2287,7 @@
   },
   {
     "file": "/og/time-hub.png",
-    "page": "https://e.nolcool.com/time/",
+    "page": "https://e.nolcool.com/area/time/",
     "venue": "(허브 목록)",
     "rule": "a(허브·중립문구)",
     "texts": [
@@ -2324,7 +2324,7 @@
   },
   {
     "file": "/og/time-jeju-do.png",
-    "page": "https://e.nolcool.com/jeju-night-do/",
+    "page": "https://e.nolcool.com/place/jeju-night-do/",
     "venue": "제주도나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2361,7 +2361,7 @@
   },
   {
     "file": "/og/time-nowon-hobak.png",
-    "page": "https://e.nolcool.com/nowon-hobak-night/",
+    "page": "https://e.nolcool.com/place/nowon-hobak-night/",
     "venue": "노원호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2398,7 +2398,7 @@
   },
   {
     "file": "/og/time-osan-hobak.png",
-    "page": "https://e.nolcool.com/osan-hobak-night/",
+    "page": "https://e.nolcool.com/place/osan-hobak-night/",
     "venue": "오산호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2435,7 +2435,7 @@
   },
   {
     "file": "/og/time-paju-yadang-skydome.png",
-    "page": "https://e.nolcool.com/paju-yadang-skydome/",
+    "page": "https://e.nolcool.com/area/paju-yadang-skydome/",
     "venue": "파주야당스카이돔나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2472,7 +2472,7 @@
   },
   {
     "file": "/og/time-pyeongtaek-hobak.png",
-    "page": "https://e.nolcool.com/pyeongtaek-hobak-night/",
+    "page": "https://e.nolcool.com/place/pyeongtaek-hobak-night/",
     "venue": "평택호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2509,7 +2509,7 @@
   },
   {
     "file": "/og/time-sangbong-hangukgwan.png",
-    "page": "https://e.nolcool.com/sangbong-hangukgwan-night-1/",
+    "page": "https://e.nolcool.com/place/sangbong-hangukgwan-night-1/",
     "venue": "상봉동한국관나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2546,7 +2546,7 @@
   },
   {
     "file": "/og/time-seongnam-shampoo.png",
-    "page": "https://e.nolcool.com/seongnam-shampoo-night/",
+    "page": "https://e.nolcool.com/place/seongnam-shampoo-night/",
     "venue": "성남샴푸나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2583,7 +2583,7 @@
   },
   {
     "file": "/og/time-seosan-hobak.png",
-    "page": "https://e.nolcool.com/seosan-hobak-night/",
+    "page": "https://e.nolcool.com/place/seosan-hobak-night/",
     "venue": "서산호박나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2620,7 +2620,7 @@
   },
   {
     "file": "/og/time-sillim-grandprix.png",
-    "page": "https://e.nolcool.com/sillim-grandprix-night-1/",
+    "page": "https://e.nolcool.com/place/sillim-grandprix-night-1/",
     "venue": "신림그랑프리나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2657,7 +2657,7 @@
   },
   {
     "file": "/og/time-suwon-chancedome.png",
-    "page": "https://e.nolcool.com/suwon-chancedome-night/",
+    "page": "https://e.nolcool.com/place/suwon-chancedome-night/",
     "venue": "수원찬스돔나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2694,7 +2694,7 @@
   },
   {
     "file": "/og/time-suwon-korea.png",
-    "page": "https://e.nolcool.com/suwon-korea-night/",
+    "page": "https://e.nolcool.com/place/suwon-korea-night/",
     "venue": "수원코리아나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2731,7 +2731,7 @@
   },
   {
     "file": "/og/time-suyu-shampoo.png",
-    "page": "https://e.nolcool.com/suyu-shampoo-night-1/",
+    "page": "https://e.nolcool.com/place/suyu-shampoo-night-1/",
     "venue": "수유샴푸나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2768,7 +2768,7 @@
   },
   {
     "file": "/og/time-uijeongbu-baekakgwan.png",
-    "page": "https://e.nolcool.com/uijeongbu-baekakgwan-night/",
+    "page": "https://e.nolcool.com/place/uijeongbu-baekakgwan-night/",
     "venue": "의정부백악관나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2805,7 +2805,7 @@
   },
   {
     "file": "/og/time-uijeongbu-hangukgwan.png",
-    "page": "https://e.nolcool.com/uijeongbu-hangukgwan-night/",
+    "page": "https://e.nolcool.com/place/uijeongbu-hangukgwan-night/",
     "venue": "의정부한국관나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2842,7 +2842,7 @@
   },
   {
     "file": "/og/time-ulsan-champion.png",
-    "page": "https://e.nolcool.com/ulsan-champion-night-1/",
+    "page": "https://e.nolcool.com/place/ulsan-champion-night-1/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [
@@ -2886,7 +2886,7 @@
   },
   {
     "file": "/og/time-ulsan-newworld.png",
-    "page": "https://e.nolcool.com/ulsan-newworld-night/",
+    "page": "https://e.nolcool.com/place/ulsan-newworld-night/",
     "venue": "울산뉴월드나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2923,7 +2923,7 @@
   },
   {
     "file": "/og/time-yeongdeungpo-terminal.png",
-    "page": "https://e.nolcool.com/yeongdeungpo-terminal-night/",
+    "page": "https://e.nolcool.com/place/yeongdeungpo-terminal-night/",
     "venue": "영등포터미널나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -2960,7 +2960,7 @@
   },
   {
     "file": "/og/timing.png",
-    "page": "https://e.nolcool.com/timinga",
+    "page": "https://e.nolcool.com/area/timinga/",
     "venue": "울산챔피언나이트",
     "rule": "A(광고주·전화번호 주인공)",
     "texts": [

@@ -11,7 +11,7 @@
    "1200x1200"
   ],
   [
-   "/sillim-grandprix-night-1/",
+   "/place/sillim-grandprix-night-1/",
    "2371/1776",
    28,
    4,
@@ -19,7 +19,7 @@
    "1200x1200"
   ],
   [
-   "/sangbong-hangukgwan-night-1/",
+   "/place/sangbong-hangukgwan-night-1/",
    "2300/1717",
    26,
    4,
@@ -27,7 +27,7 @@
    "1200x1200"
   ],
   [
-   "/suyu-shampoo-night-1/",
+   "/place/suyu-shampoo-night-1/",
    "2156/1592",
    27,
    4,
@@ -35,7 +35,7 @@
    "1200x1200"
   ],
   [
-   "/busan-asiad-night-1/",
+   "/place/busan-asiad-night-1/",
    "2185/1626",
    26,
    4,
@@ -43,7 +43,7 @@
    "1200x1200"
   ],
   [
-   "/suwon-chancedome-night/",
+   "/place/suwon-chancedome-night/",
    "2144/1604",
    27,
    4,
@@ -51,7 +51,7 @@
    "1200x1200"
   ],
   [
-   "/ansan-hit-night-1/",
+   "/place/ansan-hit-night-1/",
    "1959/1463",
    26,
    4,
@@ -59,7 +59,7 @@
    "1200x1200"
   ],
   [
-   "/daejeon-seven-night-1/",
+   "/place/daejeon-seven-night-1/",
    "1966/1459",
    25,
    4,
@@ -67,7 +67,7 @@
    "1200x1200"
   ],
   [
-   "/ilsan-shampoo-night-1/",
+   "/place/ilsan-shampoo-night-1/",
    "2013/1501",
    24,
    4,
@@ -75,7 +75,7 @@
    "1200x1200"
   ],
   [
-   "/cheongdam-night-1/",
+   "/place/cheongdam-night-1/",
    "2022/1492",
    23,
    4,
@@ -83,7 +83,7 @@
    "1200x1200"
   ],
   [
-   "/daejeon-one-night-1/",
+   "/place/daejeon-one-night-1/",
    "1949/1456",
    23,
    4,
@@ -91,7 +91,7 @@
    "1200x1200"
   ],
   [
-   "/changwon-lululala-night-1/",
+   "/place/changwon-lululala-night-1/",
    "2034/1534",
    25,
    4,
@@ -99,7 +99,7 @@
    "1200x1200"
   ],
   [
-   "/bulgwang-hobak-night-1/",
+   "/place/bulgwang-hobak-night-1/",
    "1930/1450",
    23,
    4,
@@ -107,7 +107,7 @@
    "1200x1200"
   ],
   [
-   "/ulsan-champion-night-1/",
+   "/place/ulsan-champion-night-1/",
    "1964/1474",
    23,
    4,
@@ -115,7 +115,7 @@
    "1200x1200"
   ],
   [
-   "/doksan-gukbingwan-night/",
+   "/place/doksan-gukbingwan-night/",
    "1833/1367",
    24,
    4,
@@ -123,7 +123,7 @@
    "1200x1200"
   ],
   [
-   "/dapsimni-miracle-night/",
+   "/place/dapsimni-miracle-night/",
    "1856/1388",
    26,
    4,
@@ -131,7 +131,7 @@
    "1200x1200"
   ],
   [
-   "/gangseo-hobak-night/",
+   "/place/gangseo-hobak-night/",
    "1832/1352",
    24,
    4,
@@ -139,7 +139,7 @@
    "1200x1200"
   ],
   [
-   "/yeongdeungpo-terminal-night/",
+   "/place/yeongdeungpo-terminal-night/",
    "1826/1360",
    25,
    4,
@@ -147,7 +147,7 @@
    "1200x1200"
   ],
   [
-   "/nowon-hobak-night/",
+   "/place/nowon-hobak-night/",
    "1830/1356",
    25,
    4,
@@ -155,7 +155,7 @@
    "1200x1200"
   ],
   [
-   "/gildong-chance-night/",
+   "/place/gildong-chance-night/",
    "1859/1396",
    22,
    4,
@@ -163,7 +163,7 @@
    "1200x1200"
   ],
   [
-   "/paju-yadang-skydome/",
+   "/area/paju-yadang-skydome/",
    "1883/1409",
    23,
    4,
@@ -171,7 +171,7 @@
    "1200x1200"
   ],
   [
-   "/guri-hobak-night/",
+   "/place/guri-hobak-night/",
    "2042/1523",
    23,
    4,
@@ -179,7 +179,7 @@
    "1200x1200"
   ],
   [
-   "/uijeongbu-hangukgwan-night/",
+   "/place/uijeongbu-hangukgwan-night/",
    "1949/1471",
    24,
    4,
@@ -187,7 +187,7 @@
    "1200x1200"
   ],
   [
-   "/uijeongbu-baekakgwan-night/",
+   "/place/uijeongbu-baekakgwan-night/",
    "1924/1445",
    27,
    4,
@@ -195,7 +195,7 @@
    "1200x1200"
   ],
   [
-   "/suwon-korea-night/",
+   "/place/suwon-korea-night/",
    "1889/1408",
    24,
    4,
@@ -203,7 +203,7 @@
    "1200x1200"
   ],
   [
-   "/osan-hobak-night/",
+   "/place/osan-hobak-night/",
    "1856/1389",
    22,
    4,
@@ -211,7 +211,7 @@
    "1200x1200"
   ],
   [
-   "/indeokwon-gukbingwan/",
+   "/area/indeokwon-gukbingwan/",
    "1896/1429",
    25,
    4,
@@ -219,7 +219,7 @@
    "1200x1200"
   ],
   [
-   "/seongnam-shampoo-night/",
+   "/place/seongnam-shampoo-night/",
    "1876/1402",
    25,
    4,
@@ -227,7 +227,7 @@
    "1200x1200"
   ],
   [
-   "/incheon-arabian-night/",
+   "/place/incheon-arabian-night/",
    "1872/1403",
    24,
    4,
@@ -235,7 +235,7 @@
    "1200x1200"
   ],
   [
-   "/bucheon-gorae-night/",
+   "/place/bucheon-gorae-night/",
    "1869/1406",
    23,
    4,
@@ -243,7 +243,7 @@
    "1200x1200"
   ],
   [
-   "/pyeongtaek-hobak-night/",
+   "/place/pyeongtaek-hobak-night/",
    "1874/1395",
    22,
    4,
@@ -251,7 +251,7 @@
    "1200x1200"
   ],
   [
-   "/cheonan-stardome-night/",
+   "/place/cheonan-stardome-night/",
    "1894/1413",
    24,
    4,
@@ -259,7 +259,7 @@
    "1200x1200"
   ],
   [
-   "/cheonan-korea-night/",
+   "/place/cheonan-korea-night/",
    "1800/1350",
    24,
    4,
@@ -267,7 +267,7 @@
    "1200x1200"
   ],
   [
-   "/cheongju-hobak-night/",
+   "/place/cheongju-hobak-night/",
    "1835/1354",
    22,
    4,
@@ -275,7 +275,7 @@
    "1200x1200"
   ],
   [
-   "/ulsan-newworld-night/",
+   "/place/ulsan-newworld-night/",
    "1816/1352",
    26,
    4,
@@ -283,7 +283,7 @@
    "1200x1200"
   ],
   [
-   "/seosan-hobak-night/",
+   "/place/seosan-hobak-night/",
    "1836/1366",
    21,
    4,
@@ -291,7 +291,7 @@
    "1200x1200"
   ],
   [
-   "/daegu-hobak-night/",
+   "/place/daegu-hobak-night/",
    "1834/1378",
    23,
    4,
@@ -299,7 +299,7 @@
    "1200x1200"
   ],
   [
-   "/gumi-hobak-night/",
+   "/place/gumi-hobak-night/",
    "1833/1368",
    25,
    4,
@@ -307,7 +307,7 @@
    "1200x1200"
   ],
   [
-   "/gwangju-sangmu-night/",
+   "/place/gwangju-sangmu-night/",
    "1832/1365",
    22,
    4,
@@ -315,7 +315,7 @@
    "1200x1200"
   ],
   [
-   "/gwangju-cheomdan-night/",
+   "/place/gwangju-cheomdan-night/",
    "1828/1357",
    21,
    4,
@@ -323,7 +323,7 @@
    "1200x1200"
   ],
   [
-   "/jeju-night-do/",
+   "/place/jeju-night-do/",
    "1821/1354",
    20,
    4,

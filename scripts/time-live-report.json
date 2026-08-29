@@ -15,7 +15,7 @@
   },
   {
    "name": "전국 나이트 시간표 40",
-   "url": "/time/",
+   "url": "/area/time/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -27,7 +27,7 @@
   },
   {
    "name": "신림그랑프리나이트",
-   "url": "/sillim-grandprix-night-1/",
+   "url": "/place/sillim-grandprix-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -39,7 +39,7 @@
   },
   {
    "name": "상봉동한국관나이트",
-   "url": "/sangbong-hangukgwan-night-1/",
+   "url": "/place/sangbong-hangukgwan-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -51,7 +51,7 @@
   },
   {
    "name": "수유샴푸나이트",
-   "url": "/suyu-shampoo-night-1/",
+   "url": "/place/suyu-shampoo-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -63,7 +63,7 @@
   },
   {
    "name": "부산아시아드나이트",
-   "url": "/busan-asiad-night-1/",
+   "url": "/place/busan-asiad-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -75,7 +75,7 @@
   },
   {
    "name": "수원찬스돔나이트",
-   "url": "/suwon-chancedome-night/",
+   "url": "/place/suwon-chancedome-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -87,7 +87,7 @@
   },
   {
    "name": "안산히트나이트",
-   "url": "/ansan-hit-night-1/",
+   "url": "/place/ansan-hit-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -99,7 +99,7 @@
   },
   {
    "name": "대전세븐나이트",
-   "url": "/daejeon-seven-night-1/",
+   "url": "/place/daejeon-seven-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -111,7 +111,7 @@
   },
   {
    "name": "일산샴푸나이트",
-   "url": "/ilsan-shampoo-night-1/",
+   "url": "/place/ilsan-shampoo-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -123,7 +123,7 @@
   },
   {
    "name": "청담나이트",
-   "url": "/cheongdam-night-1/",
+   "url": "/place/cheongdam-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -135,7 +135,7 @@
   },
   {
    "name": "대전원나이트",
-   "url": "/daejeon-one-night-1/",
+   "url": "/place/daejeon-one-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -147,7 +147,7 @@
   },
   {
    "name": "창원룰루랄라나이트",
-   "url": "/changwon-lululala-night-1/",
+   "url": "/place/changwon-lululala-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcde 창원룰루랄라나이트 로또 010-7528-4936",
@@ -159,7 +159,7 @@
   },
   {
    "name": "불광동호박나이트",
-   "url": "/bulgwang-hobak-night-1/",
+   "url": "/place/bulgwang-hobak-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcde 불광동호박나이트 손흥민 010-2221-1937",
@@ -171,7 +171,7 @@
   },
   {
    "name": "울산챔피언나이트",
-   "url": "/ulsan-champion-night-1/",
+   "url": "/place/ulsan-champion-night-1/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcde 울산챔피언나이트 춘자 010-5653-0069",
@@ -183,7 +183,7 @@
   },
   {
    "name": "독산동국빈관나이트",
-   "url": "/doksan-gukbingwan-night/",
+   "url": "/place/doksan-gukbingwan-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -195,7 +195,7 @@
   },
   {
    "name": "답십리미라클나이트",
-   "url": "/dapsimni-miracle-night/",
+   "url": "/place/dapsimni-miracle-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -207,7 +207,7 @@
   },
   {
    "name": "강서호박나이트",
-   "url": "/gangseo-hobak-night/",
+   "url": "/place/gangseo-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -219,7 +219,7 @@
   },
   {
    "name": "영등포터미널나이트",
-   "url": "/yeongdeungpo-terminal-night/",
+   "url": "/place/yeongdeungpo-terminal-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -231,7 +231,7 @@
   },
   {
    "name": "노원호박나이트",
-   "url": "/nowon-hobak-night/",
+   "url": "/place/nowon-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -243,7 +243,7 @@
   },
   {
    "name": "길동찬스나이트",
-   "url": "/gildong-chance-night/",
+   "url": "/place/gildong-chance-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -255,7 +255,7 @@
   },
   {
    "name": "파주야당스카이돔나이트",
-   "url": "/paju-yadang-skydome/",
+   "url": "/area/paju-yadang-skydome/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -267,7 +267,7 @@
   },
   {
    "name": "구리호박나이트",
-   "url": "/guri-hobak-night/",
+   "url": "/place/guri-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -279,7 +279,7 @@
   },
   {
    "name": "의정부한국관나이트",
-   "url": "/uijeongbu-hangukgwan-night/",
+   "url": "/place/uijeongbu-hangukgwan-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -291,7 +291,7 @@
   },
   {
    "name": "의정부백악관나이트",
-   "url": "/uijeongbu-baekakgwan-night/",
+   "url": "/place/uijeongbu-baekakgwan-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -303,7 +303,7 @@
   },
   {
    "name": "수원코리아나이트",
-   "url": "/suwon-korea-night/",
+   "url": "/place/suwon-korea-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -315,7 +315,7 @@
   },
   {
    "name": "오산호박나이트",
-   "url": "/osan-hobak-night/",
+   "url": "/place/osan-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -327,7 +327,7 @@
   },
   {
    "name": "인덕원국빈관나이트",
-   "url": "/indeokwon-gukbingwan/",
+   "url": "/area/indeokwon-gukbingwan/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -339,7 +339,7 @@
   },
   {
    "name": "성남샴푸나이트",
-   "url": "/seongnam-shampoo-night/",
+   "url": "/place/seongnam-shampoo-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -351,7 +351,7 @@
   },
   {
    "name": "인천아라비안나이트",
-   "url": "/incheon-arabian-night/",
+   "url": "/place/incheon-arabian-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -363,7 +363,7 @@
   },
   {
    "name": "부천고래나이트",
-   "url": "/bucheon-gorae-night/",
+   "url": "/place/bucheon-gorae-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -375,7 +375,7 @@
   },
   {
    "name": "평택호박나이트",
-   "url": "/pyeongtaek-hobak-night/",
+   "url": "/place/pyeongtaek-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -387,7 +387,7 @@
   },
   {
    "name": "천안스타돔나이트",
-   "url": "/cheonan-stardome-night/",
+   "url": "/place/cheonan-stardome-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -399,7 +399,7 @@
   },
   {
    "name": "천안코리아나이트",
-   "url": "/cheonan-korea-night/",
+   "url": "/place/cheonan-korea-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -411,7 +411,7 @@
   },
   {
    "name": "청주호박나이트",
-   "url": "/cheongju-hobak-night/",
+   "url": "/place/cheongju-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -423,7 +423,7 @@
   },
   {
    "name": "울산뉴월드나이트",
-   "url": "/ulsan-newworld-night/",
+   "url": "/place/ulsan-newworld-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -435,7 +435,7 @@
   },
   {
    "name": "서산호박나이트",
-   "url": "/seosan-hobak-night/",
+   "url": "/place/seosan-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -447,7 +447,7 @@
   },
   {
    "name": "대구호박나이트",
-   "url": "/daegu-hobak-night/",
+   "url": "/place/daegu-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -459,7 +459,7 @@
   },
   {
    "name": "구미호박나이트",
-   "url": "/gumi-hobak-night/",
+   "url": "/place/gumi-hobak-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -471,7 +471,7 @@
   },
   {
    "name": "광주상무나이트",
-   "url": "/gwangju-sangmu-night/",
+   "url": "/place/gwangju-sangmu-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -483,7 +483,7 @@
   },
   {
    "name": "광주첨단나이트",
-   "url": "/gwangju-cheomdan-night/",
+   "url": "/place/gwangju-cheomdan-night/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",
@@ -495,7 +495,7 @@
   },
   {
    "name": "제주도나이트",
-   "url": "/jeju-night-do/",
+   "url": "/place/jeju-night-do/",
    "http": 200,
    "titleOk": "O",
    "bar": "\udcac 광고문의 카카오톡 besta12",

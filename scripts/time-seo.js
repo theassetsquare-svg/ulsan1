@@ -12,7 +12,7 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const raw = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
 const blocks = [...raw.matchAll(/<url>[\s\S]*?<\/url>/g)].map(m => m[0]);
 const homeLoc = `<loc>${SITE}/</loc>`;
-const kept = blocks.filter(b => !b.includes(homeLoc) && !b.includes('/time/'));
+const kept = blocks.filter(b => !b.includes(homeLoc) && !b.includes('/area/time/'));
 
 function urlBlock(loc, lastmod, priority, changefreq, img, caption, title) {
   return `  <url>

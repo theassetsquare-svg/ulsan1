@@ -3,11 +3,11 @@
   {
    "no": 1,
    "kw": "은평나이트",
-   "url": "https://e.nolcool.com/eunpyeong-night/",
+   "url": "https://e.nolcool.com/area/eunpyeong-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/eunpyeong-night/",
+   "canonical": "https://e.nolcool.com/area/eunpyeong-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -15,11 +15,11 @@
   {
    "no": 2,
    "kw": "창원나이트",
-   "url": "https://e.nolcool.com/changwon-night/",
+   "url": "https://e.nolcool.com/area/changwon-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/changwon-night/",
+   "canonical": "https://e.nolcool.com/area/changwon-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -27,11 +27,11 @@
   {
    "no": 3,
    "kw": "울산나이트",
-   "url": "https://e.nolcool.com/ulsan-night/",
+   "url": "https://e.nolcool.com/area/ulsan-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/ulsan-night/",
+   "canonical": "https://e.nolcool.com/area/ulsan-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -39,11 +39,11 @@
   {
    "no": 4,
    "kw": "강남나이트",
-   "url": "https://e.nolcool.com/gangnam-night/",
+   "url": "https://e.nolcool.com/area/gangnam-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/gangnam-night/",
+   "canonical": "https://e.nolcool.com/area/gangnam-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -51,11 +51,11 @@
   {
    "no": 5,
    "kw": "대전나이트",
-   "url": "https://e.nolcool.com/daejeon-night/",
+   "url": "https://e.nolcool.com/area/daejeon-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/daejeon-night/",
+   "canonical": "https://e.nolcool.com/area/daejeon-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -63,11 +63,11 @@
   {
    "no": 6,
    "kw": "신림나이트",
-   "url": "https://e.nolcool.com/sillim-night/",
+   "url": "https://e.nolcool.com/area/sillim-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/sillim-night/",
+   "canonical": "https://e.nolcool.com/area/sillim-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -75,11 +75,11 @@
   {
    "no": 7,
    "kw": "상봉동나이트",
-   "url": "https://e.nolcool.com/sangbong-night/",
+   "url": "https://e.nolcool.com/area/sangbong-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/sangbong-night/",
+   "canonical": "https://e.nolcool.com/area/sangbong-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -87,11 +87,11 @@
   {
    "no": 8,
    "kw": "수유나이트",
-   "url": "https://e.nolcool.com/suyu-night/",
+   "url": "https://e.nolcool.com/area/suyu-night/",
    "http": 200,
    "kwA": 23,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/suyu-night/",
+   "canonical": "https://e.nolcool.com/area/suyu-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -99,11 +99,11 @@
   {
    "no": 9,
    "kw": "부산나이트",
-   "url": "https://e.nolcool.com/busan-night/",
+   "url": "https://e.nolcool.com/area/busan-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/busan-night/",
+   "canonical": "https://e.nolcool.com/area/busan-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -111,11 +111,11 @@
   {
    "no": 10,
    "kw": "수원나이트",
-   "url": "https://e.nolcool.com/suwon-night/",
+   "url": "https://e.nolcool.com/area/suwon-night/",
    "http": 200,
    "kwA": 23,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/suwon-night/",
+   "canonical": "https://e.nolcool.com/area/suwon-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -123,11 +123,11 @@
   {
    "no": 11,
    "kw": "안산나이트",
-   "url": "https://e.nolcool.com/ansan-night/",
+   "url": "https://e.nolcool.com/area/ansan-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/ansan-night/",
+   "canonical": "https://e.nolcool.com/area/ansan-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -135,11 +135,11 @@
   {
    "no": 12,
    "kw": "유천동나이트",
-   "url": "https://e.nolcool.com/yucheon-night/",
+   "url": "https://e.nolcool.com/area/yucheon-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/yucheon-night/",
+   "canonical": "https://e.nolcool.com/area/yucheon-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -147,11 +147,11 @@
   {
    "no": 13,
    "kw": "일산나이트",
-   "url": "https://e.nolcool.com/ilsan-night/",
+   "url": "https://e.nolcool.com/area/ilsan-night/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/ilsan-night/",
+   "canonical": "https://e.nolcool.com/area/ilsan-night/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -215,79 +215,79 @@
   {
    "kw": "은평나이트",
    "venue": "불광동호박나이트",
-   "url": "https://e.nolcool.com/bulgwang-hobak-night/",
+   "url": "https://e.nolcool.com/place/bulgwang-hobak-night/",
    "http": 200
   },
   {
    "kw": "창원나이트",
    "venue": "창원룰루랄라나이트",
-   "url": "https://e.nolcool.com/changwon-lululala-night/",
+   "url": "https://e.nolcool.com/place/changwon-lululala-night/",
    "http": 200
   },
   {
    "kw": "울산나이트",
    "venue": "울산챔피언나이트",
-   "url": "https://e.nolcool.com/ulsan-champion-night/",
+   "url": "https://e.nolcool.com/place/ulsan-champion-night/",
    "http": 200
   },
   {
    "kw": "강남나이트",
    "venue": "청담나이트",
-   "url": "https://e.nolcool.com/cheongdam-night/",
+   "url": "https://e.nolcool.com/place/cheongdam-night/",
    "http": 200
   },
   {
    "kw": "대전나이트",
    "venue": "대전원나이트",
-   "url": "https://e.nolcool.com/daejeon-one-night/",
+   "url": "https://e.nolcool.com/place/daejeon-one-night/",
    "http": 200
   },
   {
    "kw": "신림나이트",
    "venue": "신림그랑프리나이트",
-   "url": "https://e.nolcool.com/sillim-grandprix-night/",
+   "url": "https://e.nolcool.com/place/sillim-grandprix-night/",
    "http": 200
   },
   {
    "kw": "상봉동나이트",
    "venue": "상봉동한국관나이트",
-   "url": "https://e.nolcool.com/sangbong-hangukgwan-night/",
+   "url": "https://e.nolcool.com/place/sangbong-hangukgwan-night/",
    "http": 200
   },
   {
    "kw": "수유나이트",
    "venue": "수유샴푸나이트",
-   "url": "https://e.nolcool.com/suyu-shampoo-night/",
+   "url": "https://e.nolcool.com/place/suyu-shampoo-night/",
    "http": 200
   },
   {
    "kw": "부산나이트",
    "venue": "부산아시아드나이트",
-   "url": "https://e.nolcool.com/busan-asiad-night/",
+   "url": "https://e.nolcool.com/place/busan-asiad-night/",
    "http": 200
   },
   {
    "kw": "수원나이트",
    "venue": "수원찬스돔나이트",
-   "url": "https://e.nolcool.com/suwon-chance-dome-night/",
+   "url": "https://e.nolcool.com/area/suwon-chance-dome-night/",
    "http": 200
   },
   {
    "kw": "안산나이트",
    "venue": "안산히트나이트",
-   "url": "https://e.nolcool.com/ansan-hit-night/",
+   "url": "https://e.nolcool.com/place/ansan-hit-night/",
    "http": 200
   },
   {
    "kw": "유천동나이트",
    "venue": "대전세븐나이트",
-   "url": "https://e.nolcool.com/daejeon-seven-night/",
+   "url": "https://e.nolcool.com/place/daejeon-seven-night/",
    "http": 200
   },
   {
    "kw": "일산나이트",
    "venue": "일산샴푸나이트",
-   "url": "https://e.nolcool.com/ilsan-shampoo-night/",
+   "url": "https://e.nolcool.com/place/ilsan-shampoo-night/",
    "http": 200
   }
  ],
