@@ -65,3 +65,9 @@
   X-Frame-Options: SAMEORIGIN
   Referrer-Policy: strict-origin-when-cross-origin
   Cache-Control: public, max-age=60, s-maxage=300
+
+# ★ 2026-08-29 — /src/ 는 페이지를 만드는 **틀 파일**이다. 사람이 볼 글이 아니다.
+#   그런데 200 으로 열려 실제 페이지와 95% 같은 유사문서가 되고 있었다.
+#   빌드에 쓰이므로 지우지 않고, 검색에서만 뺀다. [[similarity-10-everywhere]]
+/src/*
+  X-Robots-Tag: noindex, nofollow

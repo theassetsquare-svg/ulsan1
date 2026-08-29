@@ -3,6 +3,8 @@
 
 User-agent: *
 Allow: /
+# /src/ 는 페이지를 만드는 틀 파일이라 색인 대상이 아니다 (2026-08-29)
+Disallow: /src/
 
 # Google
 User-agent: Googlebot
