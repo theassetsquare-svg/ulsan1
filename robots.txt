@@ -96,6 +96,14 @@ User-agent: Twitterbot
 Allow: /
 
 # Sitemaps
+
+# 공식 문서로 확인된 크롤러
+User-agent: Claude-SearchBot
+Allow: /
+# 공식 문서로 확인된 크롤러
+User-agent: Claude-User
+Allow: /
+
 Sitemap: https://e.nolcool.com/sitemap.xml
 
 # Host

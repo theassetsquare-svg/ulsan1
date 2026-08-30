@@ -1,9 +1,9 @@
-/legal /legala 301
-/compare /comparea 301
-/nearby /nearbya 301
-/manners /mannersa 301
-/parking /parkinga 301
-/timing /timinga 301
-/budget /budgeta 301
-/dresscode /dresscodea 301
+/legal  /area/legala/  301
+/compare  /area/comparea/  301
+/nearby  /area/nearbya/  301
+/manners  /area/mannersa/  301
+/parking  /area/parkinga/  301
+/timing  /area/timinga/  301
+/budget  /area/budgeta/  301
+/dresscode  /area/dresscodea/  301
 /* /index.html 200
