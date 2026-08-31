@@ -57,17 +57,7 @@
       <image:title>수유샴푸나이트</image:title>
     </image:image>
   </url>
-<url>
-    <loc>https://e.nolcool.com/place/busan-asiad-night-1/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://e.nolcool.com/og/time-busan-asiad.png</image:loc>
-      <image:caption>부산아시아드나이트, 온천장의 밤은 늦게 데워진다</image:caption>
-      <image:title>부산아시아드나이트</image:title>
-    </image:image>
-  </url>
+
 <url>
     <loc>https://e.nolcool.com/place/suwon-chancedome-night/</loc>
     <lastmod>2026-08-26</lastmod>
@@ -90,17 +80,7 @@
       <image:title>안산히트나이트</image:title>
     </image:image>
   </url>
-<url>
-    <loc>https://e.nolcool.com/place/daejeon-seven-night-1/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://e.nolcool.com/og/time-daejeon-seven.png</image:loc>
-      <image:caption>대전세븐나이트, 유천동의 자정은 두 번 나뉜다</image:caption>
-      <image:title>대전세븐나이트</image:title>
-    </image:image>
-  </url>
+
 <url>
     <loc>https://e.nolcool.com/place/ilsan-shampoo-night-1/</loc>
     <lastmod>2026-08-26</lastmod>
@@ -112,17 +92,7 @@
       <image:title>일산샴푸나이트</image:title>
     </image:image>
   </url>
-<url>
-    <loc>https://e.nolcool.com/place/cheongdam-night-1/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://e.nolcool.com/og/time-cheongdam.png</image:loc>
-      <image:caption>청담나이트, 일찍 가는 사람이 이기는 이유</image:caption>
-      <image:title>청담나이트</image:title>
-    </image:image>
-  </url>
+
 <url>
     <loc>https://e.nolcool.com/place/daejeon-one-night-1/</loc>
     <lastmod>2026-08-26</lastmod>
@@ -134,39 +104,9 @@
       <image:title>대전원나이트</image:title>
     </image:image>
   </url>
-<url>
-    <loc>https://e.nolcool.com/place/changwon-lululala-night-1/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://e.nolcool.com/og/time-changwon-lululala.png</image:loc>
-      <image:caption>창원룰루랄라나이트, 지하 세 층 아래의 시간표</image:caption>
-      <image:title>창원룰루랄라나이트</image:title>
-    </image:image>
-  </url>
-<url>
-    <loc>https://e.nolcool.com/place/bulgwang-hobak-night-1/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://e.nolcool.com/og/time-bulgwang-hobak.png</image:loc>
-      <image:caption>불광동호박나이트, 가까워서 늦어지는 사람들</image:caption>
-      <image:title>불광동호박나이트</image:title>
-    </image:image>
-  </url>
-<url>
-    <loc>https://e.nolcool.com/place/ulsan-champion-night-1/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://e.nolcool.com/og/time-ulsan-champion.png</image:loc>
-      <image:caption>울산챔피언나이트, 첫 곡과 마지막 곡 사이</image:caption>
-      <image:title>울산챔피언나이트</image:title>
-    </image:image>
-  </url>
+
+
+
 <url>
     <loc>https://e.nolcool.com/place/doksan-gukbingwan-night/</loc>
     <lastmod>2026-08-26</lastmod>
