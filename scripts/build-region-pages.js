@@ -23,7 +23,7 @@ function css(v) {
   const [bg1, bg2] = v.ogBg;
   return `*{margin:0;padding:0;box-sizing:border-box}
 :root{--h1:${bg1};--h2:${bg2};--ac:${v.ogAccent};--ink:#17181C;--dim:#565A63;--line:#E4E6EA;--paper:#FFFFFF;--soft:#F5F6F8}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:전부}
 body{font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',system-ui,-apple-system,'Malgun Gothic',sans-serif;
   background:var(--paper);color:var(--ink);font-size:16px;line-height:1.7;word-break:keep-all;
   padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}

@@ -12,7 +12,7 @@ const pages = [
   { slug: 'timing', sub: '시간대별 가이드', icon: '⏰', desc: '언제 가야 분위기 좋나' },
   { slug: 'parking', sub: '주차·교통 가이드', icon: '🚗', desc: '차 가져가도 되나' },
   { slug: 'manners', sub: '매너·에티켓 가이드', icon: '🤝', desc: '이것만 지키면 된다' },
-  { slug: 'nearby', sub: '1차·2차 코스 추천', icon: '🍻', desc: '밥 먹고 나이트 가고 해장까지' },
+  { slug: 'nearby', sub: '1차·다음 자리 코스 추천', icon: '🍻', desc: '밥 먹고 나이트 가고 해장까지' },
   { slug: 'compare', sub: '울산 나이트 비교', icon: '⚔️', desc: '챔피언 vs 다른 곳' },
 ];
 

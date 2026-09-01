@@ -24,7 +24,7 @@ function css(v) {
   const [bg1, bg2] = v.ogBg;
   return `*{margin:0;padding:0;box-sizing:border-box}
 :root{--h1:${bg1};--h2:${bg2};--ac:${v.ogAccent};--ink:#17181C;--dim:#565A63;--line:#E4E6EA;--paper:#FFFFFF;--soft:#F5F6F8}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:전부}
 body{font-family:'Pretendard','Apple SD Gothic Neo','Noto Sans KR',system-ui,-apple-system,'Malgun Gothic',sans-serif;
   background:var(--paper);color:var(--ink);font-size:16px;line-height:1.7;word-break:keep-all;
   padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
@@ -259,7 +259,7 @@ ${callbar(v)}
 function indexPage() {
   const rows = VENUES.map(v =>
     `      <li><a href="/night/${v.slug}/">${esc(v.name)}</a> — ${esc(v.region)} · ${esc(v.suffix)}</li>`).join('\n');
-  // 2차(지역 키워드) 13페이지 — 목록에서 1단계로 도달해야 한다
+  // 다음 자리(지역 키워드) 13페이지 — 목록에서 1단계로 도달해야 한다
   let regionRows = '';
   try {
     const { REGIONS } = require('./region-data.js');

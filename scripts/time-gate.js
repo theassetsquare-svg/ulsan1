@@ -162,9 +162,9 @@ for (const p of PAGES) {
 
 /* ── G10 전화번호 위치 ── */
 const RULE = {
-  '010-5653-0069': ['HOME /', '/place/ulsan-champion-night-1/'],
-  '010-7528-4936': ['/place/changwon-lululala-night-1/'],
-  '010-2221-1937': ['/place/bulgwang-hobak-night-1/']
+  '010-5653-0069': ['HOME /', '/place/ulsan-champion-night/'],
+  '010-7528-4936': ['/place/changwon-lululala-night/'],
+  '010-2221-1937': ['/place/bulgwang-hobak-night/']
 };
 for (const p of PAGES) {
   const found = [...new Set(p.html.match(/01[016789]-?\d{3,4}-?\d{4}/g) || [])];
