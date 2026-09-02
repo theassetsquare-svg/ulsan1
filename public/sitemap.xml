@@ -24,6 +24,17 @@
       <image:title>전국 나이트 시간표 40</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://e.nolcool.com/area/drive-guide/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://e.nolcool.com/og/time-hub.png</image:loc>
+      <image:caption>전국 나이트 시간표 40 — 도시마다 밤이 다르다</image:caption>
+      <image:title>전국 나이트 시간표 40</image:title>
+    </image:image>
+  </url>
 <url>
     <loc>https://e.nolcool.com/place/sillim-grandprix-night-1/</loc>
     <lastmod>2026-08-26</lastmod>
