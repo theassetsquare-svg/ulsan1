@@ -40,8 +40,8 @@ const head = (o) => `<meta charset="UTF-8">
 <meta name="google-site-verification" content="${GOOGLE}">
 ${NAVER.map(c => `<meta name="naver-site-verification" content="${c}">`).join('\n')}
 <meta name="theme-color" content="#0A1424">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="https://e.nolcool.com/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://e.nolcool.com/apple-touch-icon.png">
 <link rel="stylesheet" href="/time.css">`;
 
 /* ── 고정 전화바: 페이지 단위 정답표 ── */

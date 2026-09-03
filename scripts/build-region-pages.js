@@ -167,8 +167,8 @@ function page(v, byNo) {
 <meta name="twitter:image" content="${og}">
 <meta name="thumbnail" content="${og}">
 ${VERIFY}
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="https://e.nolcool.com/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://e.nolcool.com/apple-touch-icon.png">
 <style>${css(v)}</style>
 ${jsonld(v)}
 </head>

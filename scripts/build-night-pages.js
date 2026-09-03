@@ -180,8 +180,8 @@ function page(v) {
 <meta name="twitter:image" content="${og}">
 <meta name="thumbnail" content="${og}">
 ${VERIFY}
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="https://e.nolcool.com/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="https://e.nolcool.com/apple-touch-icon.png">
 <style>${css(v)}</style>
 ${jsonld(v)}
 </head>
@@ -297,7 +297,7 @@ ${REGIONS.map(v => `      <li><a href="/night/${v.slug}/">${esc(v.kw)}</a> — $
 <meta name="twitter:image" content="${SITE}/og/night-hub-og.png">
 <meta name="thumbnail" content="${SITE}/og/night-hub-og.png">
 ${VERIFY}
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://e.nolcool.com/favicon.svg" type="image/svg+xml">
 <style>${css({ ogBg: ['#15171C', '#374151'], ogAccent: '#9CA3AF' })}</style>
 </head>
 <body>
