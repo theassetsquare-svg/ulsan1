@@ -5,10 +5,10 @@
 
 - 사이트: https://e.nolcool.com/
 - 사이트맵: https://e.nolcool.com/sitemap.xml
-- 최종 갱신: 2026-09-01
+- 최종 갱신: 2026-09-05
 - 광고·정정 문의: 카카오톡 besta12
 
-## 전체 페이지 (89쪽)
+## 전체 페이지 (86쪽)
 
 - [성공스토리 — 바닥에서 다시 선 1,340일의 기록](https://e.nolcool.com/)
 - [안산나이트 — 상록구 공단 도시의 밤, 막상 가보면](https://e.nolcool.com/area/ansan-night/)
@@ -37,15 +37,14 @@
 - [울산챔피언나이트 시간대 — 9시 교실, 자정 지구 최고 파티](https://e.nolcool.com/area/timinga/)
 - [울산나이트 — 삼산동 홀에서 넷이 딱 좋은 이유](https://e.nolcool.com/area/ulsan-night/)
 - [유천동나이트 — 대전 구도심 밤 질문 모아보기](https://e.nolcool.com/area/yucheon-night/)
-- [불광동호박나이트 — 예약 전화 한 통이면 끝나는 이유](https://e.nolcool.com/bulgwang-hobak/)
 - [나이트 안내 목록 — 전국 13곳 방문 정보](https://e.nolcool.com/night/)
 - [안산히트나이트 이용 순서와 문의 방법](https://e.nolcool.com/place/ansan-hit-night-1/)
 - [안산히트나이트 자주 묻는 것 모음](https://e.nolcool.com/place/ansan-hit-night/)
 - [부천고래나이트 자주 묻는 것 모음](https://e.nolcool.com/place/bucheon-gorae-night/)
 - [불광동호박나이트 좌석 잡는 법과 연락 방법](https://e.nolcool.com/place/bulgwang-hobak-night-2/)
-- [불광동호박나이트 안내 — 위치부터 문의까지](https://e.nolcool.com/place/bulgwang-hobak-night-3/)
+- [불광동호박나이트 안내 위치부터 문의까지](https://e.nolcool.com/place/bulgwang-hobak-night-3/)
 - [불광동호박나이트 처음 방문 전 체크리스트](https://e.nolcool.com/place/bulgwang-hobak-night/)
-- [부산 동래구 부산아시아드나이트 기본 안내](https://e.nolcool.com/place/busan-asiad-night-2/)
+- [부산아시아드나이트 기본 안내 부산 동래구](https://e.nolcool.com/place/busan-asiad-night-2/)
 - [부산아시아드나이트 복장과 신분증 안내](https://e.nolcool.com/place/busan-asiad-night-3/)
 - [부산아시아드나이트 이용 안내 열다섯 가지](https://e.nolcool.com/place/busan-asiad-night/)
 - [창원룰루랄라나이트 방문 준비와 좌석 안내](https://e.nolcool.com/place/changwon-lululala-night-2/)
@@ -84,7 +83,7 @@
 - [상봉동한국관나이트 자주 묻는 것 모음](https://e.nolcool.com/place/sangbong-hangukgwan-night/)
 - [성남샴푸나이트 자주 묻는 것 모음](https://e.nolcool.com/place/seongnam-shampoo-night/)
 - [서산호박나이트 자주 묻는 것 모음](https://e.nolcool.com/place/seosan-hobak-night/)
-- [서울 관악구 신림그랑프리나이트 방문 안내](https://e.nolcool.com/place/sillim-grandprix-night-1/)
+- [신림그랑프리나이트 방문 안내 서울 관악구](https://e.nolcool.com/place/sillim-grandprix-night-1/)
 - [신림그랑프리나이트 이용 순서와 문의 방법](https://e.nolcool.com/place/sillim-grandprix-night/)
 - [수원찬스돔나이트 자주 묻는 것 모음](https://e.nolcool.com/place/suwon-chancedome-night/)
 - [수원코리아나이트 자주 묻는 것 모음](https://e.nolcool.com/place/suwon-korea-night/)
@@ -92,10 +91,8 @@
 - [수유샴푸나이트 자주 묻는 것 모음](https://e.nolcool.com/place/suyu-shampoo-night/)
 - [의정부백악관나이트 자주 묻는 것 모음](https://e.nolcool.com/place/uijeongbu-baekakgwan-night/)
 - [의정부한국관나이트 자주 묻는 것 모음](https://e.nolcool.com/place/uijeongbu-hangukgwan-night/)
-- [울산챔피언나이트 안내 — 위치부터 문의까지](https://e.nolcool.com/place/ulsan-champion-night-2/)
+- [울산챔피언나이트 안내 위치부터 문의까지](https://e.nolcool.com/place/ulsan-champion-night-2/)
 - [울산챔피언나이트 자주 묻는 것 모음](https://e.nolcool.com/place/ulsan-champion-night-3/)
 - [울산챔피언나이트 재방문 요령과 위치](https://e.nolcool.com/place/ulsan-champion-night/)
 - [울산뉴월드나이트 자주 묻는 것 모음](https://e.nolcool.com/place/ulsan-newworld-night/)
 - [영등포터미널나이트 자주 묻는 것 모음](https://e.nolcool.com/place/yeongdeungpo-terminal-night/)
-- [운영 정책 안내 — e.nolcool.com](https://e.nolcool.com/policy/)
-- [울산챔피언나이트 — 9시에 갔다가 망한 사람이 쓴 가이드](https://e.nolcool.com/src/index.template/)
