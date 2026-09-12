@@ -173,12 +173,15 @@ function trackVisit(p){
 
 /* ---- 3. 탐험 진행률 ---- */
 function updateExploreTracker(){
+  /* 2026-09-12 — 쪽을 정적으로 쪼갠 뒤 이 자리들이 없는 쪽이 있다.
+     없으면 조용히 넘어간다(콘솔 오류로 뒤따르는 초기화가 멈추던 것을 막는다). */
   var pct=Math.round(visitedPages.length/8*100);
-  document.getElementById('explorePercent').textContent=pct;
-  document.getElementById('exploreBarFill').style.width=pct+'%';
+  var ep=document.getElementById('explorePercent');if(ep)ep.textContent=pct;
+  var bar=document.getElementById('exploreBarFill');if(bar)bar.style.width=pct+'%';
   var bc=document.getElementById('exploreBadgeCount');
-  if(badges.length>0)bc.textContent='🏆 ×'+badges.length;
+  if(bc&&badges.length>0)bc.textContent='🏆 ×'+badges.length;
   var dots=document.getElementById('exploreDots');
+  if(!dots)return;
   dots.innerHTML='';
   for(var i=0;i<8;i++){
     var d=document.createElement('div');
@@ -231,7 +234,7 @@ window.addEventListener('scroll',function(){
   var scrollTop=window.pageYOffset||doc.scrollTop;
   var scrollHeight=doc.scrollHeight-doc.clientHeight;
   var pct=scrollHeight>0?(scrollTop/scrollHeight)*100:0;
-  document.getElementById('readProgress').style.width=pct+'%';
+  var rpb=document.getElementById('readProgress');if(rpb)rpb.style.width=pct+'%'; /* 2026-09-12 — 없는 쪽이 있다 */
   // 스크롤 깊이 트래킹
   if(pct>scrollDepthMax){
     scrollDepthMax=pct;
