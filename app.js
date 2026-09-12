@@ -553,9 +553,13 @@ var ttTypes=[
 ];
 var ttStep=0,ttScoreTotal=0;
 function initTypeTest(){
+  /* 2026-09-12 — 유형 테스트 자리가 없는 쪽이 있다(쪽을 정적으로 쪼갠 뒤).
+     없으면 조용히 넘어간다. 이 오류 때문에 뒤따르는 초기화가 멈추고 있었다. */
+  var tr=document.getElementById('ttResult'),tb=document.getElementById('ttBody');
+  if(!tr||!tb)return;
   ttStep=0;ttScoreTotal=0;
-  document.getElementById('ttResult').style.display='none';
-  document.getElementById('ttBody').style.display='block';
+  tr.style.display='none';
+  tb.style.display='block';
   renderTTProgress();renderTTQuestion();
 }
 function renderTTProgress(){
