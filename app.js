@@ -71,6 +71,14 @@ var PAGE_NAMES=['가이드','드레스코드','예산','시간대','주차','매
 var PAGE_ICONS=['📖','👔','💰','⏰','🚗','🤝','🍻','⚔️'];
 var NEXT_MAP={dresscodea:'budgeta',budgeta:'timinga',timinga:'parkinga',parkinga:'mannersa',mannersa:'nearbya',nearbya:'comparea'};
 
+/* ---- 주소 등록표 (2026-09-12) ----
+   쪽을 평면 주소에서 폴더 주소로 옮긴 뒤 PAGES 는 옛 평면 이름만 들고 있었다.
+   그래서 라우터가 /area/legala/ 를 못 알아보고 홈으로 되돌렸고, 자바스크립트를 끈
+   크롤러는 그 쪽을, 켠 사람은 홈을 보게 됐다(2026-09-12 라이브 실측 8쪽).
+   이름 ↔ 실제 주소를 여기 한 곳에서 잇는다. 주소 자체는 바꾸지 않는다. */
+var PAGE_BASE='/area/';
+function pagePath(page){return page?PAGE_BASE+page+'/':'/';}
+
 var visitedPages=JSON.parse(localStorage.getItem('ucn_visited')||'[]');
 var totalTime=parseInt(localStorage.getItem('ucn_time')||'0');
 var badges=JSON.parse(localStorage.getItem('ucn_badges')||'[]');
@@ -88,7 +96,10 @@ function hasPage(page){
 }
 function go(page,skipPush){
   if(!hasPage(page)){
-    location.href=page?'/'+page:'/';
+    /* 2026-09-12 — 등록에 없는 주소를 홈으로 되돌리지 않는다.
+       정적 HTML 이 이미 제 내용을 들고 있으므로 그대로 둔다 = 사람과 크롤러가 같은 것을 본다.
+       등록표에 실제 주소가 있는 쪽으로만 옮긴다. */
+    if(page&&PAGES.indexOf(page)!==-1&&location.pathname!==pagePath(page))location.href=pagePath(page);
     return;
   }
   try{
@@ -107,7 +118,8 @@ function go(page,skipPush){
       if(t)document.title=t;
       var dm=document.querySelector('meta[name="description"]');if(dm&&d)dm.setAttribute('content',d);
       var imgUrl=og?'https://e.nolcool.com/'+og:'https://e.nolcool.com/og/main.png';
-      var pageUrl=page?'https://e.nolcool.com/'+page:'https://e.nolcool.com/';
+      /* 2026-09-12 — 주소는 지금 열려 있는 실제 주소를 쓴다(평면 이름으로 다시 지어내지 않는다). */
+      var pageUrl='https://e.nolcool.com'+location.pathname;
       /* OG tags */
       var om=document.querySelector('meta[property="og:image"]');if(om)om.setAttribute('content',imgUrl);
       var ot=document.querySelector('meta[property="og:title"]');if(ot&&t)ot.setAttribute('content',t);
@@ -131,7 +143,7 @@ function go(page,skipPush){
     }
     window.scrollTo(0,0);
     /* 최초 로드/뒤로가기 복원 때는 주소를 건드리지 않는다 (히스토리 중복 방지) */
-    if(!skipPush)history.pushState(null,null,page?'/'+page:'/');
+    if(!skipPush)history.pushState(null,null,pagePath(page));
     currentPage=page||'';
     scrollDepthMax=0;
     try{sessionStorage.setItem('ucn_page',currentPage)}catch(e){}
@@ -414,7 +426,11 @@ function initRevealAnimations(){
 /* ---- 15. 클린 URL 라우터 (# 없음) ---- */
 function getPageFromPath(){
   var p=location.pathname.replace(/^\//,'').replace(/\/$/,'');
-  if(PAGES.indexOf(p)===-1)p='';
+  if(PAGES.indexOf(p)===-1){
+    /* 폴더 주소(area/legala)면 마지막 칸으로 한 번 더 맞춰 본다. 2026-09-12 */
+    var last=p.split('/').pop();
+    p=PAGES.indexOf(last)===-1?'':last;
+  }
   return p;
 }
 function handleRoute(){go(getPageFromPath(),true)}
