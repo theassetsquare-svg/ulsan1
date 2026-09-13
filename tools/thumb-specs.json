@@ -126,8 +126,8 @@
     "venue": "창원룰루랄라나이트",
     "line1": "창원룰루랄라나이트",
     "type": "A",
-    "nick": "로또",
-    "phone": "010-7528-4936"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "night/changwon-night/index.html",
@@ -396,8 +396,8 @@
     "venue": "창원룰루랄라나이트",
     "line1": "창원룰루랄라나이트",
     "type": "A",
-    "nick": "로또",
-    "phone": "010-7528-4936"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "time/cheonan-korea/index.html",
