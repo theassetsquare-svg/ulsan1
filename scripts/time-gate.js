@@ -27,10 +27,10 @@ for (const p of PAGES) {
   p.body = noNav.replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim();
   p.prose = noNav.replace(/<div class="tablewrap">[\s\S]*?<\/div>/g, '').replace(/<script[\s\S]*?<\/script>/g, '')
     .replace(/<[^>]+>/g, ' ').replace(/&[a-z]+;/g, ' ').replace(/\s+/g, ' ').trim();
-  p.title = (p.html.match(/<title>([\s\S]*?)<\/title>/) | [ ''])[1];
-  p.h1 = (p.html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) | [ ''])[1].replace(/<[^>]+>/g, '');
-  p.ogTitle = (p.html.match(/property="og:title" content="([^"]*)"/) | [ ''])[1];
-  p.descMeta = (p.html.match(/name="description" content="([^"]*)"/) | [ ''])[1];
+  p.title = (p.html.match(/<title>([\s\S]*?)<\/title>/) || [, ''])[1];
+  p.h1 = (p.html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [, ''])[1].replace(/<[^>]+>/g, '');
+  p.ogTitle = (p.html.match(/property="og:title" content="([^"]*)"/) || [, ''])[1];
+  p.descMeta = (p.html.match(/name="description" content="([^"]*)"/) || [, ''])[1];
   p.h2s = [...p.html.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/g)].map(x => x[1].replace(/<[^>]+>/g, ''));
 }
 
@@ -38,7 +38,7 @@ for (const p of PAGES) {
 const BANNED = ['룸살롱', '룸싸롱', '노래방', '밤문화', '유흥', '2차'];
 let g1 = 0;
 for (const p of PAGES) for (const w of BANNED) {
-  const n = (p.html.match(new RegExp(w, 'g')) | []).length;
+  const n = (p.html.match(new RegExp(w, 'g')) || []).length;
   if (n) { fail('G1', `${p.key} 금지어 "${w}" ${n}회`); g1 += n; }
 }
 
@@ -46,7 +46,7 @@ for (const p of PAGES) for (const w of BANNED) {
 const RATING = ['aggregateRating', 'ratingValue', '★', '별점', '평점', 'reviewCount'];
 let g2 = 0;
 for (const p of PAGES) for (const w of RATING) {
-  const n = (p.html.match(new RegExp(w, 'g')) | []).length;
+  const n = (p.html.match(new RegExp(w, 'g')) || []).length;
   if (n) { fail('G2', `${p.key} 평점 요소 "${w}" ${n}회`); g2 += n; }
 }
 
@@ -57,8 +57,8 @@ const PHONES = Object.values(ADVERTISERS).map(a => a.phone);
 const stripPhones = (t) => PHONES.reduce((acc, ph) => acc.split(ph).join(''), t);
 for (const p of PAGES) {
   if (p.kind !== 'venue') continue;
-  const allowed = new Set(String([p.v.addr, p.v.station, p.v.floor, p.v.age].filter(Boolean).join(' ')).match(/\d+/g) | []);
-  const nums = stripPhones(p.prose).match(/\d+/g) | [];
+  const allowed = new Set(String([p.v.addr, p.v.station, p.v.floor, p.v.age].filter(Boolean).join(' ')).match(/\d+/g) || []);
+  const nums = stripPhones(p.prose).match(/\d+/g) || [];
   const bad = [...new Set(nums.filter(n => !allowed.has(n)))];
   if (bad.length) fail('G3', `${p.key} 미확인 숫자: ${bad.join(', ')}`);
 }
@@ -67,7 +67,7 @@ for (const p of PAGES) {
 const seen = new Map();
 for (const p of PAGES) {
   const L = [...p.title].length;
-  if (L < 20 | L > 30) fail('G4', `${p.key} title ${L}자 (20~30 아님): ${p.title}`);
+  if (L < 20 || L > 30) fail('G4', `${p.key} title ${L}자 (20~30 아님): ${p.title}`);
   if (seen.has(p.title)) fail('G4', `${p.key} title 중복 (${seen.get(p.title)})`);
   seen.set(p.title, p.key);
   if (p.kind === 'venue' && p.title !== p.h1) fail('G4', `${p.key} title≠h1`);
@@ -77,7 +77,7 @@ for (const p of PAGES) {
 const dseen = new Map();
 for (const p of PAGES) {
   const L = [...p.descMeta].length;
-  if (p.kind === 'venue' && (L < 70 | L > 80)) fail('G4d', `${p.key} description ${L}자 (70~80 아님)`);
+  if (p.kind === 'venue' && (L < 70 || L > 80)) fail('G4d', `${p.key} description ${L}자 (70~80 아님)`);
   if (dseen.has(p.descMeta)) fail('G4d', `${p.key} description 중복`);
   dseen.set(p.descMeta, p.key);
 }
@@ -141,7 +141,7 @@ for (const p of PAGES) if (/display:\s*none|visibility:\s*hidden|font-size:\s*0|
 /* FAQPage 3문항 */
 for (const p of PAGES) {
   if (p.kind !== 'venue') continue;
-  const faq = (p.html.match(/"@type":"Question"/g) | []).length;
+  const faq = (p.html.match(/"@type":"Question"/g) || []).length;
   if (faq !== 3) fail('G8f', `${p.key} FAQ ${faq}문항 (3 아님)`);
 }
 
@@ -157,17 +157,17 @@ for (const p of PAGES) {
   if (!fs.existsSync(f)) { fail('G9', `${p.key} 썸네일 없음 og/${slug}.png`); continue; }
   const s = pngSize(f);
   p.ogSize = s ? `${s.w}x${s.h}` : 'PNG 아님';
-  if (!s | s.w !== 1200 | s.h !== 1200) fail('G9', `${p.key} 썸네일 ${p.ogSize}`);
+  if (!s || s.w !== 1200 || s.h !== 1200) fail('G9', `${p.key} 썸네일 ${p.ogSize}`);
 }
 
 /* ── G10 전화번호 위치 ── */
 const RULE = {
   '010-5653-0069': ['HOME /', '/place/ulsan-champion-night/'],
-  '카카오톡 besta12': ['/place/changwon-lululala-night/'],
+  '연락처 삭제(미제휴)': ['/place/changwon-lululala-night/'],
   '010-2221-1937': ['/place/bulgwang-hobak-night/']
 };
 for (const p of PAGES) {
-  const found = [...new Set(p.html.match(/01[016789]-?\d{3,4}-?\d{4}/g) | [])];
+  const found = [...new Set(p.html.match(/01[016789]-?\d{3,4}-?\d{4}/g) || [])];
   for (const f of found) {
     const norm = f.length === 11 ? `${f.slice(0, 3)}-${f.slice(3, 7)}-${f.slice(7)}` : f;
     const allowed = RULE[norm];
@@ -184,29 +184,29 @@ for (const p of PAGES) {
   if (p.kind !== 'venue') continue;
   const n = p.v.name;
   if (![...p.title].join('').startsWith(n)) fail('G11', `${p.key} title 맨 앞에 업소명 없음`);
-  const firstPara = (p.html.match(/<div class="lead">\s*<p>([\s\S]*?)<\/p>/) | [ ''])[1].replace(/<[^>]+>/g, '');
-  const firstSent = firstPara.split(/(?<=[.?!])\s+/)[0] | '';
+  const firstPara = (p.html.match(/<div class="lead">\s*<p>([\s\S]*?)<\/p>/) || [, ''])[1].replace(/<[^>]+>/g, '');
+  const firstSent = firstPara.split(/(?<=[.?!])\s+/)[0] || '';
   if (!firstSent.includes(n)) fail('G11', `${p.key} 첫 문단 첫 문장에 업소명 없음`);
   if (!p.h2s.some(h => h.includes(n))) fail('G11', `${p.key} H2 중 업소명 포함 없음`);
-  const cnt = (p.body.match(new RegExp(n, 'g')) | []).length;
+  const cnt = (p.body.match(new RegExp(n, 'g')) || []).length;
   p.kwCount = cnt;
-  if (cnt < 3 | cnt > 5) fail('G11', `${p.key} 본문 업소명 ${cnt}회 (3~5 아님)`);
-  const dc = (p.descMeta.match(new RegExp(n, 'g')) | []).length;
+  if (cnt < 3 || cnt > 5) fail('G11', `${p.key} 본문 업소명 ${cnt}회 (3~5 아님)`);
+  const dc = (p.descMeta.match(new RegExp(n, 'g')) || []).length;
   if (dc !== 1) fail('G11', `${p.key} description 업소명 ${dc}회 (1 아님)`);
-  const alt = (p.html.match(/property="og:image:alt" content="([^"]*)"/) | [ ''])[1];
+  const alt = (p.html.match(/property="og:image:alt" content="([^"]*)"/) || [, ''])[1];
   if (!alt.includes(n)) fail('G11', `${p.key} og:image:alt 에 업소명 없음`);
-  const ld = (p.html.match(/"name":"([^"]*)"/) | [ ''])[1];
+  const ld = (p.html.match(/"name":"([^"]*)"/) || [, ''])[1];
   if (!p.html.includes(`"name":"${n}"`)) fail('G11', `${p.key} JSON-LD name 에 업소명 없음 (${ld})`);
   /* 보조 키워드 지역+나이트 1~2회 */
   if (p.v.kw2) {
-    const k2 = (p.body.match(new RegExp(p.v.kw2, 'g')) | []).length;
+    const k2 = (p.body.match(new RegExp(p.v.kw2, 'g')) || []).length;
     p.kw2Count = k2;
-    if (k2 < 1 | k2 > 2) fail('G11b', `${p.key} 보조 키워드 ${p.v.kw2} ${k2}회 (1~2 아님)`);
+    if (k2 < 1 || k2 > 2) fail('G11b', `${p.key} 보조 키워드 ${p.v.kw2} ${k2}회 (1~2 아님)`);
   }
 }
 
 /* ── 결과 ── */
-const rows = PAGES.map(p => [p.key, (p.bodyLen ? p.bodyLen + '/' + p.bodyLen2 : '-'), [...(p.title | '')].length, p.kwCount | '-', p.kw2Count | '-', p.ogSize | '-']);
+const rows = PAGES.map(p => [p.key, (p.bodyLen ? p.bodyLen + '/' + p.bodyLen2 : '-'), [...(p.title || '')].length, p.kwCount || '-', p.kw2Count || '-', p.ogSize || '-']);
 console.log('\n페이지'.padEnd(30) + ' 본문(포함/제외) title 업소명 보조 썸네일');
 console.log('─'.repeat(74));
 for (const r of rows) console.log(String(r[0]).padEnd(30) + String(r[1]).padStart(12) + String(r[2]).padStart(8) + String(r[3]).padStart(7) + String(r[4]).padStart(6) + '  ' + r[5]);
