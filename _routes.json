@@ -1,0 +1,27 @@
+{
+ "version": 1,
+ "include": [
+  "/*"
+ ],
+ "exclude": [
+  "/og/*",
+  "/cf-worker/*",
+  "/screenshots/*",
+  "/apple-touch-icon.png",
+  "/favicon.ico",
+  "/favicon.svg",
+  "/llms.txt",
+  "/robots.txt",
+  "/rss.xml",
+  "/site.webmanifest",
+  "/sitemap.xml",
+  "/2634231e32e119ad71592803e266c52b.txt",
+  "/app.js",
+  "/banner.png",
+  "/generate-og.py",
+  "/icon-192.png",
+  "/icon-512.png",
+  "/sw.js",
+  "/time.css"
+ ]
+}
