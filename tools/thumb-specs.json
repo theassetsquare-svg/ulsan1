@@ -476,8 +476,8 @@
     "venue": "답십리미라클나이트",
     "line1": "답십리미라클나이트",
     "type": "A",
-    "nick": "유재석",
-    "phone": "010-8156-6558"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "time/doksan-gukbingwan/index.html",

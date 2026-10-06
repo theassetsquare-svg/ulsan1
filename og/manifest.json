@@ -1885,14 +1885,14 @@
         "scaleX": 1
       },
       {
-        "text": "유재석",
+        "text": "담당자",
         "widthPx": 486,
         "heightPx": 172,
         "fontSizePx": 185.5,
         "scaleX": 1.0016
       },
       {
-        "text": "010-8156-6558",
+        "text": "카카오톡 besta12",
         "widthPx": 1015.2,
         "heightPx": 186,
         "fontSizePx": 242.2,
@@ -1906,7 +1906,7 @@
         "scaleX": 1
       }
     ],
-    "heroText": "010-8156-6558",
+    "heroText": "카카오톡 besta12",
     "heroWidthPx": 1015.2,
     "heroHeightPx": 186,
     "canvas": {
