@@ -48,7 +48,6 @@ document.addEventListener('visibilitychange',function(){
 
 function restartCoreTimers(){
   safeInterval(tickOneSecond,1000);
-  safeInterval(tickLiveCount,8000);
   safeInterval(tickScrollSpeed,500);
   safeInterval(cycleHeroSub,8000);
   safeInterval(tickSessionRecap,60000);
@@ -195,38 +194,7 @@ function updateExploreTracker(){
   }
 }
 
-/* ---- 4. 실시간 접속자 (소셜 프루프) ---- */
-function updateLiveCount(){
-  var base=23+Math.floor(Math.random()*15);
-  var hour=new Date().getHours();
-  if(hour>=22||hour<3)base+=Math.floor(Math.random()*30);
-  if(hour>=18&&hour<22)base+=Math.floor(Math.random()*12);
-  document.getElementById('liveCount').textContent=base;
-  /* 이번 달 조회수 — 일자 기반 누적 */
-  var dayOfMonth=new Date().getDate();
-  var monthBase=1820+dayOfMonth*142+Math.floor(Math.random()*50);
-  var mv=document.getElementById('monthViews');
-  if(mv)mv.textContent=monthBase.toLocaleString();
-}
-updateLiveCount();
-/* 총 독자수 (social read count) */
-function updateTotalReaders(){
-  var el=document.getElementById('totalReaders');
-  if(!el)return;
-  var dayOfMonth=new Date().getDate();
-  var monthOfYear=new Date().getMonth();
-  var base=12847+monthOfYear*3200+dayOfMonth*187+Math.floor(Math.random()*30);
-  el.textContent=base.toLocaleString();
-}
-updateTotalReaders();
-function tickLiveCount(){
-  var el=document.getElementById('liveCount');
-  if(!el)return;
-  var cur=parseInt(el.textContent)||20;
-  var diff=Math.random()>0.5?1:-1;
-  el.textContent=Math.max(15,cur+diff);
-}
-/* 기존 setInterval 제거 — restartCoreTimers()에서 safeInterval 호출 */
+/* ---- 4. 실시간 접속자·조회수 — 지어낸 숫자라 뺐다(2026-10-25) ---- */
 
 /* ---- 5. 읽기 진행률 바 ---- */
 window.addEventListener('scroll',function(){
@@ -393,7 +361,6 @@ function closeBadge(){
 /* ---- 13. 간헐적 보상 알림 (랜덤 타이밍) ---- */
 var randomMessages=[
   '💡 아직 안 읽은 페이지 있다. 넘어가지 마',
-  '🔥 지금 같이 읽는 사람이 늘고 있다',
   '📱 이거 캡쳐해둬. 나중에 또 찾게 된다',
   '🎵 주말이 다가온다. 준비는 됐고?',
   '👀 🔒 표시된 거 눌러봤어? 숨겨진 얘기 있다',
@@ -442,7 +409,7 @@ window.addEventListener('DOMContentLoaded',function(){
      주소를 바꿔치기하지 않는다 (그게 "클릭한 주소가 메인으로 튀는" 원인이었다). */
   go(getPageFromPath(),true);
   /* TBT 절감: 비핵심 초기화를 idle로 미룸 */
-  _idle(function(){updateLiveCount();initRevealAnimations();});
+  _idle(function(){initRevealAnimations();});
 });
 window.addEventListener('popstate',handleRoute);
 
@@ -506,36 +473,7 @@ document.addEventListener('click',function(e){
    틱톡 무한스크롤 + 넷플릭스 오토플레이 + 슬롯 가변보상
    ============================================ */
 
-/* ---- v3-1. 소셜 프루프 활동 피드 ---- */
-var socialProofs=[
-  {msg:'{area}에서 누가 이 가이드 저장했다',areas:['울산','부산','대구','경주','양산']},
-  {msg:'{area} 쪽에서 {p} 글 읽는 사람 있다',areas:['남구','중구','삼산동','무거동','성남동'],pages:['드레스코드','예산','시간대','주차','매너','주변코스','비교']},
-  {msg:'지금 {n}명이 같이 읽고 있다',nums:[18,24,31,27,22,35,29]},
-  {msg:'오늘 {n}번째로 들어온 사람이 있다',nums:[847,923,756,1024,889]},
-  {msg:'방금 유형 테스트 결과 "{type}" 나온 사람 있다',types:['파티 본능형','전략가형','바이브 서퍼','관찰자형']},
-  {msg:'누가 친구한테 이 링크 보냈다',areas:[]},
-  {msg:'방금 퀴즈 맞힌 사람 있다 🎉',areas:[]},
-];
-function showSocialProof(){
-  var sp=socialProofs[Math.floor(Math.random()*socialProofs.length)];
-  var msg=sp.msg;
-  if(sp.areas&&sp.areas.length)msg=msg.replace('{area}',sp.areas[Math.floor(Math.random()*sp.areas.length)]);
-  if(sp.pages)msg=msg.replace('{p}',sp.pages[Math.floor(Math.random()*sp.pages.length)]);
-  if(sp.nums)msg=msg.replace('{n}',sp.nums[Math.floor(Math.random()*sp.nums.length)]);
-  if(sp.types)msg=msg.replace('{type}',sp.types[Math.floor(Math.random()*sp.types.length)]);
-  var el=document.getElementById('socialTicker');
-  document.getElementById('stMsg').textContent=msg;
-  el.classList.add('show');
-  setTimeout(function(){el.classList.remove('show')},4000);
-}
-function scheduleSocialProof(){
-  var delay=15000+Math.random()*25000;
-  setTimeout(function(){
-    if(!document.hidden)showSocialProof();
-    scheduleSocialProof();
-  },delay);
-}
-setTimeout(function(){showSocialProof();scheduleSocialProof()},8000);
+/* ---- v3-1. 활동 피드 — 지어낸 사건이라 뺐다(2026-10-25) ---- */
 
 /* ---- v3-2. 나이트 유형 테스트 ---- */
 var ttQuestions=[
@@ -670,20 +608,7 @@ function updateWeekendCD(){
 updateWeekendCD();
 /* 기존 setInterval 제거 — tickOneSecond()에서 통합 호출 */
 
-/* ---- v3-4b. 예약 마감 좌석 카운트 ---- */
-function updateSeatCount(){
-  var now=new Date();var day=now.getDay(),hour=now.getHours();
-  /* 요일+시간 기반 좌석 수: 금토 가까울수록 줄어듦 */
-  var base=12;
-  if(day>=4)base-=(day-3)*2;/* 목-2,금-4,토-6 */
-  if(day===5&&hour>=18)base=3;
-  if(day===6)base=2;
-  if(day===0||day===1)base=12;/* 일월 리셋 */
-  base=Math.max(2,Math.min(12,base+Math.floor(Math.random()*3)-1));
-  var el=document.getElementById('seatCount');
-  if(el)el.textContent=base;
-}
-updateSeatCount();
+/* ---- v3-4b. 예약 마감 좌석 — 지어낸 숫자라 뺐다(2026-10-25) ---- */
 
 /* ---- v3-5. 일일 스트릭 ---- */
 function updateStreak(){
@@ -854,7 +779,6 @@ function tickScrollSpeed(){
 
 /* ---- v3-10. 강화된 간헐적 보상 (도파민 스파이크) ---- */
 var dopamineMessages=[
-  {msg:'🎯 여기까지 읽는 사람 열 명 중 한 명도 안 된다. 너 꽤 진심이다.',delay:120000},
   {msg:'💡 🔒 표시 눌러봤어? 아직 숨겨진 얘기가 있다.',delay:180000},
   {msg:'🔥 이 정도 읽었으면 가서 실패할 일 없다.',delay:240000},
   {msg:'🏆 뱃지 '+0+'개 모았다. 더 있는데?',delay:300000},
