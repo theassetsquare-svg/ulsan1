@@ -4,12 +4,12 @@
 const SITE = 'https://e.nolcool.com';
 const TODAY = '2026-08-16';
 const KAKAO_ID = 'besta12';
-const KAKAO_URL = 'https://open.kakao.com/o/sBesta12';
+/* 오픈채팅방 주소는 없는 방이라 뺐다(2026-10-25 · 전체57-1 ④) — 연락 안내는 글자 「광고문의 카카오톡 besta12」만 쓴다. */
 
 /* 페이지 단위 전화 정답표 — 여기 적힌 페이지와 홈 외에는 어떤 전화번호도 넣지 않는다 */
 const ADVERTISERS = {
-  '__home__': { label: '울산챔피언나이트 춘자', phone: '010-5653-0069' },
-  'ulsan-champion': { label: '울산챔피언나이트 춘자', phone: '010-5653-0069' },
+  '__home__': { label: '울산챔피언나이트 담당자', phone: null },
+  'ulsan-champion': { label: '울산챔피언나이트 담당자', phone: null },
   'changwon-lululala': { label: '창원룰루랄라나이트 미제휴', phone: '연락처 삭제(미제휴)' },
   'bulgwang-hobak': { label: '불광동호박나이트 손흥민', phone: '010-2221-1937' },
   'dapsimni-miracle': { label: '답십리미라클나이트 담당자', phone: null },
@@ -40,4 +40,4 @@ const HUB = {
   oneline: '도시를 고르기 전에, 그 도시의 밤이 몇 번째 곡에서 데워지는지를 먼저 본다.'
 };
 
-module.exports = { SITE, TODAY, VENUES, HUB, KAKAO_ID, KAKAO_URL, ADVERTISERS, HOME: require('./time-home.js') };
+module.exports = { SITE, TODAY, VENUES, HUB, KAKAO_ID, ADVERTISERS, HOME: require('./time-home.js') };

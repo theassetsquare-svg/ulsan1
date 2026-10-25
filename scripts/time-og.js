@@ -3,6 +3,10 @@
    폰트: tools/fonts/NotoSansKR-Bold.otf (Google 공식 noto-cjk 배포본)
    글자는 opentype.js 로 path 변환 → sharp 렌더. 시스템 폰트 의존 0 (한글 깨짐 방지).
    출력: og/time-{슬러그}.png  (기존 og/*.png 자산과 충돌하지 않도록 time- 접두사) */
+/* NW-NO-BUILD-PAGES (2026-10-25 · 전체57-1 ④) — 이 생성기는 쓰지 않는다.
+   돌리면 지금 사이트에 없는 /time/ 쪽의 옛 카드(og/time-*.png · public/og/time-*.png)를 다시 그린다.
+   쪽 썸네일은 쪽마다 따로 만든 카드를 쓴다. */
+console.error('이 생성기는 쓰지 않습니다 — scripts/time-og.js 머리 주석을 보십시오'); process.exit(1);
 
 const fs = require('fs');
 const path = require('path');

@@ -6,8 +6,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "bulgwang-hobak.html",
@@ -26,8 +26,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "dresscodea.html",
@@ -36,8 +36,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "legala.html",
@@ -46,8 +46,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "mannersa.html",
@@ -56,8 +56,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "nearbya.html",
@@ -66,8 +66,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "night/ansan-hit-night/index.html",
@@ -316,8 +316,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "night/ulsan-night/index.html",
@@ -346,8 +346,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "time/ansan-hit/index.html",
@@ -736,8 +736,8 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   },
   {
     "file": "time/ulsan-newworld/index.html",
@@ -766,7 +766,7 @@
     "venue": "울산챔피언나이트",
     "line1": "울산챔피언나이트",
     "type": "A",
-    "nick": "춘자",
-    "phone": "010-5653-0069"
+    "nick": null,
+    "phone": null
   }
 ]

@@ -1,12 +1,16 @@
 /**
  * OG 썸네일 생성기 — 1200x1200 (1:1)
  * 네이버/카카오/구글 검색 썸네일용.
- * 모든 페이지에 닉네임 "춘자" + 전화번호 "010-5653-0069"를 크게 노출한다.
+ * 모든 페이지에 닉네임 "담당자" + 전화번호 "카카오톡 besta12"를 크게 노출한다.
  *
  * 실행: node scripts/generate-og-1x1.js
  *   한글 폰트(scripts/fonts/NotoSansKR-Bold.ttf)를 fontconfig에 자동 등록한다.
  *   등록이 안 되면 sharp가 한글을 두부(□)로 렌더링하므로 반드시 확인할 것.
  */
+/* NW-NO-BUILD-PAGES (2026-10-25 · 전체57-1 ④) — 이 생성기는 쓰지 않는다.
+   돌리면 지금 어느 쪽도 쓰지 않는 옛 카드 9장(og/main.png 등)을 og/ · public/og/ 에 다시 그린다.
+   쪽 썸네일은 쪽마다 따로 만든 카드를 쓴다. */
+console.error('이 생성기는 쓰지 않습니다 — scripts/generate-og-1x1.js 머리 주석을 보십시오'); process.exit(1);
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
@@ -31,8 +35,8 @@ if (!process.env.FONTCONFIG_FILE) {
 const sharp = require('sharp');
 
 const SIZE = 1200;
-const NICK = '춘자';
-const PHONE = '010-5653-0069';
+const NICK = '담당자';
+const PHONE = '카카오톡 besta12';
 const FONT = 'Noto Sans KR';
 const GOLD = '#C9A96E';
 

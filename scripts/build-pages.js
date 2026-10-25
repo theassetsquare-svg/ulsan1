@@ -3,6 +3,10 @@
    목적: 각 URL이 실제 파일로 존재 = JS 없이도 해당 페이지 HTML 그대로 응답.
    canonical / title / meta / og / JSON-LD 전부 페이지별로 head에 박아서 출력한다.
    실행: node scripts/build-pages.js  (출력물은 커밋 대상) */
+/* NW-NO-BUILD-PAGES (2026-10-25 · 전체57-1 ④) — 이 생성기는 쓰지 않는다.
+   틀(src/index.template.html)은 광고가 끝난 가게의 번호·닉네임이 든 옛 판이라 지웠다. 돌리면 홈·지역 8쪽을 옛 판으로 덮는다.
+   홈 본문은 손대지 않고, 지역 쪽은 쪽 파일을 직접 고친다. 틀을 git 기록에서 되살려 돌리지 않는다. */
+console.error('이 생성기는 쓰지 않습니다 — scripts/build-pages.js 머리 주석을 보십시오'); process.exit(1);
 
 const fs = require('fs');
 const path = require('path');

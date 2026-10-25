@@ -19,13 +19,6 @@
   ],
   "shortcuts": [
     {
-      "name": "전화 예약",
-      "short_name": "전화",
-      "description": "춘자 010-5653-0069 바로 전화",
-      "url": "/?utm_source=pwa_shortcut&utm_medium=call",
-      "icons": [{"src": "/icon-192.png", "sizes": "192x192"}]
-    },
-    {
       "name": "드레스코드",
       "short_name": "드레스",
       "description": "옷차림 합격 공식",

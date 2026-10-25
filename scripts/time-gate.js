@@ -110,9 +110,9 @@ for (const p of PAGES) {
     const cands = [path.join(ROOT, rel), path.join(ROOT, rel, 'index.html')];
     if (!cands.some(c => fs.existsSync(c))) fail('G7', `${p.key} 깨진 링크 ${h}`);
   }
-  /* 외부 링크 허용 목록 */
+  /* 외부 링크 — 허용 0 (오픈채팅방 주소는 없는 방이라 2026-10-25 에 허용에서 뺐다) */
   const ext = [...p.html.matchAll(/<a [^>]*href="(https?:\/\/[^"]+)"/g)].map(x => x[1]);
-  for (const e of ext) if (!e.startsWith('https://open.kakao.com/o/sBesta12')) fail('G7e', `${p.key} 허용되지 않은 외부 링크 ${e}`);
+  for (const e of ext) fail('G7e', `${p.key} 허용되지 않은 외부 링크 ${e}`);
 }
 
 /* ── G8 필수요소 ── */
@@ -162,7 +162,7 @@ for (const p of PAGES) {
 
 /* ── G10 전화번호 위치 ── */
 const RULE = {
-  '010-5653-0069': ['HOME /', '/place/ulsan-champion-night/'],
+  '카카오톡 besta12': ['HOME /', '/place/ulsan-champion-night/'],
   '연락처 삭제(미제휴)': ['/place/changwon-lululala-night/'],
   '010-2221-1937': ['/place/bulgwang-hobak-night/']
 };

@@ -2,10 +2,14 @@
 /* 밤 시간표 연구소 — /time/ 40개 페이지 + 허브 + 홈 생성기
    실행: node scripts/time-build.js
    ★기존 /night/·루트 콘텐츠 페이지는 건드리지 않는다. index.html(홈)만 지시대로 교체한다. */
+/* NW-NO-BUILD-PAGES (2026-10-25 · 전체57-1 ④) — 이 생성기는 쓰지 않는다.
+   만드는 /time/ 주소(허브 1 + 40쪽)는 지금 사이트에 없다 — 마지막 time/index.html 은 2026-08-29 커밋 771637b 에서 지웠고 사이트맵에도 0이다.
+   돌리면 그 주소들이 되살아나고 홈(index.html)까지 덮으려 한다. 홈 본문은 손대지 않고, 쪽은 쪽 파일을 직접 고친다. */
+console.error('이 생성기는 쓰지 않습니다 — scripts/time-build.js 머리 주석을 보십시오'); process.exit(1);
 
 const fs = require('fs');
 const path = require('path');
-const { SITE, TODAY, VENUES, HOME, HUB, KAKAO_URL, KAKAO_ID, ADVERTISERS } = require('./time-data.js');
+const { SITE, TODAY, VENUES, HOME, HUB, KAKAO_ID, ADVERTISERS } = require('./time-data.js');
 
 const ROOT = path.resolve(__dirname, '..');
 const GOOGLE = 'HJjm7MRxykCQ7d_9L7glaTeeaWrmJIzAKY0BcNcfm88';
@@ -50,7 +54,7 @@ function callbar(v) {
   if (ad) {
     return `<div class="callbar"><a href="tel:${ad.phone.replace(/-/g, '')}">📞 ${esc(ad.label)} ${ad.phone}</a></div>`;
   }
-  return `<div class="callbar"><a href="${KAKAO_URL}" rel="nofollow">💬 광고문의 카카오톡 ${KAKAO_ID}</a></div>`;
+  return `<div class="callbar"><a>💬 광고문의 카카오톡 ${KAKAO_ID}</a></div>`;
 }
 
 function footer(v) {
@@ -260,7 +264,7 @@ ${list.map(v => `      <li><a href="/time/${v.slug}/"><b>${esc(v.name)}</b><span
 </main>
 
 ${footer(HUB)}
-<div class="callbar"><a href="${KAKAO_URL}" rel="nofollow">💬 광고문의 카카오톡 ${KAKAO_ID}</a></div>
+<div class="callbar"><a>💬 광고문의 카카오톡 ${KAKAO_ID}</a></div>
 
 </body>
 </html>

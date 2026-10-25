@@ -10,7 +10,7 @@ PUBLIC_DIR = "public/og"
 
 # Page configs: (filename, main_text, sub_text, accent_color)
 PAGES = [
-    ("main",      "춘자",   "울산챔피언",    "#8B5CF6"),
+    ("main",      "담당자",   "울산챔피언",    "#8B5CF6"),
     ("dresscode", "드레스코드", "울산챔피언나이트", "#2563EB"),
     ("budget",    "예산",   "울산챔피언나이트", "#059669"),
     ("timing",    "시간대",  "울산챔피언나이트", "#D97706"),

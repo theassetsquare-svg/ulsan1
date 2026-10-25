@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 /* sitemap.xml 갱신(홈+허브+40 추가, 기존 URL 보존) · llms.txt 재작성 · IndexNow 키 파일 생성
    실행: node scripts/time-seo.js */
+/* NW-NO-BUILD-PAGES (2026-10-25 · 전체57-1 ④) — 이 생성기는 쓰지 않는다.
+   돌리면 지금 사이트에 없는 /time/ 주소 41개를 사이트맵 두 벌(sitemap.xml · public/sitemap.xml)에 다시 넣고 /area/time-4/ 를 빼며, llms.txt 를 옛 판으로 다시 쓴다.
+   사이트맵·llms.txt 는 쪽을 고칠 때 그 줄만 손본다. */
+console.error('이 생성기는 쓰지 않습니다 — scripts/time-seo.js 머리 주석을 보십시오'); process.exit(1);
 const fs = require('fs');
 const path = require('path');
 const { SITE, TODAY, VENUES, HUB, HOME, KAKAO_ID } = require('./time-data.js');

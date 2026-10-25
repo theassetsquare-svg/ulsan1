@@ -117,7 +117,7 @@ function go(page,skipPush){
       var t=el.getAttribute('data-title'),d=el.getAttribute('data-desc'),og=el.getAttribute('data-og'),hero=el.getAttribute('data-hero'),sub=el.getAttribute('data-sub');
       if(t)document.title=t;
       var dm=document.querySelector('meta[name="description"]');if(dm&&d)dm.setAttribute('content',d);
-      var imgUrl=og?'https://e.nolcool.com/'+og:'https://e.nolcool.com/og/main.png';
+      var imgUrl=og?'https://e.nolcool.com/'+og:((document.querySelector('meta[property="og:image"]')||{}).content||'');
       /* 2026-09-12 — 주소는 지금 열려 있는 실제 주소를 쓴다(평면 이름으로 다시 지어내지 않는다). */
       var pageUrl='https://e.nolcool.com'+location.pathname;
       /* OG tags */
