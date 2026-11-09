@@ -123,7 +123,7 @@ let simReport = {};
       if (/^tel:/.test(h)) continue;
       if (/^https?:\/\//.test(h)) { if (!h.startsWith(SITE)) ext.push(v.slug + ' ' + h); continue; }
       if (h.startsWith('#') || h.startsWith('mailto:')) continue;
-      if (h === '/' || h === '/night/' || h === '/favicon.svg' || h === '/apple-touch-icon.png') continue;
+      if (h === '/' || h === '/night-6/' || h === '/favicon.svg' || h === '/apple-touch-icon.png') continue;
       const mm = h.match(/^\/night\/([a-z-]+)\/$/);
       if (mm) { if (!fs.existsSync(path.join(ROOT, 'night', mm[1], 'index.html'))) broken.push(h); continue; }
       broken.push(v.slug + ' ' + h);

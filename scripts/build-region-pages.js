@@ -88,7 +88,7 @@ body{ padding-bottom:calc(84px + env(safe-area-inset-bottom,0px)); }
 
 /* ── [13] JSON-LD 3종 : Article / FAQPage / BreadcrumbList ── */
 function jsonld(v) {
-  const url = `${SITE}/night/${v.slug}/`;
+  const url = `${SITE}/night-6/${v.slug}/`;
   const og = `${SITE}/og/${v.slug}-og.png`;
   const article = {
     '@context': 'https://schema.org', '@type': 'Article',
@@ -109,7 +109,7 @@ function jsonld(v) {
   const bc = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '나이트', item: SITE + '/night/' },
+      { '@type': 'ListItem', position: 1, name: '나이트', item: SITE + '/night-6/' },
       { '@type': 'ListItem', position: 2, name: v.kw, item: url }
     ]
   };
@@ -129,7 +129,7 @@ function callbar(v) {
 }
 
 function page(v, byNo) {
-  const url = `${SITE}/night/${v.slug}/`;
+  const url = `${SITE}/night-6/${v.slug}/`;
   const og = `${SITE}/og/${v.slug}-og.png`;
   const rel = v.related.map(n => byNo[n]);
 
@@ -178,7 +178,7 @@ ${jsonld(v)}
   <div class="wrap">
     <nav class="crumb" aria-label="현재 위치">
       <ol>
-        <li><a href="/night/">나이트</a></li>
+        <li><a href="/night-6/">나이트</a></li>
         <li>${esc(v.kw)}</li>
       </ol>
     </nav>
@@ -235,7 +235,7 @@ ${rel.map(r => `      <li><a href="/night/${r.slug}/">${esc(r.kw)}</a> — ${esc
   </div>
   <p class="footer-note">본 페이지는 업소 정보 제공 페이지입니다. 출입 연령 및 이용 규정은 각 업소 방침을 따릅니다.</p>
   <p class="footer-note">최종 수정 <time datetime="${TODAY}">${TODAY_KR}</time> · 공개된 웹 정보를 정리했으며 실제와 다를 수 있습니다.</p>
-  <p class="footer-note"><a href="/night/">나이트 목록</a></p>
+  <p class="footer-note"><a href="/night-6/">나이트 목록</a></p>
 </footer>
 
 ${callbar(v)}

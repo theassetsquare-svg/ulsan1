@@ -12,11 +12,11 @@ const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'will
   /* 1. 신규 13 URL 본문 검증 */
   const curlRows = [];
   for (const v of REGIONS) {
-    const url = `${SITE}/night/${v.slug}/?cb=${Date.now()}${v.no}`;
+    const url = `${SITE}/night-6/${v.slug}/?cb=${Date.now()}${v.no}`;
     const res = await fetch(url, { headers: { 'cache-control': 'no-cache' }, redirect: 'manual' });
     const html = res.status === 200 ? await res.text() : '';
     curlRows.push({
-      no: v.no, kw: v.kw, url: `${SITE}/night/${v.slug}/`, http: res.status,
+      no: v.no, kw: v.kw, url: `${SITE}/night-6/${v.slug}/`, http: res.status,
       kwA: (html.match(new RegExp(v.kw, 'g')) || []).length,
       callbar: html.includes('class="callbar"'),
       canonical: (html.match(/<link rel="canonical" href="([^"]+)"/) || [])[1] || '',
@@ -28,14 +28,14 @@ const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'will
   /* 2. 기존 13 URL 재확인 */
   const oldRows = [];
   for (const v of VENUES) {
-    const r = await fetch(`${SITE}/night/${v.slug}/?cb=${Date.now()}`, { redirect: 'manual' });
+    const r = await fetch(`${SITE}/night-6/${v.slug}/?cb=${Date.now()}`, { redirect: 'manual' });
     oldRows.push({ name: v.name, http: r.status });
   }
 
   /* 3. 배정 업소 링크 응답 */
   const venueRows = [];
   for (const v of REGIONS) {
-    const u = `${SITE}/night/${v.venue.slug}/`;
+    const u = `${SITE}/night-6/${v.venue.slug}/`;
     const r = await fetch(u + `?cb=${Date.now()}`, { redirect: 'manual' });
     venueRows.push({ kw: v.kw, venue: v.venue.name, url: u, http: r.status });
   }
@@ -76,7 +76,7 @@ const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'will
     const ctx = await browser.newContext({ viewport: { width: vp.w, height: vp.h } });
     const pg = await ctx.newPage();
     for (const v of REGIONS) {
-      const url = `${SITE}/night/${v.slug}/?cb=${Date.now()}${v.no}`;
+      const url = `${SITE}/night-6/${v.slug}/?cb=${Date.now()}${v.no}`;
       const t0 = Date.now();
       await pg.goto(url, { waitUntil: 'networkidle' });
       const ms = Date.now() - t0;

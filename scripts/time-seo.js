@@ -16,7 +16,7 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const raw = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
 const blocks = [...raw.matchAll(/<url>[\s\S]*?<\/url>/g)].map(m => m[0]);
 const homeLoc = `<loc>${SITE}/</loc>`;
-const kept = blocks.filter(b => !b.includes(homeLoc) && !b.includes('/area/time-4/'));
+const kept = blocks.filter(b => !b.includes(homeLoc) && !b.includes('/area/time-7/'));
 
 function urlBlock(loc, lastmod, priority, changefreq, img, caption, title) {
   return `  <url>
@@ -79,7 +79,7 @@ ${VENUES.map(v => `- ${v.title} — ${SITE}/time/${v.slug}/`).join('\n')}
 - ${HUB.title} — ${SITE}/time/
 
 ## 참고: 기존 지역 안내 페이지
-${nightDirs.map(d => `- ${SITE}/night/${d}/`).join('\n')}
+${nightDirs.map(d => `- ${SITE}/night-6/${d}/`).join('\n')}
 `;
 fs.writeFileSync(path.join(ROOT, 'llms.txt'), llms, 'utf8');
 

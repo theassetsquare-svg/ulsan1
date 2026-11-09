@@ -89,7 +89,7 @@ body{ padding-bottom:calc(84px + env(safe-area-inset-bottom,0px)); }
 
 /* ─────────────── JSON-LD 3종 ─────────────── */
 function jsonld(v) {
-  const url = `${SITE}/night/${v.slug}/`;
+  const url = `${SITE}/night-6/${v.slug}/`;
   const og = `${SITE}/og/${v.slug}-og.png`;
   const club = {
     '@context': 'https://schema.org', '@type': 'NightClub',
@@ -108,7 +108,7 @@ function jsonld(v) {
   const bc = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', '@id': url + '#breadcrumb',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '나이트', item: SITE + '/night/' },
+      { '@type': 'ListItem', position: 1, name: '나이트', item: SITE + '/night-6/' },
       { '@type': 'ListItem', position: 2, name: v.name, item: url }
     ]
   };
@@ -129,7 +129,7 @@ function callbar(v) {
 
 /* ─────────────── 페이지 ─────────────── */
 function page(v) {
-  const url = `${SITE}/night/${v.slug}/`;
+  const url = `${SITE}/night-6/${v.slug}/`;
   const og = `${SITE}/og/${v.slug}-og.png`;
   const byName = Object.fromEntries(VENUES.map(x => [x.slug, x]));
   const rel = v.related.map(s => byName[s]);
@@ -191,7 +191,7 @@ ${jsonld(v)}
   <div class="wrap">
     <nav class="crumb" aria-label="현재 위치">
       <ol>
-        <li><a href="/night/">나이트</a></li>
+        <li><a href="/night-6/">나이트</a></li>
         <li>${esc(v.name)}</li>
       </ol>
     </nav>
@@ -235,7 +235,7 @@ ${recapLines.map(l => `      <li>${esc(l)}</li>`).join('\n')}
     <h2 id="h-aside">같이 보면 좋은 나이트</h2>
     <ul>
 ${rel.map(r => `      <li><a href="/night/${r.slug}/">${esc(r.name)}</a> — ${esc(r.region)}</li>`).join('\n')}
-      <li><a href="/night/">나이트 목록 전체 보기</a></li>
+      <li><a href="/night-6/">나이트 목록 전체 보기</a></li>
     </ul>
   </aside>
 
@@ -245,7 +245,7 @@ ${rel.map(r => `      <li><a href="/night/${r.slug}/">${esc(r.name)}</a> — ${e
 <footer class="wrap">
   <p>이 페이지는 ${esc(v.name)} 방문 안내 목적으로 작성됐다. 요금과 운영 조건은 현장 기준이 우선한다.</p>
   <div class="ad-inquiry">광고·제휴 입점 문의 카톡 <b>${KAKAO}</b> — 업소 사장님 대상 채널입니다. 손님 예약 문의는 받지 않습니다.</div>
-  <p><a href="/night/">나이트 목록</a></p>
+  <p><a href="/night-6/">나이트 목록</a></p>
 </footer>
 
 ${callbar(v)}
@@ -279,11 +279,11 @@ ${REGIONS.map(v => `      <li><a href="/night/${v.slug}/">${esc(v.kw)}</a> — $
 <title>나이트 안내 목록 — 전국 13곳 방문 정보</title>
 <meta name="description" content="전국 나이트클럽 13곳의 방문 안내를 한곳에 모았다. 지역별 홀 구조와 좌석, 시간대, 예약 순서를 업소마다 따로 정리한 목록 페이지다.">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<link rel="canonical" href="${SITE}/night/">
+<link rel="canonical" href="${SITE}/night-6/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="나이트 안내 목록 — 전국 13곳 방문 정보">
 <meta property="og:description" content="전국 나이트클럽 13곳의 방문 안내를 한곳에 모았다. 지역별 홀 구조와 좌석, 시간대, 예약 순서를 업소마다 따로 정리한 목록 페이지다.">
-<meta property="og:url" content="${SITE}/night/">
+<meta property="og:url" content="${SITE}/night-6/">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="${SITE}/og/night-hub-og.png">
 <meta property="og:image:secure_url" content="${SITE}/og/night-hub-og.png">

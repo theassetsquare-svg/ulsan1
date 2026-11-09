@@ -635,7 +635,7 @@
   },
   {
     "file": "/og/night-hub-og.png",
-    "page": "https://e.nolcool.com/night/",
+    "page": "https://e.nolcool.com/night-6/",
     "venue": "(허브 목록)",
     "rule": "a(허브·중립문구)",
     "texts": [
@@ -783,7 +783,7 @@
   },
   {
     "file": "/og/sillim-night-og.png",
-    "page": "https://e.nolcool.com/area/sillim-night/",
+    "page": "https://e.nolcool.com/area/sillim-night-1/",
     "venue": "신림나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1079,7 +1079,7 @@
   },
   {
     "file": "/og/time-bucheon-gorae.png",
-    "page": "https://e.nolcool.com/place/bucheon-gorae-night-3/",
+    "page": "https://e.nolcool.com/place/bucheon-gorae-night-4/",
     "venue": "부천고래나이트",
     "rule": "B(비광고주·광고문의 주인공)",
     "texts": [
@@ -1935,7 +1935,7 @@
   },
   {
     "file": "/og/time-hub.png",
-    "page": "https://e.nolcool.com/area/time-4/",
+    "page": "https://e.nolcool.com/area/time-7/",
     "venue": "(허브 목록)",
     "rule": "a(허브·중립문구)",
     "texts": [

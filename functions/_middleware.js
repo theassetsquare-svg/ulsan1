@@ -8,7 +8,7 @@
  *
  * 규칙
  *   · 호스트가 *.pages.dev 일 때만 옮긴다. e.nolcool.com 은 그대로 통과시킨다.
- *   · 경로·쿼리는 그대로 유지한다 (/night/x?a=1 → https://e.nolcool.com/night/x?a=1)
+ *   · 경로·쿼리는 그대로 유지한다 (/night/x?a=1 → https://e.nolcool.com/night-6/x?a=1)
  *   · 301(영구 이동) — 네이버·구글에 "주소가 완전히 바뀌었다"고 알린다.
  *
  * cf-worker/ 폴더의 스크립트와는 무관하다(그쪽은 Pages Function 이 아니다).
@@ -25,7 +25,7 @@ const 집안폴더 = ["src", "scripts", "tools", "skills", "functions"];
 const 지운파일 = [];
 function 집안인가(p) { const q = String(p).toLowerCase(); const 첫 = q.split('/')[1] || ''; if (집안이름.includes(q) || 지운파일.includes(q)) return true; if (q.length > 첫.length + 1 && 집안폴더.includes(첫)) return true; return 첫.length > 1 && 첫.startsWith('.') && 첫 !== '.well-known'; }
 /* [폐기 404 — 시작] state/indexnow-removed.json 에서 도구가 채움. 손으로 고치지 않음 */
-const REMOVED_PATHS = new Set(["/area/budgeta","/area/comparea","/area/dresscodea","/area/indeokwon-gukbingwan","/area/legala","/area/mannersa","/area/nearbya","/area/paju-yadang-skydome","/area/parkinga","/area/suyu-night","/area/time","/place/bucheon-gorae-night","/place/bupyeong-kiss-night-1","/place/bupyeong-kiss-night-2","/place/cheonan-stardome-night","/place/cheongju-hobak-night","/place/daegu-hobak-night","/place/doksan-gukbingwan-night","/place/gwangju-cheomdan-night","/place/gwangju-sangmu-night","/place/incheon-arabian-night"]);
+const REMOVED_PATHS = new Set(["/area/budgeta","/area/comparea","/area/dresscodea","/area/indeokwon-gukbingwan","/area/legala","/area/mannersa","/area/nearbya","/area/paju-yadang-skydome","/area/parkinga","/area/sillim-night","/area/suyu-night","/area/time","/area/time-4","/area/timinga","/night","/place/bucheon-gorae-night","/place/bucheon-gorae-night-3","/place/bupyeong-kiss-night-1","/place/bupyeong-kiss-night-2","/place/cheonan-stardome-night","/place/cheongju-hobak-night","/place/daegu-hobak-night","/place/doksan-gukbingwan-night","/place/gwangju-cheomdan-night","/place/gwangju-sangmu-night","/place/incheon-arabian-night"]);
 /* [폐기 404 — 끝] */
 export async function onRequest(context) {
   if (집안인가(new URL(context.request.url).pathname)) return new Response("Not Found", { status: 404, headers: { "content-type": "text/plain; charset=utf-8", "x-robots-tag": "noindex" } });

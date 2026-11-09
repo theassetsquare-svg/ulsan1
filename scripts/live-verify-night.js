@@ -12,11 +12,11 @@ const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'will
   /* ── 1. curl 성격의 본문 검증 ── */
   const curlRows = [];
   for (const v of VENUES) {
-    const url = `${SITE}/night/${v.slug}/?cb=${Date.now()}${v.no}`;
+    const url = `${SITE}/night-6/${v.slug}/?cb=${Date.now()}${v.no}`;
     const res = await fetch(url, { headers: { 'cache-control': 'no-cache' }, redirect: 'manual' });
     const html = res.status === 200 ? await res.text() : '';
     curlRows.push({
-      no: v.no, name: v.name, url: `${SITE}/night/${v.slug}/`,
+      no: v.no, name: v.name, url: `${SITE}/night-6/${v.slug}/`,
       http: res.status, name_ok: html.includes(v.name), callbar: html.includes('class="callbar"'),
       canonical: (html.match(/<link rel="canonical" href="([^"]+)"/) || [])[1] || '',
       noindex: /noindex/.test(html)
@@ -46,7 +46,7 @@ const BAD_PROPS = ['transform', 'filter', 'perspective', 'backdropFilter', 'will
     const ctx = await browser.newContext({ viewport: { width: vp.w, height: vp.h } });
     const pg = await ctx.newPage();
     for (const v of VENUES) {
-      const url = `${SITE}/night/${v.slug}/?cb=${Date.now()}${v.no}`;
+      const url = `${SITE}/night-6/${v.slug}/?cb=${Date.now()}${v.no}`;
       await pg.goto(url, { waitUntil: 'networkidle' });
       await pg.evaluate(() => { try { sessionStorage.clear(); localStorage.clear(); } catch (e) { } });
 
