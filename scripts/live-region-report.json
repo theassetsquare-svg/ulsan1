@@ -27,11 +27,11 @@
   {
    "no": 3,
    "kw": "울산나이트",
-   "url": "https://e.nolcool.com/area/ulsan-night/",
+   "url": "https://e.nolcool.com/area/ulsan-night-1/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/area/ulsan-night/",
+   "canonical": "https://e.nolcool.com/area/ulsan-night-1/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -111,11 +111,11 @@
   {
    "no": 10,
    "kw": "수원나이트",
-   "url": "https://e.nolcool.com/area/suwon-night/",
+   "url": "https://e.nolcool.com/area/suwon-night-1/",
    "http": 200,
    "kwA": 23,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/area/suwon-night/",
+   "canonical": "https://e.nolcool.com/area/suwon-night-1/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
@@ -135,11 +135,11 @@
   {
    "no": 12,
    "kw": "유천동나이트",
-   "url": "https://e.nolcool.com/area/yucheon-night/",
+   "url": "https://e.nolcool.com/area/yucheon-night-1/",
    "http": 200,
    "kwA": 24,
    "callbar": true,
-   "canonical": "https://e.nolcool.com/area/yucheon-night/",
+   "canonical": "https://e.nolcool.com/area/yucheon-night-1/",
    "noindex": false,
    "redirected": false,
    "venueLink": true
